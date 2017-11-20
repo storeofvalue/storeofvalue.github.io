@@ -6,9 +6,119 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Nov 2017 16:00:57 -0800</pubDate>
-    <lastBuildDate>Sun, 19 Nov 2017 16:00:57 -0800</lastBuildDate>
+    <pubDate>Sun, 19 Nov 2017 16:08:25 -0800</pubDate>
+    <lastBuildDate>Sun, 19 Nov 2017 16:08:25 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>NEO Responded to My Article - and It Confirmed My Worst Fears</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/XY4DDTO.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Last night, Malcolm Lerider, a “Senior R&amp;amp;D Manager” for NEO, wrote a &lt;a href=&quot;https://medium.com/@MalcolmLerider/response-to-baseless-fud-9b7e5e2eeeea&quot;&gt;medium post&lt;/a&gt; in response to my &lt;a href=&quot;https://storeofvalue.github.io/posts/major-neo-redflags/&quot;&gt;“Investor Warning: Major NEO Redflags” post&lt;/a&gt;. And it confirmed my worst fears about NEO and its management.&lt;/p&gt;
+
+&lt;h1 id=&quot;neo-is-embarrassingly-centralized-for-a-2-year-old-3-billion-project&quot;&gt;NEO is embarrassingly centralized for a 2 year old, $3 billion project&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/18X8d53.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In my blog post, I argued that a major NEO red flag was its centralization, that there were only 13 validation nodes all controlled by NEO’s team.&lt;/p&gt;
+
+&lt;p&gt;Malcolm confirmed this and even one-upped me. He admitted that NEO does not have 13 validation nodes, it only has 7! My whole point was that NEO shouldn’t be this centralized after 2 years in the wild and it definitely gets one to wonder whether NEO’s valuation is fair.&lt;/p&gt;
+
+&lt;p&gt;Again, it also doesn’t matter whether they plan to decentralize the system soon or not. Of course they are planning to do so. If they didn’t, NEO’s valuation would go down to $0. The core problem is that NEO still hasn’t been decentralized yet and that’s very weird.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;limiting-the-number-of-consensus-nodes-should-not-make-the-blockchain-faster---thats-a-sign-of-a-broken-protocol&quot;&gt;Limiting the number of consensus nodes should not make the blockchain faster - that’s a sign of a broken protocol&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/myEv9I5.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So NEO is supposed to be fast and operate alongside regulation. It’s supposed to achieve this by balancing the number of consensus nodes. But how does limiting the number of consensus nodes make the blockchain faster? If you knew anything about the blockchain, you would know that increasing consensus nodes only ever increases security. The network speed is only determined by the design of the protocol.&lt;/p&gt;
+
+&lt;p&gt;In Bitcoin, for example, its protocol dictates that blocks are generated in 10 minute intervals with block size capped at 1mb. Bitcoin’s protocol can be changed to have blocks generated every 2 minutes with an unlimited block size. This would significantly increase Bitcoin’s network speed. On the other hand, the world can have 100,000 or 1,000,000,000 Bitcoin nodes and it won’t affect network speed. That is the whole point of the blockchain, that everyone can run a node and the more people that do run a node, the more secure the network is.&lt;/p&gt;
+
+&lt;p&gt;If NEO is a system that gets slower the more consensus nodes there are, then it has a broken blockchain protocol.&lt;/p&gt;
+
+&lt;h1 id=&quot;neos-response-claims-that-the-october-blockchain-outage-was-misinformation-then-agrees-that-it-happened&quot;&gt;NEO’s response claims that the October blockchain outage was misinformation, then agrees that it happened&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/dbaLme5.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Malcolm first declares my claim that the blockchain was offline in October was misinformation. Then he surprisingly proceeds to agree that it did, and that the outage was caused by “human error”. Everyone saw the effects of this error. No blocks were generated for several hours and that creeped out investors.&lt;/p&gt;
+
+&lt;p&gt;So how is it misinformation if the October blockchain outage did happen, and NEO’s team did need to shut down the network to perform “manual checks”? Answer: it’s not misinformation, it’s what happened and it’s incredibly scary that NEO’s team can, at a moment’s notice, bring down the entire network. This is wrong, this is not blockchain.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;neos-reponse-shows-a-lack-of-understanding-of-how-software-development-works-confirming-that-the-lack-of-github-activity-is-a-huge-problem-for-neo&quot;&gt;NEO’s reponse shows a lack of understanding of how software development works, confirming that the lack of GitHub activity is a huge problem for NEO&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/zkYRmOE.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Two ridiculous claims are made here.&lt;/p&gt;
+
+&lt;p&gt;First, Malcolm claims that he would be concerned if there were still daily protocol changes done to a production main net. That is completely ridiculous! Look at Bitcoin and Ethereum. Daily commits are being made to their GitHub repos, sometimes more than 10 commits a day. Bitcoin Core constantly releases new versions of their client. So does go-ethereum. A big perk of cryptocurrencies is that the community can constantly contribute to and improve the protocol through contributing to public code repositories, whether they be hosted on GitHub or elsewhere. To say that people should not be committing code to NEO’s main GitHub repo because its main net is live is nonsensical and demonstrates a lack of understanding of how software development works.&lt;/p&gt;
+
+&lt;p&gt;Second, Malcolm claims that instead of committing to the main repo, NEO’s team likes to work with “forks”. Now I have been a software developer for several years now and this statement makes absolutely no sense. Forks in Git’s protocol are used by external parties looking to work on their own version of the code. For example, Litecoin’s code base was a Git fork of Bitcoin Core’s code base. No software development team iterates on their software by constantly forking their code in Git. That’s utterly ridiculous.&lt;/p&gt;
+
+&lt;p&gt;If Malcolm is talking about Git’s branch feature, which are forks internal to a Git repository, then it would make more sense. Alas, NEO’s GitHub repo currently only has 3 branches. And the 2 other branches besides the master branch have been practically abandoned.&lt;/p&gt;
+
+&lt;p&gt;From this passage, Malcolm demonstrates a lack of understanding of software development and because of this lack of understanding, throws out 2 completely absurd claims.&lt;/p&gt;
+
+&lt;h1 id=&quot;neos-response-claims-that-neo-only-works-for-the-rich-yet-the-rich-doesnt-want-to-work-on-neo&quot;&gt;NEO’s response claims that NEO only works for the rich, yet the rich doesn’t want to work on NEO&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/rE3QTd3.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I made the claim that there were only 6 smart contracts on NEO’s blockchain. Malcolm not only confirms this but also states that anyone who can’t pay a 500 GAS fee to deploy a smart contract will likely deploy one that is “useless”.&lt;/p&gt;
+
+&lt;p&gt;There are millions of amazing software developers out there that don’t have tons of money lying around to afford a 500 GAS fee. Why is NEO discarding them? How can NEO be an open blockchain where anyone can participate if it costs a fortune to do something as mundane as deploying a smart contract!&lt;/p&gt;
+
+&lt;p&gt;And what about the people that can afford 500 GAS? Why is no one deploying smart contracts on NEO’s production main net? Surely such a revolutionary smart contract platform where smart contracts can be coded in multiple languages will attract lots of developers right?&lt;/p&gt;
+
+&lt;h1 id=&quot;neos-response-claims-that-knowing-bittrex-bitfinex-and-binance-is-mostly-used-by-westerners-is-insider-information&quot;&gt;NEO’s response claims that knowing Bittrex, Bitfinex, and Binance is mostly used by Westerners is insider information&lt;/h1&gt;
+
+&lt;p&gt;How is this insider information? It was made public that Binance “no longer allows Chinese customers to trade on the exchange”, and 82.5% of users on the exchange are located abroad. It’s also common knowledge that Bittrex and Bitfinex cater to the West. Bittrex, for example, states on its website that it’s an exchange “based and fully regulated in the USA”. It doesn’t even have multilanguage support!&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;we-do-not-want-to-hype-yet-we-make-announcements-of-announcements-causing-rampant-speculation&quot;&gt;“We do not want to hype”, yet we make announcements of announcements causing rampant speculation&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/1SPktdu.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Malcolm was the person who posted the “big announcement in 3 days” poster on Twitter. This caused wild rumours to circulate that the announcement would be something related to Chinese government regulations. This pushed NEO’s price up from $30 to $45.&lt;/p&gt;
+
+&lt;p&gt;Now he has the gall to come out and say that he doesn’t want to hype, and that it’s up to the community to judge. You know what? Some very powerful regulators are looking at this behaviour and they will also judge. Some people bought NEO at $45 because of this poster and they are hurting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/JAdifMx.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;finally&quot;&gt;Finally…&lt;/h1&gt;
+
+&lt;p&gt;I have never seen anyone in any professional setting use the inane and childish term “FUD”. I was honestly quite surprised the article would be titled “Response to baseless FUD”. It’s also hilarious that the article calls my work “baseless FUD”, and then proceeds to confirm several of my points!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Nov 2017 10:47:45 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Investor Warning: Major NEO Redflags</title>
@@ -24,7 +134,7 @@
 
 &lt;p&gt;As of this writing, Bitcoin has 11,191 nodes, Ethereum has 19862 nodes, and QTUM has 1319 nodes.&lt;/p&gt;
 
-&lt;p&gt;But NEO only has 13 nodes. This is because NEO’s developers hand pick who can run nodes. This is incredibly alarming. How can a blockchain project that is more than 2 years old, have a market cap of more than $3 billion, only have 13 nodes? Why is the public not allowed to participate in securing the network?&lt;/p&gt;
+&lt;p&gt;But NEO only has 13 nodes. This is because NEO’s team hand picks who can run nodes. This is incredibly alarming. How can a blockchain project that is more than 2 years old with a market cap of more than $3 billion only have 13 nodes? Why is the public not allowed to participate in securing the network? Two years is a very, very long time in the cryptocurrency world and there is simply no excuse for this degree of centralization.&lt;/p&gt;
 
 &lt;p&gt;You can checkout the nodes of the network here: &lt;a href=&quot;https://monitor.cityofzion.io/&quot;&gt;https://monitor.cityofzion.io/&lt;/a&gt;&lt;/p&gt;
 
@@ -41,9 +151,9 @@
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/A9vahBl.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Because NEO only has 13 validating nodes, the entire blockchain went dark for several hours. No blocks were generated leaving many people confused and scared.&lt;/p&gt;
+&lt;p&gt;Because all 13 of NEO’s validation nodes are controlled by its development team, the team was able to shutdown the entire blockchain at a moment’s notice and they did so for several hours in October. During that time, no blocks were generated and the lack of communication left many people confused and scared.&lt;/p&gt;
 
-&lt;p&gt;The official reason to the blackout? NEO’s devs had to take down all 13 nodes in order to perform “manual checks” after unlocking 15 million NEO (of the 50 million the devs hold in reserves).&lt;/p&gt;
+&lt;p&gt;The official reason for the blackout? NEO’s team had to shut down the network in order to perform “manual checks” after unlocking 15 million of the 50 million NEO that the team held in reserve.&lt;/p&gt;
 
 &lt;h1 id=&quot;neos-github-has-alarmingly-sparse-activity&quot;&gt;NEO’s GitHub has alarmingly sparse activity&lt;/h1&gt;
 
@@ -60,6 +170,10 @@
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/3LGUlsM.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An inactive GitHub repo is one of the first signs of an abandoned project. Compare this to Ethereum, Bitcoin, Waves, Stellar, and QTUM. There are commits almost every day for these projects. What are NEO’s devs doing?&lt;/p&gt;
+
+&lt;p&gt;EDIT 1: some people are arguing that even though NEO’s GitHub is inactive, CityOfZion’s GitHub is very active. One needs to understand that CityOfZion builds peripheral tools in NEO’s ecosystem which, at a fundamental level, do not improve NEO’s fundamental blockchain technology. To say that CityOfZion’s developer activity makes up for NEO’s inactivity is like saying Bitcoin is fine if blockchain.info’s developers are still working when all Bitcoin client developers have stopped working (Bitcoin Core is an example of a Bitcoin client). Blockchain.info helps us explore the blockchain, Bitcoin clients are the software running Bitcoin’s nodes and miners.&lt;/p&gt;
+
+&lt;p&gt;EDIT 2: some people have claimed that NEO’s team doesn’t use GitHub. This is blatantly false since (a) the NEO team has been working in this repository since NEO’s inception and (b) there continues to be (sparse) activity in the repository. If the NEO team doesn’t use GitHub, why commit anything there at all? There is no good reason to consistently make inane changes to an abandoned code repository.&lt;/p&gt;
 
 &lt;h1 id=&quot;neo-only-has-6-smart-contracts-operating-on-the-entire-blockchain&quot;&gt;NEO only has 6 smart contracts operating on the entire blockchain&lt;/h1&gt;
 
@@ -92,11 +206,13 @@
 
 &lt;h1 id=&quot;neo-attracts-scammy-icos-and-dapps&quot;&gt;NEO attracts scammy ICOs and dApps&lt;/h1&gt;
 
-&lt;p&gt;NEO released its smart contract 2.0 system in August. Until October, only 3 projects announced that they will be building on NEO, and 2 of the 3 are incredibly sketchy.&lt;/p&gt;
+&lt;p&gt;NEO released its smart contract 2.0 system in August. Until October, only 3 projects announced that they will be building on NEO, and all of them are incredibly sketchy.&lt;/p&gt;
 
 &lt;p&gt;The first project, AdEx, looks incredibly bad. They announced that they would switch from Ethereum to NEO. This announcement subsequently pumped the token’s price from $0.30 to $2.45. It has since dropped back to $1. I looked over AdEx’s GitHub repo and I don’t like what I see. No only is there very few commits, all of the commits are incredibly unsubstantial and consists of copy changes and adding image assets. Additionally, the team still has a Solidity code in the repo and continue to make commits in November referencing Solidity. Hold on? Solidity is Ethereum’s smart contract language. Where is the code for NEO integration? Why is the team still working with Solidity. AdEx is a project with a $60 million market cap. I’m scared.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/3Q46SHN.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The second project, Red Pulse, was NEO’s first ever ICO. The project appears to be incredibly sketchy as well. &lt;a href=&quot;https://steemit.com/redpulse/@thecryptohomie/buyer-beware-red-flags-on-the-red-pulse-ico&quot;&gt;Here’s a blog post&lt;/a&gt; detailing its many red flags. For example, the team claims that their 2-year-old non-cryptocurrency service has more than 60,000 subscribers, yet their iOS app only has 1 review. The company’s CEO has also apparently said that RPX can only appreciate in value because other people might consider RPX to be valuable. In other words, the CEO basically admitted that most of RPX’s value derives from speculation.&lt;/p&gt;
 
 &lt;p&gt;The other project, Aphelion, looks even worse. Even devout NEO investors have raised red flags on the project. The team is incredibly small. It consists of 3 founders and that’s it. What’s hilarious is that there are 10 advisors, meaning the project’s advisors outnumber the project’s employees by more than 3 to 1! For a project with so little people working on it and almost no work in progress, its ICO asks for an incredible $30 million. That’s $10 million per founder. It would be too exhausting to list everything wrong about this project so I’ll just link a &lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7c35ks/aphelion_is_probably_a_money_dump/&quot;&gt;comprehensive post from NEO’s subreddit&lt;/a&gt; (267 karma, 96% upvoted), on why this project is likely a “money dump”.&lt;/p&gt;
 
@@ -1203,97 +1319,6 @@
         <pubDate>Sat, 30 Sep 2017 11:09:31 -0700</pubDate>
         <link>https://storeofvalue.github.io/posts/waves-what-is-it-and-should-you-invest/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/waves-what-is-it-and-should-you-invest/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Case Study: Building a P2P VPN Network Over the Ethereum Blockchain</title>
-        <description>&lt;p&gt;At its core, a smart contract is a specialized blockchain wallet controlled by computer code. Its primary function is to send transactions when certain conditions are met. These conditions could be related to any information obtainable in the blockchain such as the current block height, the current block time, and blockchain transactions. There are already many substantial, proven use cases for smart contracts. They include the issuance of custom tokens, decentralized exchanges, decentralized casinoes, and even an &lt;a href=&quot;https://www.youtube.com/watch?v=xJZulZ_-CMI&quot;&gt;insurance product from a multi-billion dollar insurance company&lt;/a&gt;. It’s arguable that the issuance of custom tokens has been the most revolutionary and impactful use case so far. Specifically, Ethereum, which is the first and most adopted smart contract blockchain today, is being used by tens of thousands of companies worldwide to crowdfund company initiatives through the issuance of custom ERC20 tokens. In fact, in China, ICOs were getting so popular and disruptive that the government decided to ban them earlier this month.&lt;/p&gt;
-
-&lt;p&gt;Smart contract technology is still very young and we’re far from realizing its full potential. There is a great deal of people and companies out there building ambitious, smart contract based projects. Most of these will flop but a select few will succeed… and probably succeed spectacularly.&lt;/p&gt;
-
-&lt;p&gt;In this blog post, I want to focus on one potential use case for smart contracts. Specifically, I’m interested in how a P2P VPN marketplace could be built on Ethereum. I know of at least two companies trying to build this, Mysterium and Privatix. I chose to study &lt;a href=&quot;https://www.privatix.io&quot;&gt;Privatix&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The team behind Privatix looks to be quite experienced in the cybersecurity and VPN space. The CEO, Dima Rusakov, has cofounded 3 privacy-oriented products in the past: Privatix VPN (consumer VPN with 50,000 DAU), 5VPN (professional VPN with 15,000 paid users), and Temporary Email Service (disposable email service with 250,000 DAU). All three have large and well established userbases. This gives Privatix a strong foundation with which to tackle a blockchain-based P2P VPN marketplace.&lt;/p&gt;
-
-&lt;p&gt;It’s important to keep in mind that Privatix’s ambitions go far beyond a P2P VPN marketplace. The Privatix network is intended to be an open source, generalized P2P bandwidth marketplace that’s open for anyone to build on. A P2P VPN marketplace will simply be a proof-of-concept product by the Privatix team aimed to drive adoption of the Privatix network.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.privatix.io/&quot;&gt;
-  &lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/fC5phTp.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-a-vpn&quot;&gt;What is a VPN?&lt;/h1&gt;
-
-&lt;p&gt;First of all, let’s go over what a VPN is. VPN stands for Virtual Private Network. It’s a service that allows you to connect to the Internet via another computer (often referred to as the server) run by a VPN provider. All your traffic appears to be originating from the server while the data between you and the server is fully encrypted. This means that your ISP and even the government, will not be able to block or spy on your Internet traffic (cough, cough China). Obviously, for your government to not block your traffic, the VPN provider’s server needs to be connected to an ISP outside your country’s jurisdiction.&lt;/p&gt;
-
-&lt;p&gt;Essentially, when you’re using a VPN, the VPN server becomes a secure and anonymous relayer of traffic between you and the rest of the Internet.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-would-a-p2p-vpn-marketplace-work-is-it-better-than-centralized-vpn-services&quot;&gt;How would a P2P VPN marketplace work? Is it better than centralized VPN services?&lt;/h1&gt;
-
-&lt;p&gt;VPN providers are almost always centralized companies operating a fleet of servers. Customers would pay VPN providers for a connection to a server. These companies want to geographically distribute their servers as much as possible, since the closer a VPN server is to a customer, the better quality of service for the customer.&lt;/p&gt;
-
-&lt;p&gt;What if normal people, with their own home internet connections, setup their personal computers to act as VPN servers. This would create a network of “personal” VPN servers that customers can connect to. Customers would then be paying these “personal” VPN providers to use their home internet connections. This is essentially a decentralized, P2P marketplace. Instead of a company selling VPN services, network peers are buying and selling VPN services with each other.&lt;/p&gt;
-
-&lt;p&gt;This is a super interesting idea, since if a viable marketplace did exist, anyone can make money off their unused bandwidth and VPN customers would have a large network of low fee VPN providers to choose from.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-is-privatix-using-smart-contracts-to-power-their-vpn-marketplace&quot;&gt;How is Privatix using smart contracts to power their VPN marketplace?&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.privatix.io/&quot;&gt;
-  &lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/OMc2RM7.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Privatix plans to build a P2P VPN marketplace powered by Ethereum. This system has 5 main components:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the &lt;strong&gt;agent&lt;/strong&gt; (personal VPN provider) running &lt;strong&gt;gateway&lt;/strong&gt; software which turns their personal computer into a VPN server&lt;/li&gt;
-  &lt;li&gt;the &lt;strong&gt;user&lt;/strong&gt; (VPN customer)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Service Blockchain Nodes (SBN)&lt;/strong&gt; that is a centralized service that approves and stores a list of agents as well as a list of user subscriptions&lt;/li&gt;
-  &lt;li&gt;Privatix smart contract running on Ethereum&lt;/li&gt;
-  &lt;li&gt;the PRIX token will be used for all payments in the marketplace&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In this system, the Privatix smart contract will not only act as a transparent and secure relayer of information between agents/users and the Service Blockchain Nodes, it will also be a transparent and secure payment processor for the marketplace.&lt;/p&gt;
-
-&lt;h2 id=&quot;gateways-register-with-sbns-through-the-privatix-smart-contract&quot;&gt;Gateways register with SBNs through the Privatix smart contract&lt;/h2&gt;
-
-&lt;p&gt;When someone wants to be an agent, they need to first download and run Privatix’s gateway software. This turns their personal computer into a Privatix VPN server (i.e. gateway). The gateway generates a wallet and connects to the Ethereum blockchain.&lt;/p&gt;
-
-&lt;p&gt;To be approved as a server, the gateway sends a transaction to Privatix’s smart contract containing an encrypted version of its IP address. The SBN receives the gateway’s IP address through looking over the smart contract’s transactions. The SBN will perform multiple checks on the gateway to ensure connection quality. Once approved, the SBN stores the gateway in a list of trusted gateways and sets the cost of the gateway based on its available bandwidth, IP type, and country. The SBN will occasionally check a trusted gateway to ensure that it’s still online and its available bandwidth hasn’t changed.&lt;/p&gt;
-
-&lt;h2 id=&quot;users-purchase-subscriptions-with-sbns-through-the-privatix-smart-contract&quot;&gt;Users purchase subscriptions with SBNs through the Privatix smart contract&lt;/h2&gt;
-
-&lt;p&gt;When a user wants to purchase a subscription, it sends a transaction to Privatix’s smart contract containing a purchase request. The request would specify country and bandwidth requirements.&lt;/p&gt;
-
-&lt;p&gt;As before, an SBN picks up the request through inspecting the smart contract’s transactions. It assigns the user a gateway and informs the user of the price in PRIX tokens. If the user sends a transaction to the smart contract with the right amount of tokens, the smart contract will send the user a subscription token and information to connect to the gateway.&lt;/p&gt;
-
-&lt;p&gt;Finally, once the smart contract detects the subscription has ended via the latest block time, it charges a small fee before paying the gateway PRIX tokens from the user to the agent.&lt;/p&gt;
-
-&lt;h2 id=&quot;decentralizing-service-blockchain-nodes&quot;&gt;Decentralizing Service Blockchain Nodes&lt;/h2&gt;
-
-&lt;p&gt;SBNs are the primary centralized components of the system but this is only temporary. SBNs give the Privatix network room to grow without being stifled by blockchain fees. The long term solution would be to port SBN functionality to Plasma-powered dApps that use Ethereum’s yet-to-be released &lt;a href=&quot;https://github.com/ethereum/wiki/wiki/Whisper&quot;&gt;Whisper protocol&lt;/a&gt;. Plasma makes it significantly more efficient for dApps to run on Ethereum while the Whisper protocol allows dApps to communicate for free.&lt;/p&gt;
-
-&lt;p&gt;An SBN dApp would very likely still need an oracle service to perform tasks such as bandwidth checks on network nodes.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-bigger-picture-p2p-bandwidth-marketplace&quot;&gt;The bigger picture: P2P bandwidth marketplace&lt;/h2&gt;
-
-&lt;p&gt;As mentioned above, the Privatix network aims to be an open P2P bandwidth marketplace. Users will be able to sell their bandwidth for a wide variety of applications such as VPNs, proxies, and CDNs. Developers will be able to build bandwidth-based applications on top of Privatix. All financial transactions on the network will be conducted through PRIX tokens.&lt;/p&gt;
-
-&lt;p&gt;The P2P VPN marketplace described above is a proof-of-concept product that Privatix plans to build on the network to drive initial adoption. They are also planning to build other proof-of-concept products such as a P2P proxy service for business intelligence data collection and even a decentralized CDN service.&lt;/p&gt;
-
-&lt;p&gt;This is a very high level summary of the Privatix network and I’d recommend reading their &lt;a href=&quot;https://dxw4crzwfgmzw.cloudfront.net/whitepaper/PRIVATIX-WHITEPAPER.pdf&quot;&gt;whitepaper&lt;/a&gt; if you’d like to learn more.&lt;/p&gt;
-
-&lt;h1 id=&quot;smart-contracts-moving-forward&quot;&gt;Smart contracts moving forward&lt;/h1&gt;
-
-&lt;p&gt;The University of Waterloo, one of Canada’s best engineering schools, recently concluded their annual international hackathon called Hack the North. Hack the North attracts thousands of students globally and is Canada’s largest hackathon. Tech companies, including Google, Facebook, and Microsoft, go head over heels for a Hack the North sponsorship. &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/70qqx6/30_of_projects_canadas_largest_hackathon_hack_the/&quot;&gt;This year, 30% of the hackathon’s projects were related to blockchain technology. The vast majority of which were Ethereum-based dApps.&lt;/a&gt; This is huge. It shows that there is significant interest in smart contract technology among computer science students, not only at the university, but all over the world.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, the university will be hosting ETHWaterloo, a hackathon for Ethereum projects, next month. With 60 teams competing, ETHWaterloo is looking to be the &lt;a href=&quot;http://www.ibtimes.co.uk/canadas-ethwaterloo-be-worlds-largest-ethereum-hackathon-1632895&quot;&gt;world’s largest Ethereum hackathon&lt;/a&gt;. The hackathon also boasts a large group of high profile judges and speakers from the cryptocurrency community including: Vitalik Buterin, Joseph Lubin (Ethereum co-founder and ConsenSys founder), Stephan Tual (former COO of Ethereum and Slock.it founder), Martin KoeppelMann (Gnosis founder), Joey Krug (Augur founder), Linda Xie (Coinbase product manager), and many more. I’m personally very excited to see what kind of projects come out of this hackathon.&lt;/p&gt;
-
-&lt;p&gt;What I’m trying to say is, there is a lot of momentum going forward for Ethereum and smart contract technology in general. Not only is there a great deal of startups such as Privatix developing ambitious smart contract based projects, there is significant grass roots programmer interest in the technology as well. Excited to see what happens in the next few years.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Sep 2017 19:25:01 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/</guid>
         
         
       </item>
