@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Case Study: Building a P2P VPN Network Over the Ethereum Blockchain</title>
+  <meta name="description" content="At its core, a smart contract is a specialized blockchain wallet controlled by computer code. Its primary function is to send transactions when certain condi...">
+
+  <meta property="og:url" content="https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Case Study: Building a P2P VPN Network Over the Ethereum Blockchain" />
+  <meta property="og:description" content="At its core, a smart contract is a specialized blockchain wallet controlled by computer code. Its primary function is to send transactions when certain condi..." />
+  <meta property="og:image" content="https://i.imgur.com/fC5phTp.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SovCryptoBlog" />
+  <meta name="twitter:title" content="Case Study: Building a P2P VPN Network Over the Ethereum Blockchain" />
+  <meta name="twitter:description" content="At its core, a smart contract is a specialized blockchain wallet controlled by computer code. Its primary function is to send transactions when certain condi..." />
+  <meta name="twitter:image" content="https://i.imgur.com/fC5phTp.jpg" />
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="canonical" href="https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+  <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102388374-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">
+      <div class="-title">Store of Value</div>
+      <div class="-subtitle">A cryptocurrency blog</div>
+    </a>
+    <div class="-right-parent">
+      <div class="-twitter-follow-parent">
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="desktop-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span>
+          </div>
+        </a>
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="mobile-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us</span>
+          </div>
+        </a>
+      </div>
+      <div class="desktop-only -logos-parent">
+        <img src="/bitcoin-logo.png" />
+        <img src="/eth-logo.png" />
+        <img src="/litecoin-logo.png" />
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style="position: relative; font-size: 0; text-align: center">
+  <div id="article-side-bar-parent" style="text-align: left; display: inline-block; width: 320px; margin-right: 20px; vertical-align: top">
+    <div id="article-side-bar" style="z-index: 1; width: 320px">
+      <div class="-back-button-parent">
+        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Articles</a>
+      </div>
+      
+      <div style="height: 100px; margin-bottom: 12px; background-image: url('https://i.imgur.com/fC5phTp.jpg'); background-size: cover; background-position: 50% 50%"></div>
+      
+      <div style="padding: 0 10px; font-weight: bold; font-size: 16px; color: #555; margin-bottom: 3px">NOW READING</div>
+      <div style="padding: 0 10px; font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+        Case Study: Building a P2P VPN Network Over the Ethereum Blockchain
+      </div>
+      <div>
+        <div style="margin-top: 12px; border: solid #555 1px; font-size: 26px; padding: 10px">
+          Tip Jar 🍀
+          <div style="font-size: 14px; margin-top: 5px; word-wrap: break-word">
+            <span style="font-size: 16px">Ether:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">0xFa15b8705aa72A81496EaAf9B94fC795CC6C96F5</span>
+          </div>
+          <div style="font-size: 14px; margin-top: 5px; word-wrap: break-word">
+            <span style="font-size: 16px">QTUM:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">Qc41qBDogAQFDpn8PnmSnfMqLwPfLg3mY8</span>
+          </div>
+          <div style="font-size: 14px; margin-top: 5px; word-wrap: break-word">
+            <span style="font-size: 16px">WAVES:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">3PBYoQvwW1VejZY9WCDAWmMfwPDacCxKmQt</span>
+          </div>
+        </div>
+      </div>
+<!--       <div>
+        <div style="margin-top: 12px; border: solid #555 1px; font-size: 24px; padding: 10px">
+          WCX Exchange ICO
+          <div style="font-size: 16px; margin-top: 5px; word-wrap: break-word">
+            WCX is an upcoming cryptocurrency exchange. World-class trading system, super low fees. WCX token holders earn a share of their revenue. <a style="font-size: 18px; display: block; margin-top: 5px" href="https://wcex.co/?ref=RhoL4iK">Sign up for the exchange early and earn <span style="font-weight:bold">50 free WCX tokens</span>.</a>
+          </div>
+        </div>
+      </div> -->
+      <div style="margin-top: 12px; width: 320px; height: 400px; text-align: center">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article Sidebar -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:250px"
+             data-ad-client="ca-pub-0144173183236578"
+             data-ad-slot="8062654601"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+  <article style="text-align: left; width: 800px; max-width: 100%; display: inline-block;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Case Study: Building a P2P VPN Network Over the Ethereum Blockchain</h1>
+      <p class="post-meta"><time datetime="2017-09-24T19:25:01-07:00" itemprop="datePublished">Sep 24, 2017</time></p>
+      <ul class="-share-bar">
+        <li>
+          <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+            <i class="fa fa-twitter"></i> Tweet 
+          </a>
+        </li>
+        <li>
+          <a class="-facebook" target="_blank" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+            <i class="fa fa-facebook"></i> Share
+          </a>
+        </li>
+        <li>
+          <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+            <i class="fa fa-google-plus"></i> Google
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p>At its core, a smart contract is a specialized blockchain wallet controlled by computer code. Its primary function is to send transactions when certain conditions are met. These conditions could be related to any information obtainable in the blockchain such as the current block height, the current block time, and blockchain transactions. There are already many substantial, proven use cases for smart contracts. They include the issuance of custom tokens, decentralized exchanges, decentralized casinoes, and even an <a href="https://www.youtube.com/watch?v=xJZulZ_-CMI">insurance product from a multi-billion dollar insurance company</a>. It’s arguable that the issuance of custom tokens has been the most revolutionary and impactful use case so far. Specifically, Ethereum, which is the first and most adopted smart contract blockchain today, is being used by tens of thousands of companies worldwide to crowdfund company initiatives through the issuance of custom ERC20 tokens. In fact, in China, ICOs were getting so popular and disruptive that the government decided to ban them earlier this month.</p>
+
+<p>Smart contract technology is still very young and we’re far from realizing its full potential. There is a great deal of people and companies out there building ambitious, smart contract based projects. Most of these will flop but a select few will succeed… and probably succeed spectacularly.</p>
+
+<p>In this blog post, I want to focus on one potential use case for smart contracts. Specifically, I’m interested in how a P2P VPN marketplace could be built on Ethereum. I know of at least two companies trying to build this, Mysterium and Privatix. I chose to study <a href="https://www.privatix.io">Privatix</a>.</p>
+
+<p>The team behind Privatix looks to be quite experienced in the cybersecurity and VPN space. The CEO, Dima Rusakov, has cofounded 3 privacy-oriented products in the past: Privatix VPN (consumer VPN with 50,000 DAU), 5VPN (professional VPN with 15,000 paid users), and Temporary Email Service (disposable email service with 250,000 DAU). All three have large and well established userbases. This gives Privatix a strong foundation with which to tackle a blockchain-based P2P VPN marketplace.</p>
+
+<p>It’s important to keep in mind that Privatix’s ambitions go far beyond a P2P VPN marketplace. The Privatix network is intended to be an open source, generalized P2P bandwidth marketplace that’s open for anyone to build on. A P2P VPN marketplace will simply be a proof-of-concept product by the Privatix team aimed to drive adoption of the Privatix network.</p>
+
+<p><a href="https://www.privatix.io/">
+  <img class="-center" style="width: 700px" src="https://i.imgur.com/fC5phTp.jpg" />
+</a></p>
+
+<h1 id="what-is-a-vpn">What is a VPN?</h1>
+
+<p>First of all, let’s go over what a VPN is. VPN stands for Virtual Private Network. It’s a service that allows you to connect to the Internet via another computer (often referred to as the server) run by a VPN provider. All your traffic appears to be originating from the server while the data between you and the server is fully encrypted. This means that your ISP and even the government, will not be able to block or spy on your Internet traffic (cough, cough China). Obviously, for your government to not block your traffic, the VPN provider’s server needs to be connected to an ISP outside your country’s jurisdiction.</p>
+
+<p>Essentially, when you’re using a VPN, the VPN server becomes a secure and anonymous relayer of traffic between you and the rest of the Internet.</p>
+
+<h1 id="how-would-a-p2p-vpn-marketplace-work-is-it-better-than-centralized-vpn-services">How would a P2P VPN marketplace work? Is it better than centralized VPN services?</h1>
+
+<p>VPN providers are almost always centralized companies operating a fleet of servers. Customers would pay VPN providers for a connection to a server. These companies want to geographically distribute their servers as much as possible, since the closer a VPN server is to a customer, the better quality of service for the customer.</p>
+
+<p>What if normal people, with their own home internet connections, setup their personal computers to act as VPN servers. This would create a network of “personal” VPN servers that customers can connect to. Customers would then be paying these “personal” VPN providers to use their home internet connections. This is essentially a decentralized, P2P marketplace. Instead of a company selling VPN services, network peers are buying and selling VPN services with each other.</p>
+
+<p>This is a super interesting idea, since if a viable marketplace did exist, anyone can make money off their unused bandwidth and VPN customers would have a large network of low fee VPN providers to choose from.</p>
+
+<h1 id="how-is-privatix-using-smart-contracts-to-power-their-vpn-marketplace">How is Privatix using smart contracts to power their VPN marketplace?</h1>
+
+<p><a href="https://www.privatix.io/">
+  <img class="-center" style="width: 700px" src="https://i.imgur.com/OMc2RM7.jpg" />
+</a></p>
+
+<p>Privatix plans to build a P2P VPN marketplace powered by Ethereum. This system has 5 main components:</p>
+
+<ul>
+  <li>the <strong>agent</strong> (personal VPN provider) running <strong>gateway</strong> software which turns their personal computer into a VPN server</li>
+  <li>the <strong>user</strong> (VPN customer)</li>
+  <li><strong>Service Blockchain Nodes (SBN)</strong> that is a centralized service that approves and stores a list of agents as well as a list of user subscriptions</li>
+  <li>Privatix smart contract running on Ethereum</li>
+  <li>the PRIX token will be used for all payments in the marketplace</li>
+</ul>
+
+<p>In this system, the Privatix smart contract will not only act as a transparent and secure relayer of information between agents/users and the Service Blockchain Nodes, it will also be a transparent and secure payment processor for the marketplace.</p>
+
+<h2 id="gateways-register-with-sbns-through-the-privatix-smart-contract">Gateways register with SBNs through the Privatix smart contract</h2>
+
+<p>When someone wants to be an agent, they need to first download and run Privatix’s gateway software. This turns their personal computer into a Privatix VPN server (i.e. gateway). The gateway generates a wallet and connects to the Ethereum blockchain.</p>
+
+<p>To be approved as a server, the gateway sends a transaction to Privatix’s smart contract containing an encrypted version of its IP address. The SBN receives the gateway’s IP address through looking over the smart contract’s transactions. The SBN will perform multiple checks on the gateway to ensure connection quality. Once approved, the SBN stores the gateway in a list of trusted gateways and sets the cost of the gateway based on its available bandwidth, IP type, and country. The SBN will occasionally check a trusted gateway to ensure that it’s still online and its available bandwidth hasn’t changed.</p>
+
+<h2 id="users-purchase-subscriptions-with-sbns-through-the-privatix-smart-contract">Users purchase subscriptions with SBNs through the Privatix smart contract</h2>
+
+<p>When a user wants to purchase a subscription, it sends a transaction to Privatix’s smart contract containing a purchase request. The request would specify country and bandwidth requirements.</p>
+
+<p>As before, an SBN picks up the request through inspecting the smart contract’s transactions. It assigns the user a gateway and informs the user of the price in PRIX tokens. If the user sends a transaction to the smart contract with the right amount of tokens, the smart contract will send the user a subscription token and information to connect to the gateway.</p>
+
+<p>Finally, once the smart contract detects the subscription has ended via the latest block time, it charges a small fee before paying the gateway PRIX tokens from the user to the agent.</p>
+
+<h2 id="decentralizing-service-blockchain-nodes">Decentralizing Service Blockchain Nodes</h2>
+
+<p>SBNs are the primary centralized components of the system but this is only temporary. SBNs give the Privatix network room to grow without being stifled by blockchain fees. The long term solution would be to port SBN functionality to Plasma-powered dApps that use Ethereum’s yet-to-be released <a href="https://github.com/ethereum/wiki/wiki/Whisper">Whisper protocol</a>. Plasma makes it significantly more efficient for dApps to run on Ethereum while the Whisper protocol allows dApps to communicate for free.</p>
+
+<p>An SBN dApp would very likely still need an oracle service to perform tasks such as bandwidth checks on network nodes.</p>
+
+<h2 id="the-bigger-picture-p2p-bandwidth-marketplace">The bigger picture: P2P bandwidth marketplace</h2>
+
+<p>As mentioned above, the Privatix network aims to be an open P2P bandwidth marketplace. Users will be able to sell their bandwidth for a wide variety of applications such as VPNs, proxies, and CDNs. Developers will be able to build bandwidth-based applications on top of Privatix. All financial transactions on the network will be conducted through PRIX tokens.</p>
+
+<p>The P2P VPN marketplace described above is a proof-of-concept product that Privatix plans to build on the network to drive initial adoption. They are also planning to build other proof-of-concept products such as a P2P proxy service for business intelligence data collection and even a decentralized CDN service.</p>
+
+<p>This is a very high level summary of the Privatix network and I’d recommend reading their <a href="https://dxw4crzwfgmzw.cloudfront.net/whitepaper/PRIVATIX-WHITEPAPER.pdf">whitepaper</a> if you’d like to learn more.</p>
+
+<h1 id="smart-contracts-moving-forward">Smart contracts moving forward</h1>
+
+<p>The University of Waterloo, one of Canada’s best engineering schools, recently concluded their annual international hackathon called Hack the North. Hack the North attracts thousands of students globally and is Canada’s largest hackathon. Tech companies, including Google, Facebook, and Microsoft, go head over heels for a Hack the North sponsorship. <a href="https://www.reddit.com/r/ethtrader/comments/70qqx6/30_of_projects_canadas_largest_hackathon_hack_the/">This year, 30% of the hackathon’s projects were related to blockchain technology. The vast majority of which were Ethereum-based dApps.</a> This is huge. It shows that there is significant interest in smart contract technology among computer science students, not only at the university, but all over the world.</p>
+
+<p>Furthermore, the university will be hosting ETHWaterloo, a hackathon for Ethereum projects, next month. With 60 teams competing, ETHWaterloo is looking to be the <a href="http://www.ibtimes.co.uk/canadas-ethwaterloo-be-worlds-largest-ethereum-hackathon-1632895">world’s largest Ethereum hackathon</a>. The hackathon also boasts a large group of high profile judges and speakers from the cryptocurrency community including: Vitalik Buterin, Joseph Lubin (Ethereum co-founder and ConsenSys founder), Stephan Tual (former COO of Ethereum and Slock.it founder), Martin KoeppelMann (Gnosis founder), Joey Krug (Augur founder), Linda Xie (Coinbase product manager), and many more. I’m personally very excited to see what kind of projects come out of this hackathon.</p>
+
+<p>What I’m trying to say is, there is a lot of momentum going forward for Ethereum and smart contract technology in general. Not only is there a great deal of startups such as Privatix developing ambitious smart contract based projects, there is significant grass roots programmer interest in the technology as well. Excited to see what happens in the next few years.</p>
+
+    </div>
+
+    <ul class="-share-bar">
+      <li>
+        <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+          <i class="fa fa-twitter"></i> Tweet
+        </a>
+      </li>
+      <li>
+        <a class="-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+          <i class="fa fa-facebook"></i> Share
+        </a>
+      </li>
+      <li>
+        <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+          <i class="fa fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">
+          <i class="fa fa-google-plus"></i> Google
+        </a>
+      </li>
+    </ul>
+
+    <div class="-ad">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- StoreOfValue Article 1 -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-0144173183236578"
+           data-ad-slot="5229470054"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </article>
+</div>
+
+<script type="text/javascript">
+  var $article_side_bar = $('#article-side-bar');
+  var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
+  var original_article_side_bar_top_offset = $article_side_bar.offset().top;
+  var margin_from_top = 12;
+  var $article = $('article');
+  var $window = $(window);
+  var $document = $(document);
+  var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+  if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+    $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+    $article_back_button_parent.show();
+  }
+  $window.scroll(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $window.resize(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $('article').find('a').attr('target', '_blank');
+</script>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store of Value</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>A cryptocurrency blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+</p>
+        <p>
+          <span style="font-weight: bold">Contact me:</span> storeofvalueblog@gmail.com
+        </p>
+        <p>
+          <span style="font-weight: bold">Pageviews per article:</span> 8214
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>

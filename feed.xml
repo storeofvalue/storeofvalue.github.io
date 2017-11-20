@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Store of Value</title>
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+</description>
+    <link>https://storeofvalue.github.io/</link>
+    <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 19 Nov 2017 15:58:56 -0800</pubDate>
+    <lastBuildDate>Sun, 19 Nov 2017 15:58:56 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Investor Warning: Major NEO Redflags</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/0XsrvAF.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been following NEO closely since June of this year when it was still called Antshares. NEO had originally seemed incredibly promising; super fast transaction times, smart contracts, gas generation, and possible Chinese government support. However, after further research and observation on how the project has grown over time, I’ve identified a series of major red flags surrounding NEO and my opinion on the project has soured considerably.&lt;/p&gt;
+
+&lt;h1 id=&quot;neo-is-incredibly-centralized-the-entire-network-only-has-13-validating-nodes-developers-whitelist-who-can-run-validating-nodes&quot;&gt;NEO is incredibly centralized. The entire network only has 13 validating nodes. Developers whitelist who can run validating nodes&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/PnmOlEw.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The whole point of cryptocurrencies is a decentralized validation system where anyone can operate nodes and validate transactions in the network.&lt;/p&gt;
+
+&lt;p&gt;As of this writing, Bitcoin has 11,191 nodes, Ethereum has 19862 nodes, and QTUM has 1319 nodes.&lt;/p&gt;
+
+&lt;p&gt;But NEO only has 13 nodes. This is because NEO’s developers hand pick who can run nodes. This is incredibly alarming. How can a blockchain project that is more than 2 years old, have a market cap of more than $3 billion, only have 13 nodes? Why is the public not allowed to participate in securing the network?&lt;/p&gt;
+
+&lt;p&gt;You can checkout the nodes of the network here: &lt;a href=&quot;https://monitor.cityofzion.io/&quot;&gt;https://monitor.cityofzion.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;neos-blockchain-disappeared-for-several-hours-in-october&quot;&gt;NEO’s blockchain disappeared for several hours in October&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/A9vahBl.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because NEO only has 13 validating nodes, the entire blockchain went dark for several hours. No blocks were generated leaving many people confused and scared.&lt;/p&gt;
+
+&lt;p&gt;The official reason to the blackout? NEO’s devs had to take down all 13 nodes in order to perform “manual checks” after unlocking 15 million NEO (of the 50 million the devs hold in reserves).&lt;/p&gt;
+
+&lt;h1 id=&quot;neos-github-has-alarmingly-sparse-activity&quot;&gt;NEO’s GitHub has alarmingly sparse activity&lt;/h1&gt;
+
+&lt;p&gt;As of this writing, the last commit to NEO’s GitHub repo happened 16 days ago. Think about it, more than half a month since the last time the project was updated.&lt;/p&gt;
+
+&lt;p&gt;In addition, the last 3 commits to the repo are incredibly inane and insubstantial. Look at the last 3 commit messages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An attempt at improving the English translation (November 2nd)&lt;/li&gt;
+  &lt;li&gt;Fix Grammer (November 1st)&lt;/li&gt;
+  &lt;li&gt;Confusing spacing (November 1st)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/3LGUlsM.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An inactive GitHub repo is one of the first signs of an abandoned project. Compare this to Ethereum, Bitcoin, Waves, Stellar, and QTUM. There are commits almost every day for these projects. What are NEO’s devs doing?&lt;/p&gt;
+
+&lt;h1 id=&quot;neo-only-has-6-smart-contracts-operating-on-the-entire-blockchain&quot;&gt;NEO only has 6 smart contracts operating on the entire blockchain&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2IEEl6v.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NEO, a project that is 2 years old, that recently rebranded and introduced their “smart contracts 2.0” system, only has 6 smart contracts that have ever been deployed on its mainnet. In fact, up until October, the only 3 smart contracts on NEO were test contracts deployed by lead dev Erik Zhang.&lt;/p&gt;
+
+&lt;p&gt;Is this what a thriving smart contract ecosystem should look like? Should NEO, a 2 year old, $3 billion smart contract platform have only 6 smart contracts?&lt;/p&gt;
+
+&lt;p&gt;You can checkout the smart contracts on the network here: &lt;a href=&quot;https://neotracker.io/browse/contract/1&quot;&gt;https://neotracker.io/browse/contract/1&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-east-has-almost-no-interest-in-neo---90-of-neos-volume-comes-from-the-west&quot;&gt;The East has almost no interest in NEO - 90% of NEO’s volume comes from the West&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/o0mrbKc.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you were to visit NEO’s subreddit, you’ll see everyone talking about how NEO has connections with the Chinese government and that the Chinese government might be open to using NEO.&lt;/p&gt;
+
+&lt;p&gt;This cannot be more false. NEO is a little known project in China with minimal connections to the government. All you need to do to realize this is to ask around in Chinese cryptocurrency forums and messaging groups. Additionally, look at NEO’s volume distribution. &lt;strong&gt;More than 90% of NEO’s volume comes from Bittrex and Binance, two exchanges used mainly be Westerners.&lt;/strong&gt; Eastern exchanges have zero interest for NEO.&lt;/p&gt;
+
+&lt;p&gt;How can anyone say NEO is a Chinese project at this point? All of its investors are from the West and many of them actually think NEO has a chance in the East.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;neo-attracts-scammy-icos-and-dapps&quot;&gt;NEO attracts scammy ICOs and dApps&lt;/h1&gt;
+
+&lt;p&gt;NEO released its smart contract 2.0 system in August. Until October, only 3 projects announced that they will be building on NEO, and 2 of the 3 are incredibly sketchy.&lt;/p&gt;
+
+&lt;p&gt;The first project, AdEx, looks incredibly bad. They announced that they would switch from Ethereum to NEO. This announcement subsequently pumped the token’s price from $0.30 to $2.45. It has since dropped back to $1. I looked over AdEx’s GitHub repo and I don’t like what I see. No only is there very few commits, all of the commits are incredibly unsubstantial and consists of copy changes and adding image assets. Additionally, the team still has a Solidity code in the repo and continue to make commits in November referencing Solidity. Hold on? Solidity is Ethereum’s smart contract language. Where is the code for NEO integration? Why is the team still working with Solidity. AdEx is a project with a $60 million market cap. I’m scared.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/3Q46SHN.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The other project, Aphelion, looks even worse. Even devout NEO investors have raised red flags on the project. The team is incredibly small. It consists of 3 founders and that’s it. What’s hilarious is that there are 10 advisors, meaning the project’s advisors outnumber the project’s employees by more than 3 to 1! For a project with so little people working on it and almost no work in progress, its ICO asks for an incredible $30 million. That’s $10 million per founder. It would be too exhausting to list everything wrong about this project so I’ll just link a &lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7c35ks/aphelion_is_probably_a_money_dump/&quot;&gt;comprehensive post from NEO’s subreddit&lt;/a&gt; (267 karma, 96% upvoted), on why this project is likely a “money dump”.&lt;/p&gt;
+
+&lt;p&gt;Aphelion is NEO’s second ICO. It’s clearly shaping up to be a giant scam and it’s incredibly worrying that no one from the NEO team has warned NEO holders about Aphelion. You can’t build a thriving smart contract ecosystem on top of scams.&lt;/p&gt;
+
+&lt;h1 id=&quot;neo-makes-announcements-of-announcements&quot;&gt;NEO makes announcements of announcements&lt;/h1&gt;
+
+&lt;p&gt;Making announcements of announcements have become one of the most frowned upon activities in the cryptocurrency world. Doing so purely serves to introduce unhealthy speculation into the market and pump a token’s price. Several projects have already been burned by their communities for doing so in the past few months (e.g. OmiseGo and TenX) and have since stopped.&lt;/p&gt;
+
+&lt;p&gt;NEO, on the other hand, continues to engage in this unethical behaviour. The project recently &lt;a href=&quot;https://twitter.com/MalcolmLerider/status/931521977839505408&quot;&gt;released a poster&lt;/a&gt; stating that something big will be announced in 3 days. This caused NEO’s price to pump from $28 to $45 in a single day. Completely. Unhealthy. Speculation.&lt;/p&gt;
+
+&lt;p&gt;It’s incredibly uncomfortable seeing NEO’s team encouraging speculation and rumours to manipulate the market. This is the kind of activity that forces governments to introduce harsh regulations. Just look at what happened in China.&lt;/p&gt;
+
+&lt;h1 id=&quot;neo-is-a-blockchain-built-purely-on-promises-and-rumours-there-is-no-substance&quot;&gt;NEO is a blockchain built purely on promises and rumours. There is no substance.&lt;/h1&gt;
+
+&lt;p&gt;It should be clear as day by now that everything associated with NEO is filled with rumours and promises. There is no substance. Nothing really works or creates value in any way.&lt;/p&gt;
+
+&lt;p&gt;Be careful of what you buy.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Nov 2017 02:46:24 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/major-neo-redflags/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/major-neo-redflags/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Bitcoin vs Bitcoin Cash: Everything You Need To Know</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/lljVhhv.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The recent cancellation of SegWit2x and the rapid rise in Bitcoin Cash’s price ($600 to $2000 in 2 days) coupled with a sharp drop in Bitcoin’s price has once again put the spotlight on the intense feud between Bitcoin and Bitcoin Cash. Many questions have arisen around the two cryptocurrency giants as people scramble to understand the situation. This blog post hopes to answer the most common questions as succinctly as possible.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-bitcoin-cash&quot;&gt;What is Bitcoin Cash?&lt;/h1&gt;
+
+&lt;p&gt;Bitcoin Cash is a fork of Bitcoin’s blockchain with two primary changes: an 8mb maximum block size and an emergency difficulty adjustment feature (EDA). The EDA checks, after every block, how long it took to mine the last 6 blocks. If it took over 12 hours, the EDA will drop the mining difficulty by 20%. Bitcoin, on the otherhand, adjusts block difficulty after every 2016 blocks. Each block is set to take approximately 10 minutes to mine.&lt;/p&gt;
+
+&lt;p&gt;The EDA was added to Bitcoin Cash to ensure that the new chain won’t stagnate from a lack of hashing power; a dynamic difficulty adjustment algorithm will quickly bring Bitcoin Cash’s difficulty down enough such that it’d be more profitable to mine Bitcoin Cash. This would attract Bitcoin miners to switch to the new chain, albeit as long as the EDA keeps the difficulty low enough. With Bitcoin Cash’s hashing power stabilizing since its turbulent release, the EDA was recently removed and replaced with a new block difficulty adjustment algorithm.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin Cash brands itself as the real Bitcoin. It justifies this with its embracing of larger block sizes which significantly reduces blockchain fees and transaction confirmation times compared to Bitcoin.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;bitcoin-vs-bitcoin-cash&quot;&gt;Bitcoin vs Bitcoin Cash&lt;/h1&gt;
+
+&lt;h2 id=&quot;block-sizes&quot;&gt;Block sizes&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin’s community believes in smaller block sizes. Why? Because there is a belief that larger block sizes increase centralization by making it more expensive to run full nodes. Larger block sizes result in a faster growing blockchain which increases the amount of space and bandwidth needed to maintain a full node. Bitcoin’s community doesn’t believe that scaling can be reasonably achieved through larger block sizes and should rather be accomplished through second-layer technology (i.e. the Lightning network). Bitcoin’s block size is capped at &lt;strong&gt;1mb&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin Cash’s community, on the other hand, believes in larger block sizes. Its community wholly backs blockchain technology and believes that scaling can be achieved directly on the blockchain without significantly increased centralization and without much reliance on second-layer technology. This follows very closely with the original spirit of Bitcoin. Bitcoin Cash’s block size is capped at &lt;strong&gt;8mb&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-can-use-the-blockchain&quot;&gt;Who can use the blockchain?&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin Cash’s priorities are: (1) everyone can use the blockchain (2) everyone can run a node.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin’s priorities are: (1) everyone can run a node (2) everyone can use the blockchain.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin’s community believes that since scaling cannot be done on the blockchain, and block space is a commodity that should be kept scarce, certain transactions are more important than others. Low importance transactions have no place on the blockchain and should be handled by second layer technology. Who determines low importance transactions? Blockchain fees should determine transaction importance. A purist in Bitcoin’s community is happy with high transaction fees. This means that smaller microtransactions will be forced to use second layer technology or pay inexorbitant fees.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin Cash’s community believes that every transaction is important. Block space should not be a scarce commodity. When demand exceeds supply, the block size should be increased. Blockchain fees should be kept exceedingly low to encourage everyone to use the blockchain.&lt;/p&gt;
+
+&lt;h2 id=&quot;segwit&quot;&gt;SegWit&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin has SegWit, a precursor technology to second layer technology like the Lightning network. SegWit also has the peripheral effect of increasing block size by reducing the size of individual transactions.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin Cash does not have SegWit.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;costs-and-transaction-time&quot;&gt;Costs and transaction time&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin is currently significantly more expensive and slow to use than Bitcoin Cash.&lt;/p&gt;
+
+&lt;p&gt;This is because Bitcoin continues to stick with 1mb block sizes while no second layer technology is available to keep up with the demand to use Bitcoin. The closest upcoming technology is the Lightning network but it’s not clear when it will be production ready. The adoption of SegWit has been surprisingly low and stagnant.&lt;/p&gt;
+
+&lt;h2 id=&quot;subreddits-and-censorship-concerns&quot;&gt;Subreddits and censorship concerns&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin supporters primarily use /r/Bitcoin. Bitcoin Cash supporters primarily use /r/btc.&lt;/p&gt;
+
+&lt;p&gt;/r/Bitcoin moderators have been accused of rampant censorship on the subreddit on anything that questions the legitimacy of Bitcoin, Bitcoin Core, and Blockstream. Posts that do not discuss Bitcoin Cash in a negative light are also censored. The accusations are very likely true and have even been echoed by prominent cryptocurrency thought leaders like &lt;a href=&quot;https://twitter.com/VitalikButerin/status/930276246671450112&quot;&gt;Vitalik Buterin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some have expressed concern that the spirit of Bitcoin was anti-censorship and control, yet /r/Bitcoin is completely controlled and censored by its moderators.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-backs-bitcoin-and-who-backs-bitcoin-cash&quot;&gt;Who backs Bitcoin and who backs Bitcoin Cash?&lt;/h2&gt;
+
+&lt;h3 id=&quot;bitcoin&quot;&gt;Bitcoin&lt;/h3&gt;
+
+&lt;p&gt;Bitcoin is backed by Bitcoin Core developers and the Blockstream company. Bitcoin Core is the predominant Bitcoin client. While Bitcoin Core is an open source project, Blockstream is a company formed by a group of Bitcoin Core developers. The Bitcoin Core developer community overlaps with and has a very close relationship with the Blockstream company. Blockstream provides significant funding for Bitcoin Core development.&lt;/p&gt;
+
+&lt;p&gt;Blockstream currently makes money through “consulting work”. They have also developed a sidechain called Liquid that is aimed at providing high-speed transactions between Bitcoin exchanges. Blockstream earns the fees paid to use the Liquid network.&lt;/p&gt;
+
+&lt;p&gt;Blockstream raised $55 million in its Series A funding. The most prominent investor in Blockstream is AXA, a French multinational insurance conglomerate. According to Wikipedia, AXA had €68.5 billion in equity in 2015 and 165,000 employees in 2017.&lt;/p&gt;
+
+&lt;p&gt;Charlie Lee, the founder of Litecoin, a blockchain that started on code forked from Bitcoin Core, supports Bitcoin and is a vocal critic of Bitcoin Cash. Litecoin is branded as a cheaper and faster alternative to Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;Charlie Shrem, an early investor in Bitcoin and entrepreneur, who is a founding board member of the Bitcoin Foundation and currently serves as the Director of Business and Community Development at Jaxx, is also a vocal critic of Bitcoin Cash.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h3 id=&quot;bitcoin-cash&quot;&gt;Bitcoin Cash&lt;/h3&gt;
+
+&lt;p&gt;Roger Ver is a vocal supporter of Bitcoin Cash. Roger Ver is an early cryptocurrency entrepreneur and investor and is currently the CEO of Bitcoin.com. Ver invested over a million dollars in cryptocurrency startups including Ripple, Blockchain.info, Bitpay, and Kraken.&lt;/p&gt;
+
+&lt;p&gt;Gavin Andresen has voiced his support for Bitcoin Cash. Andresen was designated by Satoshi Nakamoto, the pseudonymous inventor of Bitcoin, as lead developer on Bitcoin Core after Nakamoto left the project. Andresen founded the Bitcoin Foundation in 2012 and left his software development role to concentrate on his work with the Foundation in 2014. As of June 2017, he has not contributed to Bitcoin Core since February 2016 and his commit access on GitHub was revoked in May 2016.&lt;/p&gt;
+
+&lt;p&gt;Vitalik Buterin, the creator of Ethereum and prominent cryptocurrency thought leader, voiced his support for Bitcoin Cash and has even deemed Bitcoin Cash worthy of taking the Bitcoin name in a series &lt;a href=&quot;https://twitter.com/VitalikButerin/status/930276246671450112&quot;&gt;tweets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Controversial supporters of Bitcoin Cash include large Bitcoin mining companies and their billionaire CEOs and investors. The most prominent member within the ranks of the “Chinese billionaire miners” is Jihan Wu, the founder of Bitmain. Jihan is a vocal supporter of Bitcoin Cash and critic of Bitcoin Core and Blockstream. Bitmain is a company that holds patents on, and manufactures specialized Bitcoin mining hardware. Bitmain also operates AntPool, one of the largest Bitcoin mining pools in the world.&lt;/p&gt;
+
+&lt;p&gt;Jihan Wu has been accused of supporting Bitcoin Cash in order to maintain his lucrative mining business. Bitmain’s Bitcoin mining technology doesn’t work with SegWit.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Nov 2017 22:40:17 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Why Cancelling SegWit2x Could Be (Really) Bad for Bitcoin</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/lljVhhv.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The second phase of SegWit2x, where the maximum block size would be raised from 1mb to 2mb, was recently called off. SegWit2x is the result of years of feuding between two major camps in Bitcoin’s ecosystem. The feud revolved around how to scale Bitcoin; as network adoption increased, its abysmal transaction throughput became increasingly evident as transaction fees and first-confirmation times skyrocketed. One camp, consisting of miners and Bitcoin startups, prefers on-chain scaling while the other camp, consisting of Bitcoin Core developers, prefers off-chain scaling.&lt;/p&gt;
+
+&lt;p&gt;Here’s a quick summary of the two camps. The on-chain camp supports:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On-chain scaling through larger blocksizes and first-layer blockchain technology like Graphene or BitcoinNG&lt;/li&gt;
+  &lt;li&gt;1mb to 2mb maximum block size upgrade in SegWit2x&lt;/li&gt;
+  &lt;li&gt;Bitcoin Cash&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The off-chain camp supports:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Off-chain scaling by keeping the maximum blocksize at 1mb and leveraging second-layer blockchain technology like the Lightning Network&lt;/li&gt;
+  &lt;li&gt;SegWit but not the 1mb to 2mb maximum block size upgrade&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SegWit2x was supposed to be a compromise between the two groups. The upgrade consisted of two phases. The first phase involved adding the segregated witness technology (SegWit) to Bitcoin. Although SegWit slightly increased the maximum number of transactions per block by reducing transaction size, its main value proposition lies in setting up Bitcoin for off-chain scaling solutions like the Lightning Network. SegWit2x’s second phase involved on-chain scaling through increasing the maximum blocksize from 1mb to 2mb.&lt;/p&gt;
+
+&lt;p&gt;Although the first phase of SegWit2x was locked in and activated in August (meaning Bitcoin has SegWit now), the second phase hasn’t been activated and is scheduled to occur in November. That is, until last week when the on-chain camp suspended their plans for the 2mb upgrade.&lt;/p&gt;
+
+&lt;p&gt;This suspension was partly the result of pressure from a “NO2X” initiative led by the off-chain camp. Part of the initiative consisted of a Twitter campaign encouraging users to append a NO2X tag to their Twitter username as a show of defiance for the 2mb upgrade. I also noticed a strong push against the 2mb upgrade on major cryptocurrency subreddits, /r/Bitcoin and /r/cryptocurrency, as well as on several Western cryptocurrency editorial websites.&lt;/p&gt;
+
+&lt;p&gt;With the on-chain camp backing off the 2mb upgrade, it seems that the off-chain camp has won the scaling debate and successfully implemented SegWit on Bitcoin without a corresponding change in Bitcoin’s maximum block size. However, is this really good for Bitcoin? Does the off-chain camp’s success translate to Bitcoin’s success, or is this actually a veiled defeat for Bitcoin that has disastrous consequences.&lt;/p&gt;
+
+&lt;p&gt;Here’s why I think it’s the latter.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;hurt-branding---almost-childish-refusal-to-implement-a-small-network-upgrade&quot;&gt;Hurt branding - almost childish refusal to implement a small network upgrade&lt;/h1&gt;
+
+&lt;p&gt;This refusal to move forward with a simple 1mb to 2mb maximum block size upgrade emphasizes how childish this entire scaling debate has been.&lt;/p&gt;
+
+&lt;p&gt;When asked about the reasons to not increase the block size, pundits would give you answers such as a rushed hard fork, no replay protection, or more centralization. Not only are all these points moot (which I will address later), but why weren’t alarm bells raised immediately after the New York Agreement was signed! The NYA was signed in May of this year leaving so much time for the NO2X’ers to voice their concerns but they didn’t. Instead, they waited till after everything they wanted out of the compromise was in Bitcoin, namely the SegWit upgrade, when they decided to raise their concerns with SegWit2x’s second phase.&lt;/p&gt;
+
+&lt;p&gt;Here’s why this is wrong in so many ways, and why it ultimately hurts Bitcoin’s brand. First of all, SegWit2x was a formal agreement that was aimed at finally making peace between the on-chain scaling and off-chain scaling Bitcoin communities. This was supposed to be a kumbaya moment where everyone came together to make Bitcoin better. Instead, the off-chain camp decided to backstab the on-chain camp after SegWit was in Bitcoin. How shitty is that? And how terrible does this look on Bitcoin to outsiders? Not only that, but the off-chain camp is fighting against something so incredibly trivial it looks like they’re just trying to spite the other party. Let’s be honest here, a 1mb to 2mb maximum block size increase is a harmless upgrade to Bitcoin and it is definitely not worth fighting over.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Not only that, but the off-chain camp is fighting against something so incredibly trivial it looks like they’re just trying to spite the other party. Let’s be honest here, a 1mb to 2mb maximum block size increase is a harmless upgrade to Bitcoin and it is definitely not worth fighting over.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Even worse, the off-chain camp, after vehemently opposing increasing the maximum block size, doesn’t provide any immediate alternatives to alleviate Bitcoin’s ongoing network congestion. Yes, the Lightning network could make everything better, but when is it coming out?! In the meantime, what about existing Bitcoin users and businesses? With more than 100,000 pending transactions in the mempool, Bitcoin has become unusable. The off-chain camp doesn’t seem to be interested in improving Bitcoin right now, all they seem to be interested in is attacking and ostracizing the on-chain camp. Reminds me of high school politics.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-bitcoin-cash-factor&quot;&gt;The Bitcoin Cash factor&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Nomenclature reminder: the on-chain camp supports on-chain scaling where every transaction is considered an important transaction, whereas the off-chain camp supports off-chain scaling where smaller transactions shouldn’t belong on the blockchain and should be offloaded to second layer systems. The on-chain camp supports Bitcoin Cash and SegWit2x while the off-chain camp supports SegWit, 1mb maximum block sizes, and second layer systems.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Bitcoin Cash is an initiative led by the on-chain camp. The blockchain was hard forked from Bitcoin in late August. Here’s my &lt;a href=&quot;https://storeofvalue.github.io/posts/bitcoin-cash-how-it-came-to-be/&quot;&gt;post on why and how Bitcoin Cash was created&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The circumstances of Bitcoin Cash’s creation was a bit weird. Prior to the Bitcoin Cash hard fork, it seemed that the on-chain camp would only move forward with Bitcoin Cash if SegWit2x was not going to happen, and at the time there definitely was a risk of it not happening. However, once it was practically confirmed that the first phase of SegWit2x was a go, the on-chain camp moved forward with Bitcoin Cash anyways!&lt;/p&gt;
+
+&lt;p&gt;In light of the 1mb to 2mb upgrade fiasco, it makes a lot more sense why the on-chain camp pushed so hard for Bitcoin Cash. Bitcoin Cash is essentially a hedge against the off-chain camp making power plays in Bitcoin, such as with their recent campaign to oppose the second phase of SegWit2x. Whatever happens in Bitcoin, the on-chain camp could still express their vision in Bitcoin Cash. Being a number 3 market cap coin, it poses a very real threat to Bitcoin. There is even a strong possibility that the on-chain camp relented on SegWit2x because they didn’t really need to care about the success of Bitcoin - Bitcoin could continue to experience scaling problems and the on-chain camp would still have Bitcoin Cash.&lt;/p&gt;
+
+&lt;p&gt;As of right now, it looks like Bitcoin Cash is set to improve at a significantly faster pace than Bitcoin. Its vision is clear, Bitcoin Cash will primarily scale on-chain with every transaction being an important transaction. Bitcoin, on the other hand, still has a split vision with the ongoing war between the off-chain and on-chain camps. While the off-chain camp might have scored a small victory with the cancellation of the second phase of SegWit2x, the on-chain camp still has a very strong foothold on Bitcoin.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;the-argument-that-increasing-block-sizes-is-bad-for-bitcoin-because-it-decreases-decentralization-does-not-make-sense&quot;&gt;The argument that increasing block sizes is bad for Bitcoin because it decreases decentralization does not make sense&lt;/h1&gt;
+
+&lt;p&gt;The argument that increasing block sizes decreases decentralization simply does not make sense. The idea is that if you increase the block size, the blockchain will grow in size much faster than before resulting in a larger blockchain, which in turn makes it more expensive to operate a node.&lt;/p&gt;
+
+&lt;p&gt;This is stupid! First of all, just because you increase the maximum block size doesn’t mean blocks will automatically start being larger than before. Block size depends on the usage of the network, if very few transactions are in the mempool, than the next block’s size could be very small!&lt;/p&gt;
+
+&lt;p&gt;Second, if you increase the maximum block size and blocks do start being larger than before, that means that you’ve solved a problem! Transactions are being confirmed earlier than when you had a smaller block size. How is this ever a bad thing? This also means that the blockchain is seeing more use. By arguing that this is bad for Bitcoin is the same as arguing that Bitcoin is worse off the more demand there is to use it. It’s ludicrous! Stopping the growth of Bitcoin’s maximum block size is basically stopping the adoption of Bitcoin.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;By arguing that this is bad for Bitcoin is the same as arguing that Bitcoin is worse off the more demand there is to use it. It’s ludicrous! Stopping the growth of Bitcoin’s maximum block size is basically stopping the adoption of Bitcoin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Third, increasing the maximum block size from 1mb to 2mb will at most increase the growth rate of the blockchain’s size by 2. At 1mb blocks, the blockchain will theoretically grow by at most 53gb a year (1 * 6 * 24 * 365). At 2mb blocks, the blockchain will theoretically grow by at most 100gb a year. You can already buy 1TB SSDs today at around $250 a piece and storage and bandwidth costs are constantly decreasing. Going from a 1mb to 2mb maximum block size is not going to create a blockchain size problem.&lt;/p&gt;
+
+&lt;h1 id=&quot;segwit2x-shouldnt-need-replay-protection&quot;&gt;SegWit2x shouldn’t need replay protection&lt;/h1&gt;
+
+&lt;p&gt;Blockchains are vulnerable to a replay attack after a hardfork. A replay attack consists of replaying a pending transaction in the mempool that was intended for one child chain on the other child chain. For example, after the SegWit2x hard fork, people who held Bitcoin will have both SegWit2x and legacy chain coins. If a user decides to send someone their SegWit2x coins, a malicious actor could take their pending transaction in the mempool and replay it on the legacy chain, which will cause the user to unwittingly send their legacy chain coins as well.&lt;/p&gt;
+
+&lt;p&gt;Some people claim that the SegWit2x hard fork is bad because it doesn’t have replay protection. The problem is, it shouldn’t need to have replay protection in the first place. This is a simple modification to the maximum block size that will very clearly alleviate existing network congestion pains. Why is there ever a reason to support the legacy chain over the SegWit2x chain? Anybody who does is simply aiming to create more division within Bitcoin instead of helping it improve.&lt;/p&gt;
+
+&lt;p&gt;The 1mb to 2mb maximum block size upgrade has an immediate effect of alleviating network congestion in the short term. It comes with little to no downsides for Bitcoin. Why would anybody that has the best interest for Bitcoin support the legacy chain?&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;the-1mb-maximum-block-size-is-an-arbitrary-constant&quot;&gt;The 1mb maximum block size is an arbitrary constant&lt;/h1&gt;
+
+&lt;p&gt;The 1mb maximum block size is an arbitrarily chosen number a long time ago by Satoshi Nakamoto to counter potential DDoS attacks and to maintain consensus. It’s not a magical, cure-all number that was chosen such that it would ensure decentralization by ensuring x-amount of people in the world can run full nodes.&lt;/p&gt;
+
+&lt;p&gt;Given that its an arbitrary constant, why should Bitcoin not increase the maximum block size to 2mb if its going to allievate network congestion? If the argument is that it would increase centralization, how do we know that the Bitcoin network is not already too centralized at 1mb? If increasing the maximum block size increases centralization, why do we not aggressively decrease the maximum block size… maybe to 0.5mb? Asking these questions should make one realize that its nonsensical to stick with the 1mb maximum block size.&lt;/p&gt;
+
+&lt;p&gt;1mb is not a magical number, it’s an arbitrary constant. Be flexible and reasonable.&lt;/p&gt;
+
+&lt;h1 id=&quot;if-youve-enjoyed-this-blog-post&quot;&gt;If you’ve enjoyed this blog post…&lt;/h1&gt;
+
+&lt;p&gt;You can support the author by tipping some Bitcoin Cash to this address &lt;code class=&quot;highlighter-rouge&quot;&gt;14UFeDBN54pUZTUeyqonpo4j195Q69RvnT&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Nov 2017 15:58:01 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/cancelling-segwit2x-defeat-for-bitcoin/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/cancelling-segwit2x-defeat-for-bitcoin/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Rumour Mill: Is Amazon Going To Accept Bitcoin?</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/5Zbm6NG.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s been a rumour making its way around the cryptocurrency community that Amazon might be accepting Bitcoin payments soon. Is this rumour true? Can Bitcoin’s recent bull run be explained by a combination of massive insider trading and speculation, or simply just speculation? Here’s everything we know so far.&lt;/p&gt;
+
+&lt;p&gt;The rumour started with a leaked newsletter from the paywalled The James Altucher Report back in September. In the newsletter, Altucher states that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am certain Amazon WILL ACCEPT Bitcoin. They have no choice. And this will be the tipping point that will create massive generational wealth unlike we’ve ever seen before. Given the company’s history of staying ahead of its retail rivals… Amazon could make the announcement as early as October 26 at 4pm during its next earnings conference call.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The implications of this newsletter, if what was claimed was true, were huge and it definitely got people talking. As expected, there was a healthy amount of skepticism as the newsletter cited zero concrete sources and it just sounded like Altucher was speaking out of his ass. Even though people were doubtful and many thought it was just a sophisticated marketing ploy by Altucher to get people to sign up to his private newsletter, the newsletter still seeded the idea in many people’s minds.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;rumour-mill-churns&quot;&gt;Rumour mill churns&lt;/h1&gt;
+
+&lt;p&gt;Soon after the newsletter leak, Squawker published an &lt;a href=&quot;https://squawker.org/technology/breaking-amazon-will-accept-bitcoin-by-october/&quot;&gt;article&lt;/a&gt; on September 22nd titled “BREAKING: Amazon Will Accept Bitcoin By October”. The article’s only source was Altucher’s newsletter. CoinTelegraph than followed up with an article titled “Unverified Rumor Circulating That Amazon May Accept Bitcoin By October” on September 24th. The article cited Squawker’s article. Next was Investopedia’s turn to churn the rumour mill. Investopedia published an article on September 25th titled “Rumor: Amazon to Accept Bitcoin”, citing the Squawker article. A second Investopedia article, also discussing the rumour, was published on September 27th.&lt;/p&gt;
+
+&lt;p&gt;Articles related to the rumour continued to be published throughout October and the article publishing pace picked up right before the Amazon’s October 26th earnings call. Die Welt, a large German national newspaper, published an article on October 24th titled “Steckt Amazon hinter dem Bitcoin-Boom?” (“Is Amazon behind the Bitcoin boom?”). The article cited Altucher as the original source of the rumour but also added that “Fintech circles in Silicon Valley now supported this speculation”. Welt, in fact, reached out to Amazon for comment on the rumour and an Amazon spokesperson replied that they do not engage in speculation and only release new products when the products are useful for their customers. With the October 26th date so close, Die Welt’s article really added fuel to the flames as the newspaper was considered a legitimate mainstream source. Futurism.com and CoinTelegraph were quick to respond and swiftly released articles on the rumour, citing Die Welt.&lt;/p&gt;
+
+&lt;h1 id=&quot;amazon-earnings-call-disappoints&quot;&gt;Amazon earnings call disappoints&lt;/h1&gt;
+
+&lt;p&gt;As we now know, Amazon’s earnings call happened and no mention of Bitcoin was made. Amazon’s stock price, however, did very well and gained more than 10% after the call. This didn’t dampen people’s hopes though and many are claiming Amazon might still make a Bitcoin-related announcement soon. After all, Altucher’s newsletter never said that the announcement would be made on October 26th, only that it could be made as early as October 26th.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;why-i-dont-think-amazon-will-accept-bitcoin-anytime-soon&quot;&gt;Why I don’t think Amazon will accept Bitcoin anytime soon&lt;/h1&gt;
+
+&lt;h2 id=&quot;bitcoin-can-be-inconvenient-to-use&quot;&gt;Bitcoin can be inconvenient to use&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin, even with Segwit, has an abysmal maximum transaction throughput, high fees, and agonizingly long confirmation times. Bitcoin, even with Segwit, only supports about 14 transactions/second at maximum. I can guarantee that Amazon’s transaction volume is many many times more than 14 transactions/second. Once Amazon starts accepting Bitcoin, watch for the network to be clogged with fees rising uncontrollably. This is not good for Amazon, its customers, nor Bitcoin’s network.&lt;/p&gt;
+
+&lt;h2 id=&quot;bitcoin-is-volatile&quot;&gt;Bitcoin is volatile&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin is volatile and a large price change within a short period of time hurts either party of a payment transaction. Imagine buying an iPhone for 0.2 BTC and then having Bitcoin’s price drop 20%. The seller practically sold the iPhone at a 20% discount. The seller lost and the buyer won. The opposite happens if Bitcoin were to rise 20% in price after the transaction. Price volatility makes Bitcoin a terrible mdium of exchange as people are less willing to transact due to the increased risk. A growing economy requires high money velocity and currency volatility slows down money velocity.&lt;/p&gt;
+
+&lt;h2 id=&quot;murky-government-regulations&quot;&gt;Murky government regulations&lt;/h2&gt;
+
+&lt;p&gt;Governments are mostly undecided about cryptocurrencies. Some, like Japan’s and Switzerland’s, have practically fully embraced them but others are usually against cryptocurrencies or on the fence. This is largely true for North American governments and many European governments. Government officials are hesitant to enact policy that could be the wrong policy. The question ultimately comes down to regulation or an outright ban. There is no question that in an unregulated system, cryptocurrencies can significantly hurt a society. Can regulations control this decentralized beast?&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, the point is that government indecision discourages companies from doing anything with cryptocurrencies. A company could spend a large amount of resources offering a cryptocurrency product, only to have cryptocurrencies banned the very next day. Large corporations, like Amazon, are usually risk adverse and will default to inaction given government indecision.&lt;/p&gt;
+
+&lt;h2 id=&quot;bitcoins-recent-bull-run-could-be-fake&quot;&gt;Bitcoin’s recent bull run could be fake&lt;/h2&gt;
+
+&lt;p&gt;There are suspicions that Bitcoin’s bull run this year has been fueled by wash trading, spoofing, and the careless printing of hundreds of millions of USD Tethers. All these allegations center around one of the largest cryptocurrency exchanges in the world, Bitfinex.&lt;/p&gt;
+
+&lt;p&gt;I don’t want to resummarize the research done by Bitfinexed on the supposed shady activity going on with Bitfinex and USD Tethers. If you’d like to read more on these allegations, do check out his/her &lt;a href=&quot;https://twitter.com/Bitfinexed&quot;&gt;Twitter account&lt;/a&gt;. Also, here’s a great article to get you started with: &lt;a href=&quot;https://medium.com/@bitfinexed/are-fraudulent-tethers-being-used-for-margin-lending-on-bitfinex-5de9dd80f330&quot;&gt;“Are Fraudulent Tethers being used for margin lending on Bitfinex?”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’ve read through Bitfinexed’s work and I definitely think there is some legitimacy to his/her allegations.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;who-is-james-altucher&quot;&gt;Who is James Altucher?&lt;/h2&gt;
+
+&lt;p&gt;Finally, we need to talk about James Altucher, the man who started the Amazon/Bitcoin rumour. Altucher graduated from Cornell University with a bachelor’s degree in computer science in 1989. Apparently, he also attended Carnegie Mellon University as a doctoral student in computer science but it’s not clear if he graduated from the program.&lt;/p&gt;
+
+&lt;p&gt;Altucher’s Wikipedia page paints a colourful career for him. His first job after graduating was at HBO in the IT department. In his time at HBO, he somehow managed to host an HBO program called III:am where he roamed New York late at night to interview residents.&lt;/p&gt;
+
+&lt;p&gt;Altucher is an entrepreneur; he founded Reset Inc. in 1998 and sold it for $10 million. In 2006, he founded a financial social network called StockPickr. The website was named one of Time Magazine’s 50 Best Websites of 2007, and was sold to TheStreet.com that year for $10 million.&lt;/p&gt;
+
+&lt;p&gt;Altucher has also dabbled in hedge funds. From 2002-2005, he traded for several hedge funds and from 2004-2006, he ran a fund of hedge funds.&lt;/p&gt;
+
+&lt;p&gt;Altucher is also an investor, investing in Buddy Media which sold to Salesforce.com for $745 million. He has also invested in other ventures like bit.ly and Ticketfly.&lt;/p&gt;
+
+&lt;p&gt;Altucher is a writer and a prominent media personality. He has written and published 17 books. He was a columnist for The Financial Times and has appeared on CNBC, Fox News Channel, Fox Business Network, Bloomberg TV, and CNN Radio.&lt;/p&gt;
+
+&lt;p&gt;Currently, he runs several podcasts and paid investment newsletters.&lt;/p&gt;
+
+&lt;p&gt;Among so many accolades, Altucher has also been called a fraud. I personally haven’t researched allegations that Altucher is a fraud though I have seen claims pop up here and there. I’m not going to choose a stance though I do want to say this: there is a fine line between an internet marketer and an author and Altucher is certainly straddling this line. This might have prompted some to feel uneasy about him and deem him untrustworthy.&lt;/p&gt;
+
+&lt;p&gt;Here is an excerpt of his response to a &lt;a href=&quot;https://www.quora.com/Is-James-Altucher-a-fraud-Is-his-connection-with-Porter-Stansberry-sued-by-the-SEC-for-defrauding-newsletter-subscribers-as-his-publisher-concerning-Why/answer/James-Altucher&quot;&gt;Quora question&lt;/a&gt; asking if Altucher is a fraud:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am a fraud. When I’m in a room full of people I can’t think of anything to say. They all seem smarter than me. This has happened to me since I was a kid. Since I peed in my pants in school one day and had to hide it from everyone else. When I speak, it feels like I am acting. I am just reading a script. Every time I do a podcast I try to become interesting because I really just want to be friends with my guests. When people look at me, I feel like they think I’m ugly. I feel like they are looking at me and saying, “this guy looks like a criminal”. People read my writing and then they meet me. Maybe they add up the differences between what they read and what they see in front of them. I am much more shy in person than I am on a paper. I feel like a police sketch. Like my writing shows bits and pieces and then there is so much more garbage underneath and people only see the surface. And they meet me they see even less.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Read the full post &lt;a href=&quot;https://www.quora.com/Is-James-Altucher-a-fraud-Is-his-connection-with-Porter-Stansberry-sued-by-the-SEC-for-defrauding-newsletter-subscribers-as-his-publisher-concerning-Why/answer/James-Altucher&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Altucher could be a fraud, or he could just be a seasoned internet marketer. Perhaps his “leaked” newsletter that started the Amazon rumours was not designed to start the rumour, but was just heavily misinterpreted by some who wanted the rumour to spread and pump Bitcoin’s price. Perhaps Altucher just chose to speak his mind and used a few strong words along the way. Either way, I think his predictions in the “leaked” newsletter are wayyy off the mark.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Oct 2017 20:15:52 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/rumour-mill-is-amazon-accepting-bitcoin/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/rumour-mill-is-amazon-accepting-bitcoin/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Deep Dive Into Stellar Lumens</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/8ArUeKC.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After several months of minimal news and low community activity, Stellar Lumens blindsided everyone when IBM released news that it has an ongoing partnership with Stellar and has successfully used the public Stellar blockchain to settle cross border fiat transactions in near real-time. This project involves a network of Pacific and Oceania banks (including Australian and New Zealand banks) and encompasses 12 currency corridors. The new interbank payments network is planned to process up to 60% of all cross-border payments in the South Pacific’s retail foreign exchange corridors by early next year.&lt;/p&gt;
+
+&lt;p&gt;This deal is not only amazing for Stellar, it’s a huge validation for blockchain technology as a whole. Examples of public blockchains being picked up for substantial use cases are rare; banks and other large companies are often only in research groups or experimenting with the technology and rarely commit to using a public blockchain for a production system… let alone a production system as large as cross-border payment settlements over 12 currency corridors.&lt;/p&gt;
+
+&lt;p&gt;After having stagnant or declining prices since the massive jump in May, this is amazing news for Stellar and especially for Stellar’s investors. It’s definitely caught my attention, I thought Stellar was just another half-surviving altcoin with little substance but this news has made me reevaluate. I spent the past few days doing a deep dive into Stellar, paying close attention to its technology, team, and its business relationships.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;what-is-the-stellar-network&quot;&gt;What is the Stellar network?&lt;/h1&gt;
+
+&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Like Bitcoin, the Stellar network is a decentralized and distributed ledger.&lt;/li&gt;
+  &lt;li&gt;Bitcoin is the native currency of the Bitcoin network, while lumens are the native currency of the Stellar network.&lt;/li&gt;
+  &lt;li&gt;There is no mining equivalent in the Stellar network; you can run a Stellar Core validator node but validating transactions will not reward you with newly minted lumens.&lt;/li&gt;
+  &lt;li&gt;While Bitcoin uses proof of work as its consensus model, Stellar uses a consensus model called the Stellar Consensus Protocol (SCP). SCP is an implementation of the federated Byzantine agreement (FBA) consensus model.&lt;/li&gt;
+  &lt;li&gt;SCP does not require much computational power and has a theoretical maximum transaction throughput of 1000 transactions per second.&lt;/li&gt;
+  &lt;li&gt;Median confirmation time for a Stellar network transaction is 5 seconds.&lt;/li&gt;
+  &lt;li&gt;Although lumens is the Stellar network’s native asset, the network supports many different kinds of assets and anyone can issue a new asset. Assets backed by external currencies (i.e. fiat or external blockchains) are supported by the Stellar network’s anchor system.&lt;/li&gt;
+  &lt;li&gt;The Stellar network has a built-in decentralized exchange where assets can be exchanged for different assets based on orders in the decentralized orderbook. Stellar transactions can contain orderbook exchanges.&lt;/li&gt;
+  &lt;li&gt;Anchors serve as entry and exit points for fiat currencies into the Stellar network. They maintain both fiat currency accounts and Stellar wallets for their users. If the user deposits money into their fiat currency account, the anchor is expected to deposit an equivalent amount of the appropriate Stellar network asset to the user’s Stellar wallet. Vice versa for withdrawals. Most anchors are financial institutions like banks and remittance companies.&lt;/li&gt;
+  &lt;li&gt;Stellar has a fixed, nominal lumen inflation rate of 1% per year. There also exists a fee pool where the lumen fees for network transactions are sent. Each week, the new lumens created from inflation and the lumens from the fee pool are distributed to Stellar wallets. The amount of lumens each wallet receives is based on a voting system. Every wallet gets to vote for another wallet to receive lumens; each lumen in a wallet counts as one vote. Check out a detailed description of the lumen distribution mechanism &lt;a href=&quot;https://www.stellar.org/developers/guides/concepts/inflation.html&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;As of October 29th, 2017, there exists 103 billion lumens, with approximately 96 billion lumens held by the Stellar Development Foundation. The annual inflation rate of lumens is 1%.&lt;/li&gt;
+  &lt;li&gt;Big corporate donors: Stripe, Google, and BlackRock.&lt;/li&gt;
+  &lt;li&gt;Impressive list of advisors: Patrick Collison, Greg Stein, Sam Altman, and many others.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stellar-consensus-protocol-scp&quot;&gt;Stellar Consensus Protocol (SCP)&lt;/h2&gt;
+
+&lt;p&gt;Stellar has published a whitepaper (authored by Prof. David Mazières) detailing how the Stellar Consensus Protocol (SCP) works. The whitepaper is listed on Google Scholar and cited 39 times at the time of writing this blog post. The paper is 32 pages long and extremely technical, containing elaborate mathematical proofs on the correctness of the federated Byzantine agreement (FBA) consensus model.&lt;/p&gt;
+
+&lt;p&gt;Here’s a quick overview of FBA from the &lt;a href=&quot;https://www.stellar.org/papers/stellar-consensus-protocol.pdf&quot;&gt;white paper&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In FBA, each participant knows of others it considers important. It waits for the vast majority of those others to agree on any transaction before considering the transaction settled. In turn, those important participants do not agree to the transaction until the participants they consider important agree as well, and so on. Eventually, enough of the network accepts a transaction that it becomes infeasible for an attacker to roll it back. Only then do any participants consider the transaction settled. FBA’s consensus can ensure the integrity of a financial network. Its decentralized control can spur organic growth.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The SCP has two key properties that make the Stellar network a powerful asset transfer system. To start, it has an extremely low computational power requirement, especially when compared to Bitcoin’s proof of work. Second, it has a super high transaction throughput and can theoretically reach up to 1000 transactions/second.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-the-point-of-lumens&quot;&gt;What’s the point of lumens?&lt;/h2&gt;
+
+&lt;p&gt;Why does the Stellar network need a native currency (lumens) if its key functionality is the transfer and exchange of custom assets?&lt;/p&gt;
+
+&lt;p&gt;First of all, lumens play an anti-spam role in the network. Each transaction has a fee denoted in lumens and this makes spamming the network incredibly expensive. Additionally, all accounts in the network require a minimum balance of 20 lumens.&lt;/p&gt;
+
+&lt;p&gt;Second, lumens add liquidity to Stellar’s built-in decentralized exchange by acting as a trading bridge for low volume currency pairs.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-stellars-business-model&quot;&gt;What’s Stellar’s business model?&lt;/h2&gt;
+
+&lt;p&gt;The Stellar Development Foundation (SDF) or Stellar.org is the company maintaining the open source Stellar network. It’s a non-stock nonprofit organization that covers its operational costs through donations and 5% of the initial lumens issued. The Stellar network is an open source, decentralized system and the SDF does not charge people or institutions for using the network.&lt;/p&gt;
+
+&lt;p&gt;Corporate donors of Stellar include BlackRock ($29 billion US global investment management company with 13,000 employees), Google.org, Stripe, and FastForward.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;why-stellar&quot;&gt;Why Stellar?&lt;/h1&gt;
+
+&lt;h2 id=&quot;stellar-has-a-product-that-works&quot;&gt;Stellar has a product that works&lt;/h2&gt;
+
+&lt;p&gt;Stellar has a very impressive whitepaper on the SCP. As mentioned above, the paper is listed on Google Scholar and cited 39 times at the time of writing this blog post. This technical prowess is also reflected in the team’s product, the Stellar network. The network is fully functional with all the core components working and well documented.&lt;/p&gt;
+
+&lt;p&gt;Stellar Core is the software that acts as the backbone of the network. &lt;strong&gt;Stellar Core&lt;/strong&gt; nodes do the hard work of keeping the network running by validating transactions through SCP. The nodes also allow owners to issue new assets in the network or submit transactions to the network. Anyone can download Stellar Core and start running a node. &lt;strong&gt;Horizon&lt;/strong&gt; is a server application that connects to Stellar Core nodes and allows applications to interact with the Stellar network through a RESTful HTTP API interface that should be familiar to any competent web developer. Anyone can download and run a Horizon server.&lt;/p&gt;
+
+&lt;p&gt;The anchor side of the network (remember anchors serve as fiat gateways to the Stellar network) is also fully developed and well documented. &lt;strong&gt;Bridge servers&lt;/strong&gt; are capable of sending and receiving regulatory compliant payments. Compliance is achieved through &lt;strong&gt;compliance servers&lt;/strong&gt; that the bridge servers communicate with using the Stellar compliance protocol every time a payment is sent or received. The Stellar network also has its own DNS-like system where human readable addresses are mapped to account IDs. This mapping is stored in &lt;strong&gt;federation servers&lt;/strong&gt;. In order for bridge servers to determine the account ID from a human readable address, it has to communicate with federation servers through the Stellar federation protocol.&lt;/p&gt;
+
+&lt;p&gt;Stellar provides downloadable implementations of bridge, federation, and compliance servers, though an anchor could implement custom federation and compliance servers that adhere to their respective protocols.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-uses-the-stellar-network&quot;&gt;Who uses the Stellar network?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/fDM58Rr.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These are the companies that are using the Stellar network:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deloitte created a payment network prototype using the Stellar network. The project was completed in 4 weeks and reduced transaction costs by 40%. Each transaction resolved in 5 seconds.&lt;/li&gt;
+  &lt;li&gt;TEMPO facilitates remittances from Europe to the world, a $150 billion market. Using the Stellar network, Tempo can power 600,000 transactions for $0.01 in fees. Tempo launched the EURT token on the Stellar network in April 2017. EURT is valued at full parity to the EUR by TEMPO and its partners. The token can be traded for PHP (Philippine Pesos), XLM (lumens), and JPY (Japanese Yen) on Stellar. The EURT is the first step by TEMPO in integrating the Stellar network as its primary payments settlement platform.&lt;/li&gt;
+  &lt;li&gt;Parkway is a licensed mobile money operator in Nigeria that uses the Stellar network to connect Nigeria’s 5 major telcos, enabling customers of different mobile money services to send money to one another.&lt;/li&gt;
+  &lt;li&gt;IBM and a network of South Pacific and Oceania banks have successfully deployed a cross-border payments platform that uses the Stellar network. This new Stellar-based solution allows the banks to send money in real time whereas the old process typically took days. Although the platform is currently limited to cross-border payments involving British pounds and Fiji dollars, it’s expected to scale up to 60% of all cross-border payments in the region once all seven currencies are added. IBM’s vice president of global blockchain development, Jesse Lund, has cautioned that the use lumens as an exchange bridge between currencies is temporary but this doesn’t mean that the Stellar network will not continue to be used.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are a few companies operating Stellar anchors right now:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TEMPO Money Transfer (40 countries, EUR)&lt;/li&gt;
+  &lt;li&gt;Coins.ph (Philippines, PHP)&lt;/li&gt;
+  &lt;li&gt;Parkway Projects (Nigeria, NGN)&lt;/li&gt;
+  &lt;li&gt;NaoBTC (international, BTC)&lt;/li&gt;
+  &lt;li&gt;RippleFox (China, CNY)&lt;/li&gt;
+  &lt;li&gt;ICICI Bank (India, INR)&lt;/li&gt;
+  &lt;li&gt;More can be found &lt;a href=&quot;https://www.stellar.org/about/directory&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;impressive-list-of-advisors&quot;&gt;Impressive list of advisors&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/Ulg22uK.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I didn’t realize this before, but Stellar actually has one of the most impressive lists of advisors I’ve seen for cryptocurrency projects. Well known and well respected US tech industry leaders populate Stellar’s advisory board. They include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Patrick Collison, CEO of Stripe&lt;/li&gt;
+  &lt;li&gt;Greg Stein, Director at the Apache Software Foundation&lt;/li&gt;
+  &lt;li&gt;Matt Mullenwag, Founder of the popular blogging software, WordPress.com&lt;/li&gt;
+  &lt;li&gt;Naval Ravikant, Founder of AngelList&lt;/li&gt;
+  &lt;li&gt;Sam Altman, President of Y Combinator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those that aren’t familiar with the US tech industry might not know who these people are, but trust me, as a software engineer for almost 6 years now, these people are big. Y Combinator is the premiere startup accelerator in the US. Stripe was a payments company startup that experienced massive growth over the last few years and now has over 700 employees. The Apache Sofware Foundation maintains one of the largest and most used set of open source software in the world. If you are software developer, you are almost guaranteed to have used Apache software at least once in your life.&lt;/p&gt;
+
+&lt;h2 id=&quot;very-active-github-repositories&quot;&gt;Very active GitHub repositories&lt;/h2&gt;
+
+&lt;p&gt;All good projects have active GitHub repositories and Stellar has one of the &lt;a href=&quot;https://github.com/stellar/stellar-core/commits/master&quot;&gt;most active GitHub repositories&lt;/a&gt; I’ve seen. There is a healthy number of commits every day. In fact, just today (October 24th) there were 14 commits made to the &lt;code class=&quot;highlighter-rouge&quot;&gt;stella-core&lt;/code&gt; repository’s master branch. Pull request and issue discussion activities are also high.&lt;/p&gt;
+
+&lt;h2 id=&quot;extensive-developer-documentation&quot;&gt;Extensive developer documentation&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 600px&quot; src=&quot;https://i.imgur.com/U9A8h7O.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stellar has one of the most extensive &lt;a href=&quot;https://www.stellar.org/developers/&quot;&gt;developer documentation&lt;/a&gt; for a cryptocurrency project that I’ve seen so far. Great developer documentation is conducive to developers building on the platform. This increases platform adoption which in turn leads to an increase in the platform’s value.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;icos-on-stellar&quot;&gt;ICOs on Stellar&lt;/h2&gt;
+
+&lt;p&gt;The Stellar network supports many different kinds of assets and allows anyone to issue an asset. This makes it a suitable platform for ICOs. Although there haven’t been many ICOs conducted on the Stellar network yet, this could change as Stellar comes into the cryptocurrency spotlight.&lt;/p&gt;
+
+&lt;p&gt;Ethereum is the largest blockchain hosting ICO tokens right now and ICOs have played a key role in driving ether’s price up over the last year. However, there is actually a strong case for companies to choose Stellar over Ethereum for ICOs. For one, the Stellar network is significantly faster and cheaper to use than Ethereum’s (e.g. 5 second vs 3.5 minute confirmation times). Faster and cheaper transactions make ICOs more accessible and more accessibility means more money raised. The Stellar network also has a built-in feature that lets developers whitelist ICO contributors. This reduces development time for ICOs that want to ensure complete legal compliance. Finally, the Stellar network’s transaction model is simpler than Ethereum’s and simplicity reduces the chances of security pitfalls. This is significant for ICOs that do not require the expressiveness provided by Turing-complete smart contracts.&lt;/p&gt;
+
+&lt;h1 id=&quot;stellar-vs-waves-vs-omisego&quot;&gt;Stellar vs Waves vs OmiseGo&lt;/h1&gt;
+
+&lt;p&gt;Stellar, Waves, and OmiseGo all aim to serve very similar use cases. All three platforms have native support for a decentralized exchange. All three platforms support multiple assets. Although Waves is not currently focused on micropayments, remittances, and mobile payments, Stellar and OmiseGo are both gunning for these three use cases.&lt;/p&gt;
+
+&lt;p&gt;From my research, it seems that Stellar comes out just slightly ahead of Waves as a multi-asset trading platform. Although Stellar is losing in terms of ICOs, Stellar has many more anchors than Waves has gateways. Most of Stellar’s anchors are operated by external companies that include large financial institutions. Waves, on the otherhand, currently operates all of its gateways. Stellar is also currently much faster than Waves. Stellar supports a theoretical of maximum of 1000 transactions/second whereas Waves only supports 1.7 transactions/second. This will change as the WavesNG protocol comes online, but that’s not for another few months and even then, Waves’s maximum transaction throughput is still shy of Stellar’s 1000 transactions/second.&lt;/p&gt;
+
+&lt;p&gt;Stellar will give OmiseGo a run for its money. Almost everything that OmiseGo aims to do, Stellar is planning to do or is already doing it. Not to mention Stellar already has a robust, secure, and fast blockchain already running in the wild whereas OmiseGo is still a farcry away from even launching a public testnet. At this point we have no idea what the OmiseGo blockchain will even look like. Having a functioning public blockchain also gives Stellar a headstart in business integrations. As mentioned above, a multitude of payment companies, especially in Asia and Africa, have integrated with Stellar and are already sending payments through the platform. We also can’t forget the massive IBM and banking integration that was recently announced. This is not to say that OmiseGo is totally hopeless; there’s definitely a possibility that it can close this gap quickly but the team definitely has its work cut out for them.&lt;/p&gt;
+
+&lt;h1 id=&quot;if-youve-enjoyed-this-blog-post&quot;&gt;If you’ve enjoyed this blog post…&lt;/h1&gt;
+
+&lt;p&gt;You can support the author by tipping some lumens to this address &lt;code class=&quot;highlighter-rouge&quot;&gt;GB6YPGW5JFMMP2QB2USQ33EUWTXVL4ZT5ITUNCY3YKVWOJPP57CANOF3&lt;/code&gt; with memo &lt;code class=&quot;highlighter-rouge&quot;&gt;f251c71a85b44973baf&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 17:59:46 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/stellar-lumens-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/stellar-lumens-what-is-it-and-should-you-invest/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Zap: What Is It and Should You Invest?</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/W65uIjb.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A small, incumbent project recently came to my attention. It’s called the Zap Store and after looking thoroughly at the team, their mission, and their product, I have to say, I like what I see.&lt;/p&gt;
+
+&lt;p&gt;Smart contracts are probably the most promising blockchain feature right now. At a high level, a smart contract is a wallet controlled by code. The code triggers the wallet to send transactions when certain events happen. Smart contracts are also able to store data, with ERC20 tokens being a good example of that.&lt;/p&gt;
+
+&lt;p&gt;Smart contracts can be extended to serve as the basis for decentralized applications, or dApps. Users can interact with dApps through all the usual ways you can interact with a traditional web application (e.g. websites and APIs).&lt;/p&gt;
+
+&lt;p&gt;A fundamental flaw for smart contracts is that the only information they can reliably trust is in the blockchain. However, for many smart contracts to be useful and fulfill powerful uses cases, they need external information (e.g. stock prices, interest rates, weather). The problem is, how do you incorporate external information to the blockchain in a decentralized and trustful manner?&lt;/p&gt;
+
+&lt;p&gt;This is where oracles come in. Oracles are secondary-layer blockchain systems that feed external information to the blockchain. Because oracles tend to be single sources of truth for the blockchain, establishing trust in oracles is an incredibly hard problem to solve, especially when it’s often the case that an oracle stands to benefit tremendously from feeding bad data.&lt;/p&gt;
+
+&lt;p&gt;Although Zap is not tackling the oracle trust problem directly, it aims to build an efficient marketplace where it’s tremendously easy for data providers to sell their data as oracles, and for smart contract developers to purchase and receive oraclized data. Combined with a reputation system, such a marketplace makes it extremely conducive for professional and long time data providers to thrive.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/LOob4th.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;how-does-zap-work&quot;&gt;How does Zap work?&lt;/h1&gt;
+
+&lt;p&gt;Zap’s ecosystem consists of oracles, subscribers (smart contracts consuming data), and the ZapMarket smart contract that connects and manages payments between the two parties.&lt;/p&gt;
+
+&lt;p&gt;An oracle is comprised of:
+* a realtime datafeed
+* an Ethereum address registered with the ZapMarket smart contract
+* an IPFS keypair public key with the ZapMarket contract
+* a data encryption public key registered with the ZapMarket contract
+* a quantity of ZAP bonded to the ZapMarket contract&lt;/p&gt;
+
+&lt;p&gt;A subscriber is a smart contract that needs data. It’s comprised of:
+* an Ethereum address registered with the ZapMarket smart contract
+* an IPFS public key registered with the ZapMarket smart contract
+* a data encryption public key registered with ZapMarket smart contract
+* a quantity of ZAP bonded under an existing oracle in the ZapMarket smart contract&lt;/p&gt;
+
+&lt;p&gt;When a subscriber requires information from a oracle, it “bonds” ZAP tokens to the oracle through the ZapMarket smart contract. In return, the subscriber gets DOTS which it can use to pay for queries for that oracle. When the subscriber makes a query with a DOT, the ZapMarket smart contract facilitates the exchange of IPFS public keys between the two parties. The two parties then establish a private IPFS pubsub room where the oracle can push data to the subscriber.&lt;/p&gt;
+
+&lt;h2 id=&quot;unique-payment-model&quot;&gt;Unique payment model&lt;/h2&gt;
+
+&lt;p&gt;Zap provides a very interesting payment model. ZAP tokens are the currency of the Zap oracle marketplace. When a subscriber “bonds” ZAP to the oracle, the subscriber is given DOTS and can use them to query the oracle. One DOT = one query. DOTS are nontransferable. This whole process is facilitated by the ZapMarket smart contract.&lt;/p&gt;
+
+&lt;p&gt;To become an oracle, a data provider needs to register with the ZapMarket smart contract. On registration, the data provider needs to specify a DOT/ZAP supply curve. This curve determines how many DOTS are given per ZAP bonded to the oracle. An oracle could have a flat, linear curve, meaning DOTS remain at the same price even with demand increasing. A oracle could also specify an ascending curve, meaning DOTS get more expensive with more demand.&lt;/p&gt;
+
+&lt;p&gt;This payment model introduces speculators to the market. Speculators are those that bond ZAP to oracles without any interest in spending DOTS (i.e. receiving data). If the oracle has an increasing DOT/ZAP supply cure and the demand for the oracle rises after the speculator bonds ZAP to the oracle, the speculator makes a profit when they convert their DOTS back to ZAP.&lt;/p&gt;
+
+&lt;p&gt;The allowance of a speculator in Zap’s oracle market is an intentional design element that aims to act as a market refinement mechanism. Speculators are incentivitized to discover good data sources and bond to them early. This helps in getting these good data sources discovered by other market participants that are actually looking for data. This market design utilizes many of the same economic incentives as prediction markets.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-bad-actors&quot;&gt;What about bad actors?&lt;/h2&gt;
+
+&lt;p&gt;Zap’s ecosystem connects a subscriber with a publisher. The publisher will typically become a single source of truth for the subscriber, making the subscriber vulnerable to a bad actor publisher (unless the subscriber has some fancy consensus system involving multiple publishers for the same data).&lt;/p&gt;
+
+&lt;p&gt;According to Zap’s whitepaper, the risk of scams is mediated by the fact that each publisher is tied to a unique Ethereum address and new publishers should always be treated with suspicion. On the other hand, long standing or professional data oracles can be afforded more trust.&lt;/p&gt;
+
+&lt;p&gt;For Zap, blockchain history becomes a sort of trustless reputation system.&lt;/p&gt;
+
+&lt;h1 id=&quot;zap-has-a-strong-team-behind-it&quot;&gt;Zap has a strong team behind it&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/dOZowmR.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zap.store/team.html&quot;&gt;The team behind Zap looks solid&lt;/a&gt;, especially for a startup. The development team is well-staffed and many company support roles are filled. For example, there is someone for legal, a team for business development, a data scientist, a community manager, etc. This is definitely a team that can hit the ground running.&lt;/p&gt;
+
+&lt;p&gt;Core to the team is the founder, Nick Spanos. Spanos looks to be qualified and more than capable of running the company. He has a history of business ventures, several of which are related to cryptocurrencies. He cofounded the Bitcoin Center NYC in 2013, a physical coworking space next to the NYSE. The center aims to educate people on Bitcoin and cryptocurrencies. Besides providing an open space where anyone can come in to discuss and learn about cryptocurrencies, the center also offers courses and hosts a myriad of cryptocurrency-related events.&lt;/p&gt;
+
+&lt;p&gt;Spanos also founded Blockchain Technologies Corp in 2011. BTC is a startup accelerator for blockchain-related ventures and it currently manages a portfolio of blockchain technology companies.&lt;/p&gt;
+
+&lt;p&gt;Before dabbling in blockchain, Spanos founded getaroom.com and was the CEO of the company for 11 years. He sold it to Hotels.com in 2010.&lt;/p&gt;
+
+&lt;h1 id=&quot;focusing-on-ui-is-good&quot;&gt;Focusing on UI is good&lt;/h1&gt;
+
+&lt;p&gt;From the mocks and demo I’ve seen so far, it’s clear that Zap has placed an emphasis on their user interface. Subscribers need only push a few buttons to purchase a subscription to an oracle. To use the oracle in a smart contract, it looks like Zap is planning to release some sort of “plug n’ play” code package that should make it very easy for developers to connect to oracles in their smart contracts.&lt;/p&gt;
+
+&lt;p&gt;Although this is just based on the existing mocks and demo, I’m happy to see Zap putting efforts into a good UI. You’d be surprised how important UI is for product adoption. In fact, many cryptocurrency thought leaders, including Andreas Antonopoulos and Vitalik Buterin, have stated that a bad UI is a key impeding factor for mainstream adoption of cryptocurrencies.&lt;/p&gt;
+
+&lt;h1 id=&quot;zap-vs-chainlink&quot;&gt;Zap vs ChainLink&lt;/h1&gt;
+
+&lt;p&gt;ChainLink is another prominent oracle service in development right now. While both Zap and ChainLink are products in the oracle space, Zap is focused on building a simple-to-use marketplace where smart contracts can connect to oracles through one intuitive interface and ChainLink is focused on building trustful oracle data streams through decentralization.&lt;/p&gt;
+
+&lt;p&gt;ChainLink aims to build its own data aggregator service that takes data from a bunch of data streams and returns the majority result. Although this will create highly reliable data streams for the blockchain, there is also tremendous overhead and complexity.&lt;/p&gt;
+
+&lt;p&gt;ChainLink data will be more expensive and take longer to deliver, something that is not necessary for highly trusted oracles, such as those from professional or long-standing data providers. ChainLink is excellent for enterprise dApps where data integrity is crucial but not so much for “lower-tier” dApps.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, Zap and ChainLink are not necessarily competitors. ChainLink oracles can serve as purchasable oracle services in the Zap marketplace.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-the-current-state-of-zap&quot;&gt;What is the current state of Zap?&lt;/h1&gt;
+
+&lt;p&gt;According to the whitepaper, Zap has smart contracts deployed on the Ethereum testnet with a public beta website and mobile applications up and running. You can checkout the web demo &lt;a href=&quot;https://zap.store/demo/index.html&quot;&gt;here&lt;/a&gt;. There are apparently 18,000 data providers ready for implementation once Zap is deployed on the mainnet.&lt;/p&gt;
+
+&lt;p&gt;Zap recently concluded an ICO presale and will be holding the public token sale on October 21st. In total, 520 million Zap tokens will be created with 173 million available for sale in the ICO. The rest of the tokens will be held by the Synapse Foundation (foundation behind the project) as part of a long-term operating budget.&lt;/p&gt;
+
+&lt;p&gt;You can participate in the ICO &lt;a href=&quot;https://zap.store/tokensale.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Oct 2017 11:03:31 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/zap-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/zap-what-is-it-and-should-you-invest/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>QTUM Beginner&#39;s FAQ (Without the Bullshit)</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5HxlCkJ.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;QTUM’s mainnet launched on September 13th. Exchanges began to swap ERC20 QTUM to mainnet QTUM near the end of September. These are exciting times for QTUM and its community. Along with the mainnet launch came many new updates from the team as well as a series of publicity events that included meetups, hackathons, and a Reddit AMA. In addition, investors are finally able to participate in proof of stake, allowing them to passively earn QTUM while securing the network.&lt;/p&gt;
+
+&lt;p&gt;With so much going on for QTUM, it’s not surprising to see a myriad of questions about QTUM from prospective and existing investors alike. Questions range from “what exactly is QTUM?” to “how do I start staking?” I’ve decided to write this blog post to answer some of the more common questions and hopefully have it serve as a beginner’s FAQ for QTUM investors.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;q1-what-is-qtum&quot;&gt;Q1. What is QTUM?&lt;/h1&gt;
+
+&lt;p&gt;At a high level, QTUM is a custom Bitcoin blockchain using proof of stake 3.0 with the Ethereum Virtual Machine (EVM) running on top. In other words, QTUM is a proof-of-stake Ethereum that runs on Bitcoin’s blockchain. This hybrid architecture provides a myriad of benefits:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;QTUM can take advantage of and absorb improvements from both Bitcoin and Ethereum, two blockchains with the largest developer communities in the world. For example, QTUM is compatible with and is already using SegWit. QTUM is also compatiable with both the Lightning Network and Raiden.&lt;/li&gt;
+  &lt;li&gt;Since QTUM uses the EVM, any Ethereum smart contract can run on QTUM and vice versa. This makes it incredibly easy for Ethereum developers to develop on QTUM. Existing Ethereum dApps can also be easily ported to QTUM.&lt;/li&gt;
+  &lt;li&gt;Although there are pros and cons to both the Bitcoin blockchain’s UTXO model and Ethereum’s account model, it’s arguable that the UTXO model is better because it’s more scalable and secure. The UTXO model also supports the Simple Payment Verification (SPV) protocol. SPV allows light clients to interact with smart contracts, something that Ethereum cannot do.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ethereum is planning to switch to proof of stake sometime in 2018. Even then, Ethereum’s proof of stake model will impose a minimum balance on wallets before allowing the wallets to stake. 32 Ether has been a suggested minimum balance. The problem is, not many people can afford 32 Ether and many Ethereum investors will undoubtedly be excluded from staking. QTUM’s proof of stake model, on the other hand, allows wallets with any amount of QTUM to stake.&lt;/p&gt;
+
+&lt;p&gt;Finally, QTUM is &lt;strong&gt;not just a Bitcoin and Ethereum fork&lt;/strong&gt;, as many uninformed naysayers like to claim. First of all, it takes an incredible feat of engineering to combine a UTXO blockchain with the EVM. QTUM’s solution to this is the Account Abstract Layer (AAL) that serves as an interface layer between the blockchain and the EVM. The AAL not only allows the EVM to live on top of a UTXO blockchain, it also means that QTUM is not confined to using the EVM as a smart contracts platform. Any other smart contracts virtual machine compatible with the AAL can be used to replace the EVM and the QTUM team has already announced plans to develop an x86 smart contracts virtual machine for QTUM. The x86 architecture is popular, time-tested, and well designed, and a smart contracts virtual machine based off of this architecture will make up for much of the shortcomings found in Solidity and the EVM. For one, it allows developers to program smart contracts in popular programming languages like C, C++, C#, and Java.&lt;/p&gt;
+
+&lt;p&gt;Finally, I have to mention that QTUM is not just using Bitcoin Core code right out of the box. The QTUM team has developed and augmented QTUM’s version of Bitcoin Core with what’s known as the Decentralized Governance Protocol (DGP). DGP allows owners of QTUM to vote on and enact changes to a limited set of blockchain parameters (e.g. block size and block time) without needing hard forks. This not only allows QTUM to efficiently adapt to changing network conditions, it also allows quick recovery from certain kinds of attacks on the network, issues both Bitcoin and Ethereum have struggled with in the past.&lt;/p&gt;
+
+&lt;h1 id=&quot;q2-what-is-qtums-roadmap&quot;&gt;Q2. What is QTUM’s roadmap?&lt;/h1&gt;
+
+&lt;p&gt;Brett from the QTUM team wrote an &lt;a href=&quot;https://forum.qtum.org/topic/100/qtum-roadmap-breakdown&quot;&gt;excellent forum post&lt;/a&gt; detailing QTUM’s roadmap.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5vZ1Xta.jpg&quot; /&gt;
+&amp;gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;q3-what-gives-qtum-value&quot;&gt;Q3. What gives QTUM value?&lt;/h1&gt;
+
+&lt;p&gt;QTUM derives its value the same way Ether derives its value. Both can be considered fuels for their respective smart contract platforms. This means that the more demand there is to use either platforms, the more valuable each platform’s fuel is.&lt;/p&gt;
+
+&lt;p&gt;Because QTUM uses proof of stake while Ethereum is still stuck with proof of work, if all else is equal, QTUM are actually more valuable than Ether since they can participating in staking to generate a passive income.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;q4-what-is-the-total-supply-of-qtum-what-is-the-blockchains-inflation-model&quot;&gt;Q4. What is the total supply of QTUM? What is the blockchain’s inflation model?&lt;/h1&gt;
+
+&lt;p&gt;100 million ERC20 QTUM were issued. Since the launch of the mainnet, only a portion of these tokens were swapped to mainnet tokens. With the mainnet also came new QTUM from block rewards. As such, the total theoretical supply of QTUM right now is a little bit over 100 million.&lt;/p&gt;
+
+&lt;p&gt;QTUM blocks will always reward miners with new QTUM. This means that in theory, the total supply of QTUM is always growing, i.e. there is always going to be inflation. This is necessary to incentivize token owners to stake their tokens, thus securing the blockchain. It is important to keep in mind that although the total supply grows in constant increments, the rate of inflation diminishes as the total supply goes up while the rewards per block remain constant.&lt;/p&gt;
+
+&lt;p&gt;The current block reward is 4 QTUM. Block time is 2 minutes. This results in approximately 2880 QTUM generated per day.&lt;/p&gt;
+
+&lt;h1 id=&quot;q5-how-do-i-stake-qtum&quot;&gt;Q5. How do I stake QTUM?&lt;/h1&gt;
+
+&lt;p&gt;Staking QTUM is incredibly simple. This is all you need to do:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Send QTUM to wallet&lt;/li&gt;
+  &lt;li&gt;Wait 500 blocks for transaction to mature and start staking&lt;/li&gt;
+  &lt;li&gt;Keep wallet running&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;q6-how-does-qtum-staking-work-why-should-i-split-my-balance-into-multiple-transactions&quot;&gt;Q6. How does QTUM staking work? Why should I split my balance into multiple transactions?&lt;/h1&gt;
+
+&lt;p&gt;Each transaction sent to a QTUM wallet takes 500 blocks (or confirmations) to “mature” and start staking. The network weight is the total number of staking QTUM. This weight determines the probability 1 QTUM will mine the next block; the larger the weight, the lower the probability.&lt;/p&gt;
+
+&lt;p&gt;Currently, a QTUM block is set to be mined every 2 minutes. Each block rewards its miner with 4 QTUMs plus the fees in the transactions within the block. If an unspent transaction in a wallet (refer to the UTXO model to understand what this means) mines a block, it is considered to have been “staked” and has no chance to mine a block for the next 500 blocks. As such, it is expected that the number of staking QTUM in a wallet is lower after the wallet has mined a block. This is also why it’s recommended that you split your wallet’s balance into multiple transactions. The more transactions you have, the less QTUM is removed from staking once you mine a block. Depending on the total number of QTUMs you have, you might want to consider 250-1000 QTUMs per transaction.&lt;/p&gt;
+
+&lt;p&gt;There is no concept of “progress” in staking QTUM. Mining a block is completely based on probability. You can think of it as a raffle being held every time a new block is generated. 1 QTUM in a wallet is one entry into the raffle for that wallet.&lt;/p&gt;
+
+&lt;p&gt;If you’re looking for an in depth description of proof of stake 3.0, the proof of stake system QTUM is using, check out the &lt;a href=&quot;http://earlz.net/view/2017/07/27/1904/the-missing-explanation-of-proof-of-stake-version&quot;&gt;blog post, “The missing explanation of Proof of Stake Version 3”&lt;/a&gt;, by QTUM cofounder Jordan Earls.&lt;/p&gt;
+
+&lt;h1 id=&quot;q7-i-mined-a-block-but-my-reward-is-only-04-qtum&quot;&gt;Q7. I mined a block but my reward is only 0.4 QTUM?&lt;/h1&gt;
+
+&lt;p&gt;The immediate reward for mining a block is 0.4 QTUM. After 500 blocks, the rest of the 3.6 QTUM will be paid to the wallet in 9 consecutive blocks.&lt;/p&gt;
+
+&lt;h1 id=&quot;q8-how-do-i-know-when-staking-is-working&quot;&gt;Q8. How do I know when staking is working?&lt;/h1&gt;
+
+&lt;p&gt;If you’re using the GUI version of QTUM Core (v0.14.3) wallet, look for a lightning symbol at the bottom right. If the symbol is hollow, the wallet is not staking. If the symbol is filled, the wallet is staking.&lt;/p&gt;
+
+&lt;p&gt;If you’re using the QTUM Core (v0.14.3) wallet command line tool, run the command &lt;code class=&quot;highlighter-rouge&quot;&gt;getstakinginfo&lt;/code&gt;. If the return value contains &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;staking&quot;: false&lt;/code&gt;, the node is not staking. If the return value contains &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;staking&quot;: true&lt;/code&gt;, the node is staking.&lt;/p&gt;
+
+&lt;h1 id=&quot;q9-will-i-continue-to-stake-if-my-computers-turned-off&quot;&gt;Q9. Will I continue to stake if my computer’s turned off?&lt;/h1&gt;
+
+&lt;p&gt;To participate in proof of stake, QTUM’s wallet software needs to be running and communicating with the other nodes in the network. This means that your computer needs to be turned on to stake.&lt;/p&gt;
+
+&lt;h1 id=&quot;q10-what-is-the-most-efficient-way-to-stake-qtum&quot;&gt;Q10. What is the most efficient way to stake QTUM?&lt;/h1&gt;
+
+&lt;p&gt;Even though proof of stake 3.0 requires an insignificant amount of energy to run, it’s still desirable to use as little energy as possible. The most efficient and accessible way to do so right now is through a Raspberry Pi computer.&lt;/p&gt;
+
+&lt;p&gt;Cryptominder has written a &lt;a href=&quot;https://steemit.com/qtum/@cryptominder/qtum-staking-tutorial-using-qtumd-on-a-raspberry-pi-3&quot;&gt;fantastic tutorial&lt;/a&gt; on staking QTUM using a Raspberry Pi 3.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;q11-etherscanio-for-qtum&quot;&gt;Q11. Etherscan.io for QTUM?&lt;/h1&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://qtum.info/&quot;&gt;qtum.info&lt;/a&gt; and &lt;a href=&quot;https://qtumexplorer.io&quot;&gt;qtumexplorer.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;q12-what-dapps-are-building-on-qtum&quot;&gt;Q12. What dApps are building on QTUM?&lt;/h1&gt;
+
+&lt;p&gt;Prior to the mainnet launch, QTUM announced that there were 17 dApps building on it. A few of them have been announced:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vevue&lt;/li&gt;
+  &lt;li&gt;Inkchain&lt;/li&gt;
+  &lt;li&gt;Bodhi&lt;/li&gt;
+  &lt;li&gt;Matchpool&lt;/li&gt;
+  &lt;li&gt;BitClave&lt;/li&gt;
+  &lt;li&gt;QBao&lt;/li&gt;
+  &lt;li&gt;Energo&lt;/li&gt;
+  &lt;li&gt;Medibloc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With the mainnet released, there will be significantly more projects choosing to build on QTUM.&lt;/p&gt;
+
+&lt;h1 id=&quot;q13-whats-the-difference-between-qtum-and-neo&quot;&gt;Q13. What’s the difference between QTUM and NEO?&lt;/h1&gt;
+
+&lt;p&gt;Check out my &lt;a href=&quot;https://storeofvalue.github.io/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/&quot;&gt;article “NEO vs QTUM: An Objective Comparison”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;if-youve-enjoyed-this-blog-post&quot;&gt;If you’ve enjoyed this blog post…&lt;/h1&gt;
+
+&lt;p&gt;If you’ve enjoyed my research into QTUM over the past couple months, or have found this blog post helpful, you can support the StoreOfValue blog by tipping some QTUM to this address: &lt;code class=&quot;highlighter-rouge&quot;&gt;Qc41qBDogAQFDpn8PnmSnfMqLwPfLg3mY8&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Much thanks if you do, a lot of time and effort has been put into researching QTUM.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Oct 2017 13:25:02 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Definitive Bull Case for Ethereum</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/Dggt1xi.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What makes Ether valuable? Did we spend our money on magical internet numbers, or is Ether more than just a digital tulip? The value proposition for Ether is not easy to grasp, especially for a layman. Not only does one need to understand how Ethereum’s blockchain and smart contracts system works, you would also need to understand how Ether is valuable in such a system. At a $30 billion market cap, which is roughly $300 per Ether, I’ve put a lot of thought into whether this hefty price tag makes sense.&lt;/p&gt;
+
+&lt;p&gt;Here’s why I think Ether is valuable, and why it continues to have tremendous upside.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;ether-is-a-fuel-not-a-currency&quot;&gt;Ether is a fuel, not a currency&lt;/h1&gt;
+
+&lt;p&gt;I’m going to elaborate this in a future blog post, but I highly doubt any public, limited supply, cryptocurrency will ever be a successful currency. Such a cryptocurrency will be inherently volatile and deflationary. This makes it highly inconvenient as a medium of exchange.&lt;/p&gt;
+
+&lt;p&gt;Consider this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assume an Xbox is worth 1 Ether&lt;/li&gt;
+  &lt;li&gt;Why would a merchant accept your 1 Ether for his/her Xbox, if that 1 Ether could depreciate and be worth half an Xbox the moment the goods exchange hands?&lt;/li&gt;
+  &lt;li&gt;Conversely, why would you give your 1 Ether to the merchant for his/her Xbox, if that 1 Ether could appreciate and be worth 2 Xbox’s the moment the goods exchange hands?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In both cases, the volatility of Ether caused one party to lose out. This uncertainty discourages either party from committing to a transaction. Given that a healthy and growing economy needs a high money velocity, this is terrible.&lt;/p&gt;
+
+&lt;p&gt;So if cryptocurrencies cannot serve as successful currencies, what are they useful for? The first thing that comes to mind is an alternative to gold. However, we have to keep in mind that gold took milleniums to be ingrained in the human mind as a fundamental store of value. For people to start valuing an ephermeral digital currency the some way we already value gold takes a huge paradigm shift that would need to occur over years if not decades.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/T12N96A.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ether will be valued not as a currency and not as gold. It will be valued as a fuel that powers a highly useful public utility, the Ethereum blockchain. You need Ether to send transactions and power smart contracts. In the ideal case, many decentralized applications (either built by the public or by large corporations) will be running on Ethereum. There will be a high demand to use these smart contracts, creating a significant buying force on the Ether markets. This is where Ether will derive most of its fundamental value from.&lt;/p&gt;
+
+&lt;h1 id=&quot;proof-of-stake&quot;&gt;Proof of stake&lt;/h1&gt;
+
+&lt;p&gt;With Ethereum’s Casper upgrade, which is set to be released next year, Ether will not only be useful as a fuel, it will be useful as a means to mine the blockchain.&lt;/p&gt;
+
+&lt;p&gt;The current arrangement (proof-of-work) has graphics cards and ASICs solve complex math problems to mint Ethereum transactions. The reward for the hardware doing all this work is a fee paid in Ether. With Casper, Ethereum will be almost fully reliant on Ether to function. Ether will be needed to mint Ethereum transactions and Ether will be needed to pay for the minting.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;focused-leadership&quot;&gt;Focused leadership&lt;/h1&gt;
+
+&lt;p&gt;This wouldn’t be a talking point if not for how dysfunctional Bitcoin’s leadership has become. Instead of arguing over trivial things such as whether to introduce SegWit or whether to add 1MB to the maximum blocksize, Ethereum’s leadership actually has a well defined roadmap and are actively working towards it.&lt;/p&gt;
+
+&lt;p&gt;Not only is there a plan to improve Ethereum, its leaders are actively venturing out to promote Ethereum through driving grassroots support with local meetups and hackathons, as well as fostering corporate connections through giving talks at large technology conferences and even meeting government officials.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/XuTngpv.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, how can I discuss Ethereum’s leadership without mentioning Vitalik Buterin, the creator and primary figurehead for Ethereum? Vitalik cannot be a more fitting leader. Vitalik published Ethereum’s whitepaper at only age 18. He was a skinny and socially awkward teen with a whitepaper then. Now he’s equally skinny, equally socially awkward, but also the creator of a $30 billion blockchain.&lt;/p&gt;
+
+&lt;p&gt;Even with his skinny physique and a few nervous ticks, I have to give credit to his public speaking skills. Vitalik has given a large number of talks promoting Ethereum. His most recent apperance is on TechCrunch’s Disrupt SF 2017. He speaks clearly, loudly, and at an authoritative pace. Not something you’d expect of a skinny, 23 year old blockchain geek.&lt;/p&gt;
+
+&lt;p&gt;Vitalik recently announced that he would be dedicating all of his OmiseGo and Kyber Network advisor shares, either to charity, or to funding for Ethereum second-layer infrastructure.&lt;/p&gt;
+
+&lt;h1 id=&quot;upcoming-technology---plasma-and-raiden&quot;&gt;Upcoming technology - Plasma and Raiden&lt;/h1&gt;
+
+&lt;p&gt;Ethereum has two substantial upgrades coming up: Plasma and Raiden.&lt;/p&gt;
+
+&lt;p&gt;Plasma will significantly increase the efficiency of running smart contracts on Ethereum. It will enable smart contracts (and the decentralized applications relying on them) to have potentially billions of state updates per second. Although Ethereum is currently a single-threaded computer, Plasma will ultimately allow Ethereum to efficiently host a large number of decentralized applications. OmiseGo is currently building on top of Plasma. You can read more about Plasma &lt;a href=&quot;http://plasma.io/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Raiden is another proposed upgrade for Ethereum. Its closest parallel is the Lightning network for the Bitcoin blockchain. Raiden is a second-layer infrastructure that will enable potentially over a million transactions per second on Ethereum, including ERC20 token transactions. Raiden announced this month that they will be conducting an ICO to fund further development of the project. You can read more about Raiden &lt;a href=&quot;https://raiden.network/faq.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;ethereum-as-a-highly-useful-public-utility&quot;&gt;Ethereum as a highly useful public utility&lt;/h1&gt;
+
+&lt;p&gt;As mentioned above, a large part of Ether’s fundamental value will derive from Ethereum’s success at being a highly useful public utility. People will want to buy Ether to use Ethereum’s decentralized applications. These applications will either be deployed by the public or by large corporations.&lt;/p&gt;
+
+&lt;p&gt;Here’s an overview of Ethereum’s nascent ecosystem of decentralized applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;budding-corporate-adoption&quot;&gt;Budding corporate adoption&lt;/h2&gt;
+
+&lt;p&gt;If you haven’t already heard of the Ethereum Enterprise Alliance (EEA), you should check it out. I wrote about the alliance &lt;a href=&quot;https://storeofvalue.github.io/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/&quot;&gt;here&lt;/a&gt;. It’s essentially an Ethereum research group comprised of companies that are interested in Ethereum’s smart contract blockchain technology and want to learn more about it, improve it, and adapt it for their own use cases. One of the core value propositions for the EEA is that it connects all these large institutions with Ethereum experts.&lt;/p&gt;
+
+&lt;p&gt;Do the names Microsft, J.P. Morgan, and Deloitte perk your ears? They are only a few of the numerous big name companies and universities that are involved with the EEA.&lt;/p&gt;
+
+&lt;p&gt;EEA is nice as a fancy research group, but what’s most important for Ethereum is real corporate adoption of the public blockchain… and we’re seeing signs of it right now. Russia’s airline, S7, announced in July that they would be selling tickets using Ethereum’s public blockchain, aiming to simplify payments and decrease setlement times between airlines and agents. In September, a French multinational insurance firm worth €68.5 billion (AXA) released Fizzy, an insurance product built on Ethereum’s public blockchain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/ZZCu0ny.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;powerful-decentralized-applications&quot;&gt;Powerful decentralized applications&lt;/h2&gt;
+
+&lt;p&gt;The transparency, integrity, and security of the blockchain makes it very conducive for financial and gambling applications. Ethereum, with its smart contracts system, is at the forefront of making them a reality.&lt;/p&gt;
+
+&lt;p&gt;Two of Ethereum’s most well-used applications right now are ICOs and decentralized exchanges. ICOs are like IPOs but conducted over the blockchain using smart contracts. ICOs are huge right now. They are a key reason to why the cryptocurrency markets exploded this year. However, many have questioned whether they are healthy for cryptocurrencies as a whole due to the rampant amount of speculation and scams. Nonetheless, the ICOs together represent a massive, active use case for Ethereum.&lt;/p&gt;
+
+&lt;p&gt;The other well-used application of Ethereum is decentralized exchanges. EtherDelta is one of the largest Ethereum-based decentralized exchanges out there and it has orderbooks for almost every ERC20 token. EtherDelta has a 24-hour volume of $3.6 million, a far-cry from the hundreds of millions of dollars traded on premiere cryptocurrency exchanges but still significant for one powered by smart contracts.&lt;/p&gt;
+
+&lt;p&gt;There are decentralized applications for other compelling use cases of Ethereum such as casinoes, lotteries, and prediction markets but adoption hasn’t been strong. I would argue that poor user interfaces are hindering their growth. Projects to look out for in this space include: Augur (prediction markets), Gnosis (prediction markets), FunFair (casinoes), and Edgeless (casinoes).&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Oct 2017 03:41:38 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/definitive-bull-case-for-ethereum/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/definitive-bull-case-for-ethereum/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>WAVES: What Is It And Should You Invest?</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/iyncRPq.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I spent the past few weeks doing a deep dive into the WAVES project and let me just state this outright: WAVES is one of the most impressive blockchain projects out there. The project was started by Russian entrepreneur Alexander (Sasha) Ivanov. Its ICO concluded in June 2016 raising 30,094 Bitcoins ($16 million then). This made WAVES the third largest crowdfunded blockchain project at the time.&lt;/p&gt;
+
+&lt;p&gt;WAVES is a Proof-Of-Stake blockchain (released and operating publicly for almost a year now) heavily optimized for the digitizing of assets into tokens on the blockchain. Unlike Ethereum, where custom tokens are implemented using smart contracts (ERC20 standard), WAVES has the creation and transfer of custom tokens baked right into its protocol. In other words, custom tokens are not just a convenient feature of a smart contract system, as is the case for Ethereum, but are inherently part of the blockchain, as is the case for WAVES. One use case for custom tokens is the hosting of assets external to the blockchain on the blockchain, similar to how currencies or company stocks are represented as numbers in the databases of banks and stock brokers respectively. Once on the blockchain, these assets become just as liquid and secure as a cryptocurrency. A vastly more popular use case for custom tokens right now is the easy issuance of completely new assets on the blockchain… which is exactly what ICOs are all about. Regardless of use case, custom tokens is arguably the most popular and valuable application of blockchain technology so far.&lt;/p&gt;
+
+&lt;p&gt;WAVES was designed from the ground up to be heavily optimized for custom tokens. One of the end goals for WAVES is to have real world assets be represented on the blockchain. Obviously this is currently a ways off, not only for WAVES but for the blockchain ecosystem as a whole. That is not to say that WAVES hasn’t made any progress on this front as the platform &lt;strong&gt;currently has tokens backed 1:1 for the Euro, US dollar, Bitcoin and Ether as well as respective, licensed gateways into its blockchain for these assets.&lt;/strong&gt; Being optimized for custom tokens, it’s not surprising that WAVES is most used to host ICO tokens right now. &lt;strong&gt;It is, in fact, the second largest platform hosting ICO tokens next to Ethereum.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve only provided a sneak peak into how awesome WAVES is. The platform has so many impressive properties, features, and accolades. The project has a clear and compelling mission, a well defined and realistic roadmap, and an active and high performing team led by an outspoken and popular leader.&lt;/p&gt;
+
+&lt;p&gt;As with my previous blog posts, I’m going to run through an in depth list of properties of the WAVES project. The end goal is always to give the reader a holistic understanding of the project.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;more-details-on-the-waves-blockchain&quot;&gt;More details on the WAVES blockchain&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/uLwA9ga.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As mentioned above, WAVES is a Proof-Of-Stake blockchain. However, it uses its own flavour of Proof-Of-Stake that it calls Leased Proof-Of-Stake (LPOS). With LPOS, in order to run a mining node, a user needs at least 10,000 WAVES in their wallet. In an &lt;a href=&quot;https://blog.wavesplatform.com/balance-leasing-launched-in-lite-client-926f08c6a57f&quot;&gt;official blog post&lt;/a&gt;, the team claims that the 10,000 WAVES requirement is actually a security feature since “allowing many small nodes introduces vulnerabilities to the network”. This is weird, since a blockchain’s security comes from the expectation that there will be many nodes securing the blockchain through redundancy. &lt;strong&gt;How would allowing more nodes in a blockchain actually reduce security?&lt;/strong&gt; This is an important red flag for me that I hope can be answered by someone knowledgeable about the technology.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To answer this question, it seems that this is WAVES’s way of “fixing” the nothing-at-stake problem inherent to POS systems. Basically, since it requires very little effort to mine POS blockchains, in the event of a hard fork, miners can quickly switch between multiple chains without much cost. This can be disastrous as bad actors could easily mine on multiple chains at the same time and prevent consensus from being reached. This is not possible with Proof-Of-Work blockchains as you’d have to pay significantly more electricity to mine on multiple chains. WAVES’s solution of requiring miners to have significant WAVES at stake is a solution rooted in game theory. The assumption is that one is less inclined to be a bad actor if they have a lot at stake.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In any case, if you’re a user with 10,000 WAVES or more, you can run a POS miner node. Other users that want to participate in mining can “lease” the WAVES in their wallet to a miner node and earn a proportion of the income based on the proportion of WAVES they leased. Hence the name Leased Proof-Of-Stake. Leasing WAVES does not entail actually sending WAVES to some foreign wallet, which is convenient.&lt;/p&gt;
+
+&lt;p&gt;The number of WAVES is fixed to 100,000,000 WAVES. As such, the WAVES that miners earn comes only from transaction fees and the issuance of new assets on the blockchain. WAVES has also introduced another asset as reward for mining called the Miners Reward Token (MRT). MRT is rewarded to miners after mining a block and its role is to incentivize mining even if there is a lack of transactions. This is a stop gap solution and will be phased out in the near future when it’s assumed that there will be heavier utilization of the blockchain resulting in more transaction fees.&lt;/p&gt;
+
+&lt;p&gt;WAVES’s current blocktime is 1 minute and each block can contain up to 100 transactions.&lt;/p&gt;
+
+&lt;h1 id=&quot;public-blockchain-core-features-complete-proven-technology&quot;&gt;Public blockchain, core features complete, proven technology&lt;/h1&gt;
+
+&lt;p&gt;WAVES has a public blockchain with all the core features released. It has a healthy ecosystem of users with many ICOs hosting their tokens on WAVES. At the time of writing, 4635 custom tokens have been issued. Users are also using the platform’s decentralized exchange feature. At the time of writing, the exchange has a 24 hour volume of $417,162 (obviously a far cry from existing centralized exchanges and even decentralized, Ethereum-based exchanges like Etherdelta, but WAVES is also 1/60th of Ethereum’s market cap).&lt;/p&gt;
+
+&lt;p&gt;It is clear that WAVES not only has a product but product adoption as well. This puts WAVES way ahead of most other cryptocurrency projects in terms of project progress. Even if we just limit our comparisons to burgeoning blockchain platforms like Stratis and NEO, WAVES still comes out ahead. For example, Stratis has a public blockchain but most of its features are incomplete. NEO has a public blockchain but it’s a 2 year old project with no serious dApps running on it and OnChain and the NEO Council are still the only entities allowed to run consensus nodes.&lt;/p&gt;
+
+&lt;h1 id=&quot;emphasis-on-user-interfaces&quot;&gt;Emphasis on user interfaces&lt;/h1&gt;
+
+&lt;p&gt;A core mission of WAVES is to have a great user interface. This might sound exceedingly simple and insignificant but the lack of great user interfaces in cryptocurrencies is a huge hurdle in the road to mainstream adoption. This sentiment has been echoed by cryptocurrency thought leaders like Vitalik Buterin and Andreas Antonopoulos. Checkout this cointelegraph &lt;a href=&quot;https://cointelegraph.com/news/user-interface-the-missing-link-to-mainstream-adoption-of-blockchain&quot;&gt;article&lt;/a&gt; titled &lt;em&gt;User Interface - The Missing Link to Mainstream Adoption of Blockchain&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;WAVES is actively seeking to alleviate this problem by building great user interfaces. A good example is the ease at which one can issue a custom token in WAVES’s light wallet. It looks something like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Navigate to the “Asset Creation” page from the top navigation menu&lt;/li&gt;
+  &lt;li&gt;Fill in 5 simple form fields&lt;/li&gt;
+  &lt;li&gt;Hit submit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s that easy. Even easier than signing up for Facebook. Compare this to Ethereum where one needs to program an ERC20 smart contract and then upload the program onto the blockchain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 600px&quot; src=&quot;https://imgur.com/wmduvPh.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Additionally, Sasha, the founder and CEO of the company developing WAVES, has said many times that he wants a user interface for WAVES that mirrors existing financial applications. People accessing their WAVES wallet should feel like they are on their bank’s website instead of interacting with a blockchain.&lt;/p&gt;
+
+&lt;p&gt;Great user interfaces will be crucial in getting WAVES ahead of other blockchain platforms. The team knows this and are actively working towards this goal.&lt;/p&gt;
+
+&lt;h1 id=&quot;second-largest-ico-platform-next-to-ethereum--compliant-legal-framework-for-icos-with-tokenomica&quot;&gt;Second largest ICO platform next to Ethereum + compliant legal framework for ICOs with Tokenomica&lt;/h1&gt;
+
+&lt;p&gt;Many people do not realize this but WAVES is currently the second largest ICO platform next to Ethereum. It’s attracting hundreds of ICOs. You can see the ongoing and upcoming ICOs on WAVES &lt;a href=&quot;http://wavesgo.com/icos&quot;&gt;here&lt;/a&gt;. I don’t have enough time to dig up a website with a historical record of all ICOs on WAVES but one can get a good sense of the scale of WAVES’s ICO markets by checking out their &lt;a href=&quot;https://twitter.com/wavesplatform&quot;&gt;official Twitter account&lt;/a&gt; and joining their official &lt;a href=&quot;https://wavesplatform.slack.com&quot;&gt;Slack group’s&lt;/a&gt; #ico-discussion channel.&lt;/p&gt;
+
+&lt;p&gt;Given that one of the biggest factors for Ethereum’s meteoric rise over the past few months is the large number of ICOs conducted on Ethereum, the wide (and growing) adoption of WAVES as a platform to host ICO tokens cannot be ignored.&lt;/p&gt;
+
+&lt;p&gt;Additionally, WAVES has recently revealed their plans for greater regulation and compliancy of ICOs on their platform. With many governments around the world beginning to regulate the ICO market, this news comes just in time. Check out the &lt;a href=&quot;http://tokenomica.com/&quot;&gt;Tokenomica project&lt;/a&gt;. It’s a venture capital organization developing a centralized platform on top of WAVES to provide a “100% compliant legal framework for different types of token crowdsales, including private equity crowdsales.” According to the project’s website, they are working with “top legal firms” to develop the platform.&lt;/p&gt;
+
+&lt;p&gt;Details about Tokenomica are vague right now but we do know that Sasha has a &lt;a href=&quot;https://twitter.com/sasha35625/status/860758999586795520?lang=en&quot;&gt;keen interest in the project&lt;/a&gt; and they are working very closely together.&lt;/p&gt;
+
+&lt;h1 id=&quot;burger-king---whoppercoin&quot;&gt;BURGER KING - Whoppercoin&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/wptRdzt.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s so easy to issue tokens on WAVES that even Burger King Russia has done it. The token is called Whoppercoin and will be part of a new loyalty program from the fastfood giant. The tokens will be rewarded to customers after each purchase of a Whopper. Once a customer has collected enough, s/he can trade in their tokens to redeem more Whoppers. Burger King Russia’s head of external communications was quoted to have said: “Now Whopper is not only burger that people in 90 different countries love – it’s an investment tool as well. According to the forecasts, cryptocurrency will increase exponentially in value. Eating Whoppers now is a strategy for financial prosperity tomorrow.”&lt;/p&gt;
+
+&lt;p&gt;In order to facilitate the distribution of Whoppercoins, Burger King Russia is set to release an app on the Apple Store and Google Play later this year where the coins can be rewarded, transferred, or used to redeem Whoppers.&lt;/p&gt;
+
+&lt;p&gt;This is incredibly bullish for WAVES and very likely a sneak peak of what’s to come. Having hundreds of ICOs issue tokens on the platform is one thing, but having a large corporation like Burger King Russia issue a token on the platform is a whole other ball game.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;bitcoin-ng-protocol---100-transactionssecond&quot;&gt;Bitcoin NG protocol - 100 transactions/second&lt;/h1&gt;
+
+&lt;p&gt;WAVES NG is a protocol upgrade set to be released next month that will increase WAVES’s maximum theoretical transactions per second from 1.7 to 100. Given that Ethereum has a max tx/s of 5 and Bitcoin has 3, this is a massive upgrade. WAVES NG is an on-chain solution, not an off-chain solution like the Lightning or Raiden networks proposed to scale Ethereum’s and Bitcoin’s tx/s respectively.&lt;/p&gt;
+
+&lt;p&gt;WAVES NG is based off of the Bitcoin NG protocol developed by a group of Cornell University professors including Emin Gün Sirer, who runs a blog and is quite popular within the crypto community. Bitcoin NG is, not surprisingly, developed for Bitcoin’s Proof-of-Work system and the WAVES team had to adapt it for their LPOS system.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in an in depth description of how the protocol works, you can read about it in Gün Sirer’s &lt;a href=&quot;http://hackingdistributed.com/2015/10/14/bitcoin-ng/&quot;&gt;blog post here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Although 100 tx/s is still a far cry from VISA’s 2000 tx/s, it’s a massive improvement from the typical 1-10 tx/s common with blockchains. With such a large base, any future tx/s improvements for WAVES will have a significantly higher rate of return than when it had a max 1.7 tx/s.&lt;/p&gt;
+
+&lt;p&gt;Check out the count down to the release of the upgraded protocol &lt;a href=&quot;http://wavesng.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;usd-euro-btc-and-eth-gateways&quot;&gt;USD, EURO, BTC, and ETH gateways&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/HuoOQcy.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;WAVES gateways are centralized systems where users can deposit external assets in order to obtain corresponding WAVES custom tokens. The gateways maintain a 100% reserve ratio and guarantee a 1:1 exchange rate back to the external asset from its corresponding WAVES custom tokens.&lt;/p&gt;
+
+&lt;p&gt;Once the external asset is converted to a WAVES custom token, users can transact with them on the WAVES blockchain like any other custom token and even trade them on WAVES’s decentralized exchange. I cannot understate the significance of this. Gateways bring external assets into the WAVES ecosystem and introduce the same borderless, hyper liquidity and security of cryptocurrencies to the external asset. They are a key step in WAVES’s core mission to become a platform where digitized external assets can be traded efficiently and securely.&lt;/p&gt;
+
+&lt;p&gt;WAVES currently has 4 licensed gateways for these assets: USD, EURO, BTC, and ETH. An &lt;a href=&quot;https://twitter.com/GoWavesgo/status/908648605568897024&quot;&gt;LTC gateway&lt;/a&gt; is in the works. Although WAVES isn’t the first blockchain to host fiat-backed tokens (i.e. USD Tether on Bitcoin), the fully licensed and regulatory compliant nature of its gateways make it a pioneer in bringing real world assets onto the blockchain.&lt;/p&gt;
+
+&lt;h1 id=&quot;decentralized-exchange---waves-dex&quot;&gt;Decentralized exchange - WAVES DEX&lt;/h1&gt;
+
+&lt;p&gt;WAVES is a platform designed to host a large number of assets. As such, it only makes sense to have the blockchain host a decentralized exchange. It’s known as the WAVES DEX and is not just a promise, but a fully functioning feature. At the time of writing, the exchange has a 24 hour volume of $417,162.&lt;/p&gt;
+
+&lt;p&gt;The DEX works like so: users can run matcher nodes, similar to miner nodes, to facilitate the matching of orders in the exchange. Users pay a set fee in WAVES for each matched order in the DEX and this fee is given to matcher nodes. As such, the DEX is actually a partially decentralized exchange. The matcher nodes act as centralized matching software for the sake of efficiency, but unlike centralized exchanges, the matchers do not store its users’s funds. A user’s funds remain in his/her wallet.&lt;/p&gt;
+
+&lt;p&gt;Currently, the only other blockchain with a functioning decentralized exchange is Ethereum. Having a DEX is a huge win for WAVES, especially since Ethereum is 60 times the market cap of WAVES.&lt;/p&gt;
+
+&lt;h1 id=&quot;very-active-github&quot;&gt;Very active GitHub&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/0hul8xq.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;WAVES has one of the most active GitHub repos for a blockchain project I’ve ever seen. I was impressed with QTUM’s GitHub repo but WAVES is even more active. Over the past year, WAVES’s GitHub repo has consistently had 35-60 commits per week. Although QTUM has often times met this pace, there are many weeks when WAVES has significantly outpaced QTUM with commits.&lt;/p&gt;
+
+&lt;p&gt;Obviously commits is not the best metric in measuring code update frequency given that commits can be of varying size (0 to infinity). However, it’s still a good enough proxy.&lt;/p&gt;
+
+&lt;h1 id=&quot;smart-contracts&quot;&gt;Smart contracts&lt;/h1&gt;
+
+&lt;p&gt;WAVES plans to add a smart contract system using a non-Turing complete programming language sometime in 2018. The rationale for a non-Turing complete programming language is that it would be significantly harder for programmers to program insecure smart contracts, while still having sufficient expressiveness for general smart contract use cases.&lt;/p&gt;
+
+&lt;p&gt;The integration of smart contracts to WAVES will be a massive improvement to the platform and once it happens, expect WAVES to seriously challenge Ethereum. Given how active WAVES’s development team is, I am quite confident they will be able to deliver on schedule.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;significant-community-outreach-and-active-community&quot;&gt;Significant community outreach and active community&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/nz7ea1x.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While WAVES’s developers have been hard at work improving the platform, Sasha has been doing a lot of work promoting the platform. He does hour-long Q&amp;amp;A sessions on YouTube every few months and has been making the rounds in prestigious financial and cryptocurrency forums and conferences giving talks on WAVES. They include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;June 2017 - St. Petersburg International Economic Forum (SPIEF) as a speaker in the “Explosive Impact of Blockchain Technology” program&lt;/li&gt;
+  &lt;li&gt;July 2017 - lecture on blockchain technology at the Boris Yeltsin Presidential Center in Yekaterinburg, Russia&lt;/li&gt;
+  &lt;li&gt;October 2017 - BlockchainHunt 2017 speaker&lt;/li&gt;
+  &lt;li&gt;September 2017 - ICOSummit speaker in the panel discussion, “State of ICO Market – Cutting through the Hype”&lt;/li&gt;
+  &lt;li&gt;September 2017 - interviewed on CNN’s program, “CNN explores Russia’s bitcoin craze”&lt;/li&gt;
+  &lt;li&gt;September 2017 - Genesis Moscow Conference giving a talk on WAVES&lt;/li&gt;
+  &lt;li&gt;… and many more, too tiring to research and list&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;WAVES also has a very active community. Its &lt;a href=&quot;https://wavesplatform.slack.com/&quot;&gt;Slack channel&lt;/a&gt;, for example, has almost 10,000 members with constant ongoing discussions. Its &lt;a href=&quot;https://www.reddit.com/r/Wavesplatform/&quot;&gt;subreddit&lt;/a&gt; has almost 4000 subscribers.&lt;/p&gt;
+
+&lt;h1 id=&quot;russian-government-support-of-cryptocurrencies&quot;&gt;Russian government support of cryptocurrencies&lt;/h1&gt;
+
+&lt;p&gt;Although the WAVES platform is inherently decentralized and borderless due to its blockchain technology, it’s still developed by a Russian company situated in Russia. As such, it’s appropriate to call WAVES a Russian project. This is actually a huge plus for WAVES. The Russian government has significantly warmed up to blockchain technology over the past year and is now actively promoting its adoption across the country.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/4jnJpeN.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For example, Putin actually invited Vitalik Buterin, the founder of Ethereum, to discuss blockchains and Ethereum earlier this year in June. In August, a company co-owned by an aide to Putin, announced plans to launch an ICO to raise as much as $100 million in order to help Russia challenge China’s Bitcoin mining supremacy. The ICO will issue the Russian Miner Coin (RMC) in exchange for Bitcoin and Ether. The funds will be used to build mining infrastructure in Russia. RMC token holders will have the rights to 18% of the revenue generated by the company’s mining equipment.&lt;/p&gt;
+
+&lt;p&gt;After Putin’s meeting with Vitalik Buterin in June, the Russian airline S7, with the support of Russia’s Alfabank, began selling flight tickets through the Ethereum blockchain. Burger King Russia is also one of the first major companies in the world to create a loyalty program on the blockchain (Whoppercoin on WAVEs, as described above). It’s clear that many Russian businesses are experimenting with incorporating some form of blockchain technology in their products and business processes. This is most likely the result of a top down initiative from the Russian government rather than a grassroots business movement.&lt;/p&gt;
+
+&lt;p&gt;Russia is very open to the adoption of blockchain technology right now and given that WAVES is a homegrown project, it should see significant support from the Russian government and have a lot of room to grow.&lt;/p&gt;
+
+&lt;h1 id=&quot;working-with-russias-national-settlement-depository&quot;&gt;Working with Russia’s National Settlement Depository&lt;/h1&gt;
+
+&lt;p&gt;Kommersant, a nationally distributed daily newspaper published in Russia mostly devoted to politics and business, &lt;a href=&quot;https://www.forbes.com/sites/kenrapoza/2017/08/30/moscow-stock-exchange-opens-to-crypto-currency-trade/#5e76dce426d1&quot;&gt;reported on July 28th&lt;/a&gt; that Russia’s National Settlement Depository (NSD), the central depository for the Moscow Exchange, was developing a blockchain platform in partnership with WAVES to provide deposit and settlement services for digital assets.&lt;/p&gt;
+
+&lt;p&gt;The platform would enable the NSD to issue a cryptocurrency for banks, pension funds and retail investors, one which would also enable the exchange of those assets for paper currencies. This is currently slated to launch early next year.&lt;/p&gt;
+
+&lt;p&gt;Not entirely sure what this means for the WAVES platform per se but it definitely highlights the previous point of greater Russian government support for blockchain technology and this translating to greater government support for WAVES.&lt;/p&gt;
+
+&lt;h1 id=&quot;if-youve-enjoyed-this-blog-post&quot;&gt;If you’ve enjoyed this blog post…&lt;/h1&gt;
+
+&lt;p&gt;You can support the author by tipping some WAVES to this address: &lt;code class=&quot;highlighter-rouge&quot;&gt;3PBYoQvwW1VejZY9WCDAWmMfwPDacCxKmQt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Sep 2017 11:09:31 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/waves-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/waves-what-is-it-and-should-you-invest/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Case Study: Building a P2P VPN Network Over the Ethereum Blockchain</title>
+        <description>&lt;p&gt;At its core, a smart contract is a specialized blockchain wallet controlled by computer code. Its primary function is to send transactions when certain conditions are met. These conditions could be related to any information obtainable in the blockchain such as the current block height, the current block time, and blockchain transactions. There are already many substantial, proven use cases for smart contracts. They include the issuance of custom tokens, decentralized exchanges, decentralized casinoes, and even an &lt;a href=&quot;https://www.youtube.com/watch?v=xJZulZ_-CMI&quot;&gt;insurance product from a multi-billion dollar insurance company&lt;/a&gt;. It’s arguable that the issuance of custom tokens has been the most revolutionary and impactful use case so far. Specifically, Ethereum, which is the first and most adopted smart contract blockchain today, is being used by tens of thousands of companies worldwide to crowdfund company initiatives through the issuance of custom ERC20 tokens. In fact, in China, ICOs were getting so popular and disruptive that the government decided to ban them earlier this month.&lt;/p&gt;
+
+&lt;p&gt;Smart contract technology is still very young and we’re far from realizing its full potential. There is a great deal of people and companies out there building ambitious, smart contract based projects. Most of these will flop but a select few will succeed… and probably succeed spectacularly.&lt;/p&gt;
+
+&lt;p&gt;In this blog post, I want to focus on one potential use case for smart contracts. Specifically, I’m interested in how a P2P VPN marketplace could be built on Ethereum. I know of at least two companies trying to build this, Mysterium and Privatix. I chose to study &lt;a href=&quot;https://www.privatix.io&quot;&gt;Privatix&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The team behind Privatix looks to be quite experienced in the cybersecurity and VPN space. The CEO, Dima Rusakov, has cofounded 3 privacy-oriented products in the past: Privatix VPN (consumer VPN with 50,000 DAU), 5VPN (professional VPN with 15,000 paid users), and Temporary Email Service (disposable email service with 250,000 DAU). All three have large and well established userbases. This gives Privatix a strong foundation with which to tackle a blockchain-based P2P VPN marketplace.&lt;/p&gt;
+
+&lt;p&gt;It’s important to keep in mind that Privatix’s ambitions go far beyond a P2P VPN marketplace. The Privatix network is intended to be an open source, generalized P2P bandwidth marketplace that’s open for anyone to build on. A P2P VPN marketplace will simply be a proof-of-concept product by the Privatix team aimed to drive adoption of the Privatix network.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.privatix.io/&quot;&gt;
+  &lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/fC5phTp.jpg&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-a-vpn&quot;&gt;What is a VPN?&lt;/h1&gt;
+
+&lt;p&gt;First of all, let’s go over what a VPN is. VPN stands for Virtual Private Network. It’s a service that allows you to connect to the Internet via another computer (often referred to as the server) run by a VPN provider. All your traffic appears to be originating from the server while the data between you and the server is fully encrypted. This means that your ISP and even the government, will not be able to block or spy on your Internet traffic (cough, cough China). Obviously, for your government to not block your traffic, the VPN provider’s server needs to be connected to an ISP outside your country’s jurisdiction.&lt;/p&gt;
+
+&lt;p&gt;Essentially, when you’re using a VPN, the VPN server becomes a secure and anonymous relayer of traffic between you and the rest of the Internet.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-would-a-p2p-vpn-marketplace-work-is-it-better-than-centralized-vpn-services&quot;&gt;How would a P2P VPN marketplace work? Is it better than centralized VPN services?&lt;/h1&gt;
+
+&lt;p&gt;VPN providers are almost always centralized companies operating a fleet of servers. Customers would pay VPN providers for a connection to a server. These companies want to geographically distribute their servers as much as possible, since the closer a VPN server is to a customer, the better quality of service for the customer.&lt;/p&gt;
+
+&lt;p&gt;What if normal people, with their own home internet connections, setup their personal computers to act as VPN servers. This would create a network of “personal” VPN servers that customers can connect to. Customers would then be paying these “personal” VPN providers to use their home internet connections. This is essentially a decentralized, P2P marketplace. Instead of a company selling VPN services, network peers are buying and selling VPN services with each other.&lt;/p&gt;
+
+&lt;p&gt;This is a super interesting idea, since if a viable marketplace did exist, anyone can make money off their unused bandwidth and VPN customers would have a large network of low fee VPN providers to choose from.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-is-privatix-using-smart-contracts-to-power-their-vpn-marketplace&quot;&gt;How is Privatix using smart contracts to power their VPN marketplace?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.privatix.io/&quot;&gt;
+  &lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/OMc2RM7.jpg&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Privatix plans to build a P2P VPN marketplace powered by Ethereum. This system has 5 main components:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the &lt;strong&gt;agent&lt;/strong&gt; (personal VPN provider) running &lt;strong&gt;gateway&lt;/strong&gt; software which turns their personal computer into a VPN server&lt;/li&gt;
+  &lt;li&gt;the &lt;strong&gt;user&lt;/strong&gt; (VPN customer)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Service Blockchain Nodes (SBN)&lt;/strong&gt; that is a centralized service that approves and stores a list of agents as well as a list of user subscriptions&lt;/li&gt;
+  &lt;li&gt;Privatix smart contract running on Ethereum&lt;/li&gt;
+  &lt;li&gt;the PRIX token will be used for all payments in the marketplace&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this system, the Privatix smart contract will not only act as a transparent and secure relayer of information between agents/users and the Service Blockchain Nodes, it will also be a transparent and secure payment processor for the marketplace.&lt;/p&gt;
+
+&lt;h2 id=&quot;gateways-register-with-sbns-through-the-privatix-smart-contract&quot;&gt;Gateways register with SBNs through the Privatix smart contract&lt;/h2&gt;
+
+&lt;p&gt;When someone wants to be an agent, they need to first download and run Privatix’s gateway software. This turns their personal computer into a Privatix VPN server (i.e. gateway). The gateway generates a wallet and connects to the Ethereum blockchain.&lt;/p&gt;
+
+&lt;p&gt;To be approved as a server, the gateway sends a transaction to Privatix’s smart contract containing an encrypted version of its IP address. The SBN receives the gateway’s IP address through looking over the smart contract’s transactions. The SBN will perform multiple checks on the gateway to ensure connection quality. Once approved, the SBN stores the gateway in a list of trusted gateways and sets the cost of the gateway based on its available bandwidth, IP type, and country. The SBN will occasionally check a trusted gateway to ensure that it’s still online and its available bandwidth hasn’t changed.&lt;/p&gt;
+
+&lt;h2 id=&quot;users-purchase-subscriptions-with-sbns-through-the-privatix-smart-contract&quot;&gt;Users purchase subscriptions with SBNs through the Privatix smart contract&lt;/h2&gt;
+
+&lt;p&gt;When a user wants to purchase a subscription, it sends a transaction to Privatix’s smart contract containing a purchase request. The request would specify country and bandwidth requirements.&lt;/p&gt;
+
+&lt;p&gt;As before, an SBN picks up the request through inspecting the smart contract’s transactions. It assigns the user a gateway and informs the user of the price in PRIX tokens. If the user sends a transaction to the smart contract with the right amount of tokens, the smart contract will send the user a subscription token and information to connect to the gateway.&lt;/p&gt;
+
+&lt;p&gt;Finally, once the smart contract detects the subscription has ended via the latest block time, it charges a small fee before paying the gateway PRIX tokens from the user to the agent.&lt;/p&gt;
+
+&lt;h2 id=&quot;decentralizing-service-blockchain-nodes&quot;&gt;Decentralizing Service Blockchain Nodes&lt;/h2&gt;
+
+&lt;p&gt;SBNs are the primary centralized components of the system but this is only temporary. SBNs give the Privatix network room to grow without being stifled by blockchain fees. The long term solution would be to port SBN functionality to Plasma-powered dApps that use Ethereum’s yet-to-be released &lt;a href=&quot;https://github.com/ethereum/wiki/wiki/Whisper&quot;&gt;Whisper protocol&lt;/a&gt;. Plasma makes it significantly more efficient for dApps to run on Ethereum while the Whisper protocol allows dApps to communicate for free.&lt;/p&gt;
+
+&lt;p&gt;An SBN dApp would very likely still need an oracle service to perform tasks such as bandwidth checks on network nodes.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-bigger-picture-p2p-bandwidth-marketplace&quot;&gt;The bigger picture: P2P bandwidth marketplace&lt;/h2&gt;
+
+&lt;p&gt;As mentioned above, the Privatix network aims to be an open P2P bandwidth marketplace. Users will be able to sell their bandwidth for a wide variety of applications such as VPNs, proxies, and CDNs. Developers will be able to build bandwidth-based applications on top of Privatix. All financial transactions on the network will be conducted through PRIX tokens.&lt;/p&gt;
+
+&lt;p&gt;The P2P VPN marketplace described above is a proof-of-concept product that Privatix plans to build on the network to drive initial adoption. They are also planning to build other proof-of-concept products such as a P2P proxy service for business intelligence data collection and even a decentralized CDN service.&lt;/p&gt;
+
+&lt;p&gt;This is a very high level summary of the Privatix network and I’d recommend reading their &lt;a href=&quot;https://dxw4crzwfgmzw.cloudfront.net/whitepaper/PRIVATIX-WHITEPAPER.pdf&quot;&gt;whitepaper&lt;/a&gt; if you’d like to learn more.&lt;/p&gt;
+
+&lt;h1 id=&quot;smart-contracts-moving-forward&quot;&gt;Smart contracts moving forward&lt;/h1&gt;
+
+&lt;p&gt;The University of Waterloo, one of Canada’s best engineering schools, recently concluded their annual international hackathon called Hack the North. Hack the North attracts thousands of students globally and is Canada’s largest hackathon. Tech companies, including Google, Facebook, and Microsoft, go head over heels for a Hack the North sponsorship. &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/70qqx6/30_of_projects_canadas_largest_hackathon_hack_the/&quot;&gt;This year, 30% of the hackathon’s projects were related to blockchain technology. The vast majority of which were Ethereum-based dApps.&lt;/a&gt; This is huge. It shows that there is significant interest in smart contract technology among computer science students, not only at the university, but all over the world.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the university will be hosting ETHWaterloo, a hackathon for Ethereum projects, next month. With 60 teams competing, ETHWaterloo is looking to be the &lt;a href=&quot;http://www.ibtimes.co.uk/canadas-ethwaterloo-be-worlds-largest-ethereum-hackathon-1632895&quot;&gt;world’s largest Ethereum hackathon&lt;/a&gt;. The hackathon also boasts a large group of high profile judges and speakers from the cryptocurrency community including: Vitalik Buterin, Joseph Lubin (Ethereum co-founder and ConsenSys founder), Stephan Tual (former COO of Ethereum and Slock.it founder), Martin KoeppelMann (Gnosis founder), Joey Krug (Augur founder), Linda Xie (Coinbase product manager), and many more. I’m personally very excited to see what kind of projects come out of this hackathon.&lt;/p&gt;
+
+&lt;p&gt;What I’m trying to say is, there is a lot of momentum going forward for Ethereum and smart contract technology in general. Not only is there a great deal of startups such as Privatix developing ambitious smart contract based projects, there is significant grass roots programmer interest in the technology as well. Excited to see what happens in the next few years.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Sep 2017 19:25:01 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
