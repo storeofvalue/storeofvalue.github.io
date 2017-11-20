@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
 </description>
-    <link>https://storeofvalue.github.io/</link>
-    <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Nov 2017 16:09:26 -0800</pubDate>
-    <lastBuildDate>Sun, 19 Nov 2017 16:09:26 -0800</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 20 Nov 2017 10:30:51 -0800</pubDate>
+    <lastBuildDate>Mon, 20 Nov 2017 10:30:51 -0800</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
       <item>
-        <title>NEO Responded to My Article - and It Confirmed My Worst Fears</title>
+        <title>NEO Responded To My Article - And It Confirmed My Worst Fears</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/XY4DDTO.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Last night, Malcolm Lerider, a “Senior R&amp;amp;D Manager” for NEO, wrote a &lt;a href=&quot;https://medium.com/@MalcolmLerider/response-to-baseless-fud-9b7e5e2eeeea&quot;&gt;medium post&lt;/a&gt; in response to my &lt;a href=&quot;https://storeofvalue.github.io/posts/major-neo-redflags/&quot;&gt;“Investor Warning: Major NEO Redflags” post&lt;/a&gt;. And it confirmed my worst fears about NEO and its management.&lt;/p&gt;
@@ -22,9 +22,9 @@
 
 &lt;p&gt;In my blog post, I argued that a major NEO red flag was its centralization, that there were only 13 validation nodes all controlled by NEO’s team.&lt;/p&gt;
 
-&lt;p&gt;Malcolm confirmed this and even one-upped me. He admitted that NEO does not have 13 validation nodes, it only has 7! My whole point was that NEO shouldn’t be this centralized after 2 years in the wild and it definitely gets one to wonder whether NEO’s valuation is fair.&lt;/p&gt;
+&lt;p&gt;Malcolm confirmed this and even one-upped me. He stated that NEO doesn’t have 13 validation nodes, it only has 7! My whole point was that NEO shouldn’t be this centralized after 2 years in the wild and it definitely brings into question whether a $3 billion valuation is fair.&lt;/p&gt;
 
-&lt;p&gt;Again, it also doesn’t matter whether they plan to decentralize the system soon or not. Of course they are planning to do so. If they didn’t, NEO’s valuation would go down to $0. The core problem is that NEO still hasn’t been decentralized yet and that’s very weird.&lt;/p&gt;
+&lt;p&gt;Again, it also doesn’t matter whether they plan to decentralize the system or not. Of course they plan to do so. If they didn’t, NEO would be worth nothing. The essence of the problem is that NEO isn’t decentralized after so long and that’s very weird.&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -114,8 +114,8 @@
 &lt;p&gt;I have never seen anyone in any professional setting use the inane and childish term “FUD”. I was honestly quite surprised the article would be titled “Response to baseless FUD”. It’s also hilarious that the article calls my work “baseless FUD”, and then proceeds to confirm several of my points!&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Nov 2017 10:47:45 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</guid>
+        <link>http://localhost:4000/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</guid>
         
         
       </item>
@@ -173,27 +173,27 @@
 
 &lt;p&gt;EDIT 1: some people are arguing that even though NEO’s GitHub is inactive, CityOfZion’s GitHub is very active. One needs to understand that CityOfZion builds peripheral tools in NEO’s ecosystem which, at a fundamental level, do not improve NEO’s fundamental blockchain technology. To say that CityOfZion’s developer activity makes up for NEO’s inactivity is like saying Bitcoin is fine if blockchain.info’s developers are still working when all Bitcoin client developers have stopped working (Bitcoin Core is an example of a Bitcoin client). Blockchain.info helps us explore the blockchain, Bitcoin clients are the software running Bitcoin’s nodes and miners.&lt;/p&gt;
 
-&lt;p&gt;EDIT 2: some people have claimed that NEO’s team doesn’t use GitHub. This is blatantly false since (a) the NEO team has been working in this repository since NEO’s inception and (b) there continues to be (sparse) activity in the repository. If the NEO team doesn’t use GitHub, why commit anything there at all? There is no good reason to consistently make inane changes to an abandoned code repository.&lt;/p&gt;
+&lt;p&gt;EDIT 2: some people have claimed that NEO’s team doesn’t use GitHub. This is blatantly false since (a) the NEO team has been working in this repository since NEO’s inception and (b) there continues to be (sparse) activity in the repository. If the NEO team doesn’t use GitHub, why commit anything there at all? There’s no good reason to consistently make inane changes to an abandoned code repository.&lt;/p&gt;
 
 &lt;h1 id=&quot;neo-only-has-6-smart-contracts-operating-on-the-entire-blockchain&quot;&gt;NEO only has 6 smart contracts operating on the entire blockchain&lt;/h1&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2IEEl6v.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;NEO, a project that is 2 years old, that recently rebranded and introduced their “smart contracts 2.0” system, only has 6 smart contracts that have ever been deployed on its mainnet. In fact, up until October, the only 3 smart contracts on NEO were test contracts deployed by lead dev Erik Zhang.&lt;/p&gt;
+&lt;p&gt;NEO, a project that is 2 years old, only has 6 smart contracts deployed on its mainnet. In fact, up until October, the only 3 smart contracts on NEO were test contracts deployed by NEO’s lead developer, Erik Zhang.&lt;/p&gt;
 
-&lt;p&gt;Is this what a thriving smart contract ecosystem should look like? Should NEO, a 2 year old, $3 billion smart contract platform have only 6 smart contracts?&lt;/p&gt;
+&lt;p&gt;Is this what a thriving smart contracts ecosystem should look like? Should NEO, a 2 year old, $3 billion smart contract platform have only 6 smart contracts?&lt;/p&gt;
 
-&lt;p&gt;You can checkout the smart contracts on the network here: &lt;a href=&quot;https://neotracker.io/browse/contract/1&quot;&gt;https://neotracker.io/browse/contract/1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can checkout all of NEO’s smart contracts here: &lt;a href=&quot;https://neotracker.io/browse/contract/1&quot;&gt;https://neotracker.io/browse/contract/1&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-east-has-almost-no-interest-in-neo---90-of-neos-volume-comes-from-the-west&quot;&gt;The East has almost no interest in NEO - 90% of NEO’s volume comes from the West&lt;/h1&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/o0mrbKc.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you were to visit NEO’s subreddit, you’ll see everyone talking about how NEO has connections with the Chinese government and that the Chinese government might be open to using NEO.&lt;/p&gt;
+&lt;p&gt;If you were to visit NEO’s subreddit, you’ll see everyone talking about how NEO has connections with the Chinese government and that the government might be open to using NEO.&lt;/p&gt;
 
-&lt;p&gt;This cannot be more false. NEO is a little known project in China with minimal connections to the government. All you need to do to realize this is to ask around in Chinese cryptocurrency forums and messaging groups. Additionally, look at NEO’s volume distribution. &lt;strong&gt;More than 90% of NEO’s volume comes from Bittrex and Binance, two exchanges used mainly be Westerners.&lt;/strong&gt; Eastern exchanges have zero interest for NEO.&lt;/p&gt;
+&lt;p&gt;This cannot be more false. NEO is a little known project in China with minimal connections to the government. You’ll quickly realize this after asking around in Chinese cryptocurrency forums and messaging groups. Additionally, look at NEO’s volume distribution, &lt;strong&gt;more than 90% of NEO’s volume comes from Bittrex, Binance, and Bitfinex, three exchanges used mainly be Westerners.&lt;/strong&gt; There is close to zero interest for NEO in Eastern exchanges.&lt;/p&gt;
 
-&lt;p&gt;How can anyone say NEO is a Chinese project at this point? All of its investors are from the West and many of them actually think NEO has a chance in the East.&lt;/p&gt;
+&lt;p&gt;How can anyone say that NEO is a Chinese project at this point? Almost all of NEO’s investors are from the West and many of them were duped into thinking NEO has a chance in the East.&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -233,8 +233,8 @@
 &lt;p&gt;Be careful of what you buy.&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Nov 2017 02:46:24 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/major-neo-redflags/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/major-neo-redflags/</guid>
+        <link>http://localhost:4000/posts/major-neo-redflags/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/major-neo-redflags/</guid>
         
         
       </item>
@@ -345,8 +345,8 @@
 &lt;p&gt;Jihan Wu has been accused of supporting Bitcoin Cash in order to maintain his lucrative mining business. Bitmain’s Bitcoin mining technology doesn’t work with SegWit.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Nov 2017 22:40:17 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</guid>
+        <link>http://localhost:4000/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</guid>
         
         
       </item>
@@ -472,8 +472,8 @@
 &lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Nov 2017 15:58:01 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/cancelling-segwit2x-defeat-for-bitcoin/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/cancelling-segwit2x-defeat-for-bitcoin/</guid>
+        <link>http://localhost:4000/posts/cancelling-segwit2x-defeat-for-bitcoin/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/cancelling-segwit2x-defeat-for-bitcoin/</guid>
         
         
       </item>
@@ -582,8 +582,8 @@
 &lt;p&gt;Altucher could be a fraud, or he could just be a seasoned internet marketer. Perhaps his “leaked” newsletter that started the Amazon rumours was not designed to start the rumour, but was just heavily misinterpreted by some who wanted the rumour to spread and pump Bitcoin’s price. Perhaps Altucher just chose to speak his mind and used a few strong words along the way. Either way, I think his predictions in the “leaked” newsletter are wayyy off the mark.&lt;/p&gt;
 </description>
         <pubDate>Mon, 30 Oct 2017 20:15:52 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/rumour-mill-is-amazon-accepting-bitcoin/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/rumour-mill-is-amazon-accepting-bitcoin/</guid>
+        <link>http://localhost:4000/posts/rumour-mill-is-amazon-accepting-bitcoin/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/rumour-mill-is-amazon-accepting-bitcoin/</guid>
         
         
       </item>
@@ -609,7 +609,7 @@
 
 &lt;h1 id=&quot;what-is-the-stellar-network&quot;&gt;What is the Stellar network?&lt;/h1&gt;
 
-&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
+&lt;h2 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Like Bitcoin, the Stellar network is a decentralized and distributed ledger.&lt;/li&gt;
@@ -755,8 +755,8 @@
 &lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Oct 2017 17:59:46 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/stellar-lumens-what-is-it-and-should-you-invest/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/stellar-lumens-what-is-it-and-should-you-invest/</guid>
+        <link>http://localhost:4000/posts/stellar-lumens-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/stellar-lumens-what-is-it-and-should-you-invest/</guid>
         
         
       </item>
@@ -783,18 +783,22 @@
 
 &lt;p&gt;Zap’s ecosystem consists of oracles, subscribers (smart contracts consuming data), and the ZapMarket smart contract that connects and manages payments between the two parties.&lt;/p&gt;
 
-&lt;p&gt;An oracle is comprised of:
-* a realtime datafeed
-* an Ethereum address registered with the ZapMarket smart contract
-* an IPFS keypair public key with the ZapMarket contract
-* a data encryption public key registered with the ZapMarket contract
-* a quantity of ZAP bonded to the ZapMarket contract&lt;/p&gt;
+&lt;p&gt;An oracle is comprised of:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a realtime datafeed&lt;/li&gt;
+  &lt;li&gt;an Ethereum address registered with the ZapMarket smart contract&lt;/li&gt;
+  &lt;li&gt;an IPFS keypair public key with the ZapMarket contract&lt;/li&gt;
+  &lt;li&gt;a data encryption public key registered with the ZapMarket contract&lt;/li&gt;
+  &lt;li&gt;a quantity of ZAP bonded to the ZapMarket contract&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;A subscriber is a smart contract that needs data. It’s comprised of:
-* an Ethereum address registered with the ZapMarket smart contract
-* an IPFS public key registered with the ZapMarket smart contract
-* a data encryption public key registered with ZapMarket smart contract
-* a quantity of ZAP bonded under an existing oracle in the ZapMarket smart contract&lt;/p&gt;
+&lt;p&gt;A subscriber is a smart contract that needs data. It’s comprised of:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;an Ethereum address registered with the ZapMarket smart contract&lt;/li&gt;
+  &lt;li&gt;an IPFS public key registered with the ZapMarket smart contract&lt;/li&gt;
+  &lt;li&gt;a data encryption public key registered with ZapMarket smart contract&lt;/li&gt;
+  &lt;li&gt;a quantity of ZAP bonded under an existing oracle in the ZapMarket smart contract&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;When a subscriber requires information from a oracle, it “bonds” ZAP tokens to the oracle through the ZapMarket smart contract. In return, the subscriber gets DOTS which it can use to pay for queries for that oracle. When the subscriber makes a query with a DOT, the ZapMarket smart contract facilitates the exchange of IPFS public keys between the two parties. The two parties then establish a private IPFS pubsub room where the oracle can push data to the subscriber.&lt;/p&gt;
 
@@ -853,14 +857,14 @@
 &lt;p&gt;You can participate in the ICO &lt;a href=&quot;https://zap.store/tokensale.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Oct 2017 11:03:31 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/zap-what-is-it-and-should-you-invest/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/zap-what-is-it-and-should-you-invest/</guid>
+        <link>http://localhost:4000/posts/zap-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/zap-what-is-it-and-should-you-invest/</guid>
         
         
       </item>
     
       <item>
-        <title>QTUM Beginner&#39;s FAQ (Without the Bullshit)</title>
+        <title>QTUM Beginner's FAQ (Without the Bullshit)</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5HxlCkJ.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;QTUM’s mainnet launched on September 13th. Exchanges began to swap ERC20 QTUM to mainnet QTUM near the end of September. These are exciting times for QTUM and its community. Along with the mainnet launch came many new updates from the team as well as a series of publicity events that included meetups, hackathons, and a Reddit AMA. In addition, investors are finally able to participate in proof of stake, allowing them to passively earn QTUM while securing the network.&lt;/p&gt;
@@ -896,8 +900,10 @@
 
 &lt;p&gt;Brett from the QTUM team wrote an &lt;a href=&quot;https://forum.qtum.org/topic/100/qtum-roadmap-breakdown&quot;&gt;excellent forum post&lt;/a&gt; detailing QTUM’s roadmap.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5vZ1Xta.jpg&quot; /&gt;
-&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5vZ1Xta.jpg&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
 
 &lt;h1 id=&quot;q3-what-gives-qtum-value&quot;&gt;Q3. What gives QTUM value?&lt;/h1&gt;
 
@@ -1003,8 +1009,8 @@
 &lt;p&gt;Much thanks if you do, a lot of time and effort has been put into researching QTUM.&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Oct 2017 13:25:02 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/</guid>
+        <link>http://localhost:4000/posts/what-is-qtum-without-the-bullshit/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/what-is-qtum-without-the-bullshit/</guid>
         
         
       </item>
@@ -1119,8 +1125,8 @@
 &lt;p&gt;There are decentralized applications for other compelling use cases of Ethereum such as casinoes, lotteries, and prediction markets but adoption hasn’t been strong. I would argue that poor user interfaces are hindering their growth. Projects to look out for in this space include: Augur (prediction markets), Gnosis (prediction markets), FunFair (casinoes), and Edgeless (casinoes).&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Oct 2017 03:41:38 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/definitive-bull-case-for-ethereum/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/definitive-bull-case-for-ethereum/</guid>
+        <link>http://localhost:4000/posts/definitive-bull-case-for-ethereum/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/definitive-bull-case-for-ethereum/</guid>
         
         
       </item>
@@ -1317,8 +1323,8 @@
 &lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 Sep 2017 11:09:31 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/waves-what-is-it-and-should-you-invest/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/waves-what-is-it-and-should-you-invest/</guid>
+        <link>http://localhost:4000/posts/waves-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/waves-what-is-it-and-should-you-invest/</guid>
         
         
       </item>
