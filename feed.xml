@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Dec 2017 04:30:22 -0800</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2017 04:30:22 -0800</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Fri, 15 Dec 2017 05:47:30 -0800</pubDate>
+    <lastBuildDate>Fri, 15 Dec 2017 05:47:30 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Crazy Things That Have Happened With Cryptocurrencies</title>
@@ -21,6 +21,8 @@
 &lt;p&gt;Put all this together and you have the perfect breeding grounds for some incredible and jaw dropping stories. Here are some of the craziest things that have happened in the cryptocurrency community.&lt;/p&gt;
 
 &lt;h1 id=&quot;bitcoins-price-drops-3000-in-6-hours&quot;&gt;Bitcoin’s price drops $3000 in 6 hours&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/ZtlukW8.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At the start of this most recent bull run, there was one point when Bitcoin finally broke through $10,000 and hit a peak of $11,485 on GDAX. The ensuing euphoria was swiftly shattered when Bitcoin suddenly plunged $3000 as profit taking peaked and long postion after long position were liquidated.&lt;/p&gt;
 
@@ -693,7 +695,7 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;h1 id=&quot;what-is-the-stellar-network&quot;&gt;What is the Stellar network?&lt;/h1&gt;
 
-&lt;h2 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
+&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Like Bitcoin, the Stellar network is a decentralized and distributed ledger.&lt;/li&gt;
@@ -867,22 +869,18 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;Zap’s ecosystem consists of oracles, subscribers (smart contracts consuming data), and the ZapMarket smart contract that connects and manages payments between the two parties.&lt;/p&gt;
 
-&lt;p&gt;An oracle is comprised of:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;a realtime datafeed&lt;/li&gt;
-  &lt;li&gt;an Ethereum address registered with the ZapMarket smart contract&lt;/li&gt;
-  &lt;li&gt;an IPFS keypair public key with the ZapMarket contract&lt;/li&gt;
-  &lt;li&gt;a data encryption public key registered with the ZapMarket contract&lt;/li&gt;
-  &lt;li&gt;a quantity of ZAP bonded to the ZapMarket contract&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;An oracle is comprised of:
+* a realtime datafeed
+* an Ethereum address registered with the ZapMarket smart contract
+* an IPFS keypair public key with the ZapMarket contract
+* a data encryption public key registered with the ZapMarket contract
+* a quantity of ZAP bonded to the ZapMarket contract&lt;/p&gt;
 
-&lt;p&gt;A subscriber is a smart contract that needs data. It’s comprised of:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;an Ethereum address registered with the ZapMarket smart contract&lt;/li&gt;
-  &lt;li&gt;an IPFS public key registered with the ZapMarket smart contract&lt;/li&gt;
-  &lt;li&gt;a data encryption public key registered with ZapMarket smart contract&lt;/li&gt;
-  &lt;li&gt;a quantity of ZAP bonded under an existing oracle in the ZapMarket smart contract&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;A subscriber is a smart contract that needs data. It’s comprised of:
+* an Ethereum address registered with the ZapMarket smart contract
+* an IPFS public key registered with the ZapMarket smart contract
+* a data encryption public key registered with ZapMarket smart contract
+* a quantity of ZAP bonded under an existing oracle in the ZapMarket smart contract&lt;/p&gt;
 
 &lt;p&gt;When a subscriber requires information from a oracle, it “bonds” ZAP tokens to the oracle through the ZapMarket smart contract. In return, the subscriber gets DOTS which it can use to pay for queries for that oracle. When the subscriber makes a query with a DOT, the ZapMarket smart contract facilitates the exchange of IPFS public keys between the two parties. The two parties then establish a private IPFS pubsub room where the oracle can push data to the subscriber.&lt;/p&gt;
 
@@ -948,7 +946,7 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
       </item>
     
       <item>
-        <title>QTUM Beginner's FAQ (Without the Bullshit)</title>
+        <title>QTUM Beginner&#39;s FAQ (Without the Bullshit)</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5HxlCkJ.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;QTUM’s mainnet launched on September 13th. Exchanges began to swap ERC20 QTUM to mainnet QTUM near the end of September. These are exciting times for QTUM and its community. Along with the mainnet launch came many new updates from the team as well as a series of publicity events that included meetups, hackathons, and a Reddit AMA. In addition, investors are finally able to participate in proof of stake, allowing them to passively earn QTUM while securing the network.&lt;/p&gt;
@@ -984,10 +982,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;Brett from the QTUM team wrote an &lt;a href=&quot;https://forum.qtum.org/topic/100/qtum-roadmap-breakdown&quot;&gt;excellent forum post&lt;/a&gt; detailing QTUM’s roadmap.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5vZ1Xta.jpg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5vZ1Xta.jpg&quot; /&gt;
+&amp;gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;q3-what-gives-qtum-value&quot;&gt;Q3. What gives QTUM value?&lt;/h1&gt;
 
