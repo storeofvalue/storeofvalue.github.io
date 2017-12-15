@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Dec 2017 05:48:22 -0800</pubDate>
-    <lastBuildDate>Fri, 15 Dec 2017 05:48:22 -0800</lastBuildDate>
+    <pubDate>Fri, 15 Dec 2017 05:52:28 -0800</pubDate>
+    <lastBuildDate>Fri, 15 Dec 2017 05:52:28 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -40,11 +40,15 @@
 
 &lt;h1 id=&quot;an-eager-ico-investor-spends-236-eth-in-fees-and-still-fails-to-get-into-the-airswap-ico&quot;&gt;An eager ICO investor spends 236 ETH in fees and still fails to get into the AirSwap ICO&lt;/h1&gt;
 
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/vdKIqV4.jpg&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;During an Ethereum-hosted ICO, especially a popular one, the network can become exceedingly congested as a large number of investors attempt to send their ether to the ICO’s smart contract in order to purchase the ICO’s tokens. Transaction fees during this time can skyrocket, leaving low fee transactions in the dust.&lt;/p&gt;
 
 &lt;p&gt;This one evidently very rich user decided to guarantee him/herself a spot in the popular AirSwap ICO by spending 236 ether in transaction fees in order to buy 1,700 ether worth of AirSwap tokens. Unfortunately, the transaction was sent too late and the overall ICO funding cap was hit before the user could purchase the AirSwap tokens.&lt;/p&gt;
 
 &lt;p&gt;The transaction was cancelled, leaving the user 236 ether poor. Although the 1,700 ether in the transaction came back, the 236 ether was paid as a transaction fee and was not recuperable.&lt;/p&gt;
+
+&lt;p&gt;Checkout the transaction on EtherScan here: &lt;a href=&quot;https://etherscan.io/tx/0x167b6e3217536e66e69f906a457b2457c6cc4f95928a47b0443ad895b23c6e76&quot;&gt;https://etherscan.io/tx/0x167b6e3217536e66e69f906a457b2457c6cc4f95928a47b0443ad895b23c6e76&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;a-bitcoin-exchange-gets-hacked-for-850000-bitcoins&quot;&gt;A Bitcoin exchange gets hacked for 850,000 Bitcoins&lt;/h1&gt;
 
