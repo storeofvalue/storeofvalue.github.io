@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Dec 2017 21:02:07 -0800</pubDate>
-    <lastBuildDate>Sat, 16 Dec 2017 21:02:07 -0800</lastBuildDate>
+    <pubDate>Sun, 17 Dec 2017 15:45:02 -0800</pubDate>
+    <lastBuildDate>Sun, 17 Dec 2017 15:45:02 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -20,20 +20,20 @@
 
 &lt;p&gt;Although IOTA is currently in consolidation, it has seen a tremendous run-up in price this month. From a price of $1.27 at the start of December, IOTA’s price went as high as $5.34. At the time of writing, it’s price is at $3.90. Rising up more than 500% in 2 weeks is no small feat and there must be something very impressive about this nascent platform. Through my research, I’ve found many great things about IOTA that certainly justifies the excitement around it, I’ve also found several red flags that any serious investor cannot ignore.&lt;/p&gt;
 
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
 &lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
 
 &lt;p&gt;IOTA was founded by David Sønstebø, Sergey Ivancheglo, Dominik Schiener, and Dr. Serguei Popov. It has a fixed maximum supply of 2,779,530,283,277,761 IOTA. IOTA’s unique data structure and consensus algorithm sets it apart from traditional blockchains while giving it very special and attractive properties. Whereas traditional blockchains consist of a globally consistent linked list of blocks, IOTA uses a DAG or directed acyclic graph. A DAG is a fancy term for a network of nodes. Each connection between two nodes is unidirectional and the connections are acyclic (i.e. you cannot start from one node, traverse the connections in the graph, and get back to the same node). The use of a DAG allows IOTA to have the almost “too-good-to-be-true” properties of unlimited scaling and zero-fee transactions.&lt;/p&gt;
 
 &lt;p&gt;Put together, the DAG and IOTA’s consensus algorithm is known as the Tangle.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
 
 &lt;h1 id=&quot;tangle-in-laymans-terms&quot;&gt;Tangle in layman’s terms&lt;/h1&gt;
 
@@ -46,6 +46,15 @@
 &lt;p&gt;As I mentioned above, the Tangle’s underlying data structure is a DAG. As such, the nodes of the DAG are transactions and the connections between two nodes represents a validation. For example, if transaction B connects to transaction A, transaction A validated transaction B.&lt;/p&gt;
 
 &lt;p&gt;In traditional blockchains, the confirmation time of a transaction depends on the blockchain’s average block time and the fee a user is willing to pay. In the Tangle, a transaction’s confirmation time depends on the usage of the network. With low usage, a transaction will take longer to get validated since there are fewer new transactions that will validate it. With high usage, a transaction will get validated faster since there are more new transactions.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
 
 &lt;h2 id=&quot;does-iota-have-trustless-security&quot;&gt;Does IOTA have trustless security?&lt;/h2&gt;
 
@@ -77,8 +86,8 @@
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -127,8 +136,8 @@
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -189,8 +198,8 @@
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -228,8 +237,8 @@
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -263,8 +272,8 @@
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -312,8 +321,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -339,8 +348,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -376,8 +385,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -422,8 +431,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -479,8 +488,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -537,8 +546,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -570,8 +579,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -607,8 +616,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -666,8 +675,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -701,8 +710,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -732,8 +741,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -776,8 +785,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -795,8 +804,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -828,8 +837,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -882,8 +891,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -937,8 +946,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -1009,8 +1018,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -1151,8 +1160,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -1189,8 +1198,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
@@ -1246,8 +1255,8 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
         &lt;script&gt;
         (adsbygoogle = window.adsbygoogle || []).push({});
         &lt;/script&gt;
