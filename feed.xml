@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Dec 2017 20:07:19 -0800</pubDate>
-    <lastBuildDate>Sat, 16 Dec 2017 20:07:19 -0800</lastBuildDate>
+    <pubDate>Sat, 16 Dec 2017 20:15:21 -0800</pubDate>
+    <lastBuildDate>Sat, 16 Dec 2017 20:15:21 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -121,6 +121,8 @@
 
 &lt;p&gt;In order to support zero-fee transactions and unlimited scaling, IOTA tightly coupled users and miners. However, we’ve demonstrated that this is not a cure-all solution and it brings with it its own flaws.&lt;/p&gt;
 
+&lt;p&gt;Source: &lt;a href=&quot;https://medium.com/@ercwl/iota-is-centralized-6289246e7b4d&quot;&gt;https://medium.com/@ercwl/iota-is-centralized-6289246e7b4d&lt;/a&gt;&lt;/p&gt;
+
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
         &lt;!-- StoreOfValue Article 2 --&gt;
@@ -142,6 +144,8 @@
 
 &lt;p&gt;The most puzzling aspect of the situation is the fact that the co-founders were willing to expose IOTA’s network to such a drastic flaw in the first place. People are transacting their hard earned money on the network and the developers thought it was wise to introduce a massive security flaw just so IOTA couldn’t be copied? That should enrage any user.&lt;/p&gt;
 
+&lt;p&gt;Source: &lt;a href=&quot;https://hackernoon.com/why-i-find-iota-deeply-alarming-934f1908194b&quot;&gt;https://hackernoon.com/why-i-find-iota-deeply-alarming-934f1908194b&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;iota-data-marketplace-pr-fiasco&quot;&gt;IOTA Data Marketplace PR fiasco&lt;/h2&gt;
 
 &lt;p&gt;When IOTA released its launch marketing for the Data Marketplace project, there was a widely disseminated article by a third party publisher that claimed that Microsoft was “partnering” with the IOTA Foundation in building this project.&lt;/p&gt;
@@ -157,6 +161,8 @@
 &lt;p&gt;However, the only problem is almost all modern hardware runs on binary systems. You’ll be hard pressed to find one balanced ternary processor anywhere. This means that all of IOTA’s internal ternary notation needs to be encapsulated in binary, resulting in significant storage and computational overhead.&lt;/p&gt;
 
 &lt;p&gt;Although this is clearly a questionable technical decision, as long as everything works without any drastic performance issues, the balanced ternary system is actually not that bad.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://hackernoon.com/why-i-find-iota-deeply-alarming-934f1908194b&quot;&gt;https://hackernoon.com/why-i-find-iota-deeply-alarming-934f1908194b&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 
