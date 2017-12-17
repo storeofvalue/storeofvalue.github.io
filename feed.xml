@@ -6,9 +6,168 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Dec 2017 05:52:28 -0800</pubDate>
-    <lastBuildDate>Fri, 15 Dec 2017 05:52:28 -0800</lastBuildDate>
+    <pubDate>Sat, 16 Dec 2017 20:07:19 -0800</pubDate>
+    <lastBuildDate>Sat, 16 Dec 2017 20:07:19 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>What Is IOTA And Should You Invest?</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/gX1qV7b.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I created a &lt;a href=&quot;http://www.strawpoll.me/14596154&quot;&gt;poll&lt;/a&gt; a week ago asking my readers what cryptocurrency I should review next. IOTA received 40% of the votes and won by a wide margin. I’ve since spent several hours researching IOTA and compiling everything I’ve learned in this article. I hope you find it helpful.&lt;/p&gt;
+
+&lt;p&gt;Although IOTA is currently in consolidation, it has seen a tremendous run-up in price this month. From a price of $1.27 at the start of December, IOTA’s price went as high as $5.34. At the time of writing, it’s price is at $3.90. Rising up more than 500% in 2 weeks is no small feat and there must be very impressive about this nascent platform. Through my research, I’ve found many great things about IOTA that certainly justifies the excitement around it, I’ve also found several red flags that any serious investor cannot ignore.&lt;/p&gt;
+
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;IOTA was founded by David Sønstebø, Sergey Ivancheglo, Dominik Schiener, and Dr. Serguei Popov. It has a fixed maximum supply of 2,779,530,283,277,761 IOTA. IOTA’s unique data structure and consensus algorithm sets it apart from traditional blockchains while giving it very special and attractive properties. Whereas traditional blockchains consist of a globally consistent linked list of blocks, IOTA uses a DAG or directed acyclic graph. A DAG is a fancy term for a network of nodes. Each connection between two nodes is unidirectional and the connections are acyclic (i.e. you cannot start from one node, traverse the connections in the graph, and get back to the same node). The use of a DAG allows IOTA to have the almost “too-good-to-be-true” properties of unlimited scaling and zero-fee transactions.&lt;/p&gt;
+
+&lt;p&gt;Put together, the DAG and IOTA’s consensus algorithm is known as the Tangle.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;tangle-in-laymans-terms&quot;&gt;Tangle in layman’s terms&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/nLQKW1j.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In traditional blockchains, such as Bitcoin and Ethereum, transactions are agnostic to the consensus algorithm. Users broadcast transactions and miners package them into blocks to be added to the system through proof of work.&lt;/p&gt;
+
+&lt;p&gt;In the Tangle, the consensus algorithm is an intrinsic property of using the ledger. There is no separation of users and miners. &lt;strong&gt;Every user is a miner and every miner is a user. How does that work? Well every time a user wants to send a transaction in the Tangle, his/her wallet needs to validate two prior transactions.&lt;/strong&gt; In other words, if you want to use the Tangle, you need to be a miner. Keep this in mind, this is a very important property of IOTA with both positive and negative implications.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned above, the Tangle’s underlying data structure is a DAG. As such, the nodes of the DAG are transactions and the connections between two nodes represents a validation. For example, if transaction B connects to transaction A, transaction A validated transaction B.&lt;/p&gt;
+
+&lt;p&gt;In traditional blockchains, the confirmation time of a transaction depends on the blockchain’s average block time and the fee a user is willing to pay. In the Tangle, a transaction’s confirmation time depends on the usage of the network. With low usage, a transaction will take longer to get validated since there are fewer new transactions that will validate it. With high usage, a transaction will get validated faster since there are more new transactions.&lt;/p&gt;
+
+&lt;h2 id=&quot;does-iota-have-trustless-security&quot;&gt;Does IOTA have trustless security?&lt;/h2&gt;
+
+&lt;p&gt;An important question anyone needs to ask for a cryptocurrency consensus algorithm is how does it protect itself from double spend attacks? This is always a complex topic and an in depth explanation can be found &lt;a href=&quot;https://forum.iota.org/t/iota-double-spending-masterclass/1311&quot;&gt;here&lt;/a&gt;. In sum, a double spend attack is prevented by relying on at least two thirds of the network being good actors that select only valid transactions to reference. Any short term inconsistencies in the tangle are quickly overcome by the collective weight of honest users referencing valid transactions.&lt;/p&gt;
+
+&lt;p&gt;However, there is a very important caveat here. Since there isn’t a separate “miner class” in IOTA and validation is done through the users of the network issuing transactions, IOTA needs to be heavily used in order to be secure. If there is a lull in transaction frequency, there is a lull in security. I elaborate on this further in the &lt;em&gt;Red Flags&lt;/em&gt; section of the blog post but in sum, because IOTA is a relatively new cryptocurrency with very low network usage, the IOTA Foundation has to run what is known as a Coordinator that dictates the network’s progress. This effectively centralizes the network and significantly reduces its value proposition as a cryptocurrency.&lt;/p&gt;
+
+&lt;p&gt;If IOTA is able to significantly bump up network usage and shed off its reliance on the Coordinator, it’ll become a truly decentralized network with trustless security. In its current state, it’s centralized without trustless security.&lt;/p&gt;
+
+&lt;h2 id=&quot;internet-of-things&quot;&gt;Internet of Things&lt;/h2&gt;
+
+&lt;p&gt;Because IOTA theoretically has unlimited scalability with zero-fee transactions, it’s particularly suitable for the Internet of Things (IoT) applications. Specifically, devices can trade exact amounts of resources, as well as store data from sensors and dataloggers cheaply, quickly, and securely on the network. This is great for IoT devices that often need to broadcast and receive large amounts of data.&lt;/p&gt;
+
+&lt;h2 id=&quot;iota-is-quantum-proof&quot;&gt;IOTA is quantum proof&lt;/h2&gt;
+
+&lt;p&gt;IOTA is quantum proof. This means that quantum computing cannot theoretically break IOTA’s public-key algorithm. However, this also introduces a dangerous quirk to the system for those unaware. In order to be quantum proof, IOTA uses something called the Winternitz OTS which reveals 50% of an address’s private key every time a transaction is sent from that address. As such, it is not advised to send IOTA from the same address multiple times. This is known as the “address reuse” mistake.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this wasn’t made clear in the official IOTA wallet and many users have made the this mistake. I remember a &lt;a href=&quot;https://www.reddit.com/r/CryptoCurrency/comments/7gwl38/hello_guys_i_have_lost_30k_in_iota_and_i_would/&quot;&gt;Reddit post&lt;/a&gt; where the poster claimed to have lost $30,000 worth of IOTA and had no idea how it happened. Turns out s/he made the address reuse mistake. This was posted at the start of December, right before the price jumped from $1 to $5. Ouch.&lt;/p&gt;
+
+&lt;p&gt;Given that IOTA’s public addresses are meant to only be used once, the number of unsafe public addresses will grow at an exceedingly fast pace. Luckily, the space of all possible addresses is insanely large so there’s no need to worry about the number of safe addresses running out any time soon.&lt;/p&gt;
+
+&lt;h2 id=&quot;flash-channels&quot;&gt;Flash channels&lt;/h2&gt;
+
+&lt;p&gt;Apparently, IOTA has deployed to production its own version of the Lightning Network called Flash Channels. Flash Channels are a bi-directional off-Tangle payment channel to enable instantaneous, high-throughput transactions. If this is true, it is incredibly impressive as Bitcoin and Ethereum haven’t been able to deploy their own versions of off-chain payment channels (technically Ethereum has deployed μRaiden but it’s a stripped down version of a full off-chain payment channel solution).&lt;/p&gt;
+
+&lt;p&gt;The only problem is, I haven’t been able to see any real applications of IOTA’s Flash Channels. I’ve tried visiting &lt;a href=&quot;https://satoshipay.tangle.works/&quot;&gt;IOTA’s demo site&lt;/a&gt; where they have blog posts containing paywalled content that needed to be unlocked through a flash channel payment. However, even though the UI indicated a channel will be opened typically within 15 seconds, I was not able to open a channel.&lt;/p&gt;
+
+&lt;p&gt;IOTA also had a flash channel integration with SatoshiPay but that announcement was made in September 24th and nothing new has been announced since. I wonder if IOTA and SatoshiPay’s integration has stalled.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;iota-foundation&quot;&gt;IOTA Foundation&lt;/h1&gt;
+
+&lt;p&gt;The IOTA Foundation presides over IOTA. It’s a German non-profit corporation that coordinates and funds the development of IOTA. As of November 2017, the Foundation has a fund consisting of 5% of the total IOTA supply that’s worth $100 million as of November 2017. The fund is used to promote the development of a technological ecosystem around IOTA.&lt;/p&gt;
+
+&lt;p&gt;The Foundation is led by the co-founders of IOTA: David Sønstebø, Sergey Ivancheglo, Dominik Schiener, and Dr. Serguei Popov.&lt;/p&gt;
+
+&lt;h1 id=&quot;corporate-interest-in-iota&quot;&gt;Corporate interest in IOTA&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SatoshiPay began exploring the replacement of Bitcoin with IOTA as the company’s settlement network in July 2017. This comes after Bitcoin’s fees and confirmation times have increased significantly due to an increase in adoption of the network. Bitcoin continues to experience significant congestion today. SatoshiPay’s efforts to integrate IOTA has stalled recently in favour of the Stellar network. The IOTA + SatoshiPay integration is stuck at phase 2 of 3 phases and it is unclear whether SatoshiPay will choose Stellar over IOTA.&lt;/li&gt;
+  &lt;li&gt;In August 2017, the IOTA Foundation forged a partnership with REFUNITE, the world’s largest missing persons database, in order to use IOTA technology to help reunite families during and after conflicts.&lt;/li&gt;
+  &lt;li&gt;In August 2017, Monster Cleaning Services, a London UK based company, announced that they are accepting IOTA as a payment.&lt;/li&gt;
+  &lt;li&gt;In August 2017, Sopra Steria, a European information technology consultancy company with 40,000 employees, announced a partnership with IOTA to create a framework to optimize security between devices on the Internet of Things.&lt;/li&gt;
+  &lt;li&gt;In November 2017, LATTICE80, a Singapore based Fintech hub and largest of its kind, cemented an agreement to open an IOTA innovation lab for the Internet of Things.&lt;/li&gt;
+  &lt;li&gt;In November 2017, IOTA announced its Data Marketplace. It’s an ambitious project that aims to create a market where individuals and companies can buy and sell data. Suppliers can setup sensors connected to the Tangle that will feed data to the market. Buyers can then ingest this data from the market for a small fee paid to the seller. The project is currently undergoing a 2-month-long pilot phase with several corporations and institutions participating including: Accenture, Fujitsu, Bosch, farmforce, and the University of Oslo. Read more about the project &lt;a href=&quot;https://blog.iota.org/iota-data-marketplace-cb6be463ac7f&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-marketplace&quot;&gt;Data Marketplace&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/VJ9FPM0.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Data Marketplace was made possible only because of the Tangle’s unique properties of unlimited scaling and zero-fee transactions. This allows IoT devices to continuously inject a large amount of data into the network quickly and cheaply, which creates a highly efficient market where the only supply-side cost is the electricity needed to run IOTA’s node software and to perform proof of work every time a transaction is issued.&lt;/p&gt;
+
+&lt;h1 id=&quot;red-flags&quot;&gt;Red flags&lt;/h1&gt;
+
+&lt;p&gt;I’ve encountered several red flags in the IOTA project that cannot be ignored. The project promises a lot and presents the Tangle as this new revolutionary cryptocurrency paradigm that will phase out blockchain technology. However, as with many things in the cryptocurrency space, there is a disconnect between marketing and reality.&lt;/p&gt;
+
+&lt;h2 id=&quot;iotas-security-and-centralization-problem&quot;&gt;IOTA’s security and centralization problem&lt;/h2&gt;
+
+&lt;p&gt;The Tangle only provides security guarantees if an attacker doesn’t have more than 33% of the hashpower of the network. The only problem is, this is incredibly easy to do on IOTA since it doesn’t have dedicated miners. Remember that validation in IOTA only happens when a user sends a transaction (a transaction can only be issued if it validates two previous transactions).&lt;/p&gt;
+
+&lt;p&gt;As such, an attacker will often find it very easy to muster up more than 33% of the network’s hashpower. This is especially true in times of low network usage. If there is a lull in the transactions being issued on the Tangle, there is a drop in the network’s total hashpower. This is not true for blockchains, which tends to maintain a very steady level of hashpower regardless of the number of transactions being issued.&lt;/p&gt;
+
+&lt;p&gt;IOTA’s team knows about this inherent security flaw and has created a special node called the Coordinator that only they could operate. The Coordinator’s stated main purpose is to “protect the network until it grows strong enough to sustain against a large scale attack from those who own GPUs”. It does so by issuing special transactions called Milestones that are expected to be treated as a source of truth by normal IOTA nodes. Any transactions referenced by Coordinator-issued Milestone transactions are considered valid.&lt;/p&gt;
+
+&lt;p&gt;The existence and necessity of a Coordinator makes IOTA incredibly centralized and demonstrates a fundamental security flaw of the network. The only way IOTA can dig itself out of this hole is to significantly increase network usage and this is where the Data Marketplace comes in. If the project is successful, there should be hundreds of thousands if not millions of data sensors issuing transactions on the Tangle to feed data into the market, which will significantly increase and stabilize network usage. If the project fizzles out, IOTA will need to rely on the Coordinator for its foreseeable future.&lt;/p&gt;
+
+&lt;p&gt;In order to support zero-fee transactions and unlimited scaling, IOTA tightly coupled users and miners. However, we’ve demonstrated that this is not a cure-all solution and it brings with it its own flaws.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;curl-fiasco---disregarding-cryptographic-best-practices-and-founders-demonstrating-a-lack-of-integrity&quot;&gt;Curl fiasco - disregarding cryptographic best practices and founders demonstrating a lack of integrity&lt;/h2&gt;
+
+&lt;p&gt;The number one rule of cryptography is to not “roll your own crypto”. Cryptographic functions rely on a great deal of security and existing, well-used functions have gone through years of vetting and testing to ensure that they are on the cutting edge of security. By rolling your own function, you’re eschewing all of this, thus introducing significant risk of security vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;However, this is exactly what IOTA chose to do. They rolled their own custom hash function called Curl. Lo and behold, an MIT team led by Neha Nerula demonstrated significant vulnerabilities in Curl. They found that Curl produced hash collisions in a predictable way (different inputs hash to the same output) and the team was able to “find collisions using commodity hardware within just a few minutes, and forge signatures on IOTA payments”. The MIT team reported this to IOTA’s team and the bug was swiftly patched.&lt;/p&gt;
+
+&lt;p&gt;This would have been a minor hiccup in IOTA’s development had it not been for Sergey Ivancheglo’s (IOTA co-founder) incredibly weird response to the whole situation. He claimed that the security vulnerabilities in the Curl hash function was, in fact, deliberate. The vulnerability was inserted as a “copy protection” to prevent copycat projects and to allow the IOTA team to compromise those projects if they sprang up.&lt;/p&gt;
+
+&lt;p&gt;That is very sketchy and demonstrates a lack of integrity on the part of the co-founder. Introducing flaws to the system so that IOTA can kill competitors is completely against the spirit of both open source development and the cryptocurrency community.&lt;/p&gt;
+
+&lt;p&gt;The most puzzling aspect of the situation is the fact that the co-founders were willing to expose IOTA’s network to such a drastic flaw in the first place. People are transacting their hard earned money on the network and the developers thought it was wise to introduce a massive security flaw just so IOTA couldn’t be copied? That should enrage any user.&lt;/p&gt;
+
+&lt;h2 id=&quot;iota-data-marketplace-pr-fiasco&quot;&gt;IOTA Data Marketplace PR fiasco&lt;/h2&gt;
+
+&lt;p&gt;When IOTA released its launch marketing for the Data Marketplace project, there was a widely disseminated article by a third party publisher that claimed that Microsoft was “partnering” with the IOTA Foundation in building this project.&lt;/p&gt;
+
+&lt;p&gt;However, this turned out to be objectively false and IOTA was simply using Microsoft’s Azure platform to host the Data Marketplace. In essence, IOTA was a customer of Microsoft instead of a partner.&lt;/p&gt;
+
+&lt;p&gt;What was surprising was the IOTA team’s silence around the matter for the first few days that the article was out. During that time, IOTA’s price pumped from $1 to $5. It was not until a new article came out alleging that no such partnership existed did the IOTA team respond and confirm the allegation. The IOTA team’s delayed response in squashing the rumours is questionable and negligent.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-use-of-a-balanced-ternary-numeral-system-is-questionable&quot;&gt;The use of a balanced ternary numeral system is questionable&lt;/h2&gt;
+
+&lt;p&gt;IOTA’s codebase uses a balanced ternary numeral system. So instead of having only 0’s and 1’s like binary, balanced ternary has -1’s, 0’s, and 1’s. IOTA’s developers defend this decision by stating that ternary processors are theoretically more efficient than binary processors and that certain mathematical constructs are more cleanly represented in balanced ternary.&lt;/p&gt;
+
+&lt;p&gt;However, the only problem is almost all modern hardware runs on binary systems. You’ll be hard pressed to find one balanced ternary processor anywhere. This means that all of IOTA’s internal ternary notation needs to be encapsulated in binary, resulting in significant storage and computational overhead.&lt;/p&gt;
+
+&lt;p&gt;Although this is clearly a questionable technical decision, as long as everything works without any drastic performance issues, the balanced ternary system is actually not that bad.&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;IOTA is an ambitious and technically impressive project. It’s promise of unlimited scaling and zero-fee transactions is particularly enticing, especially for Bitcoin users that are currently seeing transaction confirmation times and fees sky rocket. However, it is not without its shortcomings. The network is definitely not secure in its current level of adoption and needs to be centralized to keep it afloat. The Data Marketplace project is a great initiative that not only brings tremendous utility to the network but also decentralizes it. However, it is important to keep in mind that if the project fails, IOTA will remain centralized for the foreseeable future. I also have some reservations on the maturity and leadership skills of the project’s co-founders. Besides these issues, I think IOTA is a very strong and exciting project.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Dec 2017 18:20:21 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/iota-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/iota-what-is-it-and-should-you-invest/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Crazy Things That Have Happened With Cryptocurrencies</title>
@@ -19,6 +178,15 @@
 &lt;p&gt;It’s not surprising many are adamant that cryptocurrencies are a scam. It’s really the wild wild west in such a nascent market. With a lack of regulation, low fees trading, skyrocketing prices, and investors who are often quite liberal with their wallets, there is rampant speculation and scams abound. Additionally, cryptocurrencies have a cold and unforgiving user interface that doesn’t mesh well with clumsiness and large sums of money can be lost in an instant with a single typo or misclick.&lt;/p&gt;
 
 &lt;p&gt;Put all this together and you have the perfect breeding grounds for some incredible and jaw dropping stories. Here are some of the craziest things that have happened in the cryptocurrency community.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
 
 &lt;h1 id=&quot;bitcoins-price-drops-3000-in-6-hours&quot;&gt;Bitcoin’s price drops $3000 in 6 hours&lt;/h1&gt;
 
@@ -50,11 +218,20 @@
 
 &lt;p&gt;Checkout the transaction on EtherScan here: &lt;a href=&quot;https://etherscan.io/tx/0x167b6e3217536e66e69f906a457b2457c6cc4f95928a47b0443ad895b23c6e76&quot;&gt;https://etherscan.io/tx/0x167b6e3217536e66e69f906a457b2457c6cc4f95928a47b0443ad895b23c6e76&lt;/a&gt;&lt;/p&gt;
 
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
 &lt;h1 id=&quot;a-bitcoin-exchange-gets-hacked-for-850000-bitcoins&quot;&gt;A Bitcoin exchange gets hacked for 850,000 Bitcoins&lt;/h1&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/OFr0PSt.gif&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;MtGox was one of the first major Bitcoin exchanges. Due to mismanagement and poor development practices, hackers were able to slowly siphon hundreds of thousands of Bitcoins from MtGox’s reserves. By the time the company found out, 850,000 Bitcoins were lost. This was worth over $460 million at the time and $14.4 billion today at $17,000 a coin.&lt;/p&gt;
+&lt;p&gt;MtGox was one of the first major Bitcoin exchanges. Due to mismanagement and poor coding practices, hackers were able to slowly siphon hundreds of thousands of Bitcoins from MtGox’s reserves. By the time the company found out, 850,000 Bitcoins were lost. This was worth over $460 million at the time and $14.4 billion today at $17,000 a coin.&lt;/p&gt;
 
 &lt;p&gt;Trading was halted in February 2014 and in April 2014, the company began liquidation proceedings. At one point in time, MtGox was handling 70% of all Bitcoin transactions worldwide. The hack triggered a year-long bear market in which the price of Bitcoin dropped from $1000 to $200.&lt;/p&gt;
 
@@ -75,6 +252,15 @@
 &lt;p&gt;An unlikely subreddit decided to step up and crowdfund a sponsorship: /r/dogecoin. The amount needed for the sponsorship was $55,000, at the time worth 100,541,093.89 Dogecoins. One user accidentally donated 20,000,000 Dogecoins instead of the 2,000,000 he intended (a difference of $13,500) but stood by his decision.&lt;/p&gt;
 
 &lt;p&gt;The $55,000 was reached with more than 1,200 redditors participating. Wise’s NASCAR was decorated with a Dogecoin themed skin and he gave an AMA on /r/dogecoin.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
 
 &lt;h1 id=&quot;an-obscure-youtuber-convinces-thousands-to-pump-and-hodl-chaincoin&quot;&gt;An obscure YouTuber convinces thousands to “Pump and HODL” Chaincoin&lt;/h1&gt;
 
@@ -214,19 +400,17 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
         <title>Investor Warning: Major NEO Redflags</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/0XsrvAF.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve been following NEO closely since June of this year when it was still called Antshares. NEO had originally seemed incredibly promising; super fast transaction times, smart contracts, gas generation, and possible Chinese government support. However, after further research and observation on how the project has grown over time, I’ve identified a series of major red flags surrounding NEO and my opinion on the project has soured considerably.&lt;/p&gt;
+&lt;p&gt;I’ve been following NEO closely since this summer when it was still called Antshares. I was incredibly impressed by the project at the time. Its super fast transaction times, smart contract capability, gas generation, and the possible support from the Chinese government made NEO incredibly attractive. However, after a combination of further research and observation of the project’s progression, I’ve identified a series of major red flags surrounding NEO and my opinion on the project has soured considerably.&lt;/p&gt;
 
 &lt;h1 id=&quot;neo-is-incredibly-centralized-the-entire-network-only-has-13-validating-nodes-developers-whitelist-who-can-run-validating-nodes&quot;&gt;NEO is incredibly centralized. The entire network only has 13 validating nodes. Developers whitelist who can run validating nodes&lt;/h1&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/PnmOlEw.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The whole point of cryptocurrencies is a decentralized validation system where anyone can operate nodes and validate transactions in the network.&lt;/p&gt;
+&lt;p&gt;The core value proposition of a cryptocurrency is its decentralized and trustless nature. It is this property that enables users to store their funds securely on the network without needing to trust anyone else. For this to be possible, any user must be able to operate nodes to validate transactions in the network without having to be approved by a central authority. For example, both the Bitcoin and Ethereum networks have thousands of validation nodes running at any one time upholding network security. Even QTUM, a relatively new cryptocurrency, has more than a thousand validation nodes running concurrently (1,319 nodes at the time of writing).&lt;/p&gt;
 
-&lt;p&gt;As of this writing, Bitcoin has 11,191 nodes, Ethereum has 19862 nodes, and QTUM has 1319 nodes.&lt;/p&gt;
+&lt;p&gt;NEO, however, has only up to 13 concurrently running validation nodes in the entire network. How can this be the case? I was incredibly dismayed to discover that NEO’s team hand-picks operators of their validation nodes. In fact, I believe that all validation nodes are currently exclusively run by the team. This is alarming. How can a blockchain project that is more than 2 years old with a market cap of more than $3 billion only have 13 validation nodes? Why is the public not allowed to participate in upholding the security of the network? Two years is a very, very long time in the cryptocurrency world and there is simply no excuse for this degree of centralization.&lt;/p&gt;
 
-&lt;p&gt;But NEO only has 13 nodes. This is because NEO’s team hand picks who can run nodes. This is incredibly alarming. How can a blockchain project that is more than 2 years old with a market cap of more than $3 billion only have 13 nodes? Why is the public not allowed to participate in securing the network? Two years is a very, very long time in the cryptocurrency world and there is simply no excuse for this degree of centralization.&lt;/p&gt;
-
-&lt;p&gt;You can checkout the nodes of the network here: &lt;a href=&quot;https://monitor.cityofzion.io/&quot;&gt;https://monitor.cityofzion.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can checkout the network’s validation nodes here: &lt;a href=&quot;https://monitor.cityofzion.io/&quot;&gt;https://monitor.cityofzion.io/&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -241,7 +425,7 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/A9vahBl.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Because all 13 of NEO’s validation nodes are controlled by its development team, the team was able to shutdown the entire blockchain at a moment’s notice and they did so for several hours in October. During that time, no blocks were generated and the lack of communication left many people confused and scared.&lt;/p&gt;
+&lt;p&gt;Because all 13 of NEO’s validation nodes are controlled by its development team, the team was able to shutdown the entire blockchain at a moment’s notice and they did so for several hours earlier in October. During that time, no blocks were generated and the lack of communication left many people confused and scared.&lt;/p&gt;
 
 &lt;p&gt;The official reason for the blackout? NEO’s team had to shut down the network in order to perform “manual checks” after unlocking 15 million of the 50 million NEO that the team held in reserve.&lt;/p&gt;
 
@@ -294,7 +478,7 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;neo-attracts-scammy-icos-and-dapps&quot;&gt;NEO attracts scammy ICOs and dApps&lt;/h1&gt;
+&lt;h1 id=&quot;neo-attracts-questionable-icos-and-dapps&quot;&gt;NEO attracts questionable ICOs and dApps&lt;/h1&gt;
 
 &lt;p&gt;NEO released its smart contract 2.0 system in August. Until October, only 3 projects announced that they will be building on NEO, and all of them are incredibly sketchy.&lt;/p&gt;
 
@@ -1095,122 +1279,6 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
         <pubDate>Sun, 15 Oct 2017 13:25:02 -0700</pubDate>
         <link>https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Definitive Bull Case for Ethereum</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/Dggt1xi.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;What makes Ether valuable? Did we spend our money on magical internet numbers, or is Ether more than just a digital tulip? The value proposition for Ether is not easy to grasp, especially for a layman. Not only does one need to understand how Ethereum’s blockchain and smart contracts system works, you would also need to understand how Ether is valuable in such a system. At a $30 billion market cap, which is roughly $300 per Ether, I’ve put a lot of thought into whether this hefty price tag makes sense.&lt;/p&gt;
-
-&lt;p&gt;Here’s why I think Ether is valuable, and why it continues to have tremendous upside.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;ether-is-a-fuel-not-a-currency&quot;&gt;Ether is a fuel, not a currency&lt;/h1&gt;
-
-&lt;p&gt;I’m going to elaborate this in a future blog post, but I highly doubt any public, limited supply, cryptocurrency will ever be a successful currency. Such a cryptocurrency will be inherently volatile and deflationary. This makes it highly inconvenient as a medium of exchange.&lt;/p&gt;
-
-&lt;p&gt;Consider this:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Assume an Xbox is worth 1 Ether&lt;/li&gt;
-  &lt;li&gt;Why would a merchant accept your 1 Ether for his/her Xbox, if that 1 Ether could depreciate and be worth half an Xbox the moment the goods exchange hands?&lt;/li&gt;
-  &lt;li&gt;Conversely, why would you give your 1 Ether to the merchant for his/her Xbox, if that 1 Ether could appreciate and be worth 2 Xbox’s the moment the goods exchange hands?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In both cases, the volatility of Ether caused one party to lose out. This uncertainty discourages either party from committing to a transaction. Given that a healthy and growing economy needs a high money velocity, this is terrible.&lt;/p&gt;
-
-&lt;p&gt;So if cryptocurrencies cannot serve as successful currencies, what are they useful for? The first thing that comes to mind is an alternative to gold. However, we have to keep in mind that gold took milleniums to be ingrained in the human mind as a fundamental store of value. For people to start valuing an ephermeral digital currency the some way we already value gold takes a huge paradigm shift that would need to occur over years if not decades.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/T12N96A.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ether will be valued not as a currency and not as gold. It will be valued as a fuel that powers a highly useful public utility, the Ethereum blockchain. You need Ether to send transactions and power smart contracts. In the ideal case, many decentralized applications (either built by the public or by large corporations) will be running on Ethereum. There will be a high demand to use these smart contracts, creating a significant buying force on the Ether markets. This is where Ether will derive most of its fundamental value from.&lt;/p&gt;
-
-&lt;h1 id=&quot;proof-of-stake&quot;&gt;Proof of stake&lt;/h1&gt;
-
-&lt;p&gt;With Ethereum’s Casper upgrade, which is set to be released next year, Ether will not only be useful as a fuel, it will be useful as a means to mine the blockchain.&lt;/p&gt;
-
-&lt;p&gt;The current arrangement (proof-of-work) has graphics cards and ASICs solve complex math problems to mint Ethereum transactions. The reward for the hardware doing all this work is a fee paid in Ether. With Casper, Ethereum will be almost fully reliant on Ether to function. Ether will be needed to mint Ethereum transactions and Ether will be needed to pay for the minting.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;focused-leadership&quot;&gt;Focused leadership&lt;/h1&gt;
-
-&lt;p&gt;This wouldn’t be a talking point if not for how dysfunctional Bitcoin’s leadership has become. Instead of arguing over trivial things such as whether to introduce SegWit or whether to add 1MB to the maximum blocksize, Ethereum’s leadership actually has a well defined roadmap and are actively working towards it.&lt;/p&gt;
-
-&lt;p&gt;Not only is there a plan to improve Ethereum, its leaders are actively venturing out to promote Ethereum through driving grassroots support with local meetups and hackathons, as well as fostering corporate connections through giving talks at large technology conferences and even meeting government officials.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/XuTngpv.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, how can I discuss Ethereum’s leadership without mentioning Vitalik Buterin, the creator and primary figurehead for Ethereum? Vitalik cannot be a more fitting leader. Vitalik published Ethereum’s whitepaper at only age 18. He was a skinny and socially awkward teen with a whitepaper then. Now he’s equally skinny, equally socially awkward, but also the creator of a $30 billion blockchain.&lt;/p&gt;
-
-&lt;p&gt;Even with his skinny physique and a few nervous ticks, I have to give credit to his public speaking skills. Vitalik has given a large number of talks promoting Ethereum. His most recent apperance is on TechCrunch’s Disrupt SF 2017. He speaks clearly, loudly, and at an authoritative pace. Not something you’d expect of a skinny, 23 year old blockchain geek.&lt;/p&gt;
-
-&lt;p&gt;Vitalik recently announced that he would be dedicating all of his OmiseGo and Kyber Network advisor shares, either to charity, or to funding for Ethereum second-layer infrastructure.&lt;/p&gt;
-
-&lt;h1 id=&quot;upcoming-technology---plasma-and-raiden&quot;&gt;Upcoming technology - Plasma and Raiden&lt;/h1&gt;
-
-&lt;p&gt;Ethereum has two substantial upgrades coming up: Plasma and Raiden.&lt;/p&gt;
-
-&lt;p&gt;Plasma will significantly increase the efficiency of running smart contracts on Ethereum. It will enable smart contracts (and the decentralized applications relying on them) to have potentially billions of state updates per second. Although Ethereum is currently a single-threaded computer, Plasma will ultimately allow Ethereum to efficiently host a large number of decentralized applications. OmiseGo is currently building on top of Plasma. You can read more about Plasma &lt;a href=&quot;http://plasma.io/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Raiden is another proposed upgrade for Ethereum. Its closest parallel is the Lightning network for the Bitcoin blockchain. Raiden is a second-layer infrastructure that will enable potentially over a million transactions per second on Ethereum, including ERC20 token transactions. Raiden announced this month that they will be conducting an ICO to fund further development of the project. You can read more about Raiden &lt;a href=&quot;https://raiden.network/faq.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;ethereum-as-a-highly-useful-public-utility&quot;&gt;Ethereum as a highly useful public utility&lt;/h1&gt;
-
-&lt;p&gt;As mentioned above, a large part of Ether’s fundamental value will derive from Ethereum’s success at being a highly useful public utility. People will want to buy Ether to use Ethereum’s decentralized applications. These applications will either be deployed by the public or by large corporations.&lt;/p&gt;
-
-&lt;p&gt;Here’s an overview of Ethereum’s nascent ecosystem of decentralized applications.&lt;/p&gt;
-
-&lt;h2 id=&quot;budding-corporate-adoption&quot;&gt;Budding corporate adoption&lt;/h2&gt;
-
-&lt;p&gt;If you haven’t already heard of the Ethereum Enterprise Alliance (EEA), you should check it out. I wrote about the alliance &lt;a href=&quot;https://storeofvalue.github.io/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/&quot;&gt;here&lt;/a&gt;. It’s essentially an Ethereum research group comprised of companies that are interested in Ethereum’s smart contract blockchain technology and want to learn more about it, improve it, and adapt it for their own use cases. One of the core value propositions for the EEA is that it connects all these large institutions with Ethereum experts.&lt;/p&gt;
-
-&lt;p&gt;Do the names Microsft, J.P. Morgan, and Deloitte perk your ears? They are only a few of the numerous big name companies and universities that are involved with the EEA.&lt;/p&gt;
-
-&lt;p&gt;EEA is nice as a fancy research group, but what’s most important for Ethereum is real corporate adoption of the public blockchain… and we’re seeing signs of it right now. Russia’s airline, S7, announced in July that they would be selling tickets using Ethereum’s public blockchain, aiming to simplify payments and decrease setlement times between airlines and agents. In September, a French multinational insurance firm worth €68.5 billion (AXA) released Fizzy, an insurance product built on Ethereum’s public blockchain.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/ZZCu0ny.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;powerful-decentralized-applications&quot;&gt;Powerful decentralized applications&lt;/h2&gt;
-
-&lt;p&gt;The transparency, integrity, and security of the blockchain makes it very conducive for financial and gambling applications. Ethereum, with its smart contracts system, is at the forefront of making them a reality.&lt;/p&gt;
-
-&lt;p&gt;Two of Ethereum’s most well-used applications right now are ICOs and decentralized exchanges. ICOs are like IPOs but conducted over the blockchain using smart contracts. ICOs are huge right now. They are a key reason to why the cryptocurrency markets exploded this year. However, many have questioned whether they are healthy for cryptocurrencies as a whole due to the rampant amount of speculation and scams. Nonetheless, the ICOs together represent a massive, active use case for Ethereum.&lt;/p&gt;
-
-&lt;p&gt;The other well-used application of Ethereum is decentralized exchanges. EtherDelta is one of the largest Ethereum-based decentralized exchanges out there and it has orderbooks for almost every ERC20 token. EtherDelta has a 24-hour volume of $3.6 million, a far-cry from the hundreds of millions of dollars traded on premiere cryptocurrency exchanges but still significant for one powered by smart contracts.&lt;/p&gt;
-
-&lt;p&gt;There are decentralized applications for other compelling use cases of Ethereum such as casinoes, lotteries, and prediction markets but adoption hasn’t been strong. I would argue that poor user interfaces are hindering their growth. Projects to look out for in this space include: Augur (prediction markets), Gnosis (prediction markets), FunFair (casinoes), and Edgeless (casinoes).&lt;/p&gt;
-</description>
-        <pubDate>Thu, 05 Oct 2017 03:41:38 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/definitive-bull-case-for-ethereum/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/definitive-bull-case-for-ethereum/</guid>
         
         
       </item>
