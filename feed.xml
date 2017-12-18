@@ -6,13 +6,17 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Dec 2017 00:56:27 -0800</pubDate>
-    <lastBuildDate>Mon, 18 Dec 2017 00:56:27 -0800</lastBuildDate>
+    <pubDate>Mon, 18 Dec 2017 01:08:17 -0800</pubDate>
+    <lastBuildDate>Mon, 18 Dec 2017 01:08:17 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>I Looked Into NEO&#39;s Code Base - What I Found Should Worry Any NEO Investor</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2KVHtc9.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The presence of these hardcoded values in the code base means that the entire NEO network relies on the existence of the 7 servers that the NEO team runs and if any of these servers were to shut down, the network shuts down.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Before I begin, I’d like to remind the reader about what makes cryptocurrencies fundamentally valuable. With so much euphoria and new blood in the market, it can often be incredibly easy to lose sight of the fundamentals.&lt;/p&gt;
 
@@ -50,7 +54,7 @@
 
 &lt;p&gt;NEO’s team argues that a decentralized model can still be built around this system by allowing the community to vote in the validation nodes. If a validation node went offline, the blockchain would stop but the community could just vote in a new validation node.&lt;/p&gt;
 
-&lt;p&gt;However, NEO’s code base is far from being ready to run this model. I poked around NEO’s code base and discovered that the total number of validation nodes, 7, and the addresses of each validation node, were hardcoded into NEO’s code base. Additionally, the official NEO wallet also relied on these hardcoded values.&lt;/p&gt;
+&lt;p&gt;However, NEO’s code base is far from being ready to run this model. I poked around NEO’s code base and discovered that the total number of validation nodes, 7, and the addresses of each validation node, were hardcoded into the code base. Additionally, the official NEO wallet also relied on these hardcoded values.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/hhV3KeB.jpg&quot; /&gt;&lt;/p&gt;
 
