@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>I Looked Into NEO&#39;s Code Base - What I Found Should Worry Any NEO Investor</title>
+  <meta name="description" content="What are the risks of investing in NEO? Is NEO centralized? The author explored NEO's code base to discover the degree to which NEO is centralized. What he f...">
+
+  <meta property="og:url" content="https://storeofvalue.github.io/posts/how-centralized-is-neo/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="I Looked Into NEO&#39;s Code Base - What I Found Should Worry Any NEO Investor" />
+  <meta property="og:description" content="What are the risks of investing in NEO? Is NEO centralized? The author explored NEO's code base to discover the degree to which NEO is centralized. What he f..." />
+  <meta property="og:image" content="https://imgur.com/2KVHtc9.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SovCryptoBlog" />
+  <meta name="twitter:title" content="I Looked Into NEO&#39;s Code Base - What I Found Should Worry Any NEO Investor" />
+  <meta name="twitter:description" content="What are the risks of investing in NEO? Is NEO centralized? The author explored NEO's code base to discover the degree to which NEO is centralized. What he f..." />
+  <meta name="twitter:image" content="https://imgur.com/2KVHtc9.jpg" />
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="canonical" href="https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+  <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102388374-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">
+      <div class="-title">Store of Value</div>
+      <div class="-subtitle">A cryptocurrency blog</div>
+    </a>
+    <div class="-right-parent">
+      <div class="-twitter-follow-parent">
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="desktop-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span>
+          </div>
+        </a>
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="mobile-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us</span>
+          </div>
+        </a>
+      </div>
+      <div class="desktop-only -logos-parent">
+        <img src="/bitcoin-logo.png" />
+        <img src="/eth-logo.png" />
+        <img src="/litecoin-logo.png" />
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style="position: relative; font-size: 0; text-align: center">
+  <div id="article-side-bar-parent" style="text-align: left; display: inline-block; width: 320px; margin-right: 20px; vertical-align: top">
+    <div id="article-side-bar" style="z-index: 1; width: 320px">
+      <div class="-back-button-parent">
+        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Articles</a>
+      </div>
+      
+      <div style="height: 100px; margin-bottom: 12px; background-image: url('https://imgur.com/2KVHtc9.jpg'); background-size: cover; background-position: 50% 50%"></div>
+      
+      <div style="padding: 0 10px; font-weight: bold; font-size: 16px; color: #555; margin-bottom: 3px">NOW READING</div>
+      <div style="padding: 0 10px; font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+        I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor
+      </div>
+      <div>
+        <div style="margin-top: 12px; border: solid #555 1px; font-size: 26px; padding: 10px">
+          Tip Jar 🍀
+          <div style="font-size: 14px; margin-top: 5px; word-wrap: break-word">
+            <span style="font-size: 16px">Stellar:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">GC4CDHSXYPSOOJNMBDNVWPACT6UDYDQHPJIOCW4GYTG6ZRTJH2475D3Q</span>
+          </div>
+          <div style="font-size: 14px; margin-top: 5px; word-wrap: break-word">
+            <span style="font-size: 16px">Ether:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">0xFa15b8705aa72A81496EaAf9B94fC795CC6C96F5</span>
+          </div>
+          <div style="font-size: 14px; margin-top: 5px; word-wrap: break-word">
+            <span style="font-size: 16px">QTUM:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">Qc41qBDogAQFDpn8PnmSnfMqLwPfLg3mY8</span>
+          </div>
+        </div>
+      </div>
+<!--       <div>
+        <div style="margin-top: 12px; border: solid #555 1px; font-size: 24px; padding: 10px">
+          WCX Exchange ICO
+          <div style="font-size: 16px; margin-top: 5px; word-wrap: break-word">
+            WCX is an upcoming cryptocurrency exchange. World-class trading system, super low fees. WCX token holders earn a share of their revenue. <a style="font-size: 18px; display: block; margin-top: 5px" href="https://wcex.co/?ref=RhoL4iK">Sign up for the exchange early and earn <span style="font-weight:bold">50 free WCX tokens</span>.</a>
+          </div>
+        </div>
+      </div> -->
+      <div style="margin-top: 12px; width: 320px; height: 400px; text-align: center">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article Sidebar -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:250px"
+             data-ad-client="ca-pub-0144173183236578"
+             data-ad-slot="8062654601"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+  <article style="text-align: left; width: 800px; max-width: 100%; display: inline-block;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor</h1>
+      <p class="post-meta"><time datetime="2017-12-17T19:57:16-08:00" itemprop="datePublished">Dec 17, 2017</time></p>
+      <ul class="-share-bar">
+        <li>
+          <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+            <i class="fa fa-twitter"></i> Tweet 
+          </a>
+        </li>
+        <li>
+          <a class="-facebook" target="_blank" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+            <i class="fa fa-facebook"></i> Share
+          </a>
+        </li>
+        <li>
+          <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+            <i class="fa fa-google-plus"></i> Google
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p><img class="-center -header" style="width: 700px" src="https://imgur.com/2KVHtc9.jpg" /></p>
+
+<p>Before I begin, I’d like to remind the reader about what makes cryptocurrencies fundamentally valuable. With so much euphoria and new blood in the market, it can often be incredibly easy to lose sight of the fundamentals.</p>
+
+<p>When the 2008 financial crisis occurred, Western central banks began something known as Quantitative Easing (QE) to dig Western economies out of the recession. What was QE? It was fundamentally the mass printing and distribution of fiat money. This extra money was quickly channeled into investment assets such as stocks and real estate. It was the only way to prevent inflation from gobbling up your net worth. The heavy influx of QE money explains how the equity markets rebounded so quickly after the crash and why the equity markets today are arguably highly overvalued.</p>
+
+<p>Although QE brought us out of the recession, it also highlighted the fundamental problem of treating fiat money as a store of value. Fiat money was controlled by central banks and these banks could reduce its value on a whim. Imagine putting 40 hours a week into a job, earning x dollars, placing the money into a savings account, and having it devalued when the banks decides to print more money. How shitty of a feeling is that?</p>
+
+<h1 id="enter-bitcoin">Enter Bitcoin</h1>
+
+<p>In 2009, barely a year after the market crash, Satoshi released the whitepaper, <em>Bitcoin: A Peer-to-Peer Electronic Cash System</em>. This paper introduced the world to one of the most revolutionary economic paradigms since the advent of money. Bitcoin was a way to <strong>store and transfer value over the Internet quickly and securely without needing a middleman and without having to trust a central authority</strong>. The supply was fixed and the entire ledger was transparent. Bitcoin could not be controlled or taken away by any one entity. It was controlled by democratic consensus and as long as the Internet existed, Bitcoin existed.</p>
+
+<p>This was crazy! Bitcoin was everything fiat money was not. For once, the people had complete control of the monetary system in which they were a part of.</p>
+
+<p>Bitcoin achieved all this through a powerful distributed consensus algorithm that upholds majority rule without making any assumptions on who the participants in the system are. This algorithm ensures decentralized control since it allows anyone to be a miner and for miners to enter and leave the system as they please. Majority rule ensures trustless security since participants don’t need to trust any one specific miner. They only need to trust that the majority of miners will do the right thing.</p>
+
+<p>Bitcoin’s transparency, decentralized control, and trustless security is what makes it so attractive and powerful.</p>
+
+<h1 id="et-tu-neo">Et tu, NEO?</h1>
+
+<p><img class="-center" style="width: 700px" src="https://imgur.com/zwwCbN9.jpg" /></p>
+
+<p>Bitcoin set the standards with which all future cryptocurrencies were evaluated on. After all, if the cryptocurrency relied on a central authority, it was no better than fiat money lying in a database run by a bank.</p>
+
+<p>This was why I was so disappointed to find out that NEO was so incredibly centralized. Investing in NEO was akin to investing in a number in Da Hongfei’s personal database. I tried to get the word out by writing a couple blog posts but NEO’s investors insisted that I was just “spreading FUD” and that NEO was worth as much as or even more than Ethereum!</p>
+
+<p>NEO currently has 7 validation nodes across the entire network. All 7 nodes are controlled by the development team.</p>
+
+<p>To this, the NEO investor would rebute by saying, “so what? they promise to decentralize by Christmas”. The only problem is, decentralization here means the NEO team would give a few of these nodes to the City of Zion, an entity with extremely close ties to the NEO team.</p>
+
+<p>Decentralization implies that anybody with the means to run a validation node should be able to run one. This is core to the spirit of cryptocurrencies and core to their valuation. How does a network decentralize control and uphold majority rule when the participants need to obtain permission from the developers to run a validation node?</p>
+
+<h2 id="neo-is-not-ready-for-any-kind-of-decentralization">NEO is not ready for any kind of decentralization</h2>
+
+<p>NEO’s consensus algorithm is called the Delegated Byzantine Fault Tolerance algorithm, or dBFT. dBFT requires the number of nodes in the system to be fixed and known globally. Additionally, every validation node needs to know about the location of every other validation node. <strong>If any node goes offline, consensus cannot occur and the blockchain will effectively shut down.</strong></p>
+
+<p>NEO’s team argues that a decentralized model can still be built around this system by allowing the community to vote in the validation nodes. If a validation node went offline, the blockchain would stop but the community could just vote in a new validation node.</p>
+
+<p>However, NEO’s code base is far from being ready to run this model. I poked around NEO’s code base and discovered that the total number of validation nodes, 7, and the addresses of each validation node, were hardcoded into NEO’s code base. Additionally, the official NEO wallet also relied on these hardcoded values.</p>
+
+<p><img class="-center" style="width: 700px" src="https://imgur.com/hhV3KeB.jpg" /></p>
+
+<p><strong>The presence of these hardcoded values in the code base means that the entire NEO network relies on the existence of the 7 servers that the NEO team runs and if any of these servers were to shut down, the network shuts down.</strong></p>
+
+<p>This is insane.</p>
+
+<p><img class="-center" style="width: 700px" src="https://imgur.com/frFVam0.jpg" /></p>
+
+<p>Remember the October incident when NEO’s blockchain shut down for several hours? Now I know exactly why. One of more of the consensus nodes run by the NEO team broke down and consensus could not be achieved. The NEO team had too manually go in and reboot that machine to keep the lights running in this fake cryptocurrency pyramid scheme they’ve set up.</p>
+
+<p>NEO is not a cryptocurrency, NEO is a centralized database with no capability of decentralization any time soon. NEO is also a 3 year old project with a $4 billion marketcap. What the fuck is going on?</p>
+
+<p>This also explains why the NEO team is so reluctant to open up the validation servers to the public. They can’t! They are only able to give a few to the City of Zion and make sure that the City of Zion never, ever shut down any of the validation nodes they’re running. In this sense, NEO giving the City of Zion a few validation nodes to run is analogous to Netflix running their servers on Amazon! It’s not decentralization at all, just a formal agreement between two entities.</p>
+
+<p>The City of Zion practically confirms my finding in their <a href="https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d">latest blog post</a> on decentralization. In that blog post, they state:</p>
+
+<blockquote>
+  <p>All nominees for consensus nodes will go through a rigorous identification process before being voted in on MainNet. This process includes providing identification that can hold the owners of the consensus node host legally liable. Each node requires exactly two managing legal entities (individuals or institutions) that will be responsible for their maintenance and patching. There will also be a requirement to provide contact availability to ensure that time-critical events can be handled if they arise.</p>
+</blockquote>
+
+<blockquote>
+  <p>Parties that demonstrate they can maintain consensus nodes with outstanding uptime and performance will be voted in as initial MainNet consensus nodes after identification process is complete.</p>
+</blockquote>
+
+<h2 id="people-without-technical-backgrounds-continue-to-promote-neo">People without technical backgrounds continue to promote NEO</h2>
+
+<p>You will notice that many YouTubers and Reddit users continue to shill NEO. They don’t understand the technology behind it and continue to pump out poorly researched videos and comments proclaiming that NEO is a top-of-the-line cryptocurrency.</p>
+
+<p><img class="-center" style="width: 700px" src="https://imgur.com/2bSS1B0.jpg" /></p>
+
+<p>The reality is, NEO is far from it. I’ve had my suspicions for a long time about NEO’s problems but never truely understood the nuances. Luckily I have a software engineering background and was able to scrounge up some time to look into NEO’s code base to understand how the whole thing works. What I found should worry any NEO investor.</p>
+
+<p>NEO is a 3 year old project. The degree of centralization that permeates the project is utterly unacceptable. Its code base is nowhere close to being ready for decentralization. It is not a cryptocurrency and is far from being worth a $4 billion market cap.</p>
+
+    </div>
+
+    <ul class="-share-bar">
+      <li>
+        <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+          <i class="fa fa-twitter"></i> Tweet
+        </a>
+      </li>
+      <li>
+        <a class="-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+          <i class="fa fa-facebook"></i> Share
+        </a>
+      </li>
+      <li>
+        <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+          <i class="fa fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/how-centralized-is-neo/">
+          <i class="fa fa-google-plus"></i> Google
+        </a>
+      </li>
+    </ul>
+
+    <div class="-ad">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- StoreOfValue Article 1 -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-0144173183236578"
+           data-ad-slot="5229470054"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </article>
+</div>
+
+<script type="text/javascript">
+  var $article_side_bar = $('#article-side-bar');
+  var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
+  var original_article_side_bar_top_offset = $article_side_bar.offset().top;
+  var margin_from_top = 12;
+  var $article = $('article');
+  var $window = $(window);
+  var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+  if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+    $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+    $article_back_button_parent.show();
+  }
+  $window.scroll(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $window.resize(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $('article').find('a').attr('target', '_blank');
+</script>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store of Value</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>A cryptocurrency blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+</p>
+        <p>
+          <span style="font-weight: bold">Contact me:</span> storeofvalueblog@gmail.com
+        </p>
+        <p>
+          <span style="font-weight: bold">Pageviews per article:</span> 8214
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>

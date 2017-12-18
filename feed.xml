@@ -6,9 +6,92 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Dec 2017 15:45:02 -0800</pubDate>
-    <lastBuildDate>Sun, 17 Dec 2017 15:45:02 -0800</lastBuildDate>
+    <pubDate>Mon, 18 Dec 2017 00:54:57 -0800</pubDate>
+    <lastBuildDate>Mon, 18 Dec 2017 00:54:57 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>I Looked Into NEO&#39;s Code Base - What I Found Should Worry Any NEO Investor</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2KVHtc9.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before I begin, I’d like to remind the reader about what makes cryptocurrencies fundamentally valuable. With so much euphoria and new blood in the market, it can often be incredibly easy to lose sight of the fundamentals.&lt;/p&gt;
+
+&lt;p&gt;When the 2008 financial crisis occurred, Western central banks began something known as Quantitative Easing (QE) to dig Western economies out of the recession. What was QE? It was fundamentally the mass printing and distribution of fiat money. This extra money was quickly channeled into investment assets such as stocks and real estate. It was the only way to prevent inflation from gobbling up your net worth. The heavy influx of QE money explains how the equity markets rebounded so quickly after the crash and why the equity markets today are arguably highly overvalued.&lt;/p&gt;
+
+&lt;p&gt;Although QE brought us out of the recession, it also highlighted the fundamental problem of treating fiat money as a store of value. Fiat money was controlled by central banks and these banks could reduce its value on a whim. Imagine putting 40 hours a week into a job, earning x dollars, placing the money into a savings account, and having it devalued when the banks decides to print more money. How shitty of a feeling is that?&lt;/p&gt;
+
+&lt;h1 id=&quot;enter-bitcoin&quot;&gt;Enter Bitcoin&lt;/h1&gt;
+
+&lt;p&gt;In 2009, barely a year after the market crash, Satoshi released the whitepaper, &lt;em&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/em&gt;. This paper introduced the world to one of the most revolutionary economic paradigms since the advent of money. Bitcoin was a way to &lt;strong&gt;store and transfer value over the Internet quickly and securely without needing a middleman and without having to trust a central authority&lt;/strong&gt;. The supply was fixed and the entire ledger was transparent. Bitcoin could not be controlled or taken away by any one entity. It was controlled by democratic consensus and as long as the Internet existed, Bitcoin existed.&lt;/p&gt;
+
+&lt;p&gt;This was crazy! Bitcoin was everything fiat money was not. For once, the people had complete control of the monetary system in which they were a part of.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin achieved all this through a powerful distributed consensus algorithm that upholds majority rule without making any assumptions on who the participants in the system are. This algorithm ensures decentralized control since it allows anyone to be a miner and for miners to enter and leave the system as they please. Majority rule ensures trustless security since participants don’t need to trust any one specific miner. They only need to trust that the majority of miners will do the right thing.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin’s transparency, decentralized control, and trustless security is what makes it so attractive and powerful.&lt;/p&gt;
+
+&lt;h1 id=&quot;et-tu-neo&quot;&gt;Et tu, NEO?&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/zwwCbN9.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bitcoin set the standards with which all future cryptocurrencies were evaluated on. After all, if the cryptocurrency relied on a central authority, it was no better than fiat money lying in a database run by a bank.&lt;/p&gt;
+
+&lt;p&gt;This was why I was so disappointed to find out that NEO was so incredibly centralized. Investing in NEO was akin to investing in a number in Da Hongfei’s personal database. I tried to get the word out by writing a couple blog posts but NEO’s investors insisted that I was just “spreading FUD” and that NEO was worth as much as or even more than Ethereum!&lt;/p&gt;
+
+&lt;p&gt;NEO currently has 7 validation nodes across the entire network. All 7 nodes are controlled by the development team.&lt;/p&gt;
+
+&lt;p&gt;To this, the NEO investor would rebute by saying, “so what? they promise to decentralize by Christmas”. The only problem is, decentralization here means the NEO team would give a few of these nodes to the City of Zion, an entity with extremely close ties to the NEO team.&lt;/p&gt;
+
+&lt;p&gt;Decentralization implies that anybody with the means to run a validation node should be able to run one. This is core to the spirit of cryptocurrencies and core to their valuation. How does a network decentralize control and uphold majority rule when the participants need to obtain permission from the developers to run a validation node?&lt;/p&gt;
+
+&lt;h2 id=&quot;neo-is-not-ready-for-any-kind-of-decentralization&quot;&gt;NEO is not ready for any kind of decentralization&lt;/h2&gt;
+
+&lt;p&gt;NEO’s consensus algorithm is called the Delegated Byzantine Fault Tolerance algorithm, or dBFT. dBFT requires the number of nodes in the system to be fixed and known globally. Additionally, every validation node needs to know about the location of every other validation node. &lt;strong&gt;If any node goes offline, consensus cannot occur and the blockchain will effectively shut down.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;NEO’s team argues that a decentralized model can still be built around this system by allowing the community to vote in the validation nodes. If a validation node went offline, the blockchain would stop but the community could just vote in a new validation node.&lt;/p&gt;
+
+&lt;p&gt;However, NEO’s code base is far from being ready to run this model. I poked around NEO’s code base and discovered that the total number of validation nodes, 7, and the addresses of each validation node, were hardcoded into NEO’s code base. Additionally, the official NEO wallet also relied on these hardcoded values.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/hhV3KeB.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The presence of these hardcoded values in the code base means that the entire NEO network relies on the existence of the 7 servers that the NEO team runs and if any of these servers were to shut down, the network shuts down.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is insane.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/frFVam0.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Remember the October incident when NEO’s blockchain shut down for several hours? Now I know exactly why. One of more of the consensus nodes run by the NEO team broke down and consensus could not be achieved. The NEO team had too manually go in and reboot that machine to keep the lights running in this fake cryptocurrency pyramid scheme they’ve set up.&lt;/p&gt;
+
+&lt;p&gt;NEO is not a cryptocurrency, NEO is a centralized database with no capability of decentralization any time soon. NEO is also a 3 year old project with a $4 billion marketcap. What the fuck is going on?&lt;/p&gt;
+
+&lt;p&gt;This also explains why the NEO team is so reluctant to open up the validation servers to the public. They can’t! They are only able to give a few to the City of Zion and make sure that the City of Zion never, ever shut down any of the validation nodes they’re running. In this sense, NEO giving the City of Zion a few validation nodes to run is analogous to Netflix running their servers on Amazon! It’s not decentralization at all, just a formal agreement between two entities.&lt;/p&gt;
+
+&lt;p&gt;The City of Zion practically confirms my finding in their &lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;latest blog post&lt;/a&gt; on decentralization. In that blog post, they state:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All nominees for consensus nodes will go through a rigorous identification process before being voted in on MainNet. This process includes providing identification that can hold the owners of the consensus node host legally liable. Each node requires exactly two managing legal entities (individuals or institutions) that will be responsible for their maintenance and patching. There will also be a requirement to provide contact availability to ensure that time-critical events can be handled if they arise.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Parties that demonstrate they can maintain consensus nodes with outstanding uptime and performance will be voted in as initial MainNet consensus nodes after identification process is complete.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;people-without-technical-backgrounds-continue-to-promote-neo&quot;&gt;People without technical backgrounds continue to promote NEO&lt;/h2&gt;
+
+&lt;p&gt;You will notice that many YouTubers and Reddit users continue to shill NEO. They don’t understand the technology behind it and continue to pump out poorly researched videos and comments proclaiming that NEO is a top-of-the-line cryptocurrency.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2bSS1B0.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The reality is, NEO is far from it. I’ve had my suspicions for a long time about NEO’s problems but never truely understood the nuances. Luckily I have a software engineering background and was able to scrounge up some time to look into NEO’s code base to understand how the whole thing works. What I found should worry any NEO investor.&lt;/p&gt;
+
+&lt;p&gt;NEO is a 3 year old project. The degree of centralization that permeates the project is utterly unacceptable. Its code base is nowhere close to being ready for decentralization. It is not a cryptocurrency and is far from being worth a $4 billion market cap.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Dec 2017 19:57:16 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/how-centralized-is-neo/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/how-centralized-is-neo/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What Is IOTA And Should You Invest?</title>
@@ -1146,156 +1229,6 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
         <pubDate>Fri, 20 Oct 2017 11:03:31 -0700</pubDate>
         <link>https://storeofvalue.github.io/posts/zap-what-is-it-and-should-you-invest/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/zap-what-is-it-and-should-you-invest/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>QTUM Beginner&#39;s FAQ (Without the Bullshit)</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5HxlCkJ.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;QTUM’s mainnet launched on September 13th. Exchanges began to swap ERC20 QTUM to mainnet QTUM near the end of September. These are exciting times for QTUM and its community. Along with the mainnet launch came many new updates from the team as well as a series of publicity events that included meetups, hackathons, and a Reddit AMA. In addition, investors are finally able to participate in proof of stake, allowing them to passively earn QTUM while securing the network.&lt;/p&gt;
-
-&lt;p&gt;With so much going on for QTUM, it’s not surprising to see a myriad of questions about QTUM from prospective and existing investors alike. Questions range from “what exactly is QTUM?” to “how do I start staking?” I’ve decided to write this blog post to answer some of the more common questions and hopefully have it serve as a beginner’s FAQ for QTUM investors.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;q1-what-is-qtum&quot;&gt;Q1. What is QTUM?&lt;/h1&gt;
-
-&lt;p&gt;At a high level, QTUM is a custom Bitcoin blockchain using proof of stake 3.0 with the Ethereum Virtual Machine (EVM) running on top. In other words, QTUM is a proof-of-stake Ethereum that runs on Bitcoin’s blockchain. This hybrid architecture provides a myriad of benefits:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;QTUM can take advantage of and absorb improvements from both Bitcoin and Ethereum, two blockchains with the largest developer communities in the world. For example, QTUM is compatible with and is already using SegWit. QTUM is also compatiable with both the Lightning Network and Raiden.&lt;/li&gt;
-  &lt;li&gt;Since QTUM uses the EVM, any Ethereum smart contract can run on QTUM and vice versa. This makes it incredibly easy for Ethereum developers to develop on QTUM. Existing Ethereum dApps can also be easily ported to QTUM.&lt;/li&gt;
-  &lt;li&gt;Although there are pros and cons to both the Bitcoin blockchain’s UTXO model and Ethereum’s account model, it’s arguable that the UTXO model is better because it’s more scalable and secure. The UTXO model also supports the Simple Payment Verification (SPV) protocol. SPV allows light clients to interact with smart contracts, something that Ethereum cannot do.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ethereum is planning to switch to proof of stake sometime in 2018. Even then, Ethereum’s proof of stake model will impose a minimum balance on wallets before allowing the wallets to stake. 32 Ether has been a suggested minimum balance. The problem is, not many people can afford 32 Ether and many Ethereum investors will undoubtedly be excluded from staking. QTUM’s proof of stake model, on the other hand, allows wallets with any amount of QTUM to stake.&lt;/p&gt;
-
-&lt;p&gt;Finally, QTUM is &lt;strong&gt;not just a Bitcoin and Ethereum fork&lt;/strong&gt;, as many uninformed naysayers like to claim. First of all, it takes an incredible feat of engineering to combine a UTXO blockchain with the EVM. QTUM’s solution to this is the Account Abstract Layer (AAL) that serves as an interface layer between the blockchain and the EVM. The AAL not only allows the EVM to live on top of a UTXO blockchain, it also means that QTUM is not confined to using the EVM as a smart contracts platform. Any other smart contracts virtual machine compatible with the AAL can be used to replace the EVM and the QTUM team has already announced plans to develop an x86 smart contracts virtual machine for QTUM. The x86 architecture is popular, time-tested, and well designed, and a smart contracts virtual machine based off of this architecture will make up for much of the shortcomings found in Solidity and the EVM. For one, it allows developers to program smart contracts in popular programming languages like C, C++, C#, and Java.&lt;/p&gt;
-
-&lt;p&gt;Finally, I have to mention that QTUM is not just using Bitcoin Core code right out of the box. The QTUM team has developed and augmented QTUM’s version of Bitcoin Core with what’s known as the Decentralized Governance Protocol (DGP). DGP allows owners of QTUM to vote on and enact changes to a limited set of blockchain parameters (e.g. block size and block time) without needing hard forks. This not only allows QTUM to efficiently adapt to changing network conditions, it also allows quick recovery from certain kinds of attacks on the network, issues both Bitcoin and Ethereum have struggled with in the past.&lt;/p&gt;
-
-&lt;h1 id=&quot;q2-what-is-qtums-roadmap&quot;&gt;Q2. What is QTUM’s roadmap?&lt;/h1&gt;
-
-&lt;p&gt;Brett from the QTUM team wrote an &lt;a href=&quot;https://forum.qtum.org/topic/100/qtum-roadmap-breakdown&quot;&gt;excellent forum post&lt;/a&gt; detailing QTUM’s roadmap.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 800px&quot; src=&quot;https://i.imgur.com/5vZ1Xta.jpg&quot; /&gt;
-&amp;gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;q3-what-gives-qtum-value&quot;&gt;Q3. What gives QTUM value?&lt;/h1&gt;
-
-&lt;p&gt;QTUM derives its value the same way Ether derives its value. Both can be considered fuels for their respective smart contract platforms. This means that the more demand there is to use either platforms, the more valuable each platform’s fuel is.&lt;/p&gt;
-
-&lt;p&gt;Because QTUM uses proof of stake while Ethereum is still stuck with proof of work, if all else is equal, QTUM are actually more valuable than Ether since they can participating in staking to generate a passive income.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;q4-what-is-the-total-supply-of-qtum-what-is-the-blockchains-inflation-model&quot;&gt;Q4. What is the total supply of QTUM? What is the blockchain’s inflation model?&lt;/h1&gt;
-
-&lt;p&gt;100 million ERC20 QTUM were issued. Since the launch of the mainnet, only a portion of these tokens were swapped to mainnet tokens. With the mainnet also came new QTUM from block rewards. As such, the total theoretical supply of QTUM right now is a little bit over 100 million.&lt;/p&gt;
-
-&lt;p&gt;QTUM blocks will always reward miners with new QTUM. This means that in theory, the total supply of QTUM is always growing, i.e. there is always going to be inflation. This is necessary to incentivize token owners to stake their tokens, thus securing the blockchain. It is important to keep in mind that although the total supply grows in constant increments, the rate of inflation diminishes as the total supply goes up while the rewards per block remain constant.&lt;/p&gt;
-
-&lt;p&gt;The current block reward is 4 QTUM. Block time is 2 minutes. This results in approximately 2880 QTUM generated per day.&lt;/p&gt;
-
-&lt;h1 id=&quot;q5-how-do-i-stake-qtum&quot;&gt;Q5. How do I stake QTUM?&lt;/h1&gt;
-
-&lt;p&gt;Staking QTUM is incredibly simple. This is all you need to do:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Send QTUM to wallet&lt;/li&gt;
-  &lt;li&gt;Wait 500 blocks for transaction to mature and start staking&lt;/li&gt;
-  &lt;li&gt;Keep wallet running&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;q6-how-does-qtum-staking-work-why-should-i-split-my-balance-into-multiple-transactions&quot;&gt;Q6. How does QTUM staking work? Why should I split my balance into multiple transactions?&lt;/h1&gt;
-
-&lt;p&gt;Each transaction sent to a QTUM wallet takes 500 blocks (or confirmations) to “mature” and start staking. The network weight is the total number of staking QTUM. This weight determines the probability 1 QTUM will mine the next block; the larger the weight, the lower the probability.&lt;/p&gt;
-
-&lt;p&gt;Currently, a QTUM block is set to be mined every 2 minutes. Each block rewards its miner with 4 QTUMs plus the fees in the transactions within the block. If an unspent transaction in a wallet (refer to the UTXO model to understand what this means) mines a block, it is considered to have been “staked” and has no chance to mine a block for the next 500 blocks. As such, it is expected that the number of staking QTUM in a wallet is lower after the wallet has mined a block. This is also why it’s recommended that you split your wallet’s balance into multiple transactions. The more transactions you have, the less QTUM is removed from staking once you mine a block. Depending on the total number of QTUMs you have, you might want to consider 250-1000 QTUMs per transaction.&lt;/p&gt;
-
-&lt;p&gt;There is no concept of “progress” in staking QTUM. Mining a block is completely based on probability. You can think of it as a raffle being held every time a new block is generated. 1 QTUM in a wallet is one entry into the raffle for that wallet.&lt;/p&gt;
-
-&lt;p&gt;If you’re looking for an in depth description of proof of stake 3.0, the proof of stake system QTUM is using, check out the &lt;a href=&quot;http://earlz.net/view/2017/07/27/1904/the-missing-explanation-of-proof-of-stake-version&quot;&gt;blog post, “The missing explanation of Proof of Stake Version 3”&lt;/a&gt;, by QTUM cofounder Jordan Earls.&lt;/p&gt;
-
-&lt;h1 id=&quot;q7-i-mined-a-block-but-my-reward-is-only-04-qtum&quot;&gt;Q7. I mined a block but my reward is only 0.4 QTUM?&lt;/h1&gt;
-
-&lt;p&gt;The immediate reward for mining a block is 0.4 QTUM. After 500 blocks, the rest of the 3.6 QTUM will be paid to the wallet in 9 consecutive blocks.&lt;/p&gt;
-
-&lt;h1 id=&quot;q8-how-do-i-know-when-staking-is-working&quot;&gt;Q8. How do I know when staking is working?&lt;/h1&gt;
-
-&lt;p&gt;If you’re using the GUI version of QTUM Core (v0.14.3) wallet, look for a lightning symbol at the bottom right. If the symbol is hollow, the wallet is not staking. If the symbol is filled, the wallet is staking.&lt;/p&gt;
-
-&lt;p&gt;If you’re using the QTUM Core (v0.14.3) wallet command line tool, run the command &lt;code class=&quot;highlighter-rouge&quot;&gt;getstakinginfo&lt;/code&gt;. If the return value contains &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;staking&quot;: false&lt;/code&gt;, the node is not staking. If the return value contains &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;staking&quot;: true&lt;/code&gt;, the node is staking.&lt;/p&gt;
-
-&lt;h1 id=&quot;q9-will-i-continue-to-stake-if-my-computers-turned-off&quot;&gt;Q9. Will I continue to stake if my computer’s turned off?&lt;/h1&gt;
-
-&lt;p&gt;To participate in proof of stake, QTUM’s wallet software needs to be running and communicating with the other nodes in the network. This means that your computer needs to be turned on to stake.&lt;/p&gt;
-
-&lt;h1 id=&quot;q10-what-is-the-most-efficient-way-to-stake-qtum&quot;&gt;Q10. What is the most efficient way to stake QTUM?&lt;/h1&gt;
-
-&lt;p&gt;Even though proof of stake 3.0 requires an insignificant amount of energy to run, it’s still desirable to use as little energy as possible. The most efficient and accessible way to do so right now is through a Raspberry Pi computer.&lt;/p&gt;
-
-&lt;p&gt;Cryptominder has written a &lt;a href=&quot;https://steemit.com/qtum/@cryptominder/qtum-staking-tutorial-using-qtumd-on-a-raspberry-pi-3&quot;&gt;fantastic tutorial&lt;/a&gt; on staking QTUM using a Raspberry Pi 3.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;q11-etherscanio-for-qtum&quot;&gt;Q11. Etherscan.io for QTUM?&lt;/h1&gt;
-
-&lt;p&gt;Check out &lt;a href=&quot;https://qtum.info/&quot;&gt;qtum.info&lt;/a&gt; and &lt;a href=&quot;https://qtumexplorer.io&quot;&gt;qtumexplorer.io&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;q12-what-dapps-are-building-on-qtum&quot;&gt;Q12. What dApps are building on QTUM?&lt;/h1&gt;
-
-&lt;p&gt;Prior to the mainnet launch, QTUM announced that there were 17 dApps building on it. A few of them have been announced:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Vevue&lt;/li&gt;
-  &lt;li&gt;Inkchain&lt;/li&gt;
-  &lt;li&gt;Bodhi&lt;/li&gt;
-  &lt;li&gt;Matchpool&lt;/li&gt;
-  &lt;li&gt;BitClave&lt;/li&gt;
-  &lt;li&gt;QBao&lt;/li&gt;
-  &lt;li&gt;Energo&lt;/li&gt;
-  &lt;li&gt;Medibloc&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;With the mainnet released, there will be significantly more projects choosing to build on QTUM.&lt;/p&gt;
-
-&lt;h1 id=&quot;q13-whats-the-difference-between-qtum-and-neo&quot;&gt;Q13. What’s the difference between QTUM and NEO?&lt;/h1&gt;
-
-&lt;p&gt;Check out my &lt;a href=&quot;https://storeofvalue.github.io/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/&quot;&gt;article “NEO vs QTUM: An Objective Comparison”&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;if-youve-enjoyed-this-blog-post&quot;&gt;If you’ve enjoyed this blog post…&lt;/h1&gt;
-
-&lt;p&gt;If you’ve enjoyed my research into QTUM over the past couple months, or have found this blog post helpful, you can support the StoreOfValue blog by tipping some QTUM to this address: &lt;code class=&quot;highlighter-rouge&quot;&gt;Qc41qBDogAQFDpn8PnmSnfMqLwPfLg3mY8&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Much thanks if you do, a lot of time and effort has been put into researching QTUM.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 15 Oct 2017 13:25:02 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/</guid>
         
         
       </item>
