@@ -2,16 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
 </description>
-    <link>https://storeofvalue.github.io/</link>
-    <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Dec 2017 01:08:17 -0800</pubDate>
-    <lastBuildDate>Mon, 18 Dec 2017 01:08:17 -0800</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Dec 2017 16:38:01 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2017 16:38:01 -0500</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
       <item>
-        <title>I Looked Into NEO&#39;s Code Base - What I Found Should Worry Any NEO Investor</title>
+        <title>CryptoKitties - The Aftermath</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/pVGZTCq.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CryptoKitties was a craze that sweeped the cryptocurrency world a few weeks ago. For those that don’t know what it is, here’s a quick primer: CryptoKitties is a popular new Ethereum-based decentralized application where users can buy, trade, and breed virtual cats on the blockchain. Check out the dApp here: &lt;a href=&quot;https://www.cryptokitties.co&quot;&gt;cryptoKitties.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A cryptokitty is represented as a string on the blockchain which the cryptokitty website turns into an image of a cat. Parts of the string determines what “cattributes” the cryptokitty has. Cattributes range from minor ones like eyebrow position to major ones like having the body of a chicken. Breeding cryptokitties is similar to breeding cats in real life, the offspring has a mix of cattributes from its parents but there’s no guarantee which cattributes will be there. Certain cattributes are more coveted, and thus expensive, than others.&lt;/p&gt;
+
+&lt;h1 id=&quot;massive-success-in-the-start&quot;&gt;Massive success, in the start&lt;/h1&gt;
+
+&lt;p&gt;A dApp (decentralized application) that combines cats, the blockchain, and unregulated market fit for rampant speculation? How can CryptoKitties not succeed? For the first couple weeks after its launch, the cryptocurrency community went wild. It was so popular mainstream media caught on as well, with publishers like Quartz, Motherboard, Techcrunch, and CBS publishing articles about it.&lt;/p&gt;
+
+&lt;p&gt;People went wild for trading and breeding cryptokitties. Cryptokitties with rare cattributes were snatched off the market and either bred in hopes of getting more cryptokitties with rare cattributes or sold when the price rose. And the price did rise, spectularly. From an average daily price of 0.02 ether per cryptokitty, average daily price peaked at 0.40 ether per cryptokitty. The most expensive cryptokitty went for 247 ether on December 2nd, which was $111,150 at the time!&lt;/p&gt;
+
+&lt;p&gt;The CryptoKitties was so popular it began severely clogging up the Ethereum network. Ethereum’s average transaction throughput is around 15 transactions/second (technically it’s dynamic as miners can vote to increase or decrease the block size). Interacting with the CryptoKitties dApp requires sending Ethereum transactions and so many people were playing, Ethereum’s network couldn’t keep up. Daily average pending transactions rose from 1,500 transactions to 11,000 transactions. CryptoKitties at one point accounted for 25% of Ethereum traffic.&lt;/p&gt;
+
+&lt;p&gt;As of December 12th, barely two weeks after CryptoKitties launched, it had more than 150,000 users, processed over $15 million USD in transactions, and there were 260,000 cats in existence.&lt;/p&gt;
+
+&lt;h1 id=&quot;kitty-23&quot;&gt;Kitty #23&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/prK6xgV.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the best examples of the irrational exuberance surrounding CryptoKitties is Kitty #23, which was flipped for more than 210 ether (about $94,500 at the time) over 4 days. It was first sold for just 10 ether, before being sold for almost 70 ether (60 ether profit for its second owner!), and it was finally sold for 133.9 ether. It’s current owner has a sale open for the cryptokitty at 100 ether.&lt;/p&gt;
+
+&lt;p&gt;133.9 ether was worth around $60,000 at the time. And for what? A string on the blockchain that was turned into a cat picture on the Internet.&lt;/p&gt;
+
+&lt;h1 id=&quot;was-it-just-a-fad&quot;&gt;Was it just a fad?&lt;/h1&gt;
+
+&lt;p&gt;CryptoKitties fell from prominence as fast as it rose. Take a look at these charts below (found on &lt;a href=&quot;http://www.kittyexplorer.com/stats/&quot;&gt;www.kittyexplorer.com/stats&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;From a peak of 4833 transactions per day on December 4th, CryptoKitties processed just 201 transactions on December 21st.&lt;/p&gt;
+
+&lt;p&gt;From a peak average daily price of 0.4 ether per cryptokitty on December 4th, the average price on December 21st was just 0.04 ether.&lt;/p&gt;
+
+&lt;p&gt;Looking at those price curves, I’m almost tempted to say CryptoKitties resembles the Tulip craze, except that instead of taking place over 5 years, it took place over 2 weeks. But this is not fair. While other Ethereum dApps are full of promises, CryptoKitties is one of the first dApps that saw tremendous usage. Sure there was a short term mania egged on by the allures of making money, but the bubble popping doesn’t mean CryptoKitties doesn’t have a future.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/4TEti3g.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although CryptoKitties will probably not see the same popularity it did in its first couple weeks, I’m confident it will continue to maintain and grow a devout following, especially with so many new people getting involved in cryptocurrencies. It is, after all, the first dApp that introduced cats to the blockchain.&lt;/p&gt;
+
+&lt;h1 id=&quot;wikileaks&quot;&gt;Wikileaks?!&lt;/h1&gt;
+
+&lt;p&gt;It’s interesting to note that WikiLeaks recently got into CryptoKitties by buying their own Gen 0 cryptokitties, named Mr. WikiLeaks and Mrs. WikiLeaks. They’re planning to sell the offspring of Mr. and Mrs. WikiLeaks to raise money. They’ve so far gifted a cryptokitty to Donald Trump and one to Hillary Clinton. Some of Mr. and Mrs. WikiLeaks cryptokitties that are on sale include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NSA Spying Kitty&lt;/li&gt;
+  &lt;li&gt;Iraq War Kitty&lt;/li&gt;
+  &lt;li&gt;CIA Vault7 Kitty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check it out here: &lt;a href=&quot;https://wikileaks.shop/pages/cryptokitties&quot;&gt;https://wikileaks.shop/pages/cryptokitties&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Dec 2017 03:55:38 -0500</pubDate>
+        <link>http://localhost:4000/posts/cryptokitties-the-aftermath/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/cryptokitties-the-aftermath/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2KVHtc9.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -66,11 +125,13 @@
 
 &lt;p&gt;Remember the October incident when NEO’s blockchain shut down for several hours? Now I know exactly why. One of more of the consensus nodes run by the NEO team broke down and consensus could not be achieved. The NEO team had too manually go in and reboot that machine to keep the lights running in this fake cryptocurrency pyramid scheme they’ve set up.&lt;/p&gt;
 
-&lt;p&gt;NEO is not a cryptocurrency, NEO is a centralized database with no capability of decentralization any time soon. NEO is also a 3 year old project with a $4 billion marketcap. What the fuck is going on?&lt;/p&gt;
+&lt;p&gt;NEO is not a cryptocurrency, NEO is a centralized database with no capability of decentralizing any time soon. NEO is also a 3 year old project with a $4 billion marketcap. What the fuck is going on?&lt;/p&gt;
 
-&lt;p&gt;This also explains why the NEO team is so reluctant to open up the validation servers to the public. They can’t! They are only able to give a few to the City of Zion and make sure that the City of Zion never, ever shut down any of the validation nodes they’re running. In this sense, NEO giving the City of Zion a few validation nodes to run is analogous to Netflix running their servers on Amazon! It’s not decentralization at all, just a formal agreement between two entities.&lt;/p&gt;
+&lt;p&gt;This also explains why the NEO team is so reluctant to open up the validation servers to the public. They can’t! They’re only able to give a few to the City of Zion and make sure that the City of Zion never, ever shut down any of the validation nodes they’re running.&lt;/p&gt;
 
-&lt;p&gt;The City of Zion practically confirms my finding in their &lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;latest blog post&lt;/a&gt; on decentralization. In that blog post, they state:&lt;/p&gt;
+&lt;p&gt;In addition, NEO giving the City of Zion a few validation nodes to run is not decentralization. it’s just a formal agreement between two entities and is analogous to Netflix running their servers on Amazon! Decentralization by Christmas? It’s just a show.&lt;/p&gt;
+
+&lt;p&gt;The City of Zion practically confirms my findings in their &lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;latest blog post&lt;/a&gt; on decentralization. In the blog post, they state:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;All nominees for consensus nodes will go through a rigorous identification process before being voted in on MainNet. This process includes providing identification that can hold the owners of the consensus node host legally liable. Each node requires exactly two managing legal entities (individuals or institutions) that will be responsible for their maintenance and patching. There will also be a requirement to provide contact availability to ensure that time-critical events can be handled if they arise.&lt;/p&gt;
@@ -79,6 +140,8 @@
 &lt;blockquote&gt;
   &lt;p&gt;Parties that demonstrate they can maintain consensus nodes with outstanding uptime and performance will be voted in as initial MainNet consensus nodes after identification process is complete.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;To be honest, it was already a huge red sign when an individual can be held “legally liable” if they were to run a consensus node. Now it makes complete sense. If the individual can’t keep the node running, NEO’s blockchain stops and it’ll severely hurt the project.&lt;/p&gt;
 
 &lt;h2 id=&quot;people-without-technical-backgrounds-continue-to-promote-neo&quot;&gt;People without technical backgrounds continue to promote NEO&lt;/h2&gt;
 
@@ -97,9 +160,9 @@
   &lt;li&gt;&lt;a href=&quot;https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/&quot;&gt;https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 17 Dec 2017 19:57:16 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/how-centralized-is-neo/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/how-centralized-is-neo/</guid>
+        <pubDate>Sun, 17 Dec 2017 22:57:16 -0500</pubDate>
+        <link>http://localhost:4000/posts/how-centralized-is-neo/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/how-centralized-is-neo/</guid>
         
         
       </item>
@@ -273,9 +336,9 @@
 
 &lt;p&gt;IOTA is an ambitious and technically impressive project. It’s promise of unlimited scaling and zero-fee transactions is particularly enticing, especially for Bitcoin users that are currently seeing transaction confirmation times and fees sky rocket. However, it is not without its shortcomings. The network is definitely not secure in its current level of adoption and needs to be centralized to keep it afloat. The Data Marketplace project is a great initiative that not only brings tremendous utility to the network but also decentralizes it. However, it is important to keep in mind that if the project fails, IOTA will remain centralized for the foreseeable future. I also have some reservations on the maturity and leadership skills of the project’s co-founders. Besides these issues, I think IOTA is a very strong and exciting project.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 15 Dec 2017 18:20:21 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/iota-what-is-it-and-should-you-invest/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/iota-what-is-it-and-should-you-invest/</guid>
+        <pubDate>Fri, 15 Dec 2017 21:20:21 -0500</pubDate>
+        <link>http://localhost:4000/posts/iota-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/iota-what-is-it-and-should-you-invest/</guid>
         
         
       </item>
@@ -390,9 +453,9 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;This was posted in April 2013.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 02 Dec 2017 02:06:20 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/crazy-things-that-have-happened-in-crypto/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/crazy-things-that-have-happened-in-crypto/</guid>
+        <pubDate>Sat, 02 Dec 2017 05:06:20 -0500</pubDate>
+        <link>http://localhost:4000/posts/crazy-things-that-have-happened-in-crypto/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/crazy-things-that-have-happened-in-crypto/</guid>
         
         
       </item>
@@ -500,9 +563,9 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;I have never seen anyone in any professional setting use the inane and childish term “FUD”. I was honestly quite surprised the article would be titled “Response to baseless FUD”. It’s also hilarious that the article calls my work “baseless FUD”, and then proceeds to confirm several of my points!&lt;/p&gt;
 </description>
-        <pubDate>Sun, 19 Nov 2017 10:47:45 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</guid>
+        <pubDate>Sun, 19 Nov 2017 13:47:45 -0500</pubDate>
+        <link>http://localhost:4000/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</guid>
         
         
       </item>
@@ -617,9 +680,9 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;Be careful of what you buy.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Nov 2017 02:46:24 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/major-neo-redflags/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/major-neo-redflags/</guid>
+        <pubDate>Sat, 18 Nov 2017 05:46:24 -0500</pubDate>
+        <link>http://localhost:4000/posts/major-neo-redflags/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/major-neo-redflags/</guid>
         
         
       </item>
@@ -729,9 +792,9 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;Jihan Wu has been accused of supporting Bitcoin Cash in order to maintain his lucrative mining business. Bitmain’s Bitcoin mining technology doesn’t work with SegWit.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 13 Nov 2017 22:40:17 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</guid>
+        <pubDate>Tue, 14 Nov 2017 01:40:17 -0500</pubDate>
+        <link>http://localhost:4000/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/</guid>
         
         
       </item>
@@ -856,9 +919,9 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 11 Nov 2017 15:58:01 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/cancelling-segwit2x-defeat-for-bitcoin/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/cancelling-segwit2x-defeat-for-bitcoin/</guid>
+        <pubDate>Sat, 11 Nov 2017 18:58:01 -0500</pubDate>
+        <link>http://localhost:4000/posts/cancelling-segwit2x-defeat-for-bitcoin/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/cancelling-segwit2x-defeat-for-bitcoin/</guid>
         
         
       </item>
@@ -966,9 +1029,9 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;Altucher could be a fraud, or he could just be a seasoned internet marketer. Perhaps his “leaked” newsletter that started the Amazon rumours was not designed to start the rumour, but was just heavily misinterpreted by some who wanted the rumour to spread and pump Bitcoin’s price. Perhaps Altucher just chose to speak his mind and used a few strong words along the way. Either way, I think his predictions in the “leaked” newsletter are wayyy off the mark.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 30 Oct 2017 20:15:52 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/rumour-mill-is-amazon-accepting-bitcoin/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/rumour-mill-is-amazon-accepting-bitcoin/</guid>
+        <pubDate>Mon, 30 Oct 2017 23:15:52 -0400</pubDate>
+        <link>http://localhost:4000/posts/rumour-mill-is-amazon-accepting-bitcoin/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/rumour-mill-is-amazon-accepting-bitcoin/</guid>
         
         
       </item>
@@ -994,7 +1057,7 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;h1 id=&quot;what-is-the-stellar-network&quot;&gt;What is the Stellar network?&lt;/h1&gt;
 
-&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
+&lt;h2 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Like Bitcoin, the Stellar network is a decentralized and distributed ledger.&lt;/li&gt;
@@ -1139,107 +1202,9 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 23 Oct 2017 17:59:46 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/stellar-lumens-what-is-it-and-should-you-invest/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/stellar-lumens-what-is-it-and-should-you-invest/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Zap: What Is It and Should You Invest?</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/W65uIjb.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A small, incumbent project recently came to my attention. It’s called the Zap Store and after looking thoroughly at the team, their mission, and their product, I have to say, I like what I see.&lt;/p&gt;
-
-&lt;p&gt;Smart contracts are probably the most promising blockchain feature right now. At a high level, a smart contract is a wallet controlled by code. The code triggers the wallet to send transactions when certain events happen. Smart contracts are also able to store data, with ERC20 tokens being a good example of that.&lt;/p&gt;
-
-&lt;p&gt;Smart contracts can be extended to serve as the basis for decentralized applications, or dApps. Users can interact with dApps through all the usual ways you can interact with a traditional web application (e.g. websites and APIs).&lt;/p&gt;
-
-&lt;p&gt;A fundamental flaw for smart contracts is that the only information they can reliably trust is in the blockchain. However, for many smart contracts to be useful and fulfill powerful uses cases, they need external information (e.g. stock prices, interest rates, weather). The problem is, how do you incorporate external information to the blockchain in a decentralized and trustful manner?&lt;/p&gt;
-
-&lt;p&gt;This is where oracles come in. Oracles are secondary-layer blockchain systems that feed external information to the blockchain. Because oracles tend to be single sources of truth for the blockchain, establishing trust in oracles is an incredibly hard problem to solve, especially when it’s often the case that an oracle stands to benefit tremendously from feeding bad data.&lt;/p&gt;
-
-&lt;p&gt;Although Zap is not tackling the oracle trust problem directly, it aims to build an efficient marketplace where it’s tremendously easy for data providers to sell their data as oracles, and for smart contract developers to purchase and receive oraclized data. Combined with a reputation system, such a marketplace makes it extremely conducive for professional and long time data providers to thrive.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/LOob4th.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;how-does-zap-work&quot;&gt;How does Zap work?&lt;/h1&gt;
-
-&lt;p&gt;Zap’s ecosystem consists of oracles, subscribers (smart contracts consuming data), and the ZapMarket smart contract that connects and manages payments between the two parties.&lt;/p&gt;
-
-&lt;p&gt;An oracle is comprised of:
-* a realtime datafeed
-* an Ethereum address registered with the ZapMarket smart contract
-* an IPFS keypair public key with the ZapMarket contract
-* a data encryption public key registered with the ZapMarket contract
-* a quantity of ZAP bonded to the ZapMarket contract&lt;/p&gt;
-
-&lt;p&gt;A subscriber is a smart contract that needs data. It’s comprised of:
-* an Ethereum address registered with the ZapMarket smart contract
-* an IPFS public key registered with the ZapMarket smart contract
-* a data encryption public key registered with ZapMarket smart contract
-* a quantity of ZAP bonded under an existing oracle in the ZapMarket smart contract&lt;/p&gt;
-
-&lt;p&gt;When a subscriber requires information from a oracle, it “bonds” ZAP tokens to the oracle through the ZapMarket smart contract. In return, the subscriber gets DOTS which it can use to pay for queries for that oracle. When the subscriber makes a query with a DOT, the ZapMarket smart contract facilitates the exchange of IPFS public keys between the two parties. The two parties then establish a private IPFS pubsub room where the oracle can push data to the subscriber.&lt;/p&gt;
-
-&lt;h2 id=&quot;unique-payment-model&quot;&gt;Unique payment model&lt;/h2&gt;
-
-&lt;p&gt;Zap provides a very interesting payment model. ZAP tokens are the currency of the Zap oracle marketplace. When a subscriber “bonds” ZAP to the oracle, the subscriber is given DOTS and can use them to query the oracle. One DOT = one query. DOTS are nontransferable. This whole process is facilitated by the ZapMarket smart contract.&lt;/p&gt;
-
-&lt;p&gt;To become an oracle, a data provider needs to register with the ZapMarket smart contract. On registration, the data provider needs to specify a DOT/ZAP supply curve. This curve determines how many DOTS are given per ZAP bonded to the oracle. An oracle could have a flat, linear curve, meaning DOTS remain at the same price even with demand increasing. A oracle could also specify an ascending curve, meaning DOTS get more expensive with more demand.&lt;/p&gt;
-
-&lt;p&gt;This payment model introduces speculators to the market. Speculators are those that bond ZAP to oracles without any interest in spending DOTS (i.e. receiving data). If the oracle has an increasing DOT/ZAP supply cure and the demand for the oracle rises after the speculator bonds ZAP to the oracle, the speculator makes a profit when they convert their DOTS back to ZAP.&lt;/p&gt;
-
-&lt;p&gt;The allowance of a speculator in Zap’s oracle market is an intentional design element that aims to act as a market refinement mechanism. Speculators are incentivitized to discover good data sources and bond to them early. This helps in getting these good data sources discovered by other market participants that are actually looking for data. This market design utilizes many of the same economic incentives as prediction markets.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-about-bad-actors&quot;&gt;What about bad actors?&lt;/h2&gt;
-
-&lt;p&gt;Zap’s ecosystem connects a subscriber with a publisher. The publisher will typically become a single source of truth for the subscriber, making the subscriber vulnerable to a bad actor publisher (unless the subscriber has some fancy consensus system involving multiple publishers for the same data).&lt;/p&gt;
-
-&lt;p&gt;According to Zap’s whitepaper, the risk of scams is mediated by the fact that each publisher is tied to a unique Ethereum address and new publishers should always be treated with suspicion. On the other hand, long standing or professional data oracles can be afforded more trust.&lt;/p&gt;
-
-&lt;p&gt;For Zap, blockchain history becomes a sort of trustless reputation system.&lt;/p&gt;
-
-&lt;h1 id=&quot;zap-has-a-strong-team-behind-it&quot;&gt;Zap has a strong team behind it&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/dOZowmR.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://zap.store/team.html&quot;&gt;The team behind Zap looks solid&lt;/a&gt;, especially for a startup. The development team is well-staffed and many company support roles are filled. For example, there is someone for legal, a team for business development, a data scientist, a community manager, etc. This is definitely a team that can hit the ground running.&lt;/p&gt;
-
-&lt;p&gt;Core to the team is the founder, Nick Spanos. Spanos looks to be qualified and more than capable of running the company. He has a history of business ventures, several of which are related to cryptocurrencies. He cofounded the Bitcoin Center NYC in 2013, a physical coworking space next to the NYSE. The center aims to educate people on Bitcoin and cryptocurrencies. Besides providing an open space where anyone can come in to discuss and learn about cryptocurrencies, the center also offers courses and hosts a myriad of cryptocurrency-related events.&lt;/p&gt;
-
-&lt;p&gt;Spanos also founded Blockchain Technologies Corp in 2011. BTC is a startup accelerator for blockchain-related ventures and it currently manages a portfolio of blockchain technology companies.&lt;/p&gt;
-
-&lt;p&gt;Before dabbling in blockchain, Spanos founded getaroom.com and was the CEO of the company for 11 years. He sold it to Hotels.com in 2010.&lt;/p&gt;
-
-&lt;h1 id=&quot;focusing-on-ui-is-good&quot;&gt;Focusing on UI is good&lt;/h1&gt;
-
-&lt;p&gt;From the mocks and demo I’ve seen so far, it’s clear that Zap has placed an emphasis on their user interface. Subscribers need only push a few buttons to purchase a subscription to an oracle. To use the oracle in a smart contract, it looks like Zap is planning to release some sort of “plug n’ play” code package that should make it very easy for developers to connect to oracles in their smart contracts.&lt;/p&gt;
-
-&lt;p&gt;Although this is just based on the existing mocks and demo, I’m happy to see Zap putting efforts into a good UI. You’d be surprised how important UI is for product adoption. In fact, many cryptocurrency thought leaders, including Andreas Antonopoulos and Vitalik Buterin, have stated that a bad UI is a key impeding factor for mainstream adoption of cryptocurrencies.&lt;/p&gt;
-
-&lt;h1 id=&quot;zap-vs-chainlink&quot;&gt;Zap vs ChainLink&lt;/h1&gt;
-
-&lt;p&gt;ChainLink is another prominent oracle service in development right now. While both Zap and ChainLink are products in the oracle space, Zap is focused on building a simple-to-use marketplace where smart contracts can connect to oracles through one intuitive interface and ChainLink is focused on building trustful oracle data streams through decentralization.&lt;/p&gt;
-
-&lt;p&gt;ChainLink aims to build its own data aggregator service that takes data from a bunch of data streams and returns the majority result. Although this will create highly reliable data streams for the blockchain, there is also tremendous overhead and complexity.&lt;/p&gt;
-
-&lt;p&gt;ChainLink data will be more expensive and take longer to deliver, something that is not necessary for highly trusted oracles, such as those from professional or long-standing data providers. ChainLink is excellent for enterprise dApps where data integrity is crucial but not so much for “lower-tier” dApps.&lt;/p&gt;
-
-&lt;p&gt;Ultimately, Zap and ChainLink are not necessarily competitors. ChainLink oracles can serve as purchasable oracle services in the Zap marketplace.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-the-current-state-of-zap&quot;&gt;What is the current state of Zap?&lt;/h1&gt;
-
-&lt;p&gt;According to the whitepaper, Zap has smart contracts deployed on the Ethereum testnet with a public beta website and mobile applications up and running. You can checkout the web demo &lt;a href=&quot;https://zap.store/demo/index.html&quot;&gt;here&lt;/a&gt;. There are apparently 18,000 data providers ready for implementation once Zap is deployed on the mainnet.&lt;/p&gt;
-
-&lt;p&gt;Zap recently concluded an ICO presale and will be holding the public token sale on October 21st. In total, 520 million Zap tokens will be created with 173 million available for sale in the ICO. The rest of the tokens will be held by the Synapse Foundation (foundation behind the project) as part of a long-term operating budget.&lt;/p&gt;
-
-&lt;p&gt;You can participate in the ICO &lt;a href=&quot;https://zap.store/tokensale.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Oct 2017 11:03:31 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/zap-what-is-it-and-should-you-invest/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/zap-what-is-it-and-should-you-invest/</guid>
+        <pubDate>Mon, 23 Oct 2017 20:59:46 -0400</pubDate>
+        <link>http://localhost:4000/posts/stellar-lumens-what-is-it-and-should-you-invest/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/stellar-lumens-what-is-it-and-should-you-invest/</guid>
         
         
       </item>
