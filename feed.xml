@@ -2,17 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Dec 2017 16:49:49 -0500</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2017 16:49:49 -0500</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Wed, 27 Dec 2017 02:42:50 -0500</pubDate>
+    <lastBuildDate>Wed, 27 Dec 2017 02:42:50 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>What Is Ripple and Should You Invest?</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/arrVrRp.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this article, I’ll refer to RippleNet as the distributed payments network with which XRP is its native currency. I’ll refer to Ripple as the company developing and marketing RippleNet. Keep in mind that most people refer to all three as simply Ripple. However, in the interest of keeping this article sane and not confusing, I found the nuanced terminology necessary.&lt;/p&gt;
+
+&lt;p&gt;XRP has been on fire lately. From $0.20 USD per XRP in early December, its price has sky rocketed within a month to $1.13 at the time of writing. To be fair, this increase was driven mostly by a rumour of an impending Coinbase/GDAX listing instead of any significant improvements to its fundamentals.&lt;/p&gt;
+
+&lt;p&gt;XRP is one of the largest cryptocurrencies out there. It’s been consistently a top 5 cryptocurrency by market cap since April of this year. Besides its most recent bull run and na bull run back in May, XRP’s price has been surprisingly stable with respect to other cryptocurrencies. This is incredibly impressive when you realize that Ripple doesn’t invest significant resources into marketing XRP to retail investors. Instead, the company’s marketing efforts are focused almost solely on enterprise customers like banks and other corporations. This is one of the reasons why I believe XRP is a cryptocurrency with one of the strongest fundamentals out there.&lt;/p&gt;
+
+&lt;p&gt;I have to admit that I’ve mostly ignored XRP due to its price stability but its recent price action has caught the attention of many investors, me included. I realized that I actually know very little about the cryptocurrency and the company surrounding it so I spent the last few days researching XRP. Here’s a summary of what I learned.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-ripplenet&quot;&gt;What is RippleNet?&lt;/h1&gt;
+
+&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/dlenHgZ.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Like Bitcoin, RippleNet is a decentralized and distributed ledger&lt;/li&gt;
+  &lt;li&gt;There are at most 100 billion XRPs in existence.&lt;/li&gt;
+  &lt;li&gt;XRP is a deflationary currency. No new XRPs will ever be created and the fee paid for each transaction is actually burned.&lt;/li&gt;
+  &lt;li&gt;All XRPs were created in the network’s inception and originally owned by Ripple. The company has since distributed a significant percentage of XRPs to investors, exchanges, and other institutions. The remaining XRPs have been locked away in a Ripple escrow. A billion XRPs are released by the escrow every month.&lt;/li&gt;
+  &lt;li&gt;There is no mining equivalent in RippleNet; you can run a Ripple validator node but validating transactions will not reward you with XRP.&lt;/li&gt;
+  &lt;li&gt;Validators can vote on the network’s base transaction fee.&lt;/li&gt;
+  &lt;li&gt;RippleNet has incredibly low fees. The current base transaction fee is 0.00001 XRP. The actual transaction fee increases based on the load on the network.&lt;/li&gt;
+  &lt;li&gt;4 second transaction confirmation time, which is incredibly fast compared to Ethereum’s 2 minute confirmation time and Bitcoin’s 10 minute confirmation time&lt;/li&gt;
+  &lt;li&gt;RippleNet can consistently handle 1,500 transactions per second, with an upper limit of 50,000 transactions per second. This is comparable to VISA. Ethereum can consistently handle about 15 transactions per second, with an unbounded upper limit (however, it takes significant time for Ethereum’s network to adjust its maximum transaction throughput). Bitcoin can only handle up to 7 transactions per second.&lt;/li&gt;
+  &lt;li&gt;Anyone can issue new assets onto the RippleNet. For example, a bank could issue a token representing a real-world currency like USD or EUR. Companies can issue tokens on RippleNet to run ICOs.&lt;/li&gt;
+  &lt;li&gt;RippleNet has a built-in decentralized exchange for all the custom assets on the network.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-the-point-of-xrp&quot;&gt;What’s the point of XRP?&lt;/h2&gt;
+
+&lt;p&gt;XRP serves as the native currency of RippleNet as well as an anti-spam mechanism. RippleNet accounts need to have a minimum of 20 XRP in order to submit transactions to the network. This is known as the account’s “reserve” and is one way the network protects itself from spam. Another spam protection mechanism is the set fee each transaction needs to pay in order to be accepted by the network.&lt;/p&gt;
+
+&lt;p&gt;XRP also plays a crucial role in one of the main use cases that RippleNet is advertised for by Ripple. Specifically, RippleNet is great at introducing forex liquidity for banks which will make low-value but high demand cross-border payments like remittances economical for banks, even from low volume currency corridors.&lt;/p&gt;
+
+&lt;p&gt;Many banks avoid supporting a wide range of currency corridors for remittance payments. This is primarily because the current global payments insfrastructure is slow, error prone, and costly. These payments need to occur across different banking systems operating in different timezones often with a low level of coordination. Banks also don’t want to store capital in multiple foreign nostro accounts, denoted in foreign currencies, in order to service low-value remittance payments. This is especially true for low volume currency corridors like the Afghan dollar-New Zealand dollar corrider.&lt;/p&gt;
+
+&lt;p&gt;Ripple believes that RippleNet solves this problem through the XRP currency and RippleNet’s fast, secure, and transparent payments infrastructure. In the RippleNet-supported global payments infrastructure, instead of banks maintaining nostro accounts or the use of expensive and slow correspondent banks for currency corridor payments, banks could just maintain a pool of XRP and make markets directly between its domestic currency and XRP. To issue a currency corridor payment, a bank simply needs to sends its XRP through RippleNet to the foreign bank which will be able to convert the XRP back to its own domestic currency.&lt;/p&gt;
+
+&lt;p&gt;This significantly reduces the number of intemediaries involved which speeds up the transaction, lowers fees, and reduces the chances of errors.&lt;/p&gt;
+
+&lt;h2 id=&quot;ripplenets-consensus-protocol&quot;&gt;RippleNet’s consensus protocol&lt;/h2&gt;
+
+&lt;p&gt;The RippleNet’s ledger consists of a series of mini ledgers, each containing a set of transactions. The mini ledgers are created by and voted on by RippleNet’s peer-to-peer validator nodes.&lt;/p&gt;
+
+&lt;p&gt;The consensus process for mini ledger occurs over multiple rounds. Each round, the validator nodes broadcast their version of a mini ledger to their peers and the votes are tallied. The process ends when a super majority of the participating validator nodes (more than 80%) agree on a mini ledger. The new mini ledger is then added to the overall ledger.&lt;/p&gt;
+
+&lt;p&gt;RippleNet’s consensus protocol differs from the traditional cryptocurrency mining in two primary ways. First, RippleNet doesn’t have a built-in monetary incentive for people to run Ripple validator nodes whereas successfully mined Bitcoin and Ethereum blocks reward the miner with Bitcoin/Ether. Second, consensus in RippleNet is achieved through a voting process whereas consensus in Bitcoin and Ethereum is achieved through competition and mathematics.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-ripple&quot;&gt;Why Ripple?&lt;/h1&gt;
+
+&lt;h2 id=&quot;powerhouse-list-of-investors&quot;&gt;Powerhouse list of investors&lt;/h2&gt;
+
+&lt;p&gt;Ripple has a powerhouse list of investors. Investors in the company include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CME Ventures&lt;/li&gt;
+  &lt;li&gt;Standard Chartered Bank&lt;/li&gt;
+  &lt;li&gt;Andreesen Horowitz&lt;/li&gt;
+  &lt;li&gt;Santander InnoVentures&lt;/li&gt;
+  &lt;li&gt;Accenture&lt;/li&gt;
+  &lt;li&gt;Avant Global&lt;/li&gt;
+  &lt;li&gt;And many more: &lt;a href=&quot;https://www.crunchbase.com/organization/ripple-labs/investors/investors_list&quot;&gt;www.crunchbase.com/organization/ripple-labs/investors/investors_list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ripple-is-a-mature-and-sizeable-company&quot;&gt;Ripple is a mature and sizeable company&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/5YRBxoU.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For other cryptocurrencies, I would often look at their GitHub repo and their cofounders’/developers’ backgrounds to make sure they’re legitimate, professional, and still working on the project.&lt;/p&gt;
+
+&lt;p&gt;Ripple, on the other hand, is a mature company currently with around 200 employees. The company is headquartered in San Francisco with offices in New York, London, Sydney, India, Singapore and Luxembourg. RippleNet also has a long history, being first released in 2012. As such, there is no doubt of the project’s legitimacy, professionalism, and whether people are still working on it or not.&lt;/p&gt;
+
+&lt;h2 id=&quot;extensive-banking-and-corporate-partnerships&quot;&gt;Extensive banking and corporate partnerships&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/tYAZKK2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ripple focuses its marketing to enterprise customers such as banks and corporations. To say they’ve been successful at it is an understatement. Ripple has one of the most extensive portfolio of banking and corporate partnerships of all other cryptocurrency projects. There are simply too many for me to list but here are some very notable partnerships.&lt;/p&gt;
+
+&lt;p&gt;SBI Holdings is a Japanese financial services company with a 10% stake in Ripple. Both companies have formed a joint venture named SBI Ripple Asia which is currently leading a consortium of Japanese banks in testing a pilot project where interbank payments are processed on RippleNet. This pilot project was deemed successful and the consortium of banks have now partnered with two major South Korean banks in using RippleNet for cross-border payments in another pilot project that will take place throughout December. If successful, the project is planned to go live on January 31st, 2018.&lt;/p&gt;
+
+&lt;p&gt;The Global Payments Steering Group (GPSG) was formed in 2016 to “oversee the creation and maintenance of Ripple payment transaction rules, formalized standards for activity using Ripple, and other actions to support the implementation of Ripple payment capabilities”. Members of the group include: Bank of America Merrill Lynch, Santander, UniCredit, Standard Chartered, Westpac Banking Corporation, Royal Bank of Canada, CIBC, and the Bank of Tokyo-Mitsubishi UFJ. According to this &lt;a href=&quot;https://coinjournal.net/banks-unite-around-ripple-launch-new-cross-border-wiring-service/&quot;&gt;CoinJournal article&lt;/a&gt;, the group plans to launch a cross-border wiring service built on RippleNet.&lt;/p&gt;
+
+&lt;h1 id=&quot;ripplenets-longevity&quot;&gt;RippleNet’s longevity&lt;/h1&gt;
+
+&lt;p&gt;An interesting property of Ripple is that, currently, there will ever be at most 100 billion XRPs ever in existence. In addition, the XRP paid as a fee for a transaction is burned so the more the network is utilized, the faster XRPs are burned. This means that XRP is a super deflationary currency which puts into question RippleNet’s longevity.&lt;/p&gt;
+
+&lt;p&gt;In this state, RippleNet has a finite lifespan as the XRPs will eventually run out, even if you factor in decimal points. Computers can only handle so many decimal points.&lt;/p&gt;
+
+&lt;p&gt;Additionally, this immense deflationary pressure makes XRP conducive to hording and banks might eschew XRP if they find it increasingly expensive to use. Also, why would a bank use its XRP pool for interbank payments if its more profitable to just hold on to them?&lt;/p&gt;
+
+&lt;h1 id=&quot;is-ripple-centralized&quot;&gt;Is Ripple centralized?&lt;/h1&gt;
+
+&lt;p&gt;There are concerns that RippleNet is centralized. First of all, XRP is a pre-mined cryptocurrency where the entire supply was originally owned by Ripple before the company doled out some to investors, exchanges, and other institutions. Ripple still holds on to 50 billion XRP locked in an RippleNet escrow that releases 1 billion XRP every month for Ripple to spend. What would you do with $1 billion every month for the next 50 months? Sounds like a great lottery prize.&lt;/p&gt;
+
+&lt;p&gt;There have also been concerns of centralization with Ripple’s validator nodes. I’m not entirely sure what the argument is here but I believe it’s something to do with Ripple running most of the validator nodes. Ripple has laid out a validator &lt;a href=&quot;https://ripple.com/dev-blog/decentralization-strategy-update/&quot;&gt;decentralization plan here&lt;/a&gt; which I thought was reasonable.&lt;/p&gt;
+
+&lt;h1 id=&quot;stellar-vs-ripple&quot;&gt;Stellar vs Ripple&lt;/h1&gt;
+
+&lt;p&gt;Stellar is a close competitor to Ripple. Both networks share the same cofounder, Jed McCaleb, which interestingly threatened to sell off his 9 billion XRP before Ripple reached an agreement with him where he would only be able to liquidate his XRP holdings over a seven-year schedule.&lt;/p&gt;
+
+&lt;p&gt;In any case, the Stellar network is a fork of RippleNet with a couple very important differences. The Stellar network uses a different consensus algorithm than RippleNet and instead of having a fixed maximum supply like XRP, the supply of XLM increases by 1% every year.&lt;/p&gt;
+
+&lt;p&gt;There are also operational differences between Ripple and the Stellar Foundation. Ripple is focused on enterprise adoption whereas Stellar is more focused on its community. While Ripple is chasing banking and corporate partnerships, Stellar has been building impressive developer documentation and promoting ICOs on its platform. This divergence in strategy can be seen with the number of banking partnerships Ripple has compared to the Stellar Foundation.&lt;/p&gt;
+
+&lt;p&gt;If you’ve been following Stellar though, you’d know that IBM has been making headways using the Stellar network in its own new interbank payments system. The system is currently in the pilot phase being used by a banking network that includes 12 currency corridors including Australia and New Zealand. Although this is substantial for Stellar, its banking partnerships definitely pale in comparison to what Ripple brings to the table.&lt;/p&gt;
+
+&lt;p&gt;I speculate that IBM, which generates a lot of its revenue from its banking products, feels threatened by Ripple and is using its more open source friendly cousin Stellar to build a competing product.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Dec 2017 00:04:16 -0500</pubDate>
+        <link>https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</guid>
+        
+        
+      </item>
     
       <item>
         <title>CryptoKitties - The Aftermath</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/pVGZTCq.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/fIdMxYr.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;CryptoKitties was a craze that sweeped the cryptocurrency world a few weeks ago. For those that don’t know what it is, here’s a quick primer: CryptoKitties is a popular new Ethereum-based decentralized application where users can buy, trade, and breed virtual cats on the blockchain. Check out the dApp here: &lt;a href=&quot;https://www.cryptokitties.co&quot;&gt;cryptoKitties.co&lt;/a&gt;.&lt;/p&gt;
 
@@ -88,7 +207,7 @@
       </item>
     
       <item>
-        <title>I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor</title>
+        <title>I Looked Into NEO&#39;s Code Base - What I Found Should Worry Any NEO Investor</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2KVHtc9.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1050,179 +1169,6 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
         <pubDate>Mon, 30 Oct 2017 23:15:52 -0400</pubDate>
         <link>https://storeofvalue.github.io/posts/rumour-mill-is-amazon-accepting-bitcoin/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/rumour-mill-is-amazon-accepting-bitcoin/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Deep Dive Into Stellar Lumens</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/8ArUeKC.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After several months of minimal news and low community activity, Stellar Lumens blindsided everyone when IBM released news that it has an ongoing partnership with Stellar and has successfully used the public Stellar blockchain to settle cross border fiat transactions in near real-time. This project involves a network of Pacific and Oceania banks (including Australian and New Zealand banks) and encompasses 12 currency corridors. The new interbank payments network is planned to process up to 60% of all cross-border payments in the South Pacific’s retail foreign exchange corridors by early next year.&lt;/p&gt;
-
-&lt;p&gt;This deal is not only amazing for Stellar, it’s a huge validation for blockchain technology as a whole. Examples of public blockchains being picked up for substantial use cases are rare; banks and other large companies are often only in research groups or experimenting with the technology and rarely commit to using a public blockchain for a production system… let alone a production system as large as cross-border payment settlements over 12 currency corridors.&lt;/p&gt;
-
-&lt;p&gt;After having stagnant or declining prices since the massive jump in May, this is amazing news for Stellar and especially for Stellar’s investors. It’s definitely caught my attention, I thought Stellar was just another half-surviving altcoin with little substance but this news has made me reevaluate. I spent the past few days doing a deep dive into Stellar, paying close attention to its technology, team, and its business relationships.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;what-is-the-stellar-network&quot;&gt;What is the Stellar network?&lt;/h1&gt;
-
-&lt;h2 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Like Bitcoin, the Stellar network is a decentralized and distributed ledger.&lt;/li&gt;
-  &lt;li&gt;Bitcoin is the native currency of the Bitcoin network, while lumens are the native currency of the Stellar network.&lt;/li&gt;
-  &lt;li&gt;There is no mining equivalent in the Stellar network; you can run a Stellar Core validator node but validating transactions will not reward you with newly minted lumens.&lt;/li&gt;
-  &lt;li&gt;While Bitcoin uses proof of work as its consensus model, Stellar uses a consensus model called the Stellar Consensus Protocol (SCP). SCP is an implementation of the federated Byzantine agreement (FBA) consensus model.&lt;/li&gt;
-  &lt;li&gt;SCP does not require much computational power and has a theoretical maximum transaction throughput of 1000 transactions per second.&lt;/li&gt;
-  &lt;li&gt;Median confirmation time for a Stellar network transaction is 5 seconds.&lt;/li&gt;
-  &lt;li&gt;Although lumens is the Stellar network’s native asset, the network supports many different kinds of assets and anyone can issue a new asset. Assets backed by external currencies (i.e. fiat or external blockchains) are supported by the Stellar network’s anchor system.&lt;/li&gt;
-  &lt;li&gt;The Stellar network has a built-in decentralized exchange where assets can be exchanged for different assets based on orders in the decentralized orderbook. Stellar transactions can contain orderbook exchanges.&lt;/li&gt;
-  &lt;li&gt;Anchors serve as entry and exit points for fiat currencies into the Stellar network. They maintain both fiat currency accounts and Stellar wallets for their users. If the user deposits money into their fiat currency account, the anchor is expected to deposit an equivalent amount of the appropriate Stellar network asset to the user’s Stellar wallet. Vice versa for withdrawals. Most anchors are financial institutions like banks and remittance companies.&lt;/li&gt;
-  &lt;li&gt;Stellar has a fixed, nominal lumen inflation rate of 1% per year. There also exists a fee pool where the lumen fees for network transactions are sent. Each week, the new lumens created from inflation and the lumens from the fee pool are distributed to Stellar wallets. The amount of lumens each wallet receives is based on a voting system. Every wallet gets to vote for another wallet to receive lumens; each lumen in a wallet counts as one vote. Check out a detailed description of the lumen distribution mechanism &lt;a href=&quot;https://www.stellar.org/developers/guides/concepts/inflation.html&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;As of October 29th, 2017, there exists 103 billion lumens, with approximately 96 billion lumens held by the Stellar Development Foundation. The annual inflation rate of lumens is 1%.&lt;/li&gt;
-  &lt;li&gt;Big corporate donors: Stripe, Google, and BlackRock.&lt;/li&gt;
-  &lt;li&gt;Impressive list of advisors: Patrick Collison, Greg Stein, Sam Altman, and many others.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;stellar-consensus-protocol-scp&quot;&gt;Stellar Consensus Protocol (SCP)&lt;/h2&gt;
-
-&lt;p&gt;Stellar has published a whitepaper (authored by Prof. David Mazières) detailing how the Stellar Consensus Protocol (SCP) works. The whitepaper is listed on Google Scholar and cited 39 times at the time of writing this blog post. The paper is 32 pages long and extremely technical, containing elaborate mathematical proofs on the correctness of the federated Byzantine agreement (FBA) consensus model.&lt;/p&gt;
-
-&lt;p&gt;Here’s a quick overview of FBA from the &lt;a href=&quot;https://www.stellar.org/papers/stellar-consensus-protocol.pdf&quot;&gt;white paper&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In FBA, each participant knows of others it considers important. It waits for the vast majority of those others to agree on any transaction before considering the transaction settled. In turn, those important participants do not agree to the transaction until the participants they consider important agree as well, and so on. Eventually, enough of the network accepts a transaction that it becomes infeasible for an attacker to roll it back. Only then do any participants consider the transaction settled. FBA’s consensus can ensure the integrity of a financial network. Its decentralized control can spur organic growth.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The SCP has two key properties that make the Stellar network a powerful asset transfer system. To start, it has an extremely low computational power requirement, especially when compared to Bitcoin’s proof of work. Second, it has a super high transaction throughput and can theoretically reach up to 1000 transactions/second.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-the-point-of-lumens&quot;&gt;What’s the point of lumens?&lt;/h2&gt;
-
-&lt;p&gt;Why does the Stellar network need a native currency (lumens) if its key functionality is the transfer and exchange of custom assets?&lt;/p&gt;
-
-&lt;p&gt;First of all, lumens play an anti-spam role in the network. Each transaction has a fee denoted in lumens and this makes spamming the network incredibly expensive. Additionally, all accounts in the network require a minimum balance of 20 lumens.&lt;/p&gt;
-
-&lt;p&gt;Second, lumens add liquidity to Stellar’s built-in decentralized exchange by acting as a trading bridge for low volume currency pairs.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-stellars-business-model&quot;&gt;What’s Stellar’s business model?&lt;/h2&gt;
-
-&lt;p&gt;The Stellar Development Foundation (SDF) or Stellar.org is the company maintaining the open source Stellar network. It’s a non-stock nonprofit organization that covers its operational costs through donations and 5% of the initial lumens issued. The Stellar network is an open source, decentralized system and the SDF does not charge people or institutions for using the network.&lt;/p&gt;
-
-&lt;p&gt;Corporate donors of Stellar include BlackRock ($29 billion US global investment management company with 13,000 employees), Google.org, Stripe, and FastForward.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;why-stellar&quot;&gt;Why Stellar?&lt;/h1&gt;
-
-&lt;h2 id=&quot;stellar-has-a-product-that-works&quot;&gt;Stellar has a product that works&lt;/h2&gt;
-
-&lt;p&gt;Stellar has a very impressive whitepaper on the SCP. As mentioned above, the paper is listed on Google Scholar and cited 39 times at the time of writing this blog post. This technical prowess is also reflected in the team’s product, the Stellar network. The network is fully functional with all the core components working and well documented.&lt;/p&gt;
-
-&lt;p&gt;Stellar Core is the software that acts as the backbone of the network. &lt;strong&gt;Stellar Core&lt;/strong&gt; nodes do the hard work of keeping the network running by validating transactions through SCP. The nodes also allow owners to issue new assets in the network or submit transactions to the network. Anyone can download Stellar Core and start running a node. &lt;strong&gt;Horizon&lt;/strong&gt; is a server application that connects to Stellar Core nodes and allows applications to interact with the Stellar network through a RESTful HTTP API interface that should be familiar to any competent web developer. Anyone can download and run a Horizon server.&lt;/p&gt;
-
-&lt;p&gt;The anchor side of the network (remember anchors serve as fiat gateways to the Stellar network) is also fully developed and well documented. &lt;strong&gt;Bridge servers&lt;/strong&gt; are capable of sending and receiving regulatory compliant payments. Compliance is achieved through &lt;strong&gt;compliance servers&lt;/strong&gt; that the bridge servers communicate with using the Stellar compliance protocol every time a payment is sent or received. The Stellar network also has its own DNS-like system where human readable addresses are mapped to account IDs. This mapping is stored in &lt;strong&gt;federation servers&lt;/strong&gt;. In order for bridge servers to determine the account ID from a human readable address, it has to communicate with federation servers through the Stellar federation protocol.&lt;/p&gt;
-
-&lt;p&gt;Stellar provides downloadable implementations of bridge, federation, and compliance servers, though an anchor could implement custom federation and compliance servers that adhere to their respective protocols.&lt;/p&gt;
-
-&lt;h2 id=&quot;who-uses-the-stellar-network&quot;&gt;Who uses the Stellar network?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/fDM58Rr.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;These are the companies that are using the Stellar network:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Deloitte created a payment network prototype using the Stellar network. The project was completed in 4 weeks and reduced transaction costs by 40%. Each transaction resolved in 5 seconds.&lt;/li&gt;
-  &lt;li&gt;TEMPO facilitates remittances from Europe to the world, a $150 billion market. Using the Stellar network, Tempo can power 600,000 transactions for $0.01 in fees. Tempo launched the EURT token on the Stellar network in April 2017. EURT is valued at full parity to the EUR by TEMPO and its partners. The token can be traded for PHP (Philippine Pesos), XLM (lumens), and JPY (Japanese Yen) on Stellar. The EURT is the first step by TEMPO in integrating the Stellar network as its primary payments settlement platform.&lt;/li&gt;
-  &lt;li&gt;Parkway is a licensed mobile money operator in Nigeria that uses the Stellar network to connect Nigeria’s 5 major telcos, enabling customers of different mobile money services to send money to one another.&lt;/li&gt;
-  &lt;li&gt;IBM and a network of South Pacific and Oceania banks have successfully deployed a cross-border payments platform that uses the Stellar network. This new Stellar-based solution allows the banks to send money in real time whereas the old process typically took days. Although the platform is currently limited to cross-border payments involving British pounds and Fiji dollars, it’s expected to scale up to 60% of all cross-border payments in the region once all seven currencies are added. IBM’s vice president of global blockchain development, Jesse Lund, has cautioned that the use lumens as an exchange bridge between currencies is temporary but this doesn’t mean that the Stellar network will not continue to be used.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These are a few companies operating Stellar anchors right now:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TEMPO Money Transfer (40 countries, EUR)&lt;/li&gt;
-  &lt;li&gt;Coins.ph (Philippines, PHP)&lt;/li&gt;
-  &lt;li&gt;Parkway Projects (Nigeria, NGN)&lt;/li&gt;
-  &lt;li&gt;NaoBTC (international, BTC)&lt;/li&gt;
-  &lt;li&gt;RippleFox (China, CNY)&lt;/li&gt;
-  &lt;li&gt;ICICI Bank (India, INR)&lt;/li&gt;
-  &lt;li&gt;More can be found &lt;a href=&quot;https://www.stellar.org/about/directory&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;impressive-list-of-advisors&quot;&gt;Impressive list of advisors&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/Ulg22uK.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I didn’t realize this before, but Stellar actually has one of the most impressive lists of advisors I’ve seen for cryptocurrency projects. Well known and well respected US tech industry leaders populate Stellar’s advisory board. They include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Patrick Collison, CEO of Stripe&lt;/li&gt;
-  &lt;li&gt;Greg Stein, Director at the Apache Software Foundation&lt;/li&gt;
-  &lt;li&gt;Matt Mullenwag, Founder of the popular blogging software, WordPress.com&lt;/li&gt;
-  &lt;li&gt;Naval Ravikant, Founder of AngelList&lt;/li&gt;
-  &lt;li&gt;Sam Altman, President of Y Combinator&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Those that aren’t familiar with the US tech industry might not know who these people are, but trust me, as a software engineer for almost 6 years now, these people are big. Y Combinator is the premiere startup accelerator in the US. Stripe was a payments company startup that experienced massive growth over the last few years and now has over 700 employees. The Apache Sofware Foundation maintains one of the largest and most used set of open source software in the world. If you are software developer, you are almost guaranteed to have used Apache software at least once in your life.&lt;/p&gt;
-
-&lt;h2 id=&quot;very-active-github-repositories&quot;&gt;Very active GitHub repositories&lt;/h2&gt;
-
-&lt;p&gt;All good projects have active GitHub repositories and Stellar has one of the &lt;a href=&quot;https://github.com/stellar/stellar-core/commits/master&quot;&gt;most active GitHub repositories&lt;/a&gt; I’ve seen. There is a healthy number of commits every day. In fact, just today (October 24th) there were 14 commits made to the &lt;code class=&quot;highlighter-rouge&quot;&gt;stella-core&lt;/code&gt; repository’s master branch. Pull request and issue discussion activities are also high.&lt;/p&gt;
-
-&lt;h2 id=&quot;extensive-developer-documentation&quot;&gt;Extensive developer documentation&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 600px&quot; src=&quot;https://i.imgur.com/U9A8h7O.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Stellar has one of the most extensive &lt;a href=&quot;https://www.stellar.org/developers/&quot;&gt;developer documentation&lt;/a&gt; for a cryptocurrency project that I’ve seen so far. Great developer documentation is conducive to developers building on the platform. This increases platform adoption which in turn leads to an increase in the platform’s value.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h2 id=&quot;icos-on-stellar&quot;&gt;ICOs on Stellar&lt;/h2&gt;
-
-&lt;p&gt;The Stellar network supports many different kinds of assets and allows anyone to issue an asset. This makes it a suitable platform for ICOs. Although there haven’t been many ICOs conducted on the Stellar network yet, this could change as Stellar comes into the cryptocurrency spotlight.&lt;/p&gt;
-
-&lt;p&gt;Ethereum is the largest blockchain hosting ICO tokens right now and ICOs have played a key role in driving ether’s price up over the last year. However, there is actually a strong case for companies to choose Stellar over Ethereum for ICOs. For one, the Stellar network is significantly faster and cheaper to use than Ethereum’s (e.g. 5 second vs 3.5 minute confirmation times). Faster and cheaper transactions make ICOs more accessible and more accessibility means more money raised. The Stellar network also has a built-in feature that lets developers whitelist ICO contributors. This reduces development time for ICOs that want to ensure complete legal compliance. Finally, the Stellar network’s transaction model is simpler than Ethereum’s and simplicity reduces the chances of security pitfalls. This is significant for ICOs that do not require the expressiveness provided by Turing-complete smart contracts.&lt;/p&gt;
-
-&lt;h1 id=&quot;stellar-vs-waves-vs-omisego&quot;&gt;Stellar vs Waves vs OmiseGo&lt;/h1&gt;
-
-&lt;p&gt;Stellar, Waves, and OmiseGo all aim to serve very similar use cases. All three platforms have native support for a decentralized exchange. All three platforms support multiple assets. Although Waves is not currently focused on micropayments, remittances, and mobile payments, Stellar and OmiseGo are both gunning for these three use cases.&lt;/p&gt;
-
-&lt;p&gt;From my research, it seems that Stellar comes out just slightly ahead of Waves as a multi-asset trading platform. Although Stellar is losing in terms of ICOs, Stellar has many more anchors than Waves has gateways. Most of Stellar’s anchors are operated by external companies that include large financial institutions. Waves, on the otherhand, currently operates all of its gateways. Stellar is also currently much faster than Waves. Stellar supports a theoretical of maximum of 1000 transactions/second whereas Waves only supports 1.7 transactions/second. This will change as the WavesNG protocol comes online, but that’s not for another few months and even then, Waves’s maximum transaction throughput is still shy of Stellar’s 1000 transactions/second.&lt;/p&gt;
-
-&lt;p&gt;Stellar will give OmiseGo a run for its money. Almost everything that OmiseGo aims to do, Stellar is planning to do or is already doing it. Not to mention Stellar already has a robust, secure, and fast blockchain already running in the wild whereas OmiseGo is still a farcry away from even launching a public testnet. At this point we have no idea what the OmiseGo blockchain will even look like. Having a functioning public blockchain also gives Stellar a headstart in business integrations. As mentioned above, a multitude of payment companies, especially in Asia and Africa, have integrated with Stellar and are already sending payments through the platform. We also can’t forget the massive IBM and banking integration that was recently announced. This is not to say that OmiseGo is totally hopeless; there’s definitely a possibility that it can close this gap quickly but the team definitely has its work cut out for them.&lt;/p&gt;
-
-&lt;h1 id=&quot;if-youve-enjoyed-this-blog-post&quot;&gt;If you’ve enjoyed this blog post…&lt;/h1&gt;
-
-&lt;p&gt;You can support the author by tipping some lumens to this address &lt;code class=&quot;highlighter-rouge&quot;&gt;GC4CDHSXYPSOOJNMBDNVWPACT6UDYDQHPJIOCW4GYTG6ZRTJH2475D3Q&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Much thanks if you do, a lot of work and time was put into researching and writing the post.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Oct 2017 20:59:46 -0400</pubDate>
-        <link>https://storeofvalue.github.io/posts/stellar-lumens-what-is-it-and-should-you-invest/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/stellar-lumens-what-is-it-and-should-you-invest/</guid>
         
         
       </item>
