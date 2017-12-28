@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Dec 2017 06:54:18 -0500</pubDate>
-    <lastBuildDate>Wed, 27 Dec 2017 06:54:18 -0500</lastBuildDate>
+    <pubDate>Wed, 27 Dec 2017 22:33:35 -0500</pubDate>
+    <lastBuildDate>Wed, 27 Dec 2017 22:33:35 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -16,11 +16,11 @@
 
 &lt;p&gt;In this article, I’ll refer to RippleNet as the distributed payments network with which XRP is its native currency. I’ll refer to Ripple as the company developing and marketing RippleNet. Keep in mind that most people refer to all three as simply Ripple. However, in the interest of keeping this article sane and not confusing, I found the nuanced terminology necessary.&lt;/p&gt;
 
-&lt;p&gt;XRP has been on fire lately. From $0.20 USD per XRP in early December, its price has sky rocketed within a month to $1.13 at the time of writing. To be fair, this increase was driven mostly by a rumour of an impending Coinbase/GDAX listing instead of any significant improvements to its fundamentals.&lt;/p&gt;
+&lt;p&gt;XRP has been on fire lately. From $0.20 USD per XRP in early December, its price has skyrocketed within a month to $1.13 at the time of writing. To be fair, this increase was driven mostly by a rumour of an impending Coinbase/GDAX listing instead of any significant improvements to its fundamentals.&lt;/p&gt;
 
-&lt;p&gt;XRP is one of the largest cryptocurrencies out there. It’s been consistently a top 5 cryptocurrency by market cap since April of this year. Besides its most recent bull run and na bull run back in May, XRP’s price has been surprisingly stable with respect to other cryptocurrencies. This is incredibly impressive when you realize that Ripple doesn’t invest significant resources into marketing XRP to retail investors. Instead, the company’s marketing efforts are focused almost solely on enterprise customers like banks and other corporations. This is one of the reasons why I believe XRP is a cryptocurrency with one of the strongest fundamentals out there.&lt;/p&gt;
+&lt;p&gt;XRP is one of the largest cryptocurrencies out there. It’s been consistently a top 5 cryptocurrency by market cap since April of this year. Besides its most recent bull run and a bull run back in May, XRP’s price has been surprisingly stable with respect to other cryptocurrencies. This is incredibly impressive when you realize that Ripple doesn’t invest significant resources into marketing XRP to retail investors. Instead, the company’s marketing efforts are focused almost solely on enterprise customers like banks and other corporations. This is one of the reasons why I believe XRP has the strongest fundamentals out of any other cryptocurrencies out there.&lt;/p&gt;
 
-&lt;p&gt;I have to admit that I’ve mostly ignored XRP due to its price stability but its recent price action has caught the attention of many investors, me included. I realized that I actually know very little about the cryptocurrency and the company surrounding it so I spent the last few days researching XRP. Here’s a summary of what I learned.&lt;/p&gt;
+&lt;p&gt;I have to admit that I’ve mostly ignored XRP due to its price stability but its recent price action has caught the attention of many investors, me included. I realized that I actually know very little about it so I spent the last few days researching XRP. Here’s a summary of what I learned.&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -38,16 +38,17 @@
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/dlenHgZ.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Like Bitcoin, RippleNet is a decentralized and distributed ledger&lt;/li&gt;
+  &lt;li&gt;Like Bitcoin, RippleNet is a partially decentralized and distributed ledger.&lt;/li&gt;
+  &lt;li&gt;RippleNet, in its current state, is not decentralized. Although the network has potential for a higher degree of decentralization, Ripple’s use of a default and recommended “Unique Node List” that contains a series of Ripple-operated validators makes the network centralized. Ripple has laid out a decentralization plan where they’d like to remove the default Unique Node List altogether and encourage the community to build their own lists.&lt;/li&gt;
   &lt;li&gt;There are at most 100 billion XRPs in existence.&lt;/li&gt;
   &lt;li&gt;XRP is a deflationary currency. No new XRPs will ever be created and the fee paid for each transaction is actually burned.&lt;/li&gt;
   &lt;li&gt;All XRPs were created in the network’s inception and originally owned by Ripple. The company has since distributed a significant percentage of XRPs to investors, exchanges, and other institutions. The remaining XRPs have been locked away in a Ripple escrow. A billion XRPs are released by the escrow every month.&lt;/li&gt;
   &lt;li&gt;There is no mining equivalent in RippleNet; you can run a Ripple validator node but validating transactions will not reward you with XRP.&lt;/li&gt;
   &lt;li&gt;Validators can vote on the network’s base transaction fee.&lt;/li&gt;
   &lt;li&gt;RippleNet has incredibly low fees. The current base transaction fee is 0.00001 XRP. The actual transaction fee increases based on the load on the network.&lt;/li&gt;
-  &lt;li&gt;4 second transaction confirmation time, which is incredibly fast compared to Ethereum’s 2 minute confirmation time and Bitcoin’s 10 minute confirmation time&lt;/li&gt;
-  &lt;li&gt;RippleNet can consistently handle 1,500 transactions per second, with an upper limit of 50,000 transactions per second. This is comparable to VISA. Ethereum can consistently handle about 15 transactions per second, with an unbounded upper limit (however, it takes significant time for Ethereum’s network to adjust its maximum transaction throughput). Bitcoin can only handle up to 7 transactions per second.&lt;/li&gt;
-  &lt;li&gt;Anyone can issue new assets onto the RippleNet. For example, a bank could issue a token representing a real-world currency like USD or EUR. Companies can issue tokens on RippleNet to run ICOs.&lt;/li&gt;
+  &lt;li&gt;RippleNet has a 4 second transaction confirmation time, which is incredibly fast compared to Ethereum’s 2 minute confirmation time and Bitcoin’s 10 minute confirmation time&lt;/li&gt;
+  &lt;li&gt;RippleNet can consistently handle 1,500 transactions per second, with an upper limit of 50,000 transactions per second. This is comparable to VISA. Ethereum can consistently handle about 15 transactions per second, with an unbounded upper limit (the caveat is that it takes significant time for Ethereum’s network to adjust its maximum transaction throughput). Bitcoin can only handle up to 7 transactions per second.&lt;/li&gt;
+  &lt;li&gt;Anyone can issue new assets onto RippleNet. For example, a bank could issue a token representing a real-world currency like USD or EUR. Companies can issue tokens on RippleNet to run ICOs.&lt;/li&gt;
   &lt;li&gt;RippleNet has a built-in decentralized exchange for all the custom assets on the network.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -61,7 +62,7 @@
 
 &lt;p&gt;Ripple believes that RippleNet solves this problem through the XRP currency and RippleNet’s fast, secure, and transparent payments infrastructure. In the RippleNet-supported global payments infrastructure, instead of banks maintaining nostro accounts or the use of expensive and slow correspondent banks for currency corridor payments, banks could just maintain a pool of XRP and make markets directly between its domestic currency and XRP. To issue a currency corridor payment, a bank simply needs to sends its XRP through RippleNet to the foreign bank which will be able to convert the XRP back to its own domestic currency.&lt;/p&gt;
 
-&lt;p&gt;This significantly reduces the number of intemediaries involved which speeds up the transaction, lowers fees, and reduces the chances of errors.&lt;/p&gt;
+&lt;p&gt;This significantly reduces the number of intemediaries involved which speeds up the transaction, lowers fees, and reduces the chance of errors.&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -74,11 +75,13 @@
 
 &lt;h2 id=&quot;ripplenets-consensus-protocol&quot;&gt;RippleNet’s consensus protocol&lt;/h2&gt;
 
-&lt;p&gt;The RippleNet’s ledger consists of a series of mini ledgers, each containing a set of transactions. The mini ledgers are created by and voted on by RippleNet’s peer-to-peer validator nodes.&lt;/p&gt;
+&lt;p&gt;The RippleNet’s ledger consists of a series of mini ledgers, each containing a set of transactions. The mini ledgers are created by and voted on by RippleNet’s validator nodes.&lt;/p&gt;
 
 &lt;p&gt;The consensus process for mini ledger occurs over multiple rounds. Each round, the validator nodes broadcast their version of a mini ledger to their peers and the votes are tallied. The process ends when a super majority of the participating validator nodes (more than 80%) agree on a mini ledger. The new mini ledger is then added to the overall ledger.&lt;/p&gt;
 
-&lt;p&gt;RippleNet’s consensus protocol differs from the traditional cryptocurrency mining in two primary ways. First, RippleNet doesn’t have a built-in monetary incentive for people to run Ripple validator nodes whereas successfully mined Bitcoin and Ethereum blocks reward the miner with Bitcoin/Ether. Second, consensus in RippleNet is achieved through a voting process whereas consensus in Bitcoin and Ethereum is achieved through competition and mathematics.&lt;/p&gt;
+&lt;p&gt;RippleNet’s consensus protocol differs from the traditional cryptocurrency mining in two primary ways. First, RippleNet doesn’t have a built-in monetary incentive for people to run Ripple validator nodes whereas successfully mined Bitcoin and Ethereum blocks reward the miner with Bitcoin/ether. Second, consensus in RippleNet is achieved through a voting process whereas consensus in Bitcoin and Ethereum is achieved through competition and mathematics.&lt;/p&gt;
+
+&lt;p&gt;Because there is no incentive to run validator nodes, and consensus is achieved through a voting process, the network is more vulnerable to attacks than a traditional proof of work or proof of stake system. As such, it requires a higher degree of centralization than the traditional systems in order to ensure security. The benefits of this consensus protocol is that it can be significantly faster than traditional systems and there is no risk of forks.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-ripple&quot;&gt;Why Ripple?&lt;/h1&gt;
 
@@ -133,9 +136,15 @@
 
 &lt;h1 id=&quot;is-ripple-centralized&quot;&gt;Is Ripple centralized?&lt;/h1&gt;
 
-&lt;p&gt;There are concerns that RippleNet is centralized. First of all, XRP is a pre-mined cryptocurrency where the entire supply was originally owned by Ripple before the company doled out some to investors, exchanges, and other institutions. Ripple still holds on to 50 billion XRP locked in an RippleNet escrow that releases 1 billion XRP every month for Ripple to spend. What would you do with $1 billion every month for the next 50 months? Sounds like a great lottery prize.&lt;/p&gt;
+&lt;p&gt;There are concerns that RippleNet is centralized. First of all, XRP is a pre-mined cryptocurrency where the entire supply was originally owned by Ripple before the company doled out some to investors, exchanges, and other institutions. Ripple still holds on to 50 billion XRP locked in a RippleNet escrow that releases 1 billion XRP every month for Ripple to spend. What would you do with $1 billion every month for the next 50 months? Sounds like a great lottery prize.&lt;/p&gt;
 
-&lt;p&gt;There have also been concerns of centralization with Ripple’s validator nodes. I’m not entirely sure what the argument is here but I believe it’s something to do with Ripple running most of the validator nodes. Ripple has laid out a validator &lt;a href=&quot;https://ripple.com/dev-blog/decentralization-strategy-update/&quot;&gt;decentralization plan here&lt;/a&gt; which I thought was reasonable.&lt;/p&gt;
+&lt;p&gt;There have also been concerns of centralization with Ripple’s validator nodes. The concerns are partially valid. Ripple validators use what’s known as the Unique Node List (UNL) to find trusted validator nodes. Every participant in the network can have their own UNL but Ripple provides a default and recommended UNL. This Ripple UNL used to contain only Ripple-operated validator nodes but Ripple is currently executing a decentralization plan where they intend to slowly replace Ripple-operated validator nodes in this list with third party nodes.&lt;/p&gt;
+
+&lt;p&gt;The network is currently centralized in that most validator nodes use Ripple’s default UNL and Ripple has full control of what nodes can be on the list. However, it’s important to keep in mind that network participants always have the option to use their own UNLs. At the moment, RippleNet is quite centralized, with Ripple as the single point of failure. But the network has potential to be much more decentralized and Ripple has signalled that it wants to steer the network towards more decentralization.&lt;/p&gt;
+
+&lt;p&gt;You can read about Ripple’s decentralization strategy here: &lt;a href=&quot;https://ripple.com/dev-blog/decentralization-strategy-update/&quot;&gt;https://ripple.com/dev-blog/decentralization-strategy-update&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can read about how Ripple validators and UNLs work here: &lt;a href=&quot;https://ripple.com/technical-faq-xrp-ledger/&quot;&gt;https://ripple.com/technical-faq-xrp-ledger/&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -150,13 +159,13 @@
 
 &lt;p&gt;Stellar is a close competitor to Ripple. Both networks share the same cofounder, Jed McCaleb, which interestingly threatened to sell off his 9 billion XRP before Ripple reached an agreement with him where he would only be able to liquidate his XRP holdings over a seven-year schedule.&lt;/p&gt;
 
-&lt;p&gt;In any case, the Stellar network is a fork of RippleNet with a couple very important differences. The Stellar network uses a different consensus algorithm than RippleNet and instead of having a fixed maximum supply like XRP, the supply of XLM increases by 1% every year.&lt;/p&gt;
+&lt;p&gt;In any case, the Stellar network is a fork of RippleNet with a couple very important differences. The Stellar network uses a different consensus algorithm than RippleNet. Instead of having a fixed supply like XRP, the supply of XLM increases by 1% every year.&lt;/p&gt;
 
-&lt;p&gt;There are also operational differences between Ripple and the Stellar Foundation. Ripple is focused on enterprise adoption whereas Stellar is more focused on its community. While Ripple is chasing banking and corporate partnerships, Stellar has been building impressive developer documentation and promoting ICOs on its platform. This divergence in strategy can be seen with the number of banking partnerships Ripple has compared to the Stellar Foundation.&lt;/p&gt;
+&lt;p&gt;There are also operational differences between Ripple and the Stellar Foundation. Ripple is focused on enterprise adoption whereas Stellar is focused on its community. While Ripple is chasing banking and corporate partnerships, Stellar has been building impressive developer documentation, holding developer meetups, and promoting ICOs on its platform. This divergence in strategy can be seen with the number of banking partnerships Ripple has compared to the Stellar Foundation.&lt;/p&gt;
 
 &lt;p&gt;If you’ve been following Stellar though, you’d know that IBM has been making headways using the Stellar network in its own new interbank payments system. The system is currently in the pilot phase being used by a banking network that includes 12 currency corridors including Australia and New Zealand. Although this is substantial for Stellar, its banking partnerships definitely pale in comparison to what Ripple brings to the table.&lt;/p&gt;
 
-&lt;p&gt;I speculate that IBM, which generates a lot of its revenue from its banking products, feels threatened by Ripple and is using its more open source friendly cousin Stellar to build a competing product.&lt;/p&gt;
+&lt;p&gt;I speculate that IBM, which generates a lot of its revenue from its banking products, feels threatened by Ripple and is using its more open source friendly cousin, Stellar, to build a competing product.&lt;/p&gt;
 </description>
         <pubDate>Sun, 24 Dec 2017 00:04:16 -0500</pubDate>
         <link>https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</link>
