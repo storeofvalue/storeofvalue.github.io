@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Dec 2017 02:36:03 -0500</pubDate>
-    <lastBuildDate>Sat, 30 Dec 2017 02:36:03 -0500</lastBuildDate>
+    <pubDate>Sat, 30 Dec 2017 04:55:08 -0500</pubDate>
+    <lastBuildDate>Sat, 30 Dec 2017 04:55:08 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -79,7 +79,7 @@
 
 &lt;p&gt;In my &lt;a href=&quot;http://storeofvalueblog.com/posts/cryptokitties-the-aftermath/&quot;&gt;“CryptoKitties - The Aftermath” article&lt;/a&gt;, I wrote about how Kitty #23 was flipped for more than 210 ether (about $94,500 at the time) over 4 days. Turns out, the guy who did one of those tremendously profitable trades read my article and reached out to me with an even wilder story. In 3 days, he made 462 ether trading CryptoKitties. 462 ether was worth $210,000 at the time and $323,400 today. We did an informal interview over email. Here is his CryptoKitties story.&lt;/p&gt;
 
-&lt;p&gt;I’ll refer to this user as Dapper Kittie as this was his email moniker. Dapper Kittie has been involved with Bitcoin since 2012. CoinMarketCap’s Bitcoin chart doesn’t even go back that far. He made his first purchase of Bitcoin through Coinbase in early 2013 for about $20 each. He was an early enough customer of Coinbase that when he reached out to customer support, the founder, Brian Armstrong replied. Coinbase had yet to hire their first employee, Olaf Carlson-Wee.&lt;/p&gt;
+&lt;p&gt;In our email conversation, this user went by the moniker Dapper Kittie. Dapper Kittie has been involved with Bitcoin since 2012. CoinMarketCap’s Bitcoin chart doesn’t even go back that far. He made his first purchase of Bitcoin through Coinbase in early 2013 for about $20 each. He was an early enough customer of Coinbase that when he reached out to customer support, the founder, Brian Armstrong replied. Coinbase had yet to hire their first employee, Olaf Carlson-Wee.&lt;/p&gt;
 
 &lt;p&gt;With his early entrance into the cryptocurrency scene and a knack for trading, Dapper Kittie was quite well off even before his success with CryptoKitties. He currently works from home as a cryptocurrency trader.&lt;/p&gt;
 
@@ -129,19 +129,108 @@
 
 &lt;p&gt;Luckily, he was able to nab both of the cheap founder cats for 50 ether each and resell them for 125 ether and 126 ether a couple hours later. These two cats were both sold to the US treasury account mentioned earlier but has since not been bought by anyone else. The two cats are still being listed for 100 ether each right now.&lt;/p&gt;
 
-&lt;h1 id=&quot;getting-out-before-the-bubble-popped&quot;&gt;Getting out before the bubble popped&lt;/h1&gt;
+&lt;h1 id=&quot;getting-out-before-the-bubble-pops&quot;&gt;Getting out before the bubble pops&lt;/h1&gt;
 
 &lt;p&gt;At this point, with most of his cats sold, Dapper Kittie was ready to call it quits. His last cat was sold for 95 ether (25 ether profit). A few days later, the CryptoKitties bubble popped and prices for the cats nosedived.&lt;/p&gt;
 
 &lt;p&gt;Dapper Kittie was apt enough to identify the mania and left early with tremendous profits. In the end, he made 462 ether over the span of 3 days trading CryptoKitties. This was worth about $210,000 at the time. Definitely not bad for 3 days of trading.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/0q8W6jV.jpg&quot; /&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;CAT&lt;/th&gt;
+      &lt;th&gt;BOUGHT (eth)&lt;/th&gt;
+      &lt;th&gt;SOLD (eth)&lt;/th&gt;
+      &lt;th&gt;PROFIT (-fees)&lt;/th&gt;
+      &lt;th&gt;BOUGHT&lt;/th&gt;
+      &lt;th&gt;SOLD&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;49.21&lt;/td&gt;
+      &lt;td&gt;190.05&lt;/td&gt;
+      &lt;td&gt;133.71&lt;/td&gt;
+      &lt;td&gt;12/3 21:28&lt;/td&gt;
+      &lt;td&gt;12/4 19:45&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;42&lt;/td&gt;
+      &lt;td&gt;9.86&lt;/td&gt;
+      &lt;td&gt;75.08&lt;/td&gt;
+      &lt;td&gt;62.41&lt;/td&gt;
+      &lt;td&gt;12/3 9:21&lt;/td&gt;
+      &lt;td&gt;12/4 8:19&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;69.14&lt;/td&gt;
+      &lt;td&gt;133.88&lt;/td&gt;
+      &lt;td&gt;59.71&lt;/td&gt;
+      &lt;td&gt;12/4 8:38&lt;/td&gt;
+      &lt;td&gt;12/5 7:07&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;45&lt;/td&gt;
+      &lt;td&gt;9.84&lt;/td&gt;
+      &lt;td&gt;35.06&lt;/td&gt;
+      &lt;td&gt;23.90&lt;/td&gt;
+      &lt;td&gt;12/3 19:39&lt;/td&gt;
+      &lt;td&gt;12/4 7:24&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;47&lt;/td&gt;
+      &lt;td&gt;9.84&lt;/td&gt;
+      &lt;td&gt;30.17&lt;/td&gt;
+      &lt;td&gt;19.19&lt;/td&gt;
+      &lt;td&gt;12/3 19:47&lt;/td&gt;
+      &lt;td&gt;12/4 6:27&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;27&lt;/td&gt;
+      &lt;td&gt;70.46&lt;/td&gt;
+      &lt;td&gt;95.33&lt;/td&gt;
+      &lt;td&gt;21.29&lt;/td&gt;
+      &lt;td&gt;12/4 8:46&lt;/td&gt;
+      &lt;td&gt;12/7 13:27&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;52&lt;/td&gt;
+      &lt;td&gt;50.15&lt;/td&gt;
+      &lt;td&gt;125.73&lt;/td&gt;
+      &lt;td&gt;70.87&lt;/td&gt;
+      &lt;td&gt;12/6 5:15&lt;/td&gt;
+      &lt;td&gt;12/6 6:01&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;93&lt;/td&gt;
+      &lt;td&gt;50.32&lt;/td&gt;
+      &lt;td&gt;126.03&lt;/td&gt;
+      &lt;td&gt;70.98&lt;/td&gt;
+      &lt;td&gt;12/6 5:30&lt;/td&gt;
+      &lt;td&gt;12/6 7:26&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Total&lt;/td&gt;
+      &lt;td&gt;318.84&lt;/td&gt;
+      &lt;td&gt;811.33&lt;/td&gt;
+      &lt;td&gt;462.06&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;Asked what he planned to do with all this extra capital, he said that he wants to give back to charity by donating to animal rescue and welfare groups.&lt;/p&gt;
 
 &lt;p&gt;This is his CryptoKitties address: &lt;a href=&quot;https://etherscan.io/txs?a=0xa3e6fea802c91140b832127aea816ce78b0be0de&amp;amp;p=1&quot;&gt;https://etherscan.io/txs?a=0xa3e6fea802c91140b832127aea816ce78b0be0de&amp;amp;p=1&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;What. A. Legend.&lt;/p&gt;
+
+&lt;p&gt;I’d like to thank Dapper Kittie for reaching out to me and doing the informal interview with me. His story is fascinating and definitely something to be remembered in cryptocurrency history.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/0q8W6jV.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Dec 2017 02:36:10 -0500</pubDate>
         <link>https://storeofvalue.github.io/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/</link>
