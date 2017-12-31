@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Dec 2017 16:24:16 -0500</pubDate>
-    <lastBuildDate>Sun, 31 Dec 2017 16:24:16 -0500</lastBuildDate>
+    <pubDate>Sun, 31 Dec 2017 16:56:45 -0500</pubDate>
+    <lastBuildDate>Sun, 31 Dec 2017 16:56:45 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -16,13 +16,13 @@
 
 &lt;p&gt;&lt;em&gt;TLDR: Certain cryptocurrencies are easily considered securities under United States federal securities laws. These cryptocurrencies are actively traded in several cryptocurrency exchanges operating in the United States. The SEC has made it abundantly clear that they are placing cryptocurrencies under tighter scrutiny and will have stricter enforcement of securities laws in 2018. Investors of securities-like cryptocurrencies should beware that exchanges will very likely delist these cryptocurrencies in 2018.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;The US recently passed a tax law that exempted cryptocurrency-to-cryptocurrency trading as like-kind exchanges. This means that trading Bitcoin for Ethereum or Ethereum for OmiseGo will now be considered a taxable event. It is clear that the US government is starting to place more scrutiny on cryptocurrency exchanges, especially cryptocurrency-to-cryptocurrency exchanges, and there will be more stringent regulations in 2018.&lt;/p&gt;
+&lt;p&gt;The United States recently passed a tax law that exempted cryptocurrency-to-cryptocurrency trading as like-kind exchanges. This means that trading Bitcoin for Ethereum or Ethereum for OmiseGo will now be considered a taxable event. It is clear that the United States government is starting to place more scrutiny on cryptocurrency exchanges, especially cryptocurrency-to-cryptocurrency exchanges, and there will be more stringent regulations in 2018.&lt;/p&gt;
 
-&lt;p&gt;With this said, one of the most obvious pain points for existing cryptocurrency-to-cryptocurrency exchanges operating in the US is the listing of cryptocurrencies that are easily considered securities. The Securities Exchange Act of 1934 established the Securities and Exchange Commision (SEC) and the law that any exchanges that wants to trade securities needs to apply for a license from the SEC. A key requirement for exchanges to acquire a license is the strict adherence to a set of very stringent security trading rules.&lt;/p&gt;
+&lt;p&gt;With this said, one of the most obvious regulatory pain points of existing crypto-to-crypto exchanges operating in the United States is the listing of cryptocurrencies that are easily considered securities. The Securities Exchange Act of 1934 established the Securities and Exchange Commision (SEC) as well as a law that states that any exchanges trading securities needs to be licensed by the SEC. A key requirement for acquiring a license is the strict adherence to very stringent security trading rules.&lt;/p&gt;
 
-&lt;p&gt;Existing crypto-to-crypto exchanges operating in the US, such as Bittrex, Kraken, and Poloniex, most certainly do not have SEC licenses to trade securities, yet are most certainly listing a few cryptocurrencies that are considered securities under US federal securities law.&lt;/p&gt;
+&lt;p&gt;Existing crypto-to-crypto exchanges operating in the United States, such as Bittrex, Kraken, and Poloniex, most certainly do not have SEC licenses to trade securities, yet are listing a few cryptocurrencies that are considered securities under United States federal securities law.&lt;/p&gt;
 
-&lt;p&gt;Before we continue, the reader might be wondering: what constitutes a security under US federal securities law anyways? For this, we use what’s commonly known as the Howey Test. Back in July 2017, the SEC released a report that defined the DAO token as a security. The report also gave guidance for other cryptocurrencies stating that if they cannot pass the Howey Test then they will be considered securities and held to all applicable regulations as well. According to the Howey Test, in order for a cryptocurrency to be considered a security, all three elements must be met:&lt;/p&gt;
+&lt;p&gt;Before we continue, the reader might be wondering: what constitutes a security under United States federal securities law anyways? For this, we use what’s commonly known as the Howey Test. Back in July 2017, the SEC released a report that defined the DAO token as a security. The report also gave guidance for other cryptocurrencies stating that if they cannot pass the Howey Test then they will be considered securities. According to the test, in order for a cryptocurrency to be considered a security, all three elements listed below must be met:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;An investment of money&lt;/li&gt;
@@ -30,19 +30,19 @@
   &lt;li&gt;with an expectation of profits predominantly from the efforts of others.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;GDAX has helpfully published a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QxOV2dgxO3C_TyVE0-41ZwLlzPmB-EE1NNshJGuedCU&quot;&gt;Howey Test spreadsheet&lt;/a&gt; that makes it very easy to test a cryptocurrency against the Howey Test.&lt;/p&gt;
+&lt;p&gt;GDAX has helpfully published a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QxOV2dgxO3C_TyVE0-41ZwLlzPmB-EE1NNshJGuedCU&quot;&gt;Howey Test spreadsheet&lt;/a&gt; that makes it very easy to apply the test on a cryptocurrency.&lt;/p&gt;
 
-&lt;p&gt;With this said, let’s go through some popular cryptocurrencies that passes the Howey Test and is considered a security (note: almost every cryptocurrency meets element 1, an investment of money. The grey area lies in elements 2 and 3):&lt;/p&gt;
+&lt;p&gt;With this said, let’s go through some popular cryptocurrencies that passes the Howey Test and is considered a security (note: almost every cryptocurrency meets element 1, an investment of money. The grey areas lie in elements 2 and 3):&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Iconomi (ICN)&lt;/strong&gt;: Iconomi lays out in their whitepaper that ICN holders own the Iconomi platform, are entitled to dividends, and have voting rights. This means that ICN meets the “Common Enterprise” criteria. ICN also meets the “Expectation of Profit” criteria. According to Iconomi’s whitepaper, ICN tokens “represent ownership of the ICONOMI platform, allowing their holders to receive dividends and vote on ICONOMI related issues.” ICN is listed on Kraken and Binance.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;NEO&lt;/strong&gt;: NEO meets the “Common Enterprise” criteria specifically because of Gas. Gas is paid to all NEO holders in proportion to their NEO holdings regardless of any action on the part of the NEO holder. Gas is earned as a dividend for holding NEO. NEO also meets the “Expection of Profit” criteria. NEO holds no function other than mere existence since “voting rights alone do not constitute real functionality”. In addition, manual action is required outside of the network in order for the holder to get the benefit of the token. This is because the NEO team, and not the network, is solely responsible for policing its network of validators and if a validator misbehaves, the NEO team is responsible for suing the validator owner and revoking validator status. NEO is listed on Bittrex, Poloniex, and Binance.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Iconomi (ICN)&lt;/strong&gt;: Iconomi lays out in their whitepaper that ICN holders: own the Iconomi platform, are entitled to dividends, and have voting rights. This means that ICN meets both “Common Enterprise” and “Expectation of Profit” criterion. ICN is listed on Kraken and Binance.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NEO (NEO)&lt;/strong&gt;: NEO meets the “Common Enterprise” criteria because of Gas. Gas is paid to all NEO holders, with the amount of payment proportional to the amount of NEO held, regardless of any action on the part of the NEO holder. As such, Gas is earned as a dividend from holding NEO. According to NEO’s whitepaper, “NEO token holders are the network owners and managers, managing the network through voting in the network”. This means that NEO most certainly meets the “Expection of Profit” criteria. Adding on to this, manual action is required outside of the network in order for the holder to get the benefit of the token. This is because the NEO team, and not the network, is solely responsible for policing its network of validators and if a validator misbehaves, the NEO team is responsible for suing the validator owner and revoking validator status. NEO is listed on Bittrex, Poloniex, and Binance.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Aragon (ANT)&lt;/strong&gt;: ANT tokens are very similar to DAO tokens which were specifically called out by the SEC to be a security. ANT gives holders governance and voting power for the distribution of assets with the purpose of profit making. As such, it meets both the “Common Enterprise” and “Expectation of Profit” criterion. ANT is listed on Bittrex.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Etheroll (DICE)&lt;/strong&gt;: DICE meets both the “Common Enterprise” and “Expectation of Profit” criterion since DICE holders earn ether based off of the profits the network makes from its gambling enterprise.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;TenX (PAY)&lt;/strong&gt;: TenX used to meet both the “Common Enterprise” and “Expectation of Profit” criterion since PAY holders were entitled to a portion of the fees paid by TenX credit card users. However, TenX has decided to distance themselves from being considered a security by &lt;a href=&quot;https://blog.tenx.tech/tenx-pay-token-structure-update-4f19be727870&quot;&gt;restructuring the PAY token&lt;/a&gt;. Details on the restructuring are unclear but the PAY token should be safe for exchanges to list post-restructuring. PAY is listed on Bittrex.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you are invested in a cryptocurrency that passes the Howey Test, be mindful of the fact that the SEC is very likely going to crackdown on securities-like cryptocurrencies in 2018 and will force their delisting from cryptocurrency exchanges operating in the US.&lt;/p&gt;
+&lt;p&gt;If you are invested in a cryptocurrency that passes the Howey Test, be mindful of the fact that the SEC is very likely going to crackdown on securities-like cryptocurrencies in 2018 and will force their delisting from cryptocurrency exchanges operating in the United States.&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Dec 2017 10:10:46 -0500</pubDate>
         <link>https://storeofvalue.github.io/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/</link>
