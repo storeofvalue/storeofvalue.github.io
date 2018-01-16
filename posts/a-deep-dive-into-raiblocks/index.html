@@ -162,7 +162,7 @@
   <li>Fixed, maximum supply of 133,248,289 RaiBlocks. All RaiBlocks has been released.</li>
   <li>0 transaction fee, unlimited throughput capacity, &gt; 5 second confirmation time.</li>
   <li>Uses a block-lattice data structure instead of the blockchain.</li>
-  <li>Consensus is maintained through a voting mechanism. Votes = # of raiblocks owned and delegated.</li>
+  <li>Consensus is maintained through a voting mechanism. Validator nodes vote on a world state they believe is true and the number of votes they have consists of the number of RaiBlocks the node owns and the number of RaiBlocks delegated to the node by other accounts.</li>
   <li>RaiBlocks didn’t conduct an ICO. RaiBlocks was distributed through a faucet. 7,000,000 RaiBlocks retained for dev funds.</li>
 </ul>
 
@@ -180,69 +180,75 @@
 
 <p>The only account that can publish a transaction to an account’s blockchain is the account itself.</p>
 
-<p>To send funds, the sender needs to issue a “send” transaction in its own blockchain, and the receiver needs to issue a corresponding “receive” transaction in its own blockchain. This is why it’s so fast. An account can very quickly update its own blockchain. These transactions are propagated across the network and as long as no validator discovers a conflict, the transaction is, for all intents and purposes, considered confirmed.</p>
+<p>To send funds, the sender needs to issue a “send” transaction in its own blockchain and the receiver needs to issue a corresponding “receive” transaction, also in its own blockchain. This is why RaiBlocks is so fast. An account can very quickly update its own blockchain since its the only entity that can change it. These transactions are propagated across the network and as long as no validator discovers a conflict, the transaction is, for all intents and purposes, considered confirmed.</p>
 
-<p>The RaiBlocks network consists of wallets and validator nodes. Wallets send transactions to a validator node, and the node first validates the transactions by checking them against their internal state of the network. The node then passes along the transaction to all other validator nodes its connected to. Every subsequent node performs the same sequence of action until the whole network has seen the transactions.</p>
+<p>The RaiBlocks network consists of wallets and validator nodes. In order for a wallet to issue a transaction, it must send it to a validator node. The node validates the transaction and then passes to all other validator nodes its connected to. Every subsequent validator node performs the same validate-and-relay process until the whole network has seen the transaction.</p>
 
-<p>A validator node keeps track of the state of the entire network by storing the blockchains of every single RaiBlocks address. Conflicts or “forks” happen when a published transaction conflicts with the internal state of a validator node. To resolve the conflict, the node initiates a voting process by announcing the conflict to other validator nodes. The voting process occurs over a predefined period where each node votes on a state of the network it believes is correct. The number of votes a node has equals the amount of RaiBlocks it owns + votes delegated from other accounts. When a state has more than 133,248,289/2 votes (133,248,289 is the total number of XRBs in existence), it’s automatically accepted as the real state of the network.</p>
+<p>A validator node keeps track of the state of the entire network by storing the blockchains of every single RaiBlocks address. Conflicts or “forks” happen when a published transaction conflicts with a validator node’s internal state. To resolve the conflict, the node initiates a voting process by announcing the conflict to other nodes. The voting process occurs over a predefined period where each node votes on a state of the network it believes is correct. The number of votes a node has equals the amount of RaiBlocks it owns plus the RaiBlocks delegated to it from other accounts. When a state has more than 133,248,289/2 votes (133,248,289 is the total number of XRBs in existence), it’s automatically accepted as the real state of the network.</p>
 
-<p>The network provides no rewards for running a RaiBlocks validator.</p>
+<p>The RaiBlocks network provides no rewards for running a validator.</p>
 
 <p>To mitigate spam, an account needs to perform easy proof of work to add a transaction to its own blockchain. This is, of course, not a cure all as transactions can still be created within a few seconds.</p>
 
 <h1 id="raiblocks-team-and-history">RaiBlocks team and history</h1>
 
-<p>The key developer behind RaiBlocks is Colin LeMahieu. LeMahieu started developing RaiBlocks in 2014 and the network was released in 2017. RaiBlocks didn’t hold an ICO and instead distributed the cryptocurrency through a faucet on a website. Users need only complete a captcha in order to receive RaiBlocks.</p>
+<p>The key developer behind RaiBlocks is Colin LeMahieu. LeMahieu started developing RaiBlocks in 2014 and the network was released in 2017. RaiBlocks didn’t hold an ICO and instead, distributed the cryptocurrency through a faucet on a website. Users need only complete a captcha in order to receive RaiBlocks.</p>
 
-<p>The team behind RaiBlocks is small and fairly unknown but with the cryptocurrency’s recent success, LeMahieu is in the process of building a larger development team in order to cultivate a stronger ecosystem around RaiBlocks.</p>
+<p>The team behind RaiBlocks is small and fairly unknown but with the cryptocurrency’s recent success, LeMahieu is in the process of building a larger team. Look to RaiBlocks to make big ecosystem plays in 2018.</p>
 
 <p><img class="-center" style="width: 700px" src="https://i.imgur.com/L3bJAEW.jpg" /></p>
 
 <h1 id="paypal-lead-engineer--raiblocks">PayPal lead engineer + RaiBlocks</h1>
 
-<p>It’s interesting to note that a lead PayPal engineer built a checkout app for RaiBlocks as a weekend hack project and wrote about it on <a href="https://medium.com/@bluepnume/introducing-brainblocks-my-weekend-hack-project-to-build-a-simple-checkout-app-for-raiblocks-5f5770c06c14">Medium</a>. For a lead PayPal engineer to be interested in RaiBlocks to actually built something on it, even if it was just a “weekend hack project”, is quite significant for this nascent cryptocurrency.</p>
+<p>It’s interesting to note that a lead PayPal engineer built a checkout app for RaiBlocks as a weekend hack project. Check it out <a href="https://medium.com/@bluepnume/introducing-brainblocks-my-weekend-hack-project-to-build-a-simple-checkout-app-for-raiblocks-5f5770c06c14">here</a>. For a lead PayPal engineer to build something with RaiBlocks, even if it was just as a “weekend hack project”, is quite significant for this nascent cryptocurrency.</p>
 
 <h1 id="raiblocks-vs-iota">RaiBlocks vs IOTA</h1>
 
-<p>Another cryptocurrency that also offers near instant and free transactions with high scalability is IOTA. IOTA has been extremely “hot” recently with prices skyrocketing from under a $1 to more than $5. It’s not surprising that IOTA is frequently compared to RaiBlocks. Here’s how the two cryptocurrencies differ.</p>
+<p>IOTA is another cryptocurrency that offers near instant and free transactions with high scalability. IOTA, like RaiBlocks, saw a tremendous increase in price over the past month. It’s not surprising that the two are frequently compared against each other. Here’s how the two cryptocurrencies differ.</p>
 
-<p>IOTA, like RaiBlocks, offers near instant and free transactions. However, the two systems are very different. IOTA uses a DAG data structure (called Tangle) where every node in the graph represents one whole transaction. In order to issue a new transaction, an account needs to validate two previous transactions through proof of work. The new transaction would then “reference” or connect to the two previous transactions in the Tangle.</p>
+<p>As mentioned above, RaiBlocks uses a block-lattice structure where every account has its own blockchain. IOTA uses a global DAG data structure (called Tangle) where every node in the graph represents one whole transaction. In order to issue a new transaction, an account needs to validate two previous transactions through proof of work. The new transaction would then “reference” or connect to the two previous transactions in the Tangle.</p>
 
-<p>In IOTA, transactions happen in a single phase and is stored in the global Tangle. In RaiBlocks, transactions happen in two parts: a “send” transaction in the sender’s blockchain and a “receive” transaction in the receiver’s blockchain.</p>
+<p>Whereas IOTA transactions happen in a single phase, i.e. one transaction that represents both a send and a receive, RaiBlocks transactions happen in two phases: a sender needs to issue a “send” transaction in its blockchain and the receiver needs to issue a corresponding “receive” transaction.</p>
 
-<p>One major advantage RaiBlocks has over IOTA is in decentralization. IOTA currently needs a centralized Coordinator to ensure network security and direct network progress. This is because IOTA’s network security is directly tied to the amount of transactions occuring in the network. In low transaction conditions, transactions take longer to confirm and the network becomes more vulnerable to attacks. In theory, the Coordinator will eventually become unnecessary as the network reaches a critical mass of adoption but IOTA is far from this reality. A scary consequence of the Coordinator is the fact that IOTA’s developers can, and has, frozen user funds at a whim (<a href="https://blog.iota.org/official-iota-foundation-response-to-the-digital-currency-initiative-at-the-mit-media-lab-part-1-72434583a2">source</a>).</p>
+<p>One major advantage RaiBlocks has over IOTA is in decentralization. Currently, IOTA needs a centralized Coordinator to ensure network security and direct network progress. This is because IOTA’s network security is directly tied to the amount of transactions occuring in the network. In low transaction conditions, transactions take longer to confirm and the network becomes more vulnerable to attacks. In theory, the Coordinator will eventually become unnecessary as the network reaches a critical mass of adoption but IOTA is far from this reality. A scary consequence of the existence of a Coordinator is the fact that the IOTA developers can freeze user funds at a whim… and they have done so before (<a href="https://blog.iota.org/official-iota-foundation-response-to-the-digital-currency-initiative-at-the-mit-media-lab-part-1-72434583a2">source</a>).</p>
 
 <p>The security of RaiBlocks’s network, on the other hand, does not depend on the amount of transactions going through it. As such, RaiBlocks currently doesn’t need a centralized entity as a crutch to be secure.</p>
 
-<p>IOTA has an ecosystem advantage over RaiBlocks. IOTA has more users and the IOTA Foundation has more business connections. For example, the Foundation recently launched an IOTA Data Marketplace initiative with many large companies participating.</p>
+<p>But it’s not all that bad for IOTA. Afterall, it was one the first movers for free and fast cryptocurrencies and it has an ecosystem advantage over RaiBlocks. IOTA has more users and the IOTA Foundation has more business connections. For example, the Foundation recently launched an IOTA Data Marketplace initiative with many large companies participating.</p>
 
 <h1 id="weaknesses">Weaknesses</h1>
 
 <h2 id="questions-around-the-consensus-algorithm">Questions around the consensus algorithm</h2>
 
-<p>As mentioned above, there are many open questions around the consensus algorithm. Given that RaiBlocks is so young, it is not well tested and lacks peer review. The risk is definitely real that there is a fatal flaw in the consensus algorithm. For example, what happens if there are not enough votes for a quorum in order to resolve a network conflict? Currently validator nodes rely on the maximum supply number (133,248,289) to determine a quorum and there definitely could be instances where not enough validator nodes participate in the voting process.</p>
+<p>As mentioned above, there are many open questions around the consensus algorithm. Given that RaiBlocks is so young, it’s not well tested and lacks peer review. This introduces the risk of a serious flaw in the consensus algorithm. For example, what happens if there are not enough votes for a quorum in order to resolve a network conflict? Currently, validator nodes rely on the maximum supply number (133,248,289 RaiBlocks in existence) to determine a quorum and it’s totally possible that a voting process could not have enough validator nodes participating.</p>
 
-<p>Another big question is in the event the RaiBlocks network gets separated for a long period of time (perhaps due to network issues or other freak occurences), what happens when you rejoin the two networks? Will the network be crippled from all the voting processes that would inevitably take place? Is there a mathematical guarantee that the network will recover?</p>
+<p>Here’s another big question I have: in the event that the RaiBlocks network gets separated for a long period of time (perhaps due to network issues or other freak occurences), what happens when you rejoin the two networks? Will the network be crippled from all the voting processes that would inevitably take place? Is there a mathematical guarantee that the network will recover?</p>
+
+<p>These are all very important questions and their answers will determine the robustness and, ultimately, the longevity of the RaiBlocks network.</p>
 
 <h2 id="spam-vulnerability">Spam vulnerability</h2>
 
-<p>RaiBlocks, being inherently feeless, is highly vulnerable to spam. I could run a script that simply has multiple accounts send transactions to each other continuously creating massive blockchains that could be a problem for validators. It costs almost nothing to create spam in the system yet can be incredibly costly. The storage costs of blockchain cryptocurrencies is predicatable based on block generation times and maximum block sizes. This is not the case with RaiBlocks.</p>
+<p>RaiBlocks, being inherently feeless, is highly vulnerable to spam. I could run a script where multiple accounts will constantly send transactions between each other creating massive blockchains. Run long enough, it will make validators incredibly expensive to maintain.</p>
 
-<p>Expect these spam attacks to occur as RaiBlocks increases in popularity and we will have to see how the development responds.</p>
+<p>It costs almost nothing to create spam in the system yet spam can be very costly. Unlike the traditional blockchain where storage and computational costs are predicatable, RaiBlocks’s feeless transactions and scalability makes both costs highly unpredictable and there is no rule preventing them from skyrocketing.</p>
+
+<p>Expect these spam attacks to occur as RaiBlocks increases in popularity and we will have to see how the development team responds.</p>
 
 <h2 id="raiblocks-doesnt-incentivize-decentralization">RaiBlocks doesn’t incentivize decentralization</h2>
 
 <p>RaiBlocks validator nodes are quite expensive to run with high network throughput costs and modest processing and storage costs. Since there’s no reward for running a RaiBlocks validator node, validator node operators are prone to centralization.</p>
 
-<p>Some people argue that businesses relying on the RaiBlocks network will be incentivized to run validator nodes to secure the network. Large investors might also be incentivized run validator nodes. However, we have yet to see if this is true.</p>
+<p>Some people argue that businesses relying on the RaiBlocks network will be incentivized to run validator nodes to secure the network. Large investors might also be incentivized to run validator nodes. However, we have yet to see if this is true.</p>
 
 <h2 id="limited-applications---no-smart-contracts">Limited applications - no smart contracts</h2>
 
-<p>It’s becoming increasingly clear how powerful smart contracts are and I have a strong feeling that the winning cryptocurrencies in the future must support smart contracts. RaiBlocks’s system is so novel and different that I wonder if smart contracts are even possible for RaiBlocks?</p>
+<p>Smart contracts are a very powerful extension to cryptocurrencies, one that I don’t think many people have even begun to appreciate. I have a strong feeling that any future winning cryptocurrencies must support smart contracts. However, I doubts on whether RaiBlocks can support smart contracts given that it’s system is so radically different.</p>
 
-<h1 id="bottomline">Bottomline</h1>
+<h1 id="bottomline---am-i-bullish-on-raiblocks">Bottomline - am I bullish on RaiBlocks?</h1>
 
-<p>RaiBlocks works as described - near instant and feeless transactions with unlimited transaction throughput. It has a lot of promise and can be a serious challenge to big names like IOTA and even Bitcoin. However, RaiBlocks is currently being held back by an unproven consensus algorithm, spam vulnerability, and the lack of potential for smart contracts.</p>
+<p>RaiBlocks works as described - near instant and feeless transactions with unlimited transaction throughput. It has a lot of potential to be a serious challenge to big names like IOTA and even Bitcoin. However, RaiBlocks is currently being held back by an unproven consensus algorithm, spam vulnerability, and the lack of potential for smart contracts.</p>
+
+<p>Nevertheless, I’m quite bullish.</p>
 
     </div>
 
