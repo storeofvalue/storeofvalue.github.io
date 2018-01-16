@@ -6,13 +6,123 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Dec 2017 16:56:45 -0500</pubDate>
-    <lastBuildDate>Sun, 31 Dec 2017 16:56:45 -0500</lastBuildDate>
+    <pubDate>Mon, 15 Jan 2018 16:24:57 -0800</pubDate>
+    <lastBuildDate>Mon, 15 Jan 2018 16:24:57 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
+        <title>A Deep Dive Into RaiBlocks</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/1gUGSaZ.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I created a poll last week asking the community which coin I should write review next. RaiBlocks won with 40% of the vote. I’ve since spent several hours researching RaiBlocks and compiling everything I’ve learned in this article. I hope you find it helpful.&lt;/p&gt;
+
+&lt;p&gt;As Bitcoin’s price rose over 2017, so did fees required to use the network. Bitcoin Core developers have been against a block-size increase and are promising that the Lightning network will solve the fee problem. However, there are many uncertainties with the Lightning network including when it will be released and mass adopted.&lt;/p&gt;
+
+&lt;p&gt;This Bitcoin fee fiasco has generated significant interest in other cryptocurrencies with low fees and fast transaction times. RaiBlocks just so happens to be a prime candidate. As Bitcoin’s market cap dominance dropped from 60% to 33%, alternative cryptocurrencies saw large increases in marketcap and RaiBlocks was one of them. From a price under $0.20 at the start of December, RaiBlocks’ price skyrocketed to almost $35 at its peak and is now stabilizing at around $22.&lt;/p&gt;
+
+&lt;p&gt;One reason for this rise is the claim that RaiBlocks can support near instant and free transactions with unlimited throughput capacity while being sufficiently decentralized. This, of course, raises many people’s eyebrows since the best property of cryptocurrencies, decentralization, has always meant shitty scalability.&lt;/p&gt;
+
+&lt;p&gt;Let’s dive into RaiBlocks to see what it is, how it works, and whether it’s actually decentralized. We’ll also look at ecosystem factors like it’s team, investors, etc.&lt;/p&gt;
+
+&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Started in 2014. The main net was launched in 2017 and it’s fully functional.&lt;/li&gt;
+  &lt;li&gt;Fixed, maximum supply of 133,248,289 RaiBlocks. All RaiBlocks has been released.&lt;/li&gt;
+  &lt;li&gt;0 transaction fee, unlimited throughput capacity, &amp;gt; 5 second confirmation time.&lt;/li&gt;
+  &lt;li&gt;Uses a block-lattice data structure instead of the blockchain.&lt;/li&gt;
+  &lt;li&gt;Consensus is maintained through a voting mechanism. Votes = # of raiblocks owned and delegated.&lt;/li&gt;
+  &lt;li&gt;RaiBlocks didn’t conduct an ICO. RaiBlocks was distributed through a faucet. 7,000,000 RaiBlocks retained for dev funds.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/azcmAlx.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;is-raiblocks-a-scam&quot;&gt;Is RaiBlocks a scam?&lt;/h1&gt;
+
+&lt;p&gt;I’ve scoured through the whitepaper and looked over the team’s history and believe that RaiBlocks is everything it claims, with a few caveats. There are many open questions around RaiBlocks’s consensus algorithm. It’s not well tested and to my understanding, lacks peer review.&lt;/p&gt;
+
+&lt;p&gt;Although RaiBlocks in its current state does indeed support near instant and free transactions with unlimited throughput capacity, the jury is still out on whether the consensus algorithm is correct and robust.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-does-raiblocks-work&quot;&gt;How does RaiBlocks work?&lt;/h1&gt;
+
+&lt;p&gt;Unlike most cryptocurrencies that use a traditional blockchain datastructure, RaiBlocks uses a novel data structure known as a block-lattice. While the blockchain consists of a singular global chain of blocks, every RaiBlocks account has its own blockchain.&lt;/p&gt;
+
+&lt;p&gt;The only account that can publish a transaction to an account’s blockchain is the account itself.&lt;/p&gt;
+
+&lt;p&gt;To send funds, the sender needs to issue a “send” transaction in its own blockchain, and the receiver needs to issue a corresponding “receive” transaction in its own blockchain. This is why it’s so fast. An account can very quickly update its own blockchain. These transactions are propagated across the network and as long as no validator discovers a conflict, the transaction is, for all intents and purposes, considered confirmed.&lt;/p&gt;
+
+&lt;p&gt;The RaiBlocks network consists of wallets and validator nodes. Wallets send transactions to a validator node, and the node first validates the transactions by checking them against their internal state of the network. The node then passes along the transaction to all other validator nodes its connected to. Every subsequent node performs the same sequence of action until the whole network has seen the transactions.&lt;/p&gt;
+
+&lt;p&gt;A validator node keeps track of the state of the entire network by storing the blockchains of every single RaiBlocks address. Conflicts or “forks” happen when a published transaction conflicts with the internal state of a validator node. To resolve the conflict, the node initiates a voting process by announcing the conflict to other validator nodes. The voting process occurs over a predefined period where each node votes on a state of the network it believes is correct. The number of votes a node has equals the amount of RaiBlocks it owns + votes delegated from other accounts. When a state has more than 133,248,289/2 votes (133,248,289 is the total number of XRBs in existence), it’s automatically accepted as the real state of the network.&lt;/p&gt;
+
+&lt;p&gt;The network provides no rewards for running a RaiBlocks validator.&lt;/p&gt;
+
+&lt;p&gt;To mitigate spam, an account needs to perform easy proof of work to add a transaction to its own blockchain. This is, of course, not a cure all as transactions can still be created within a few seconds.&lt;/p&gt;
+
+&lt;h1 id=&quot;raiblocks-team-and-history&quot;&gt;RaiBlocks team and history&lt;/h1&gt;
+
+&lt;p&gt;The key developer behind RaiBlocks is Colin LeMahieu. LeMahieu started developing RaiBlocks in 2014 and the network was released in 2017. RaiBlocks didn’t hold an ICO and instead distributed the cryptocurrency through a faucet on a website. Users need only complete a captcha in order to receive RaiBlocks.&lt;/p&gt;
+
+&lt;p&gt;The team behind RaiBlocks is small and fairly unknown but with the cryptocurrency’s recent success, LeMahieu is in the process of building a larger development team in order to cultivate a stronger ecosystem around RaiBlocks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/L3bJAEW.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;paypal-lead-engineer--raiblocks&quot;&gt;PayPal lead engineer + RaiBlocks&lt;/h1&gt;
+
+&lt;p&gt;It’s interesting to note that a lead PayPal engineer built a checkout app for RaiBlocks as a weekend hack project and wrote about it on &lt;a href=&quot;https://medium.com/@bluepnume/introducing-brainblocks-my-weekend-hack-project-to-build-a-simple-checkout-app-for-raiblocks-5f5770c06c14&quot;&gt;Medium&lt;/a&gt;. For a lead PayPal engineer to be interested in RaiBlocks to actually built something on it, even if it was just a “weekend hack project”, is quite significant for this nascent cryptocurrency.&lt;/p&gt;
+
+&lt;h1 id=&quot;raiblocks-vs-iota&quot;&gt;RaiBlocks vs IOTA&lt;/h1&gt;
+
+&lt;p&gt;Another cryptocurrency that also offers near instant and free transactions with high scalability is IOTA. IOTA has been extremely “hot” recently with prices skyrocketing from under a $1 to more than $5. It’s not surprising that IOTA is frequently compared to RaiBlocks. Here’s how the two cryptocurrencies differ.&lt;/p&gt;
+
+&lt;p&gt;IOTA, like RaiBlocks, offers near instant and free transactions. However, the two systems are very different. IOTA uses a DAG data structure (called Tangle) where every node in the graph represents one whole transaction. In order to issue a new transaction, an account needs to validate two previous transactions through proof of work. The new transaction would then “reference” or connect to the two previous transactions in the Tangle.&lt;/p&gt;
+
+&lt;p&gt;In IOTA, transactions happen in a single phase and is stored in the global Tangle. In RaiBlocks, transactions happen in two parts: a “send” transaction in the sender’s blockchain and a “receive” transaction in the receiver’s blockchain.&lt;/p&gt;
+
+&lt;p&gt;One major advantage RaiBlocks has over IOTA is in decentralization. IOTA currently needs a centralized Coordinator to ensure network security and direct network progress. This is because IOTA’s network security is directly tied to the amount of transactions occuring in the network. In low transaction conditions, transactions take longer to confirm and the network becomes more vulnerable to attacks. In theory, the Coordinator will eventually become unnecessary as the network reaches a critical mass of adoption but IOTA is far from this reality. A scary consequence of the Coordinator is the fact that IOTA’s developers can, and has, frozen user funds at a whim (&lt;a href=&quot;https://blog.iota.org/official-iota-foundation-response-to-the-digital-currency-initiative-at-the-mit-media-lab-part-1-72434583a2&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The security of RaiBlocks’s network, on the other hand, does not depend on the amount of transactions going through it. As such, RaiBlocks currently doesn’t need a centralized entity as a crutch to be secure.&lt;/p&gt;
+
+&lt;p&gt;IOTA has an ecosystem advantage over RaiBlocks. IOTA has more users and the IOTA Foundation has more business connections. For example, the Foundation recently launched an IOTA Data Marketplace initiative with many large companies participating.&lt;/p&gt;
+
+&lt;h1 id=&quot;weaknesses&quot;&gt;Weaknesses&lt;/h1&gt;
+
+&lt;h2 id=&quot;questions-around-the-consensus-algorithm&quot;&gt;Questions around the consensus algorithm&lt;/h2&gt;
+
+&lt;p&gt;As mentioned above, there are many open questions around the consensus algorithm. Given that RaiBlocks is so young, it is not well tested and lacks peer review. The risk is definitely real that there is a fatal flaw in the consensus algorithm. For example, what happens if there are not enough votes for a quorum in order to resolve a network conflict? Currently validator nodes rely on the maximum supply number (133,248,289) to determine a quorum and there definitely could be instances where not enough validator nodes participate in the voting process.&lt;/p&gt;
+
+&lt;p&gt;Another big question is in the event the RaiBlocks network gets separated for a long period of time (perhaps due to network issues or other freak occurences), what happens when you rejoin the two networks? Will the network be crippled from all the voting processes that would inevitably take place? Is there a mathematical guarantee that the network will recover?&lt;/p&gt;
+
+&lt;h2 id=&quot;spam-vulnerability&quot;&gt;Spam vulnerability&lt;/h2&gt;
+
+&lt;p&gt;RaiBlocks, being inherently feeless, is highly vulnerable to spam. I could run a script that simply has multiple accounts send transactions to each other continuously creating massive blockchains that could be a problem for validators. It costs almost nothing to create spam in the system yet can be incredibly costly. The storage costs of blockchain cryptocurrencies is predicatable based on block generation times and maximum block sizes. This is not the case with RaiBlocks.&lt;/p&gt;
+
+&lt;p&gt;Expect these spam attacks to occur as RaiBlocks increases in popularity and we will have to see how the development responds.&lt;/p&gt;
+
+&lt;h2 id=&quot;raiblocks-doesnt-incentivize-decentralization&quot;&gt;RaiBlocks doesn’t incentivize decentralization&lt;/h2&gt;
+
+&lt;p&gt;RaiBlocks validator nodes are quite expensive to run with high network throughput costs and modest processing and storage costs. Since there’s no reward for running a RaiBlocks validator node, validator node operators are prone to centralization.&lt;/p&gt;
+
+&lt;p&gt;Some people argue that businesses relying on the RaiBlocks network will be incentivized to run validator nodes to secure the network. Large investors might also be incentivized run validator nodes. However, we have yet to see if this is true.&lt;/p&gt;
+
+&lt;h2 id=&quot;limited-applications---no-smart-contracts&quot;&gt;Limited applications - no smart contracts&lt;/h2&gt;
+
+&lt;p&gt;It’s becoming increasingly clear how powerful smart contracts are and I have a strong feeling that the winning cryptocurrencies in the future must support smart contracts. RaiBlocks’s system is so novel and different that I wonder if smart contracts are even possible for RaiBlocks?&lt;/p&gt;
+
+&lt;h1 id=&quot;bottomline&quot;&gt;Bottomline&lt;/h1&gt;
+
+&lt;p&gt;RaiBlocks works as described - near instant and feeless transactions with unlimited transaction throughput. This cryptocurrency has a lot of promise and can be a serious challenge to big names like IOTA and even Bitcoin. However, RaiBlocks is currently being held back by an unproven consensus algorithm, spam vulnerability, and the lack of potential for smart contracts.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jan 2018 01:40:35 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/a-deep-dive-into-raiblocks/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-deep-dive-into-raiblocks/</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/Axga15N.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/Axga15N.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;TLDR: Certain cryptocurrencies are easily considered securities under United States federal securities laws. These cryptocurrencies are actively traded in several cryptocurrency exchanges operating in the United States. The SEC has made it abundantly clear that they are placing cryptocurrencies under tighter scrutiny and will have stricter enforcement of securities laws in 2018. Investors of securities-like cryptocurrencies should beware that exchanges will very likely delist these cryptocurrencies in 2018.&lt;/em&gt;&lt;/p&gt;
 
@@ -44,7 +154,7 @@
 
 &lt;p&gt;If you are invested in a cryptocurrency that passes the Howey Test, be mindful of the fact that the SEC is very likely going to crackdown on securities-like cryptocurrencies in 2018 and will force their delisting from cryptocurrency exchanges operating in the United States.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 Dec 2017 10:10:46 -0500</pubDate>
+        <pubDate>Sun, 31 Dec 2017 07:10:46 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/</guid>
         
@@ -107,7 +217,7 @@
 
 &lt;p&gt;Nevertheless, XRP does look like a great candidate for a Coinbase listing but an investor should definitely not trade on the hopes that it will go on Coinbase soon. Unless, of course, you want to front run all the other speculators but it’s a bit late for that right now.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 29 Dec 2017 16:52:06 -0500</pubDate>
+        <pubDate>Fri, 29 Dec 2017 13:52:06 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/this-is-why-ripples-price-is-surging/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/this-is-why-ripples-price-is-surging/</guid>
         
@@ -116,7 +226,7 @@
     
       <item>
         <title>This User Made 462 Ether ($210,000) in 3 Days Trading CryptoKitties</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/WhmB4m8.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/WhmB4m8.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In my &lt;a href=&quot;http://storeofvalueblog.com/posts/cryptokitties-the-aftermath/&quot;&gt;“CryptoKitties - The Aftermath” article&lt;/a&gt;, I wrote about how Kitty #23 was flipped for more than 210 ether (about $94,500 at the time) over 4 days. Turns out, the guy who did one of those tremendously profitable trades read my article and reached out to me with an even wilder story. In 3 days, he made 462 ether trading CryptoKitties. 462 ether was worth $210,000 at the time and $323,400 today. We did an informal interview over email. Here is his CryptoKitties story.&lt;/p&gt;
 
@@ -273,7 +383,7 @@
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/0q8W6jV.jpg&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Dec 2017 02:36:10 -0500</pubDate>
+        <pubDate>Wed, 27 Dec 2017 23:36:10 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/</guid>
         
@@ -442,7 +552,7 @@
 
 &lt;p&gt;Here’s a &lt;a href=&quot;http://storeofvalueblog.com/posts/stellar-lumens-what-is-it-and-should-you-invest/&quot;&gt;link to my review of Stellar&lt;/a&gt; if you want to learn more about it.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 24 Dec 2017 00:04:16 -0500</pubDate>
+        <pubDate>Sat, 23 Dec 2017 21:04:16 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</guid>
         
@@ -519,7 +629,7 @@
 
 &lt;p&gt;Check it out here: &lt;a href=&quot;https://wikileaks.shop/pages/cryptokitties&quot;&gt;https://wikileaks.shop/pages/cryptokitties&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 21 Dec 2017 03:55:38 -0500</pubDate>
+        <pubDate>Thu, 21 Dec 2017 00:55:38 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/cryptokitties-the-aftermath/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/cryptokitties-the-aftermath/</guid>
         
@@ -617,7 +727,7 @@
   &lt;li&gt;&lt;a href=&quot;https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/&quot;&gt;https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 17 Dec 2017 22:57:16 -0500</pubDate>
+        <pubDate>Sun, 17 Dec 2017 19:57:16 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/how-centralized-is-neo/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/how-centralized-is-neo/</guid>
         
@@ -793,7 +903,7 @@
 
 &lt;p&gt;IOTA is an ambitious and technically impressive project. It’s promise of unlimited scaling and zero-fee transactions is particularly enticing, especially for Bitcoin users that are currently seeing transaction confirmation times and fees sky rocket. However, it is not without its shortcomings. The network is definitely not secure in its current level of adoption and needs to be centralized to keep it afloat. The Data Marketplace project is a great initiative that not only brings tremendous utility to the network but also decentralizes it. However, it is important to keep in mind that if the project fails, IOTA will remain centralized for the foreseeable future. I also have some reservations on the maturity and leadership skills of the project’s co-founders. Besides these issues, I think IOTA is a very strong and exciting project.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 15 Dec 2017 21:20:21 -0500</pubDate>
+        <pubDate>Fri, 15 Dec 2017 18:20:21 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/iota-what-is-it-and-should-you-invest/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/iota-what-is-it-and-should-you-invest/</guid>
         
@@ -910,7 +1020,7 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;This was posted in April 2013.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 02 Dec 2017 05:06:20 -0500</pubDate>
+        <pubDate>Sat, 02 Dec 2017 02:06:20 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/crazy-things-that-have-happened-in-crypto/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/crazy-things-that-have-happened-in-crypto/</guid>
         
@@ -1020,126 +1130,9 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
 
 &lt;p&gt;I have never seen anyone in any professional setting use the inane and childish term “FUD”. I was honestly quite surprised the article would be titled “Response to baseless FUD”. It’s also hilarious that the article calls my work “baseless FUD”, and then proceeds to confirm several of my points!&lt;/p&gt;
 </description>
-        <pubDate>Sun, 19 Nov 2017 13:47:45 -0500</pubDate>
+        <pubDate>Sun, 19 Nov 2017 10:47:45 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Investor Warning: Major NEO Redflags</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/0XsrvAF.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve been following NEO closely since this summer when it was still called Antshares. I was incredibly impressed by the project at the time. Its super fast transaction times, smart contract capability, gas generation, and the possible support from the Chinese government made NEO incredibly attractive. However, after a combination of further research and observation of the project’s progression, I’ve identified a series of major red flags surrounding NEO and my opinion on the project has soured considerably.&lt;/p&gt;
-
-&lt;h1 id=&quot;neo-is-incredibly-centralized-the-entire-network-only-has-13-validating-nodes-developers-whitelist-who-can-run-validating-nodes&quot;&gt;NEO is incredibly centralized. The entire network only has 13 validating nodes. Developers whitelist who can run validating nodes&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/PnmOlEw.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The core value proposition of a cryptocurrency is its decentralized and trustless nature. It is this property that enables users to store their funds securely on the network without needing to trust anyone else. For this to be possible, any user must be able to operate nodes to validate transactions in the network without having to be approved by a central authority. For example, both the Bitcoin and Ethereum networks have thousands of validation nodes running at any one time upholding network security. Even QTUM, a relatively new cryptocurrency, has more than a thousand validation nodes running concurrently (1,319 nodes at the time of writing).&lt;/p&gt;
-
-&lt;p&gt;NEO, however, has only up to 13 concurrently running validation nodes in the entire network. How can this be the case? I was incredibly dismayed to discover that NEO’s team hand-picks operators of their validation nodes. In fact, I believe that all validation nodes are currently exclusively run by the team. This is alarming. How can a blockchain project that is more than 2 years old with a market cap of more than $3 billion only have 13 validation nodes? Why is the public not allowed to participate in upholding the security of the network? Two years is a very, very long time in the cryptocurrency world and there is simply no excuse for this degree of centralization.&lt;/p&gt;
-
-&lt;p&gt;You can checkout the network’s validation nodes here: &lt;a href=&quot;https://monitor.cityofzion.io/&quot;&gt;https://monitor.cityofzion.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;neos-blockchain-disappeared-for-several-hours-in-october&quot;&gt;NEO’s blockchain disappeared for several hours in October&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/A9vahBl.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Because all 13 of NEO’s validation nodes are controlled by its development team, the team was able to shutdown the entire blockchain at a moment’s notice and they did so for several hours earlier in October. During that time, no blocks were generated and the lack of communication left many people confused and scared.&lt;/p&gt;
-
-&lt;p&gt;The official reason for the blackout? NEO’s team had to shut down the network in order to perform “manual checks” after unlocking 15 million of the 50 million NEO that the team held in reserve.&lt;/p&gt;
-
-&lt;h1 id=&quot;neos-github-has-alarmingly-sparse-activity&quot;&gt;NEO’s GitHub has alarmingly sparse activity&lt;/h1&gt;
-
-&lt;p&gt;As of this writing, the last commit to NEO’s GitHub repo happened 16 days ago. Think about it, more than half a month since the last time the project was updated.&lt;/p&gt;
-
-&lt;p&gt;In addition, the last 3 commits to the repo are incredibly inane and insubstantial. Look at the last 3 commit messages:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An attempt at improving the English translation (November 2nd)&lt;/li&gt;
-  &lt;li&gt;Fix Grammer (November 1st)&lt;/li&gt;
-  &lt;li&gt;Confusing spacing (November 1st)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/3LGUlsM.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;An inactive GitHub repo is one of the first signs of an abandoned project. Compare this to Ethereum, Bitcoin, Waves, Stellar, and QTUM. There are commits almost every day for these projects. What are NEO’s devs doing?&lt;/p&gt;
-
-&lt;p&gt;EDIT 1: some people are arguing that even though NEO’s GitHub is inactive, CityOfZion’s GitHub is very active. One needs to understand that CityOfZion builds peripheral tools in NEO’s ecosystem which, at a fundamental level, do not improve NEO’s fundamental blockchain technology. To say that CityOfZion’s developer activity makes up for NEO’s inactivity is like saying Bitcoin is fine if blockchain.info’s developers are still working when all Bitcoin client developers have stopped working (Bitcoin Core is an example of a Bitcoin client). Blockchain.info helps us explore the blockchain, Bitcoin clients are the software running Bitcoin’s nodes and miners.&lt;/p&gt;
-
-&lt;p&gt;EDIT 2: some people have claimed that NEO’s team doesn’t use GitHub. This is blatantly false since (a) the NEO team has been working in this repository since NEO’s inception and (b) there continues to be (sparse) activity in the repository. If the NEO team doesn’t use GitHub, why commit anything there at all? There’s no good reason to consistently make inane changes to an abandoned code repository.&lt;/p&gt;
-
-&lt;h1 id=&quot;neo-only-has-6-smart-contracts-operating-on-the-entire-blockchain&quot;&gt;NEO only has 6 smart contracts operating on the entire blockchain&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2IEEl6v.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;NEO, a project that is 2 years old, only has 6 smart contracts deployed on its mainnet. In fact, up until October, the only 3 smart contracts on NEO were test contracts deployed by NEO’s lead developer, Erik Zhang.&lt;/p&gt;
-
-&lt;p&gt;Is this what a thriving smart contracts ecosystem should look like? Should NEO, a 2 year old, $3 billion smart contract platform have only 6 smart contracts?&lt;/p&gt;
-
-&lt;p&gt;You can checkout all of NEO’s smart contracts here: &lt;a href=&quot;https://neotracker.io/browse/contract/1&quot;&gt;https://neotracker.io/browse/contract/1&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;the-east-has-almost-no-interest-in-neo---90-of-neos-volume-comes-from-the-west&quot;&gt;The East has almost no interest in NEO - 90% of NEO’s volume comes from the West&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/o0mrbKc.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you were to visit NEO’s subreddit, you’ll see everyone talking about how NEO has connections with the Chinese government and that the government might be open to using NEO.&lt;/p&gt;
-
-&lt;p&gt;This cannot be more false. NEO is a little known project in China with minimal connections to the government. You’ll quickly realize this after asking around in Chinese cryptocurrency forums and messaging groups. Additionally, look at NEO’s volume distribution, &lt;strong&gt;more than 90% of NEO’s volume comes from Bittrex, Binance, and Bitfinex, three exchanges used mainly be Westerners.&lt;/strong&gt; There is close to zero interest for NEO in Eastern exchanges.&lt;/p&gt;
-
-&lt;p&gt;How can anyone say that NEO is a Chinese project at this point? Almost all of NEO’s investors are from the West and many of them were duped into thinking NEO has a chance in the East.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;neo-attracts-questionable-icos-and-dapps&quot;&gt;NEO attracts questionable ICOs and dApps&lt;/h1&gt;
-
-&lt;p&gt;NEO released its smart contract 2.0 system in August. Until October, only 3 projects announced that they will be building on NEO, and all of them are incredibly sketchy.&lt;/p&gt;
-
-&lt;p&gt;The first project, AdEx, looks incredibly bad. They announced that they would switch from Ethereum to NEO. This announcement subsequently pumped the token’s price from $0.30 to $2.45. It has since dropped back to $1. I looked over AdEx’s GitHub repo and I don’t like what I see. No only is there very few commits, all of the commits are incredibly unsubstantial and consists of copy changes and adding image assets. Additionally, the team still has a Solidity code in the repo and continue to make commits in November referencing Solidity. Hold on? Solidity is Ethereum’s smart contract language. Where is the code for NEO integration? Why is the team still working with Solidity. AdEx is a project with a $60 million market cap. I’m scared.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/3Q46SHN.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The second project, Red Pulse, was NEO’s first ever ICO. The project appears to be incredibly sketchy as well. &lt;a href=&quot;https://steemit.com/redpulse/@thecryptohomie/buyer-beware-red-flags-on-the-red-pulse-ico&quot;&gt;Here’s a blog post&lt;/a&gt; detailing its many red flags. For example, the team claims that their 2-year-old non-cryptocurrency service has more than 60,000 subscribers, yet their iOS app only has 1 review. The company’s CEO has also apparently said that RPX can only appreciate in value because other people might consider RPX to be valuable. In other words, the CEO basically admitted that most of RPX’s value derives from speculation.&lt;/p&gt;
-
-&lt;p&gt;The other project, Aphelion, looks even worse. Even devout NEO investors have raised red flags on the project. The team is incredibly small. It consists of 3 founders and that’s it. What’s hilarious is that there are 10 advisors, meaning the project’s advisors outnumber the project’s employees by more than 3 to 1! For a project with so little people working on it and almost no work in progress, its ICO asks for an incredible $30 million. That’s $10 million per founder. It would be too exhausting to list everything wrong about this project so I’ll just link a &lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7c35ks/aphelion_is_probably_a_money_dump/&quot;&gt;comprehensive post from NEO’s subreddit&lt;/a&gt; (267 karma, 96% upvoted), on why this project is likely a “money dump”.&lt;/p&gt;
-
-&lt;p&gt;Aphelion is NEO’s second ICO. It’s clearly shaping up to be a giant scam and it’s incredibly worrying that no one from the NEO team has warned NEO holders about Aphelion. You can’t build a thriving smart contract ecosystem on top of scams.&lt;/p&gt;
-
-&lt;h1 id=&quot;neo-makes-announcements-of-announcements&quot;&gt;NEO makes announcements of announcements&lt;/h1&gt;
-
-&lt;p&gt;Making announcements of announcements have become one of the most frowned upon activities in the cryptocurrency world. Doing so purely serves to introduce unhealthy speculation into the market and pump a token’s price. Several projects have already been burned by their communities for doing so in the past few months (e.g. OmiseGo and TenX) and have since stopped.&lt;/p&gt;
-
-&lt;p&gt;NEO, on the other hand, continues to engage in this unethical behaviour. The project recently &lt;a href=&quot;https://twitter.com/MalcolmLerider/status/931521977839505408&quot;&gt;released a poster&lt;/a&gt; stating that something big will be announced in 3 days. This caused NEO’s price to pump from $28 to $45 in a single day. Completely. Unhealthy. Speculation.&lt;/p&gt;
-
-&lt;p&gt;It’s incredibly uncomfortable seeing NEO’s team encouraging speculation and rumours to manipulate the market. This is the kind of activity that forces governments to introduce harsh regulations. Just look at what happened in China.&lt;/p&gt;
-
-&lt;h1 id=&quot;neo-is-a-blockchain-built-purely-on-promises-and-rumours-there-is-no-substance&quot;&gt;NEO is a blockchain built purely on promises and rumours. There is no substance.&lt;/h1&gt;
-
-&lt;p&gt;It should be clear as day by now that everything associated with NEO is filled with rumours and promises. There is no substance. Nothing really works or creates value in any way.&lt;/p&gt;
-
-&lt;p&gt;Be careful of what you buy.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Nov 2017 05:46:24 -0500</pubDate>
-        <link>https://storeofvalue.github.io/posts/major-neo-redflags/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/major-neo-redflags/</guid>
         
         
       </item>
