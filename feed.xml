@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jan 2018 19:12:01 -0800</pubDate>
-    <lastBuildDate>Mon, 15 Jan 2018 19:12:01 -0800</lastBuildDate>
+    <pubDate>Tue, 16 Jan 2018 09:06:19 -0800</pubDate>
+    <lastBuildDate>Tue, 16 Jan 2018 09:06:19 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -26,6 +26,15 @@
 
 &lt;p&gt;Let’s dive into RaiBlocks to see what it is, how it works, and whether it’s actually decentralized.&lt;/p&gt;
 
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
 &lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -34,7 +43,7 @@
   &lt;li&gt;0 transaction fee, unlimited throughput capacity, &amp;gt; 5 second confirmation time.&lt;/li&gt;
   &lt;li&gt;Uses a block-lattice data structure instead of the blockchain.&lt;/li&gt;
   &lt;li&gt;Consensus is maintained through a voting mechanism. Validator nodes vote on a world state they believe is true and the number of votes they have consists of the number of RaiBlocks the node owns and the number of RaiBlocks delegated to the node by other accounts.&lt;/li&gt;
-  &lt;li&gt;RaiBlocks didn’t conduct an ICO. RaiBlocks was distributed through a faucet. 7,000,000 RaiBlocks retained for dev funds.&lt;/li&gt;
+  &lt;li&gt;The RaiBlocks team didn’t conduct an ICO and instead distributed RaiBlocks for free through a web  faucet. 7,000,000 RaiBlocks were retained as developer funds.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/azcmAlx.jpg&quot; /&gt;&lt;/p&gt;
@@ -60,6 +69,15 @@
 &lt;p&gt;The RaiBlocks network provides no rewards for running a validator.&lt;/p&gt;
 
 &lt;p&gt;To mitigate spam, an account needs to perform easy proof of work to add a transaction to its own blockchain. This is, of course, not a cure all as transactions can still be created within a few seconds.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
 
 &lt;h1 id=&quot;raiblocks-team-and-history&quot;&gt;RaiBlocks team and history&lt;/h1&gt;
 
@@ -87,13 +105,22 @@
 
 &lt;p&gt;But it’s not all that bad for IOTA. Afterall, it was one the first movers for free and fast cryptocurrencies and it has an ecosystem advantage over RaiBlocks. IOTA has more users and the IOTA Foundation has more business connections. For example, the Foundation recently launched an IOTA Data Marketplace initiative with many large companies participating.&lt;/p&gt;
 
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
 &lt;h1 id=&quot;weaknesses&quot;&gt;Weaknesses&lt;/h1&gt;
 
 &lt;h2 id=&quot;questions-around-the-consensus-algorithm&quot;&gt;Questions around the consensus algorithm&lt;/h2&gt;
 
 &lt;p&gt;As mentioned above, there are many open questions around the consensus algorithm. Given that RaiBlocks is so young, it’s not well tested and lacks peer review. This introduces the risk of a serious flaw in the consensus algorithm. For example, what happens if there are not enough votes for a quorum in order to resolve a network conflict? Currently, validator nodes rely on the maximum supply number (133,248,289 RaiBlocks in existence) to determine a quorum and it’s totally possible that a voting process could not have enough validator nodes participating.&lt;/p&gt;
 
-&lt;p&gt;Here’s another big question I have: in the event that the RaiBlocks network gets separated for a long period of time (perhaps due to network issues or other freak occurences), what happens when you rejoin the two networks? Will the network be crippled from all the voting processes that would inevitably take place? Is there a mathematical guarantee that the network will recover?&lt;/p&gt;
+&lt;p&gt;Here’s another big question I have: in the event that parts of the RaiBlocks network get separated for a long period of time (perhaps due to network issues or other freak occurences), what happens when you rejoin the separated networks? Will the rejoined network be crippled from all the voting processes that would inevitably take place? Is there a mathematical guarantee that the rejoined network will recover?&lt;/p&gt;
 
 &lt;p&gt;These are all very important questions and their answers will determine the robustness and, ultimately, the longevity of the RaiBlocks network.&lt;/p&gt;
 
