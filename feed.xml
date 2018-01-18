@@ -6,9 +6,212 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jan 2018 09:06:19 -0800</pubDate>
-    <lastBuildDate>Tue, 16 Jan 2018 09:06:19 -0800</lastBuildDate>
+    <pubDate>Thu, 18 Jan 2018 04:16:22 -0800</pubDate>
+    <lastBuildDate>Thu, 18 Jan 2018 04:16:22 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>A Definitive Guide To NEO (2nd Edition)</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/SbPjcBr.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DISCLAIMER: I am diversified across Ethereum, QTUM, and Vechain. All of which are competing smart contract platforms. I choose not to diversify into NEO.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;As before, many people will be inclined to attack me for sharing my research. I implore anyone who is inclined to do so to please stop with the ad hominem attacks and address my arguments. Look into them and verify them yourselves. The information is out there, you just have to look.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I wrote about NEO back in July 2017 when it was still Antshares and at $7. Today, it’s more than $150. I’ve been following NEO closely since I was fascinated with the platform, it’s capabilities and it’s promises. A smart contracts platform that can perform up to 10,000 transactions per second (&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7oap5g/neo_transactions_per_second/&quot;&gt;source&lt;/a&gt;)? Smart contracts that can be written in multiple popular languages like Java and C#? Getting paid in GAS just for having NEO in your wallet? This sounds like a truly revolutionary platform and I think anyone would want to dig deep into the platform and how it works.&lt;/p&gt;
+
+&lt;p&gt;Some of you have seen that I’ve been highly skeptical of NEO over the past few months. A few have stated that I’m a critic either because I’m invested in QTUM (a competitor to NEO) or that I sold early and missed the boat. I often see this as very crude arguments as they completely ignore the tough research I’ve put into NEO over the past few months.&lt;/p&gt;
+
+&lt;p&gt;I’m a diehard fundamentals investor and I dig deep into every aspect of a project. What made me balk at NEO was the layers of deceit and manipulation I found that I couldn’t accept and be quiet about. If I truly believed in projects that were rivals, I would diversify among the competitors to derisk. That’s why I’ve invested in QTUM, Ethereum and even Vechain. I have very good reasons why I won’t diversify into NEO.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, I believe that it’s best to compile everything I’ve found about NEO over the past few months and let my readers by the judge.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Smart contracts blockchain started by Onchain, a Shanghai-based company led by Da Hongfei and Erik Zhang.&lt;/li&gt;
+  &lt;li&gt;Held two phases in its ICO, one in August 2016 and another in September 2016.&lt;/li&gt;
+  &lt;li&gt;Its original name was Antshares but the platform was rebranded to NEO in August 2016.&lt;/li&gt;
+  &lt;li&gt;Uses the delegated Byzantine Fault Tolerance (dBFT) algorithm as a consensus algorithm. &lt;strong&gt;NEO is not a Proof of Stake system.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Claims to support up to 1,000 transactions per second and 10,000 transactions per second with optimizations.&lt;/li&gt;
+  &lt;li&gt;Smart contracts platform that supports multiple languages including Java and C#.&lt;/li&gt;
+  &lt;li&gt;Hosted several ICOs since the rebranding event in July.&lt;/li&gt;
+  &lt;li&gt;NEO acts as shares of the blockchain and owners can vote on consensus nodes. Holding NEO also automatically generates GAS. GAS generation is finite and ends in a few years.&lt;/li&gt;
+  &lt;li&gt;GAS is the fee to use the network. It’s supposed to pay for transactions and smart contract deployment.&lt;/li&gt;
+  &lt;li&gt;NEO’s team currently operates all 7 validator nodes in the network and has set transaction fees to zero. To deploy a smart contract, one needs to pay 500 GAS. At the current GAS price of about $60, it would cost $30,000 to deploy a smart contract (&lt;a href=&quot;http://docs.neo.org/en-us/sc/systemfees.html&quot;&gt;source&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;NEO’s consensus algorithm requires every validator to know every other validator. The global number of validators needs to be known and constant. This validator list is maintained by the NEO team and the team gets to choose validator candidates to be voted in by the community. Candidates are legally liable for the operation of the validators &lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;sources&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;NEO is undergoing a process of decentralizing the location of their validator nodes, but they still maintain full control over the nodes. &lt;strong&gt;They are not in a process of decentralizing control, as many would like to think&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NEO is a more centralized cryptocurrency than Ripple.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Strong community developer ecosystem in the form of the City of Zion (CoZ). CoZ develops blockchain tooling such as wallets and block explorers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;neos-history-team-and-onchain&quot;&gt;NEO’s history, team, and Onchain&lt;/h1&gt;
+
+&lt;p&gt;NEO held the first phase of its ICO in August 2016 and the second phase in September 2016. It was originally named Antshares before rebranding to NEO in August 2016.&lt;/p&gt;
+
+&lt;p&gt;NEO is an open source blockchain developed and managed by Onchain, a Shanghai-based blockchain R&amp;amp;D company. Onchain was founded by CEO Da Hongfei and CTO Erik Zhang. Erik Zhang is also the lead developer of NEO. A large Chinese international conglomerate investment company, Fosun International, has invested in Onchain. Onchain has its own blockchain product, known as the Distributed Networks Architecture, or DNA. DNA is comparable to the Hyperledger project led by the Linux Foundation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/ucfW1S0.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Da Hongfei is popular among the NEO community. He is soft spoken and often implores his following to “focus on the technology and not the price”. He has appeared in numerous interviews with popular cryptocurrency public figures and was even on Bloomberg recently.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;consensus-algorithm---dbft-and-neo&quot;&gt;Consensus algorithm - dBFT and NEO&lt;/h1&gt;
+
+&lt;p&gt;A good resource for NEO’s consensus algorithm is Erik Zhang’s paper on dBFT which can be found &lt;a href=&quot;http://docs.neo.org/en-us/node/whitepaper.html&quot;&gt;here&lt;/a&gt;. I’ve scoured through it and here’s what I found.&lt;/p&gt;
+
+&lt;p&gt;The global validator count in dBFT needs to be constant and every validator needs to know every other validator. Validators work together to reach consensus on the next block. As long as more than two thirds of the nodes are in agreement, the network moves forward. As such, dBFT is very similar to Ripple and Stellar’s consensus algorithms and thus it can be almost as fast at 1,000 to 10,000 transactions per second.&lt;/p&gt;
+
+&lt;p&gt;Obviously, the only difference is that Ripple and Stellar are more decentralized than NEO since anyone can join as a validator in Ripple and Stellar’s networks. dBFT is more stringent on how many validators can exist and thus NEO’s team needs to exercise more control in order to keep the network secure.&lt;/p&gt;
+
+&lt;p&gt;NEO’s team currently sets the total validator count to be at 7 and they operate all 7 nodes. They have claimed to decentralize the network by placing validator nodes in different locations such as in a Swiss bunker and a Dutch telecommunications company’s (KPN) server farm. However, the NEO team still owns and operates these nodes, so it’s &lt;strong&gt;decentralization of location but still a centralization of control&lt;/strong&gt;. This is a very important distinction.&lt;/p&gt;
+
+&lt;p&gt;Another important thing to keep in mind is that dBFT is NOT Proof of Stake. dBFT is a consensus algorithm where validators aim to cooperate instead of compete for rewards. NEO holders do not have the ability to provide input in the consensus algorithm.&lt;/p&gt;
+
+&lt;h2 id=&quot;you-are-legally-liable-if-you-operate-a-validator-node&quot;&gt;You are legally liable if you operate a validator node&lt;/h2&gt;
+
+&lt;p&gt;NEO does plan to decentralize control by allowing NEO holders to vote on validator operators. However, since validator up time is incredibly important, NEO has decided that they get to choose who can be candidates of validator operators. Even more surprising, validator operators that are voted in will be legally liable in keeping the validator up &lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;source&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So much for decentralized control.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/a8ls69S.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As of right now, NEO holders still cannot exercise their voting rights.&lt;/p&gt;
+
+&lt;h2 id=&quot;centralized-control-means-possible-blockchain-blackouts&quot;&gt;Centralized control means possible blockchain blackouts&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/A9vahBl.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The most interesting event happened in October last year when NEO’s blockchain went dark for several hours. This was incredibly disturbing to many people since blockchains are not supposed to just disappear.&lt;/p&gt;
+
+&lt;p&gt;The reason that the NEO team gave for the blackout was vague: they had to shutdown the blockchain in order to perform “manual checks” when they attempted to free up 15 million NEO of the 50 million NEO that was allocated for developer funds.&lt;/p&gt;
+
+&lt;p&gt;Whatever the reason, the fact that NEO’s team could turn off their blockchain at a whim should be unsettling for any crypto investor. But it’s really not surprising that they can do so. They own all 7 validation servers. This demonstrates the risk of centralization. In times of mania, it is always good to remember that the key value proposition of blockchains is that no one owns the network, no one controls the network, and its mechanisms are fully transparent.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;smart-contracts-on-neo&quot;&gt;Smart contracts on NEO&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/HhkYhMm.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because it’s so incredibly expensive to deploy smart contracts to NEO, there are very few smart contracts on the main net right now. In fact, as of last week, there were 10 smart contracts with 2 being from Erik Zhang as test deploys. 7 of the rest are cookie cutter ICO smart contracts. There is one smart contract for Hash Puppies, an upcoming game on NEO that would be similar to CryptoKitties.&lt;/p&gt;
+
+&lt;h1 id=&quot;city-of-zion---neos-community-of-developers&quot;&gt;City of Zion - NEO’s community of developers&lt;/h1&gt;
+
+&lt;p&gt;For all the shit that I give NEO for, I am quite impressed with the third party developer community that have formed around the project. While Erik Zhang and his engineers work on NEO core containing the consensus code and the core wallet, NEO’s large third party developer community, City of Zion (CoZ) works on tooling around the fledgling blockchain.&lt;/p&gt;
+
+&lt;p&gt;This tooling includes blockchain explorers, blockchain APIs, and light wallets. CoZ is well known in the community and have often even acted as the mouthpiece of NEO’s team, publishing blog posts on NEO’s various future plans and ideologies.&lt;/p&gt;
+
+&lt;h1 id=&quot;gas-generation-and-us-securities-law&quot;&gt;GAS generation and US securities law&lt;/h1&gt;
+
+&lt;p&gt;NEO holders earn GAS at a constant rate based on the amount of NEO owned. GAS generation is finite and NEO stops rewarding gas in a few years.&lt;/p&gt;
+
+&lt;p&gt;Because GAS generation is at a constant and predictable rate, and NEO holders do not have to work to receive GAS, NEO is easily classified as an equity security under securities laws in the US, South Korea, and certain EU countries. GAS is essentially dividend payments from owning NEO. This makes it illegal for non-certified exchanges to trade NEO in these countries.&lt;/p&gt;
+
+&lt;p&gt;We see that Bittrex is probably in the process of phasing out NEO trading as the US tax season approaches. Bittrex has disabled its NEO wallet for several weeks now which could be their way to quietly phase out NEO trading given that it’s such a popular trading pair.&lt;/p&gt;
+
+&lt;p&gt;This is also why the large South Korean exchanges, Bithumb and Coinone, have refused to list NEO even with so much investor interest.&lt;/p&gt;
+
+&lt;p&gt;Be wary of NEO’s gas generation mechanism as the SEC could crack down on NEO trading in the United States at any time.&lt;/p&gt;
+
+&lt;p&gt;I write about this in further detail &lt;a href=&quot;http://storeofvalueblog.com/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;neos-icos&quot;&gt;NEO’s ICOs&lt;/h1&gt;
+
+&lt;p&gt;Since the rebranding event in August and the launch of their smart contract 2.0 system, NEO has seen a slew of ICOs (around 10 so far?). Here’s a quick overview of some of these projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;red-pulse&quot;&gt;Red Pulse&lt;/h2&gt;
+
+&lt;p&gt;Red Pulse was the first ICO on NEO. The ICO started in August 15th and ended in October 8th. Red Pulse is an interesting project. The company provides paid research and news reporting in Chinese markets for Western business consumers. Keep in mind users pay in fiat.&lt;/p&gt;
+
+&lt;p&gt;So how does the Red Pulse token factor into their system? From what I can gather in their website, it seems like it’s a way for the team to pay their contributors and that’s about it. So the team minted 543 million RPX, practically for free, and plans to pay their platform contributors with this printed money?&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/a8ls69S.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ultimately, who exactly is paying for the operation of Red Pulse? Sounds like the Red Pulse Token is just a way for the company to take advantage of the blockchain mania to not only raise a large amount of money through the crowdsale, but also have speculation pay for information hosted on their platform. As long as speculators continue to give value to the RPX tokens they have minted for free, they can continue to use these tokens to pay their platform contributors.&lt;/p&gt;
+
+&lt;p&gt;Here is how the economics of RPX token works: the demand-side consists entirely of external speculators buying and holding RPX tokens, the supply-side consists of Red Pulse and their platform contributors. Sounds like a sustainable economic model? It this an innovating and useful application of blockchain technology? The RPX token market cap is currently at $150 million.&lt;/p&gt;
+
+&lt;h2 id=&quot;aphelion&quot;&gt;Aphelion&lt;/h2&gt;
+
+&lt;p&gt;Aphelion was NEO’s second ever ICO. The ICO ended on December 8th. There were so many red flags surrounding the ICO yet the NEO team failed to issue any warning. Here’s a very good explanation on why the project is a scam: &lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7c35ks/aphelion_is_probably_a_money_dump/&quot;&gt;https://www.reddit.com/r/NEO/comments/7c35ks/aphelion_is_probably_a_money_dump/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;deepbrain-chain&quot;&gt;DeepBrain Chain&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/iTH58Uv.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;DeepBrain is a Chinese AI company. They concluded their ICO in December 15th. The company builds AI software and plans to build a decentralized AI computing platform with DBC being a means of payment. Supplyside consists of users that need AI computational resources and demandside consists of users running “mining nodes”.&lt;/p&gt;
+
+&lt;p&gt;Combining Artificial Intelligence and blockchain definitely sounds very exciting. These are two of the biggest buzzwords in recent times. However, take a look at this &lt;a href=&quot;https://www.reddit.com/r/CryptoCurrency/comments/7od7vg/deep_brain_chain_dbc_is_vaporware_and_heres_why/&quot;&gt;post&lt;/a&gt; by a Harvard postdoctoral research fellow developing neural network architectures for medical applications on DeepBrain Chain. The researcher calls out DeepBrain Chain for being vaporware and provides compelling reasons to defend his case.&lt;/p&gt;
+
+&lt;h2 id=&quot;thekeyvip&quot;&gt;TheKey.VIP&lt;/h2&gt;
+
+&lt;p&gt;TheKey is a company aiming to build an identity verification system on the blockchain. Basically, you can think of TheKey as Ethereum’s Civic project but on NEO. It’s ICO ended recently on January 15th.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/HIi5vKx.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve heard from many accounts the absolute disaster that was TheKey’s ICO. One author went so far as to dub it the &lt;a href=&quot;https://71republic.com/2018/01/15/thekey-rip-the-story-behind-the-worst-ico-of-2018/&quot;&gt;“worst ICO of 2018”&lt;/a&gt;. The team was not able to maintain a functioning website in the hours leading to the ICO and the Telegram group for the ICO was filled with scammers and shit posters with zero moderation.&lt;/p&gt;
+
+&lt;p&gt;Not only that, but the team apparently whitelisted 40,000 people for the ICO, yet only 10,000 NEO was going to be accepted (NEO is indivisable so at most 10,000 people will get their orders filled). This needlessly overloaded the ICO. To make matters worse, the team significantly raised the price RIGHT BEFORE THE SALE STARTED. Finally, when you thought it couldn’t get any worse, it does. The team announced that any extra NEO sent to the team in the crowdsale would be held in storage in order for them to perform an audit of the sale. Seriously? This is basically robbing investors of NEO’s GAS dividends. Why would an “audit of the sale” require the extra NEO need to be held in storage when the ICO was conducted over a blockchain! This is to me, is the cherry on top and incredibly alarming.&lt;/p&gt;
+
+&lt;p&gt;This highly amateurish and borderline scammy administration of the ICO is not the only red flag of the project. Check out &lt;a href=&quot;https://concourseq.io/Q/TheKey&quot;&gt;ConcourseQ’s page&lt;/a&gt; on TheKey.VIP where they have listed numerous other red flags.&lt;/p&gt;
+
+&lt;p&gt;Posts on /r/neo (the main NEO subreddit run by CoZ) calling out the scammy nature of TheKey.VIP were all removed by the subreddit’s admins:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/sBwpHkr.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/XKoEhPU.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7qesy8/5_reasons_that_why_thekeyvip_is_a_possible_scam/&quot;&gt;https://www.reddit.com/r/NEO/comments/7qesy8/5_reasons_that_why_thekeyvip_is_a_possible_scam/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7qgd5p/thekey_ico_scam_alert/&quot;&gt;https://www.reddit.com/r/NEO/comments/7qgd5p/thekey_ico_scam_alert/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;trinity&quot;&gt;Trinity&lt;/h2&gt;
+
+&lt;p&gt;Trinity aims to build state channels on NEO, similar to what Raiden is doing on Ethereum. The ICO ended on January 14th. It’s interesting that a dBFT consensus blockchain that can theoretically reach 10,000 transactions per second due to increased centralization even needs state channels but sure.&lt;/p&gt;
+
+&lt;p&gt;The Trinity ICO exhibits a couple red flags. First of all, they were caught copying source material from the Raiden Network (&lt;a href=&quot;https://medium.com/@DeepLearningBitcoin/trinity-neo-ico-copied-raiden-network-b0147975eeda&quot;&gt;source&lt;/a&gt;). Second, they somehow allowed people to continue to send NEO to them even after the ICO hard cap was reached (&lt;a href=&quot;https://twitter.com/CoinHodl/status/953361678040813568&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Jan 2018 00:56:27 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/a-definitive-guide-to-neo/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-definitive-guide-to-neo/</guid>
+        
+        
+      </item>
     
       <item>
         <title>A Deep Dive Into RaiBlocks</title>
@@ -79,7 +282,7 @@
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;raiblocks-team-and-history&quot;&gt;RaiBlocks team and history&lt;/h1&gt;
+&lt;h1 id=&quot;team-and-history&quot;&gt;Team and history&lt;/h1&gt;
 
 &lt;p&gt;The key developer behind RaiBlocks is Colin LeMahieu. LeMahieu started developing RaiBlocks in 2014 and the network was released in 2017. RaiBlocks didn’t hold an ICO and instead, distributed the cryptocurrency through a faucet on a website. Users need only complete a captcha in order to receive RaiBlocks.&lt;/p&gt;
 
@@ -1058,116 +1261,6 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;
         <pubDate>Sat, 02 Dec 2017 02:06:20 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/crazy-things-that-have-happened-in-crypto/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/crazy-things-that-have-happened-in-crypto/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>NEO Responded To My Article - And It Confirmed My Worst Fears</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/XY4DDTO.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Last night, Malcolm Lerider, a “Senior R&amp;amp;D Manager” for NEO, wrote a &lt;a href=&quot;https://medium.com/@MalcolmLerider/response-to-baseless-fud-9b7e5e2eeeea&quot;&gt;medium post&lt;/a&gt; in response to my &lt;a href=&quot;https://storeofvalue.github.io/posts/major-neo-redflags/&quot;&gt;“Investor Warning: Major NEO Redflags” post&lt;/a&gt;. And it confirmed my worst fears about NEO and its management.&lt;/p&gt;
-
-&lt;h1 id=&quot;neo-is-embarrassingly-centralized-for-a-2-year-old-3-billion-project&quot;&gt;NEO is embarrassingly centralized for a 2 year old, $3 billion project&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/18X8d53.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In my blog post, I argued that a major NEO red flag was its centralization, that there were only 13 validation nodes all controlled by NEO’s team.&lt;/p&gt;
-
-&lt;p&gt;Malcolm confirmed this and even one-upped me. He stated that NEO doesn’t have 13 validation nodes, it only has 7! My whole point was that NEO shouldn’t be this centralized after 2 years in the wild and it definitely brings into question whether a $3 billion valuation is fair.&lt;/p&gt;
-
-&lt;p&gt;Again, it also doesn’t matter whether they plan to decentralize the system or not. Of course they plan to do so. If they didn’t, NEO would be worth nothing. The essence of the problem is that NEO isn’t decentralized after so long and that’s very weird.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;limiting-the-number-of-consensus-nodes-should-not-make-the-blockchain-faster---thats-a-sign-of-a-broken-protocol&quot;&gt;Limiting the number of consensus nodes should not make the blockchain faster - that’s a sign of a broken protocol&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/myEv9I5.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So NEO is supposed to be fast and operate alongside regulation. It’s supposed to achieve this by balancing the number of consensus nodes. But how does limiting the number of consensus nodes make the blockchain faster? If you knew anything about the blockchain, you would know that increasing consensus nodes only ever increases security. The network speed is only determined by the design of the protocol.&lt;/p&gt;
-
-&lt;p&gt;In Bitcoin, for example, its protocol dictates that blocks are generated in 10 minute intervals with block size capped at 1mb. Bitcoin’s protocol can be changed to have blocks generated every 2 minutes with an unlimited block size. This would significantly increase Bitcoin’s network speed. On the other hand, the world can have 100,000 or 1,000,000,000 Bitcoin nodes and it won’t affect network speed. That is the whole point of the blockchain, that everyone can run a node and the more people that do run a node, the more secure the network is.&lt;/p&gt;
-
-&lt;p&gt;If NEO is a system that gets slower the more consensus nodes there are, then it has a broken blockchain protocol.&lt;/p&gt;
-
-&lt;h1 id=&quot;neos-response-claims-that-the-october-blockchain-outage-was-misinformation-then-agrees-that-it-happened&quot;&gt;NEO’s response claims that the October blockchain outage was misinformation, then agrees that it happened&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/dbaLme5.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Malcolm first declares my claim that the blockchain was offline in October was misinformation. Then he surprisingly proceeds to agree that it did, and that the outage was caused by “human error”. Everyone saw the effects of this error. No blocks were generated for several hours and that creeped out investors.&lt;/p&gt;
-
-&lt;p&gt;So how is it misinformation if the October blockchain outage did happen, and NEO’s team did need to shut down the network to perform “manual checks”? Answer: it’s not misinformation, it’s what happened and it’s incredibly scary that NEO’s team can, at a moment’s notice, bring down the entire network. This is wrong, this is not blockchain.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;neos-reponse-shows-a-lack-of-understanding-of-how-software-development-works-confirming-that-the-lack-of-github-activity-is-a-huge-problem-for-neo&quot;&gt;NEO’s reponse shows a lack of understanding of how software development works, confirming that the lack of GitHub activity is a huge problem for NEO&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/zkYRmOE.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Two ridiculous claims are made here.&lt;/p&gt;
-
-&lt;p&gt;First, Malcolm claims that he would be concerned if there were still daily protocol changes done to a production main net. That is completely ridiculous! Look at Bitcoin and Ethereum. Daily commits are being made to their GitHub repos, sometimes more than 10 commits a day. Bitcoin Core constantly releases new versions of their client. So does go-ethereum. A big perk of cryptocurrencies is that the community can constantly contribute to and improve the protocol through contributing to public code repositories, whether they be hosted on GitHub or elsewhere. To say that people should not be committing code to NEO’s main GitHub repo because its main net is live is nonsensical and demonstrates a lack of understanding of how software development works.&lt;/p&gt;
-
-&lt;p&gt;Second, Malcolm claims that instead of committing to the main repo, NEO’s team likes to work with “forks”. Now I have been a software developer for several years now and this statement makes absolutely no sense. Forks in Git’s protocol are used by external parties looking to work on their own version of the code. For example, Litecoin’s code base was a Git fork of Bitcoin Core’s code base. No software development team iterates on their software by constantly forking their code in Git. That’s utterly ridiculous.&lt;/p&gt;
-
-&lt;p&gt;If Malcolm is talking about Git’s branch feature, which are forks internal to a Git repository, then it would make more sense. Alas, NEO’s GitHub repo currently only has 3 branches. And the 2 other branches besides the master branch have been practically abandoned.&lt;/p&gt;
-
-&lt;p&gt;From this passage, Malcolm demonstrates a lack of understanding of software development and because of this lack of understanding, throws out 2 completely absurd claims.&lt;/p&gt;
-
-&lt;h1 id=&quot;neos-response-claims-that-neo-only-works-for-the-rich-yet-the-rich-doesnt-want-to-work-on-neo&quot;&gt;NEO’s response claims that NEO only works for the rich, yet the rich doesn’t want to work on NEO&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/rE3QTd3.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I made the claim that there were only 6 smart contracts on NEO’s blockchain. Malcolm not only confirms this but also states that anyone who can’t pay a 500 GAS fee to deploy a smart contract will likely deploy one that is “useless”.&lt;/p&gt;
-
-&lt;p&gt;There are millions of amazing software developers out there that don’t have tons of money lying around to afford a 500 GAS fee. Why is NEO discarding them? How can NEO be an open blockchain where anyone can participate if it costs a fortune to do something as mundane as deploying a smart contract!&lt;/p&gt;
-
-&lt;p&gt;And what about the people that can afford 500 GAS? Why is no one deploying smart contracts on NEO’s production main net? Surely such a revolutionary smart contract platform where smart contracts can be coded in multiple languages will attract lots of developers right?&lt;/p&gt;
-
-&lt;h1 id=&quot;neos-response-claims-that-knowing-bittrex-bitfinex-and-binance-is-mostly-used-by-westerners-is-insider-information&quot;&gt;NEO’s response claims that knowing Bittrex, Bitfinex, and Binance is mostly used by Westerners is insider information&lt;/h1&gt;
-
-&lt;p&gt;How is this insider information? It was made public that Binance “no longer allows Chinese customers to trade on the exchange”, and 82.5% of users on the exchange are located abroad. It’s also common knowledge that Bittrex and Bitfinex cater to the West. Bittrex, for example, states on its website that it’s an exchange “based and fully regulated in the USA”. It doesn’t even have multilanguage support!&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;we-do-not-want-to-hype-yet-we-make-announcements-of-announcements-causing-rampant-speculation&quot;&gt;“We do not want to hype”, yet we make announcements of announcements causing rampant speculation&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/1SPktdu.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Malcolm was the person who posted the “big announcement in 3 days” poster on Twitter. This caused wild rumours to circulate that the announcement would be something related to Chinese government regulations. This pushed NEO’s price up from $30 to $45.&lt;/p&gt;
-
-&lt;p&gt;Now he has the gall to come out and say that he doesn’t want to hype, and that it’s up to the community to judge. You know what? Some very powerful regulators are looking at this behaviour and they will also judge. Some people bought NEO at $45 because of this poster and they are hurting.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/JAdifMx.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;finally&quot;&gt;Finally…&lt;/h1&gt;
-
-&lt;p&gt;I have never seen anyone in any professional setting use the inane and childish term “FUD”. I was honestly quite surprised the article would be titled “Response to baseless FUD”. It’s also hilarious that the article calls my work “baseless FUD”, and then proceeds to confirm several of my points!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 19 Nov 2017 10:47:45 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/</guid>
         
         
       </item>
