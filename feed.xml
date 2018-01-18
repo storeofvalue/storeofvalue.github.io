@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jan 2018 07:00:21 -0800</pubDate>
-    <lastBuildDate>Thu, 18 Jan 2018 07:00:21 -0800</lastBuildDate>
+    <pubDate>Thu, 18 Jan 2018 07:16:21 -0800</pubDate>
+    <lastBuildDate>Thu, 18 Jan 2018 07:16:21 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -85,15 +85,13 @@
 
 &lt;p&gt;Another important thing to keep in mind is that dBFT is NOT Proof of Stake. dBFT is a consensus algorithm where validators aim to cooperate instead of competing for rewards. NEO holders do not have the ability to provide input in the consensus algorithm.&lt;/p&gt;
 
-&lt;h2 id=&quot;you-are-legally-liable-if-you-operate-a-validator-node&quot;&gt;You are legally liable if you operate a validator node&lt;/h2&gt;
+&lt;h2 id=&quot;being-held-legally-liable-for-operating-a-validator-node&quot;&gt;Being held legally liable for operating a validator node&lt;/h2&gt;
 
-&lt;p&gt;NEO does have a plan to allow NEO holders to vote on validator operators in the future. However, since validator up time is incredibly important, NEO has decided that they get to choose who can be candidates. I was very surprised to learn that not only does the NEO’s team reserve the right to choose candidates, but the validator operators will also be held legally liable by the team to keep the validator up (&lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;So much for decentralized control.&lt;/p&gt;
+&lt;p&gt;NEO’s team has a plan to eventually allow NEO holders to vote on validator operators. However, since validator up time is incredibly important, the team gets to approve the candidates. Those that manage to get voted in will be held legally liable by the team in keeping the validator up (&lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/a8ls69S.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As of right now, NEO holders still cannot exercise their voting rights.&lt;/p&gt;
+&lt;p&gt;So much for decentralized control.&lt;/p&gt;
 
 &lt;h2 id=&quot;centralized-control-means-possible-blockchain-blackouts&quot;&gt;Centralized control means possible blockchain blackouts&lt;/h2&gt;
 
