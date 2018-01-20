@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2018 09:47:15 -0800</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2018 09:47:15 -0800</lastBuildDate>
+    <pubDate>Sat, 20 Jan 2018 11:47:01 -0800</pubDate>
+    <lastBuildDate>Sat, 20 Jan 2018 11:47:01 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -40,15 +40,15 @@
 &lt;ul&gt;
   &lt;li&gt;NEO is a smart contracts blockchain started by Onchain, a Shanghai-based blockchain R&amp;amp;D company led by Da Hongfei and Erik Zhang.&lt;/li&gt;
   &lt;li&gt;Held two phases in its ICO, one in August 2016 and another in September 2016.&lt;/li&gt;
-  &lt;li&gt;Originally named Antshares, the platform was rebranded to NEO in August 2016.&lt;/li&gt;
+  &lt;li&gt;Originally named Antshares, the platform was rebranded to NEO in August 2017.&lt;/li&gt;
   &lt;li&gt;Uses the delegated Byzantine Fault Tolerance (dBFT) algorithm as a consensus algorithm. &lt;strong&gt;NEO is not a Proof of Stake system.&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Claims to support up to 1,000 transactions per second and 10,000 transactions per second with optimizations.&lt;/li&gt;
   &lt;li&gt;Smart contracts platform that supports multiple languages including Java and C#.&lt;/li&gt;
   &lt;li&gt;Several ICOs have launched on NEO since the rebranding event in July.&lt;/li&gt;
-  &lt;li&gt;NEO acts as shares of the blockchain and owners can vote on consensus nodes. Holding NEO also automatically generates GAS. GAS generation is finite and ends in a few years.&lt;/li&gt;
+  &lt;li&gt;NEO acts as shares of the blockchain and owners can vote on consensus nodes. Holding NEO also automatically generates GAS. Every NEO will eventually generate at most 1 GAS and this process is slated to complete in a few years.&lt;/li&gt;
   &lt;li&gt;GAS is the fee to use the network. It’s supposed to pay for transactions and smart contract deployment.&lt;/li&gt;
   &lt;li&gt;NEO’s team currently operates all 7 validator nodes in the network and has set transaction fees to zero. To deploy a smart contract, one needs to pay 500 GAS. At the current GAS price of about $60, it would cost $30,000 to deploy a smart contract (&lt;a href=&quot;http://docs.neo.org/en-us/sc/systemfees.html&quot;&gt;source&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;NEO’s consensus algorithm requires every validator to know every other validator. The global number of validators needs to be known and constant as well. This validator list is maintained by NEO’s team and the team gets to choose validator candidates to be voted in by the community. Candidates are legally liable for operating the validators &lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;sources&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;NEO’s consensus algorithm requires every validator to know every other validator. The global number of validators needs to be known and constant as well. This validator list is maintained by NEO’s team and the team gets to choose validator candidates to be voted in by the community. Candidates are legally liable for operating the validators (&lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;source&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;NEO is undergoing a process of decentralizing the location of their validator nodes, but they still maintain full control over the nodes. &lt;strong&gt;They are not in a process of decentralizing control, as many would like to think&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;NEO is more centralized than Ripple.&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;NEO has a strong third party developer ecosystem led by the City of Zion (CoZ). CoZ develops blockchain tooling such as wallets and blockchain explorers.&lt;/li&gt;
@@ -56,7 +56,7 @@
 
 &lt;h1 id=&quot;neos-history-team-and-onchain&quot;&gt;NEO’s history, team, and Onchain&lt;/h1&gt;
 
-&lt;p&gt;NEO held the first phase of its ICO in August 2016 and the second phase in September 2016. It was originally named Antshares before rebranding to NEO in August 2016.&lt;/p&gt;
+&lt;p&gt;NEO held the first phase of its ICO in August 2016 and the second phase in September 2016. It was originally named Antshares before rebranding to NEO in August 2017.&lt;/p&gt;
 
 &lt;p&gt;NEO is an open source blockchain developed and managed by Onchain, a Shanghai-based blockchain R&amp;amp;D company. Onchain was founded by CEO Da Hongfei and CTO Erik Zhang. Erik Zhang is also the lead developer of NEO. A large Chinese international conglomerate investment company, Fosun International, has invested in Onchain. Onchain has its own blockchain product, called the Distributed Networks Architecture, or DNA. DNA is comparable to the Linux Foundation’s Hyperledger project.&lt;/p&gt;
 
@@ -179,7 +179,7 @@
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/HIi5vKx.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve heard from many accounts that TheKey’s ICO was a disaster. One author went so far as to dub it the &lt;a href=&quot;https://71republic.com/2018/01/15/thekey-rip-the-story-behind-the-worst-ico-of-2018/&quot;&gt;“worst ICO of 2018”&lt;/a&gt;. In the hours leading up to the start of the ICO, the website was slow and often failed to load. The ICO’s Telegram group was filled with scammers and shit posters with zero moderation. The team also whitelisted 40,000 people for the ICO, yet was only going to accept 10,000 NEO (NEO is indivisable so at most 10,000 people will get their orders filled). This needlessly overloaded the ICO. To make matters worse, the team significantly raised the price RIGHT BEFORE THE SALE STARTED. Finally, when you thought it couldn’t get any worse, it does. Apparently, any extra NEO sent to the crowdsale past the 10,000 NEO hard cap would be kept by the team in order for them to perform an audit of the sale. Seriously? This not only locks up the capital of investors who failed to participate in the ICO, it’s also robbing investors of GAS dividends.&lt;/p&gt;
+&lt;p&gt;I’ve heard from many accounts that TheKey’s ICO was a disaster. One author went so far as to dub it the &lt;a href=&quot;https://71republic.com/2018/01/15/thekey-rip-the-story-behind-the-worst-ico-of-2018/&quot;&gt;“worst ICO of 2018”&lt;/a&gt;. In the hours leading up to the start of the ICO, the website was slow and often failed to load. The ICO’s Telegram group was filled with scams, porn, and shit posts with zero moderation. The team also whitelisted 40,000 people for the ICO, yet was only going to accept 10,000 NEO (NEO is indivisable so at most 10,000 people will get their orders filled). This needlessly overloaded the ICO. To make matters worse, the team significantly raised the price RIGHT BEFORE THE SALE STARTED. Finally, when you thought it couldn’t get any worse, it does. Apparently, any extra NEO sent to the crowdsale past the 10,000 NEO hard cap would be kept by the team in order for them to perform an audit of the sale. Seriously? This not only locks up the capital of investors who failed to participate in the ICO, it’s also robbing investors of GAS dividends.&lt;/p&gt;
 
 &lt;p&gt;Also, why would an audit of the sale even require the withholding of the extra NEO. The team shouldn’t accept any NEO past the 10,000 NEO hard cap in the first place.&lt;/p&gt;
 
