@@ -6,9 +6,212 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Jan 2018 11:47:01 -0800</pubDate>
-    <lastBuildDate>Sat, 20 Jan 2018 11:47:01 -0800</lastBuildDate>
+    <pubDate>Sun, 21 Jan 2018 20:03:30 -0800</pubDate>
+    <lastBuildDate>Sun, 21 Jan 2018 20:03:30 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Why 2018 Will Be the Year of Ethereum And QTUM</title>
+        <description>&lt;p&gt;Here’s a prediction - Ethereum will overtake Bitcoin by the end of 2018 and QTUM will be a top 5 cryptocurrency. There are some incredible things brewing for both and I don’t believe the market has fully realized nor appreciated what’s going on. Ethereum has the largest user and developer base in the West. QTUM has gained a strong foothold in the East. If you’re not convinced, keep reading! I list a few developments for both cryptocurrencies that I am incredibly bullish on.&lt;/p&gt;
+
+&lt;h1 id=&quot;ethereum&quot;&gt;Ethereum&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/bK322a2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;proof-of-stake&quot;&gt;Proof of Stake&lt;/h2&gt;
+
+&lt;p&gt;Ethereum’s Casper upgrade, which introduces Proof of Stake to Ethereum, is very close to being released. Here’s a brief primer on how Proof of Stake works. Unlike Proof of Work, where powerful computers are used to solve arbitrarily hard mathematical problems to create blocks, Proof of Stake miners only need to “stake” their ether and the amount staked will determine the chance of creating a block.&lt;/p&gt;
+
+&lt;p&gt;Proof of Stake has many many benefits over Proof of Work. They include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;drastically lower electricity costs to operate the blockchain&lt;/li&gt;
+  &lt;li&gt;more incentives to own ether&lt;/li&gt;
+  &lt;li&gt;less need to issue as many new ethers in each block to incentivize mining, since the cost of mining will be low&lt;/li&gt;
+  &lt;li&gt;increased decentralization as the barrier to entry for mining is significantly lower than Proof of Work&lt;/li&gt;
+  &lt;li&gt;51% attacks are vastly more expensive to carry out than Proof of Work. If you successfully attack a Proof of Stake blockchain, the value of your stake will significantly drop as well&lt;/li&gt;
+  &lt;li&gt;makes the implementation of Sharding easier. Sharding is another Ethereum scaling upgrade.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;sharding&quot;&gt;Sharding&lt;/h2&gt;
+
+&lt;p&gt;Currently, Ethereum nodes need to validate every single transaction on the network. This is why people often stress that blockchains are not just distributed, but replicated. Since every node needs to store and validate every transaction, replication is really bad for scalability.&lt;/p&gt;
+
+&lt;p&gt;With sharding, the Ethereum blockchain can be securely split into shards such that the nodes in each shard only needs to worry about transactions within that shard. Sharding is an incredibly complicated technology that is really hard to implement as you’d need mechanisms to allow ether to be transferred between shards, to guarantee that mining power will be evenly distributed between shards, and much more. Luckily, proof of stake makes the latter problem easier to solve.&lt;/p&gt;
+
+&lt;p&gt;If executed well, sharding will reduce the load on Ethereum nodes and since each shard can operate semi-independently like a separate blockchain, Ethereum can sustain a much high transaction throughput. It will be another big leap in Ethereum scalability.&lt;/p&gt;
+
+&lt;p&gt;A V1 sharding specification document is ready and Vitalik Buterin believes it is “good enough to get us to thousands of transactions per second”. Read more about Ethereum sharding &lt;a href=&quot;https://github.com/ethereum/wiki/wiki/Sharding-FAQ&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;plasma&quot;&gt;Plasma&lt;/h2&gt;
+
+&lt;p&gt;Plasma is a very cool technology that not only improves Ethereum scaling but also great increases its utility. Here’s a very &lt;a href=&quot;https://www.reddit.com/r/ethereum/comments/7rm98l/eli5_plasma/dsy0v89/&quot;&gt;cool ELI5 on Plasma&lt;/a&gt; found on /r/Ethereum by /u/enricotal70:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Plasma is a smart contract to create baby chains.&lt;br /&gt;
+This new baby chain can run free at its own speed… but once in a while it needs to report back to its parent chain.&lt;br /&gt;
+To enforce good behaviour on the youngling, the parent chain asks for a cautionary deposit.&lt;br /&gt;
+If all the activities are the baby chain are within parameters, that’s great.. everybody is happy.&lt;br /&gt;
+But if a user of the child chain discovers that something is fishy… can report it to the parent, the transactions could be reversed and the depost is gone.&lt;br /&gt;
+Each baby chain can also give birth to another child chain and therefore theroretically enabling infinite scaling.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Plasma allows private and permissioned blockchains to interface with and be rooted to Ethereum. These blockchains are often significantly faster due to increased centralization. However, this comes with a greater risk of a loss of integrity and security. By being rooted to Ethereum, it’s possible to detect when the permissioned blockchain is compromised and rollback any damage done to the public chain.&lt;/p&gt;
+
+&lt;p&gt;One of the most promising Plasma projects is the OmiseGo blockchain. OmiseGo is a payments blockchain that will allow payments across many different types of assets. As such, it needs a trading engine built in and the blockchain will use ether as a central trading pair for liquidity reasons. OmiseGo is a separate blockchain from Ethereum and it will use Plasma to source ether in a decentralized manner into its own blockchain. Plasma allows OmiseGo to have OmiseGo-ether, which is very cool!&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;makerdai&quot;&gt;MakerDai&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/AXvPhK6.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;MakerDai is a decentralized and homeostatic stable coin system built on Ethereum as a series of smart contracts. Dai, the stable asset of the system, tracks the US dollar. MakerDai launched on December 18th, 2017. I believe it is one of the most important projects for Ethereum out there and great increases Ethereum’s utility. Here’s why:&lt;/p&gt;
+
+&lt;p&gt;The volatility and deflationary nature of cryptocurrencies are two key obstacles stopping cryptocurrencies from being treated as money. Here’s a famous joke:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A boy asked his Bitcoin-investing dad for $10 worth of Bitcoin currency&lt;br /&gt;
+Dad: $17? What do you need $132 for?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now imagine you’re a retailer. If you’d just sold an iPhone for 1 ether and the price of ether tanked while you waited for the transaction, you just lost a lot of money. On the other hand, if you were the buyer and the price of ether skyrocketed as you waited for your transaction to clear, you also just lost a lot of money. Volatility in an asset adds risk to using it as money and discourages people from doing so.&lt;/p&gt;
+
+&lt;p&gt;A deflationary asset also discourages people from using it as money. If people expect the asset’s price to increase over time, they are more inclined to hoard it than spend it. This is why a deflationary currency is really bad for an economy and central banks work really hard to keep inflation stable and positive.&lt;/p&gt;
+
+&lt;p&gt;Most cryptocurrencies are deflationary and volatile. This makes them terrible forms of money. To fully realize the peer-to-peer value transfer utility of a cryptocurrency, we need stable coins that track a real world curreny like the USD. Needless to say, this is incredibly hard to achieve in a decentralized manner. This is where MakerDai comes in.&lt;/p&gt;
+
+&lt;p&gt;MakerDai is a decentralized, transparent, and homeostatic stable coin system on Ethereum. It was released in December 2017. It is one of the first stable coins on Ethereum and will allow dApps to charge for services in terms of USD. How cool is that? Imagine if the Brave system and the 0x protocol could work with USD instead of the BAT token or 0x token. It makes Ethereum so much more efficient.&lt;/p&gt;
+
+&lt;p&gt;Buiding a decentralized stable coin is by no means a simple feat. Check out how the team accomplished this by reading &lt;a href=&quot;https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90&quot;&gt;this&lt;/a&gt; and browsing their &lt;a href=&quot;https://makerdao.com/&quot;&gt;website&lt;/a&gt;. It’s fascinating.&lt;/p&gt;
+
+&lt;h2 id=&quot;x&quot;&gt;0x&lt;/h2&gt;
+
+&lt;p&gt;0x is a protocol built on Ethereum. I believe it is one of the biggest scaling solutions for Ethereum right now. Here’s why.&lt;/p&gt;
+
+&lt;p&gt;0x is an open, permissionless protocol allowing for ERC20 tokens to be efficiently traded on Ethereum. Specifically, 0x enables offchain order creation and onchain order settling. A user can create a 0x order to buy (or sell) an ERC20 token offchain and another user can take that order and fill it. 0x smart contracts will automatically complete the order onchain. One of the most promising applications of Ethereum is as a platform for the tokenized economy, i.e. the tokenizing of real world assets such that they can be traded on Ethereum trustlessly and transparently. With 0x, you can do that incredibly efficiently too.&lt;/p&gt;
+
+&lt;p&gt;As an example, decentralized exchanges benefit tremendously from 0x. The most popular decentralized exchange, EtherDelta, stores an orderbook in the smart contract. In order to update the orderbook, users need to send costly and slow transactions to the smart contract. Highly dynamic data structures like orderbooks are too expensive to run on the blockchain and really, are not meant for the blockchain. With 0x, users can create offchain orders and still hold on to their assets. This allows the orderbook of a decentralized exchange to be moved offchain. Many 0x-based decentralized exchanges have either been announced or have been released. They include RadarRelay, Paradex, The Ocean, and Ethfinex.&lt;/p&gt;
+
+&lt;p&gt;Although I’ve focused on decentralized exchanges, it’s also important to note that use cases for the 0x protocol extends beyond decentralized exchanges since it’s fundamentally about the exchange of Ethereum assets. Many other dApps such as Augur, district0x, dydx, and Status are planning to use 0x.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;qtum&quot;&gt;QTUM&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/gpzQAWD.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For those that do not know what QTUM is, here’s a brief primer: QTUM is a layered, proof of stake blockchain where the computing layer consists of the EVM and the settlement layer consists of a Bitcoin-based Unspent Transaction Output (UTXO) blockchain. QTUM’s main net was launched in September 2017 and so far there are more than &lt;a href=&quot;https://eco.qtum.org/dapps&quot;&gt;20 companies building QTUM-based projects&lt;/a&gt;. Most of them are Eastern projects and many have been quite successful. These projects include: Vevue, Bodhi, INK, Spacechain, Medibloc, and Energo.&lt;/p&gt;
+
+&lt;p&gt;Many of my readers know that I have been bullish on QTUM for quite a while now. I think it is incredibly undervalued, partly because of a distinct lack of interest and awareness of QTUM in the West (QTUM is huge in the East), and partly because many people still do not understand its potential. Here’s a few reasons why I believe QTUM will be a top 5 cryptocurrency by the end of the year.&lt;/p&gt;
+
+&lt;h2 id=&quot;ethereum-ecosystem-wins--qtum-ecosystem-wins&quot;&gt;Ethereum ecosystem wins = QTUM ecosystem wins&lt;/h2&gt;
+
+&lt;p&gt;Because QTUM uses the EVM, any projects building on Ethereum can be easily ported to QTUM. A corollary to this is that any successful dApp or protocol on Ethereum can easily become a successful dApp or protocol on QTUM. QTUM doesn’t need to compete with Ethereum for its developer ecosystem, it shares Etheruem’s developer ecosystem. There are many amazing up-and-coming projects for Ethereum such as 0x and Augur and I can envision a world where QTUM has its own 0x’s and Augurs.&lt;/p&gt;
+
+&lt;p&gt;Some readers might be wondering: why would people use QTUM when Ethereum exists? First of all, I don’t believe that cryptocurrencies is a winner takes all market. Second, I believe that many will choose QTUM over Ethereum because of a number of advantages that QTUM has. I elaborate on some of them below.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that I do not believe QTUM can overtake Ethereum anytime soon. Ethereum is king and will remain king for a long time.&lt;/p&gt;
+
+&lt;h2 id=&quot;bitcoin-ecosystem-wins--qtum-ecosystem-wins&quot;&gt;Bitcoin ecosystem wins = QTUM ecosystem wins&lt;/h2&gt;
+
+&lt;p&gt;Because QTUM uses a Bitcoin-based UTXO blockchain as its settlement layer, QTUM can take advantage of any upgrades to Bitcoin. Here’s a few examples: QTUM is already using SegWit and is primed to deploy its own version of Lightning. Once deployed, QTUM is essentially Ethereum with Lightning. How cool is that? It’d be even better for QTUM if Lightning turns out to be a massive success.&lt;/p&gt;
+
+&lt;p&gt;Of course, there are many more benefits for QTUM to use a UTXO blockchain besides being able to absorb Bitcoin upgrades. I outline them in a previous article: &lt;a href=&quot;http://storeofvalueblog.com/posts/is-qtum-the-dark-horse/&quot;&gt; 
+Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;bodhi-and-qweb3js&quot;&gt;Bodhi and Qweb3.js&lt;/h2&gt;
+
+&lt;p&gt;It is one thing to have a few companies building dApps on your platform, it is another for these companies to start enriching your developer ecosystem by contributing powerful, open source developer tools.&lt;/p&gt;
+
+&lt;p&gt;Bodhi is one such company. The company is building a decentralized prediction market on QTUM and has also taken the lead to build &lt;a href=&quot;https://medium.com/@bodhitoken/bodhi-development-tools-qweb3-web3-js-for-qtum-a1cd52abbcc4&quot;&gt;QTUM’s version of web3.js, qweb3.js&lt;/a&gt;. Ethereum dApp developers will know how useful web3.js is for dApp development. I have recently been getting my hands dirty with developing dApps and can testify that it is indeed awesome. I believe that qweb3.js is crucial to jump-starting QTUM’s community dApp development and it is very good news that Bodhi has taken the initiative to do so.&lt;/p&gt;
+
+&lt;p&gt;By the way, for those interested in Bodhi, check out their website and whitepaper &lt;a href=&quot;http://www.bodhi.network&quot;&gt;to learn more&lt;/a&gt;. Bodhi distinguishes itself from Augur and Gnosis by introducing a few novel market mechanics.&lt;/p&gt;
+
+&lt;h2 id=&quot;worlds-largest-pension-fund-invests-in-ink&quot;&gt;World’s Largest Pension Fund Invests in Ink&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/9YWLbRQ.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ink is another company building on QTUM. The company recently received an investment from the operators of Russia’s largest pension fund, NPF Gazfond. Gazprom (Russia’s national oil and gas company) and Alor Invest manages NPF Gazfond. Other investors of Ink include Fenbushi Capital’s Bo Shen and Softbank SAIF’s Yan Yan. For such high profile investors to invest in a budding cryptocurrency project is a huge vote of confidence on it.&lt;/p&gt;
+
+&lt;p&gt;Ink aims to build a blockchain, interoperable with QTUM’s, that can manage IP rights and enable the free trade of cultural assets. Learn more about Ink on their &lt;a href=&quot;https://ink.plus&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Good news for QTUM’s projects is good news for QTUM. I have only chosen to discuss Bodhi and Ink but many others are also gaining momentum and we should start hearing more about them later in the year. Check out the projects &lt;a href=&quot;https://eco.qtum.org/dapps&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;x86-virtual-machine&quot;&gt;x86 virtual machine&lt;/h2&gt;
+
+&lt;p&gt;One of the most anticipated upgrades to QTUM is the x86 virtual machine. QTUM merges the EVM with its UTXO blockchain through what’s known as the Account Abstraction Layer (AAL). The AAL enables the EVM to play nice with the UTXO blockchain. This layered architecture also allows QTUM to plug and play different smart contract virtual machines. QTUM is currently developing an x86 virtual machine that offers many benefits over the EVM. For one, any programming language with x86 compiler support today, which is almost all the languages that matter, can be easily ported to QTUM’s x86 virtual machine.&lt;/p&gt;
+
+&lt;p&gt;This &lt;a href=&quot;https://medium.com/@earlz/thoughts-and-goals-on-qtums-x86-vm-9622cf349427&quot;&gt;blog post&lt;/a&gt; by QTUM’s cofounder and lead developer, Jordan Earls, outlines the myriad of advantages an x86 virtual machine has over the EVM much better than I can.&lt;/p&gt;
+
+&lt;h2 id=&quot;growing-influence-in-asia-and-specifically-china&quot;&gt;Growing influence in Asia, and specifically China&lt;/h2&gt;
+
+&lt;p&gt;Patrick Dai, a cofounder of QTUM, claimed that QTUM is one of the most influential cryptocurrencies in the East. Many indicators, such as trading volume, media coverage, projects building on QTUM, support this claim. It is a well known fact that the Chinese government dislikes cryptocurrency speculation but is favorable of the development and adoption of blockchain technology. A series of recent events from China strongly hints that QTUM has received tacit support from the government.&lt;/p&gt;
+
+&lt;h3 id=&quot;patrick-dai-was-interviewed-on-chinese-state-television&quot;&gt;Patrick Dai was interviewed on Chinese state television&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/LFkaa2v.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Patrick Dai was recently interviewed on China Global Television Network (CGTN). CGTN is the English channel of the China’s predominant state television broadcaster, China Central Television (CCTV). Patrick appeared on the show, The Point with Liu Xin, along with Henry Cao, Professor of Finance at the Cheung Keung Graduate School of Business. Topics covered include an overview of blockchain technology, how the financial industry can make use of blockchains, “blockchain fever”, and the challenges facing the technology. You can read about it &lt;a href=&quot;https://blog.qtum.org/qtums-patrick-dai-on-china-global-television-network-239a9f4baad5&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall, the interview was very bullish on the technology.&lt;/p&gt;
+
+&lt;h3 id=&quot;qihoo-360-partnership&quot;&gt;Qihoo 360 partnership&lt;/h3&gt;
+
+&lt;p&gt;Qihoo 360 is one of China’s largest internet security companies. It’s products have over a billion users and its annual revenue reached $1.4 billion in 2014 (couldn’t find any data past 2014). The company is known for its antivirus software, web browser, and mobile application store. Qihoo 360 recently partnered with the QTUM Foundation to establish China’s first ever blockchain research center. The goal of this research center is to commercialize blockchain technology such that it can be deployed into Qihoo 360’s products.&lt;/p&gt;
+
+&lt;h3 id=&quot;baofeng-partnership&quot;&gt;Baofeng partnership&lt;/h3&gt;
+
+&lt;p&gt;Baofeng is the company behind the Storm Player, one of the most popular online video players in China with hundreds of millions of users. Baofeng has a market cap of more than 8 billion CNY on the Shenzhen securities exchange. In December 2017, Baofeng announced that its Bokocloud division will help deploy up to 50,000 QTUM nodes. This strategic cooperation will make Baofeng Bokocloud the world’s first BCN (blockchain consensus network) service.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We are very excited to sign the world’s first Blockchain Consensus Network (BCN) service agreement with Qtum,” said Reccon Cui, CEO of Baofeng Bokocloud. “Baofeng Group operates the world’s largest P2P network, so we are impressed by the security and superior flexibility of the Qtum’s blockchain architecture, and we found that the current ecosystem of Qtum is rapidly developing. We are very happy to cooperate with one of the best blockchain technical teams in this field.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;strong-eastern-awareness-and-interest&quot;&gt;Strong Eastern awareness and interest&lt;/h3&gt;
+
+&lt;p&gt;A good indicator of awareness and interest for a cryptocurrency project is the number of people that show up to its community events. QTUM recently held a Taiwan meetup where more than 800 people attended. Not bad.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/PQBHIwa.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Jan 2018 16:53:36 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/why-2018-will-be-the-year-of-ethereum/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/why-2018-will-be-the-year-of-ethereum/</guid>
+        
+        
+      </item>
     
       <item>
         <title>A Definitive Guide To NEO (2nd Edition)</title>
@@ -1146,123 +1349,6 @@
         <pubDate>Fri, 15 Dec 2017 18:20:21 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/iota-what-is-it-and-should-you-invest/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/iota-what-is-it-and-should-you-invest/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Crazy Things That Have Happened With Cryptocurrencies</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/1U5R2HC.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bitcoin’s whitepaper was released just 8 years ago in 2009. Since then, one Bitcoin’s price has climbed up to $11,000 and thousands of other cryptocurrencies have popped up alongside it. This meteoric rise has polarised public opinion around this new digital asset class. Those who are invested in cryptocurrencies are diehard fans (who more often than not are making a crap ton of money) while those who don’t are adamant that cryptocurrencies are a scam and equivalent to tulips in the Dutch Tulip mania.&lt;/p&gt;
-
-&lt;p&gt;It’s not surprising many are adamant that cryptocurrencies are a scam. It’s really the wild wild west in such a nascent market. With a lack of regulation, low fees trading, skyrocketing prices, and investors who are often quite liberal with their wallets, there is rampant speculation and scams abound. Additionally, cryptocurrencies have a cold and unforgiving user interface that doesn’t mesh well with clumsiness and large sums of money can be lost in an instant with a single typo or misclick.&lt;/p&gt;
-
-&lt;p&gt;Put all this together and you have the perfect breeding grounds for some incredible and jaw dropping stories. Here are some of the craziest things that have happened in the cryptocurrency community.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;bitcoins-price-drops-3000-in-6-hours&quot;&gt;Bitcoin’s price drops $3000 in 6 hours&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/ZtlukW8.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At the start of this most recent bull run, there was one point when Bitcoin finally broke through $10,000 and hit a peak of $11,485 on GDAX. The ensuing euphoria was swiftly shattered when Bitcoin suddenly plunged $3000 as profit taking peaked and long postion after long position were liquidated.&lt;/p&gt;
-
-&lt;h1 id=&quot;user-accidentally-locks-out-more-than-1-million-ether-worth-280-million-at-the-time&quot;&gt;User “accidentally” locks out more than 1 million ether (worth $280 million at the time)&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/U7rbwqt.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Parity wallet offers multi-signature wallets as a service. Multi-signature wallets are great because of their security and many ICOs and wealthy organizations/individuals use Parity wallets to store their Ether battle chests.&lt;/p&gt;
-
-&lt;p&gt;Back in November, one user was playing around with one smart contract that turned out to be a critical dependency for all Parity multi-signature wallets created since July 20th. This effectively locked out all ether in these wallets. This amounted to more than 1 million Ether locked out worth around $280 million at the time.&lt;/p&gt;
-
-&lt;p&gt;The infamous user subsequently went on Gitter and wrote “i’m eth newbie..just learning”.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/0b0pp9A.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;an-eager-ico-investor-spends-236-eth-in-fees-and-still-fails-to-get-into-the-airswap-ico&quot;&gt;An eager ICO investor spends 236 ETH in fees and still fails to get into the AirSwap ICO&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/vdKIqV4.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;During an Ethereum-hosted ICO, especially a popular one, the network can become exceedingly congested as a large number of investors attempt to send their ether to the ICO’s smart contract in order to purchase the ICO’s tokens. Transaction fees during this time can skyrocket, leaving low fee transactions in the dust.&lt;/p&gt;
-
-&lt;p&gt;This one evidently very rich user decided to guarantee him/herself a spot in the popular AirSwap ICO by spending 236 ether in transaction fees in order to buy 1,700 ether worth of AirSwap tokens. Unfortunately, the transaction was sent too late and the overall ICO funding cap was hit before the user could purchase the AirSwap tokens.&lt;/p&gt;
-
-&lt;p&gt;The transaction was cancelled, leaving the user 236 ether poor. Although the 1,700 ether in the transaction came back, the 236 ether was paid as a transaction fee and was not recuperable.&lt;/p&gt;
-
-&lt;p&gt;Checkout the transaction on EtherScan here: &lt;a href=&quot;https://etherscan.io/tx/0x167b6e3217536e66e69f906a457b2457c6cc4f95928a47b0443ad895b23c6e76&quot;&gt;https://etherscan.io/tx/0x167b6e3217536e66e69f906a457b2457c6cc4f95928a47b0443ad895b23c6e76&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;a-bitcoin-exchange-gets-hacked-for-850000-bitcoins&quot;&gt;A Bitcoin exchange gets hacked for 850,000 Bitcoins&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/OFr0PSt.gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;MtGox was one of the first major Bitcoin exchanges. Due to mismanagement and poor coding practices, hackers were able to slowly siphon hundreds of thousands of Bitcoins from MtGox’s reserves. By the time the company found out, 850,000 Bitcoins were lost. This was worth over $460 million at the time and $14.4 billion today at $17,000 a coin.&lt;/p&gt;
-
-&lt;p&gt;Trading was halted in February 2014 and in April 2014, the company began liquidation proceedings. At one point in time, MtGox was handling 70% of all Bitcoin transactions worldwide. The hack triggered a year-long bear market in which the price of Bitcoin dropped from $1000 to $200.&lt;/p&gt;
-
-&lt;p&gt;This was the largest Bitcoin exchange hack, ever.&lt;/p&gt;
-
-&lt;h1 id=&quot;a-large-market-sell-order-on-gdax-causes-the-price-of-ether-to-drop-from-320-to-01&quot;&gt;A large market sell order on GDAX causes the price of ether to drop from $320 to $0.1&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/mMKcgON.gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This happened earlier in the summer when a trader placed a multimillion dollar market sell order on GDAX that caused a massive dip in price, which started a huge chain reaction of stop loss orders being hit and margin funding liquidations. The price of Ethereum on GDAX briefly hit $0.1 from $320.&lt;/p&gt;
-
-&lt;h1 id=&quot;rdogecoin-sponsors-a-nascar-racer&quot;&gt;/r/dogecoin sponsors a NASCAR racer&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/NCcewoU.gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A campaign started in /r/NASCAR to sponsor John Wise’s No. 98 Phil Parsons Racing for the NASCAR Sprint Cup Series race at Talladega Superspeedway in May 2014.&lt;/p&gt;
-
-&lt;p&gt;An unlikely subreddit decided to step up and crowdfund a sponsorship: /r/dogecoin. The amount needed for the sponsorship was $55,000, at the time worth 100,541,093.89 Dogecoins. One user accidentally donated 20,000,000 Dogecoins instead of the 2,000,000 he intended (a difference of $13,500) but stood by his decision.&lt;/p&gt;
-
-&lt;p&gt;The $55,000 was reached with more than 1,200 redditors participating. Wise’s NASCAR was decorated with a Dogecoin themed skin and he gave an AMA on /r/dogecoin.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;an-obscure-youtuber-convinces-thousands-to-pump-and-hodl-chaincoin&quot;&gt;An obscure YouTuber convinces thousands to “Pump and HODL” Chaincoin&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/psn4kFG.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;YouTuber HighOnCoins started a movement earlier this year called “Pump and HODL”. He convinced his community to start buying Chaincoin and holding it. The movement obtained some virality and caused its price to pump from $0.04 to $6 in a week.&lt;/p&gt;
-
-&lt;p&gt;Chaincoin was an abandoned project that traded on a couple exchanges with a daily volume under $100,000. HighOnCoins was a YouTuber that often looked disheveled whilst smoking and drinking during his streams. His selling point was that whales controlled all the major cryptocurrencies and were wringing the noobs dry, so this was the chance for the noobs to take control. But guess what? Him and all his followers that got in at the start were the Chaincoin whales.&lt;/p&gt;
-
-&lt;p&gt;I documented the timeline of events of the Chaincoin pump and dump scam in this blog post: &lt;a href=&quot;https://storeofvalue.github.io/posts/timeline-of-the-chaincoin-scam/&quot;&gt; 
-Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;exploring-old-posts-in-rbitcoin-brings-current-price-levels-into-perspective&quot;&gt;Exploring old posts in /r/Bitcoin brings current price levels into perspective&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/zbm7nGa.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This was posted in April 2013.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 Dec 2017 02:06:20 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/crazy-things-that-have-happened-in-crypto/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/crazy-things-that-have-happened-in-crypto/</guid>
         
         
       </item>
