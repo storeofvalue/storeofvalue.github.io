@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Deep Dive Into Theta</title>
+  <meta name="description" content="Theta is an up-and-coming blockchain that is designed for peer-to-peer video streaming. The project is advised by the co-founders of Twitch and YouTube. Is i...">
+
+  <meta property="og:url" content="https://storeofvalue.github.io/posts/a-deep-dive-into-theta/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="A Deep Dive Into Theta" />
+  <meta property="og:description" content="Theta is an up-and-coming blockchain that is designed for peer-to-peer video streaming. The project is advised by the co-founders of Twitch and YouTube. Is i..." />
+  <meta property="og:image" content="https://storeofvalue.github.io/header-image.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SovCryptoBlog" />
+  <meta name="twitter:title" content="A Deep Dive Into Theta" />
+  <meta name="twitter:description" content="Theta is an up-and-coming blockchain that is designed for peer-to-peer video streaming. The project is advised by the co-founders of Twitch and YouTube. Is i..." />
+  <meta name="twitter:image" content="https://storeofvalue.github.io/header-image.jpg" />
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="canonical" href="https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+  <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102388374-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">
+      <div class="-title">Store of Value</div>
+      <div class="-subtitle">A cryptocurrency blog</div>
+    </a>
+    <div class="-right-parent">
+      <div class="-twitter-follow-parent">
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="desktop-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span>
+          </div>
+        </a>
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="mobile-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us</span>
+          </div>
+        </a>
+      </div>
+      <div class="desktop-only -logos-parent">
+        <img src="/bitcoin-logo.png" />
+        <img src="/eth-logo.png" />
+        <img src="/litecoin-logo.png" />
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style="position: relative; font-size: 0; text-align: center">
+  <div id="article-side-bar-parent" style="text-align: left; display: inline-block; width: 320px; margin-right: 20px; vertical-align: top">
+    <div id="article-side-bar" style="z-index: 1; width: 320px">
+      <div class="-back-button-parent">
+        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Articles</a>
+      </div>
+      
+      <div style="padding: 0 10px; font-weight: bold; font-size: 16px; color: #555; margin-bottom: 3px">NOW READING</div>
+      <div style="padding: 0 10px; font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+        A Deep Dive Into Theta
+      </div>
+      <div>
+        <div style="margin-top: 12px; border: solid #555 1px; font-size: 22px; padding: 10px">
+          Buy Cryptocurrencies On Binance
+          <div style="font-size: 18px; margin-top: 3px; word-wrap: break-word">
+            One of the most popular crypto exchanges in the world. Binance has a world-class trading system with super low fees. Buy Bitcoin, Ether, Ripple, QTUM, and more on Binance. <a style="font-size: 22px; display: block; margin-top: 5px" href="https://www.binance.com/?ref=10039939">Sign up for <span style="font-weight:bold">Binance</span> here.</a>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 12px; width: 320px; height: 400px; text-align: center">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article Sidebar -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:250px"
+             data-ad-client="ca-pub-0144173183236578"
+             data-ad-slot="8062654601"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+  <article style="text-align: left; width: 800px; max-width: 100%; display: inline-block;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">A Deep Dive Into Theta</h1>
+      <p class="post-meta"><time datetime="2018-01-26T20:27:18-08:00" itemprop="datePublished">Jan 26, 2018</time></p>
+      <ul class="-share-bar">
+        <li>
+          <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+            <i class="fa fa-twitter"></i> Tweet 
+          </a>
+        </li>
+        <li>
+          <a class="-facebook" target="_blank" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+            <i class="fa fa-facebook"></i> Share
+          </a>
+        </li>
+        <li>
+          <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+            <i class="fa fa-google-plus"></i> Google
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p><img class="-header -center" style="width: 100%" src="https://i.imgur.com/LQN3Oky.jpg" /></p>
+
+<p>A coworker recently brought to my attention a new cryptocurrency project called Theta. Initially, I dismissed it as just another low cap cryptocurrency project but the more I researched, the more interested I got. The first thing that caught my attention was the impressive list of advisors and investors. The project’s advisors include Steve Chen, a <strong>co-founder of YouTube</strong>, Justin Kan, a <strong>co-founder of Twitch</strong>, Fan Zhang, <strong>founding member of Sequoia Capital China</strong>, and many more. The project’s investors include Sony and Samsung.</p>
+
+<p>So what exactly IS Theta to warrant all these high profile advisors and investors?</p>
+
+<p>At a high level, Theta is a work-in-progress blockchain designed for peer-to-peer video streaming. It aims to be a decentralized video Content Distribution Network (CDN) by allowing anyone with spare bandwidth to become video distribution nodes. These nodes are compensated through proof of work mining on Theta’s blockchain. In order to fairly compensate nodes, Theta introduces a novel concept called Reputation Dependent Mining that increases block rewards based on how many clients a node is serving.</p>
+
+<p>In an ideal world, the Theta blockchain will have a robust internal economy where streamers upload video to Ingest Nodes that transcode video. Video distribution nodes relay the video to viewers and are compensated by the number of viewers the node serves. Advertisers can advertise on Theta by paying streamers Theta tokens and viewers can donate to streamers using Theta tokens.</p>
+
+<p>Theta is a relatively new project. The team raised $16 million in equity funding and launched Theta in Q2 2017. In Q3 2017, Theta completed <a href="https://medium.com/@ThetaLabs/theta-token-sale-success-ac6828d04e97">an incredibly successful pre-sale</a> of Theta tokens to strategic investors. A public ICO was scheduled for January 2018 but was cancelled partly from legal concerns. Theta was listed on exchanges starting January 17th.</p>
+
+<p>The team wil start development of the Theta blockchain in Q1 2018 and plans to launch the blockchain in Q4.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="why-theta">Why Theta?</h1>
+
+<blockquote>
+  <p>Theta’s innovation is set to disrupt today’s online video industry much in the same way that the YouTube platform did to traditional video back in 2005. One of our biggest challenges had been the high costs of delivering video to various parts of the world, and this problem is only getting bigger with HD, 4K and higher quality video streams,” said Steve Chen, Co-Founder of YouTube.
+I’m excited to be part of the next evolution of the streaming space, helping Theta create a decentralized peer-to-peer network that can offer improved video delivery at lower costs.</p>
+</blockquote>
+
+<blockquote>
+  <p>The live streaming market is growing at a breakneck pace, seriously. 81% of internet and mobile audiences watched more live video in 2016 than in 2015. Live video is outpacing all other video content formats in terms of ad revenue and is seeing a 113% increase in annual ad growth. Live streaming is huge in China and growing at the same pace it is in the West. The Chinese live streaming market alone is valued at more than $3 billion.</p>
+</blockquote>
+
+<blockquote>
+  <p>Steve Chen, Co-founder of Youtube</p>
+</blockquote>
+
+<p>Live streaming platforms rely on Content Distribution Networks (CDNs) to distribute video to viewers. Streamers upload video to ingest nodes, ingest nodes transcode the video to different qualities, the video is passed on to the CDN, and viewers connect to the CDN to download video.</p>
+
+<p>As you can imagine, CDNs are incredibly expensive to run well. Because video is so bandwidth intensive, companies need to make sure CDN edge nodes are as close to their end users as possible in order to maximize quality of service. As such, nodes need to be numerous and geographically distributed. Bandwidth costs for CDNs are also enormous. Every video stream passing through a CDN is duplicated for every cluster of edge nodes. Publishers like Twitch and YouTube absorb the high costs of operating a CDN which reduces the revenue shared with their streamers.</p>
+
+<p>Theta aims to solve this problem by acting like torrent for live streams. Users contribute their unused bandwidth to distribute video and are compensated automatically and transparently by the Theta blockchain. Geographical distribution, server costs, and bandwidth costs come for free with such a peer-to-peer network. In addition, it is theoretically a more efficient system compared to centralized CDNs as it takes advantage of the ample amount of spare bandwidth out there. Put together, this SHOULD mean streaming companies will be more willing to use Theta over centralized CDNs.</p>
+
+<p>Of course, this all relies on the fact that both Theta’s economic model and technology works. This is a big if.</p>
+
+<h1 id="team-investors-and-advisors">Team, investors, and advisors</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/TWuUAgZ.jpg" /></p>
+
+<p>Theta has a strong team.</p>
+
+<p>Mitch Liu, the CEO, has a BS in Computer Science and Engineering from MIT and an MBA from the Stanford Graduate School of Business. He co-founded Tapjoy which today is a 100+ employee company.</p>
+
+<p>Jieyi Long, the CTO, has a BS in Microelectronics from Peking University, one of China’s top universities. He has a PhD in Computer Engineering from Northwestern University.</p>
+
+<p>Ryan Nichols, the Head of Product and Platform at SLIVER.tv, was once the director at Tencent for Wechat.</p>
+
+<p>Riz Virk, the Head of Corp Development, was the director at MIT’s Play Labs. He has a BS in Computer Science &amp; Engineering from MIT and a Masters in management from Stanford Graduate School of Business.</p>
+
+<p>Advisors of Theta/SLIVER.tv include:</p>
+
+<ul>
+  <li>Steve Chen, Co-founder of YouTube</li>
+  <li>Shoucheng Zhang, Founder Danhua Capital</li>
+  <li>Justin Kan, Co-founder of Twitch</li>
+  <li>Fan Zhang, Founding member, Sequoia Capital China</li>
+  <li>Dennis Fong, Founder Plays.tv</li>
+  <li>Clifford Morgan, CEO of G FUEL</li>
+</ul>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/VbmV99j.jpg" /></p>
+
+<p>Investors of Theta/SLIVER.tv include:</p>
+
+<ul>
+  <li>Lead investor in the token presale is DHVC (Danhua Capital). DHVC was founded by Prof. Shoucheng Zhang, a tenured professor in the Department of Physics at Stanford</li>
+  <li>Sony Innovation Fund</li>
+  <li>SamsungNEXT ventures</li>
+  <li>Sparkland</li>
+  <li>Sierra Ventures</li>
+  <li>DCM ventures</li>
+  <li>and many more…</li>
+</ul>
+
+<h1 id="slivertv">SLIVER.tv</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/hlyRMBr.jpg" /></p>
+
+<p>SLIVER.tv is an existing live streaming platform owned by the Theta team. SLIVER.tv allows users to watch esports events in 360° video. When there are no ongoing events, users can watch streams and bet on in-game events using currency passively earned from watching streams. Winners of bets get tickets to enter a raffle for a Steam item (some can be worth hundreds of dollars). A raffle is held for every game of PUBG or CSGO a streamer is currently playing. SLIVER.tv has more than 1 million Monthly Active Users (MAU).</p>
+
+<p>Theta’s team plans to use SLIVER.tv to bootstrap Theta’s network. This will possibly introduce millions of users to the network early on. This bootstrapping is incredibly important for the growth and adoption of Theta.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="thetas-architecture">Theta’s architecture</h1>
+
+<p>As mentioned before, Theta’s caching nodes act as both miners and relayers of video. The more reliable its service and the more viewers the node serves, the great the rewards from mining a block. To implement this, Theta’s team has come up with two novel concepts they call Reputation Dependent Mining and Proof of Engagement.</p>
+
+<p>Reputation Dependent Mining uses Proof of Engagement to calculate a miner’s “reputation”. Reputation is essentially the number of viewers that a miner serves and it essentially determines the miner’s rewards from mining a block. The more viewers a miner serves, the higher its reputation.</p>
+
+<p>A miner increases its reputation by having its downstream viewers periodically compute “service certificates” to send back to the caching node. A service certificate is a simple Proof of Work puzzle that helps a miner attest to the rest of Theta’s network that the viewer is being served by the miner. If a viewer decides to stop computing service certificates for a miner, the miner can stop sending video to the viewer. If the miner doesn’t send video to a viewer, then it will be incredibly hard for the miner to convince anyone to compute service certificates for it. If it spends its own computing resources to generate service certificates, it will have less computing resources to create blocks.</p>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/mpk5BD7.jpg" /></p>
+
+<h1 id="project-concerns">Project Concerns</h1>
+
+<ul>
+  <li>If mining rewards are not enough to cover the costs of operating a miner, then there will be very few miners resulting in a poor CDN.</li>
+  <li>Will viewers want to watch Theta streams if it means they need to compute service certificates?</li>
+  <li>Volatility in the value of Theta tokens might incentivize network participants like advertisers, streamers, and miners to hold onto Theta in as short a time period as possible in order to lock in income. Volatility comes with risk whereas network participants are not investors and adverse to risk.</li>
+  <li>How will advertisers plug into the system? Will advertisers be incentivized to buy Theta or simply pay in fiat? Will streamers be willing accept Theta or simply get paid in fiat?</li>
+  <li>Will service certificates be enough to guarantee service quality? Service certificates are binary, either a viewer computes one or not. What if there’s gray area video quality issues like buffering and dropped frames?</li>
+</ul>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="summary">Summary</h1>
+
+<p>Theta is certainly a very innovative idea. CDNs are, in fact, very expensive to operate and the ability to mobilize spare bandwidth and CPU resources has the potential to create a much more efficient content distribution model. Besides an innovative idea, Theta has many other accolades. Its list of investors and advisors are impressive. Its co-founders have very strong backgrounds. It already has a very popular product in the form of SLIVER.tv that will be perfect for bootstrapping Theta.</p>
+
+<p>However, there are several project concerns. The concerns cover both the demand and supply side. Important questions include whether mining rewards are enough to cover the costs of operating a miner, whether viewers are willing to compute service certificates in order to watch streams, and whether video quality will actually be good.</p>
+
+<p>If Theta works, it will create a self-sustaining economy generating constant value in the form of live streamed entertainment. Large companies will be operating Theta miners and using the Theta network as their CDN. Viewers will be able to choose from a large number of independently operated Theta miners that are closeby to download video from. However, this is certainly a big IF.</p>
+
+    </div>
+
+    <ul class="-share-bar">
+      <li>
+        <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+          <i class="fa fa-twitter"></i> Tweet
+        </a>
+      </li>
+      <li>
+        <a class="-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+          <i class="fa fa-facebook"></i> Share
+        </a>
+      </li>
+      <li>
+        <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+          <i class="fa fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-theta/">
+          <i class="fa fa-google-plus"></i> Google
+        </a>
+      </li>
+    </ul>
+    <div class="-ad">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- StoreOfValue Article Bottom -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-0144173183236578"
+           data-ad-slot="7692425485"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <div>
+      <div style="margin-top: 24px; border: solid #555 1px; font-size: 26px; padding: 10px">
+        Tip Jar 🍀
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Ether:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">0xa33Ef019ff0bdE98f951585AA57c1Af7c898fE5c</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">QTUM:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">QZckfa6Cfu8tsjvt1FHBFzcTh8cefYdH6T</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Stellar:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">GC4CDHSXYPSOOJNMBDNVWPACT6UDYDQHPJIOCW4GYTG6ZRTJH2475D3Q</span>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+
+<script type="text/javascript">
+  var $article_side_bar = $('#article-side-bar');
+  var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
+  var original_article_side_bar_top_offset = $article_side_bar.offset().top;
+  var margin_from_top = 12;
+  var $article = $('article');
+  var $window = $(window);
+  var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+  if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+    $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+    $article_back_button_parent.show();
+  }
+  $window.scroll(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $window.resize(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $('article').find('a').attr('target', '_blank');
+</script>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store of Value</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>A cryptocurrency blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+</p>
+        <p>
+          <span style="font-weight: bold">Contact me:</span> storeofvalueblog@gmail.com
+        </p>
+        <p>
+          <span style="font-weight: bold">Pageviews per article:</span> 10494
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
