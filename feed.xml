@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Jan 2018 05:02:39 -0800</pubDate>
-    <lastBuildDate>Wed, 31 Jan 2018 05:02:39 -0800</lastBuildDate>
+    <pubDate>Wed, 31 Jan 2018 05:27:38 -0800</pubDate>
+    <lastBuildDate>Wed, 31 Jan 2018 05:27:38 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -24,7 +24,7 @@
 
 &lt;p&gt;Cardano is built as a layered blockchain. The Cardano Settlement Layer (SL) is where account balances and transactions are managed. It uses the UTXO model and is supposed to be the most secure part of the blockchain. The SL is kept apart from the computational layer where smart contracts are executed. This layered architecture gives the system the flexibility to be more easily maintained and allow for upgrades by way of soft forks. In Ethereum, the settlement layer and the computational layer are intertwined.&lt;/p&gt;
 
-&lt;p&gt;Cardano’s properties of academic rigour and provable safety are unique in the cryptocurrency space and a huge selling point for the platform for enterprise customers. Companies looking to deploy blockchain technology want a guarantee of safety and Cardano is the only cryptocurrency with a consensus algorithm backed by a peer reviewed paper with provable safety.&lt;/p&gt;
+&lt;p&gt;Cardano’s properties of academic rigour and provable safety are unique in the cryptocurrency space and a huge selling point for the platform to enterprise customers. Companies looking to deploy blockchain technology want a guarantee of safety and Cardano is the only cryptocurrency with a consensus algorithm backed by a peer reviewed paper with provable safety.&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -125,7 +125,7 @@
 
 &lt;h1 id=&quot;blockchain-performance&quot;&gt;Blockchain performance&lt;/h1&gt;
 
-&lt;p&gt;Cardano’s average transaction throughput is 10-15 transactions per second. This is comparable to Ethereum. Charles Hoskinson has claimed that Ouroboros can perform at more than 200 transactions per second in a lab unsharded. &lt;a href=&quot;https://www.reddit.com/r/cardano/comments/77ej8i/cardano_vs_eos/&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cardano’s average transaction throughput is 10-15 transactions per second. This is comparable to Ethereum. Charles Hoskinson has claimed that Ouroboros can perform at more than 200 transactions per second in a lab unsharded. (&lt;a href=&quot;https://www.reddit.com/r/cardano/comments/77ej8i/cardano_vs_eos/&quot;&gt;source&lt;/a&gt;)&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
