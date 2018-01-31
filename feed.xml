@@ -2,13 +2,194 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Jan 2018 12:32:01 -0800</pubDate>
-    <lastBuildDate>Sat, 27 Jan 2018 12:32:01 -0800</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <pubDate>Wed, 31 Jan 2018 03:36:17 -0800</pubDate>
+    <lastBuildDate>Wed, 31 Jan 2018 03:36:17 -0800</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>A Deep Dive Into Cardano</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-header -center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/SMeXznA.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cardano is a proof of stake, smart contracts blockchain. Its native cryptocurrency is called ADA and the smallest unit of ADA (1/1,000,000 ADA) is called a Lovelace. This is in tribute to the first recognized computer programmer, Ada Lovelace.&lt;/p&gt;
+
+&lt;p&gt;Cardano prides itself in the rigorous academic process used to develop various aspects of the blockchain. Its website claims that Cardano is “the first blockchain project to be developed from a scientific philosophy, and the only one to be designed and built by a global team of leading academics and engineers”.&lt;/p&gt;
+
+&lt;p&gt;I like to say that blockchain is the new religion and the consensus algorithm is its God. It is clear that Cardano has dedicated significant academic resources in developing its consensus algorithm, Ouroboros. Ouroboros is a provably secure proof of stake algorithm developed by a team of IOHK scientists led by Prof. Aggelos Kiayias. The algorithm is backed by a peer reviewed &lt;a href=&quot;https://iohk.io/research/papers/#9BKRHCSI&quot;&gt;paper&lt;/a&gt;. According to Charles Hoskinson, the founder of Cardano, Ouroboros’s paper was rewritten 8 times!&lt;/p&gt;
+
+&lt;p&gt;The extent to which the academic process has influenced Cardano’s development currently does not extend beyond Ouroboros. The team has published a set of other papers, one for a scalable and decentralized randomness algorithm, one for an efficient and decentralized poker protocol, and one for secure sidechains. Besides the randomness algorithm, which is used in Ouroboros to select stake winners, Cardano has not incorporated the ideas of the other papers, yet.&lt;/p&gt;
+
+&lt;p&gt;Cardano is built as a layered blockchain. The Cardano Settlement Layer (SL) is where account balances and transactions are managed. It uses the UTXO model and is supposed to be the most secure part of the blockchain. The SL is kept apart from the computational layer where smart contracts are executed. This layered architecture gives the system the flexibility to be more easily maintained and allow for upgrades by way of soft forks. In Ethereum, the settlement layer and the computational layer are intertwined.&lt;/p&gt;
+
+&lt;p&gt;Cardano’s properties of academic rigour and provable safety are unique in the cryptocurrency space and a huge selling point for the platform for enterprise customers. Companies looking to deploy blockchain technology want a guarantee of safety and Cardano is the only cryptocurrency with a consensus algorithm backed by a peer reviewed paper with provable safety.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;cardanos-history&quot;&gt;Cardano’s history&lt;/h1&gt;
+
+&lt;p&gt;Cardano’s ICO took place in 4 stages between September 2015 - January 2017 with heavy Know Your Customer (KYC) requirements. It was marketed as an “investment to retire on” to primarily Japanese investors; in fact, 95% of the buyers were of Japanese origin, primarily in the 35-55 age bracket. 2.56% of buyers were Korean, and 2.39% were Chinese. The ICO oversaw a total sale of approximately 26,000,000,000 of the 45,000,000,000 maximum supply of ADA tokens. At the conclusion of the ICO a total of approximately $63 million USD was raised; this puts the price at an average of $0.00242 per ADA, and the market capitalization immediately after the ICO at approximately $109 million USD. (&lt;a href=&quot;cardanohub.org&quot;&gt;source&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;While 26,000,000,000 ADA was sold in the ICO, an additional 5,185,414,108 ADA were distributed to IOHK, Emurgo, and the Cardano Foundation.&lt;/p&gt;
+
+&lt;p&gt;A total of 31,112,484,646 ADA was made available at Cardano’s launch.&lt;/p&gt;
+
+&lt;h1 id=&quot;current-state-of-cardano&quot;&gt;Current state of Cardano&lt;/h1&gt;
+
+&lt;p&gt;Cardano lays out three eras in its timeline: the Testnet Era, Bootstrap Era, and Reward Era. The Testnet Era is pretty self-explanatory, Cardano is deployed on a test net.&lt;/p&gt;
+
+&lt;p&gt;The Bootstrap Era is when Cardano SL is deployed on the main net BUT it is centralized in order to maintain security. Only a fixed, predefined set of users have control over the system. The assumption is that security is poor in this era since people are slow to redeem their ADA coins. For the first few months, stakeholders who jointly possess the majority of the ADA stake are mostly not online yet. The blockchain can be easily attacked if only a small amount of ADA is staked. As consolation to the community, Ouroboros will not provide any block rewards.&lt;/p&gt;
+
+&lt;p&gt;Cardano is currently in the Bootstrap Era.&lt;/p&gt;
+
+&lt;p&gt;The Reward Era is when the network is in a completely decentralized and trustless mode. According to Cardano’s website, “the system will receive regular software updates moving forward, and a massive amount of new features will be released” in this era. These features would include upgrades to Ouroboros, Cardano’s consensus algorithm, an implementation of Cardano’s control layer, and sidechains.&lt;/p&gt;
+
+&lt;h1 id=&quot;iohk-and-the-cardano-foundation&quot;&gt;IOHK and the Cardano Foundation&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/auw5cpJ.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;IOHK, or Input Output Hong Kong, is the engineering company implementing Cardano and the Cardano Foundation is the promotor, educator, and standard body for the blockchain and its apps. In October, Hoskinson stated that IOHK had nearly 100 employees and contractors, three research engineers, and operate in nearly ten countries.&lt;/p&gt;
+
+&lt;p&gt;Charles Hoskinson is the founder of IOHK and subsequently Cardano and the Cardano Foundation. Hoskinson has a long history as a blockchain entrepreneur. He was initially the CEO of Ethereum before being fired. Reasons of the firing are complicated. Ethereum at the time was 6 months old with a $15 million market cap.&lt;/p&gt;
+
+&lt;p&gt;Hoskinson then founded IOHK and IOHK subsequently led the development of Ethereum Classic. Ethereum Classic came to be when Ethereum hard forked after the major DAO hack. A small portion of the community was against this idea and maintained the original chain, which is now known as Ethereum Classic. For IOHK to lead the development of Ethereum Classic suggests that Hoskinson might have some bad blood with members of the Ethereum Foundation, likely from earlier disagreements that resulted in his ousting.&lt;/p&gt;
+
+&lt;p&gt;While IOHK continues to lead Ethereum Classic’s development, its primary focus is now on Cardano. Hoskinson aspires for Cardano to be Ethereum’s successor and he plans to do so by building a blockchain that was designed for scale, security, and upgradeability from day one.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;ouroboros&quot;&gt;Ouroboros&lt;/h1&gt;
+
+&lt;p&gt;Ouroboros is Cardano’s proof of stake consensus algorithm. Proof of stake was chosen over proof of work since it’s more efficient and it’s way more expensive to perform a 51% attack.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/eBykRrr.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The name Ouroboros comes from the name of an ancient symbol depicting a serpent or dragon eating its own tail. The symbol originated in ancient Egyptian iconography. The name is fitting for this algorithm, since Ouroboros operates in epochs.&lt;/p&gt;
+
+&lt;p&gt;Each Ouroboros epoch contains a fixed number of slots. Each slot represents a new block. The slot leader is an account staking ADA that is responsible for creating the block. Epochs last for 5 days (&lt;a href=&quot;https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros&quot;&gt;source&lt;/a&gt;). Slot leaders for an epoch are chosen during the previous epoch. An account’s chance of being chosen is directly tied to the amount of ADA it’s staking.&lt;/p&gt;
+
+&lt;p&gt;An account can only participate in staking if it has at least 1% of the total supply of ADA. For the accounts that don’t meet that criteria, staking pools will exist so everyone is compensated for owning ADA. This high minimum staking requirement gives rise to concerns of centralization. I outline the concerns below.&lt;/p&gt;
+
+&lt;p&gt;Ouroboros will initially provide both newly minted ADA and transaction fees as block rewards. When the total supply of ADA reaches 45,000,000,000 block rewards will consist only of transaction fees.&lt;/p&gt;
+
+&lt;p&gt;According to IOHK/Cardano Foundation, Ouroboros is the first provably secure proof of stake algorithm. The team behind Cardano has mathematically proven that the algorithm is safe from all the known proof of stake attack methods including grinding attacks, nothing-at-stake attacks, and long range attacks. This safety and security should be a very powerful enterprise selling point for Cardano.&lt;/p&gt;
+
+&lt;p&gt;Read more about Ouroboros &lt;a href=&quot;https://cardanodocs.com/cardano/proof-of-stake/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;ouroboros-praos&quot;&gt;Ouroboros Praos&lt;/h2&gt;
+
+&lt;p&gt;Ouroboros Praos is an initiative to upgrade Ouroboros. Praos is semi-synchronous, doesn’t require a heavy MPC protocol for randomness and encourages the adoption of a quantum resistant signature scheme for input endorsers and slot leaders. Praos allows for shorter block times.&lt;/p&gt;
+
+&lt;p&gt;Read about Praos &lt;a href=&quot;https://iohk.io/research/papers/#XJ6MHFXX&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;ouroboros-hydra&quot;&gt;Ouroboros Hydra&lt;/h2&gt;
+
+&lt;p&gt;Ouroboros Hydra is another upgrade to Ouroboros that introduces sharding. Sharding allows multiple Ouroboros epochs to run at the same time which significantly increases Cardano’s throughput. One of the hardest things to figure out for sharding is inter-shard communication.&lt;/p&gt;
+
+&lt;p&gt;We are still a ways away from the Hydra upgrade. Expect a paper from Cardano’s team on Hydra before any serious development efforts begin.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;sidechains&quot;&gt;Sidechains&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/Okl88yP.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sidechains are blockchains running in parallel and independently from the main chain. Sidechains and the main chain should be able to securely transfer assets back and forth. If any problems arise in the sidechain, the main chain can confiscate the sidechain’s assets.&lt;/p&gt;
+
+&lt;p&gt;Sidechains significantly extend the main chain’s capabilities. Because they are separate from the main chain, they can be more centralized and faster and perform more specialized functions. By pegging themselves to the main chain, side chains can take advantage of the main chain’s security without having to adhere to the main chain’s inefficiencies.&lt;/p&gt;
+
+&lt;p&gt;The main problem with sidechains today is their security. There are several attacks where mainchains can be compromised through side chains. The Cardanos team has changed this by introducing a provably secure sidechain technology that fixes all known avenues of attack, opening the way for secure sidechains. They call it Non-interactive Proofs of Proof of Work (NIPoPoW). Altough the Cardano’s team is far from implementing NIPoPoW sidechains on Cardano, the technology is a significant step forward.&lt;/p&gt;
+
+&lt;h1 id=&quot;blockchain-performance&quot;&gt;Blockchain performance&lt;/h1&gt;
+
+&lt;p&gt;Cardano’s average transaction throughput is 10-15 transactions per second. This is comparable to Ethereum. Charles Hoskinson has claimed that Ouroboros can perform at more than 200 transactions per second in a lab unsharded. &lt;a href=&quot;https://www.reddit.com/r/cardano/comments/77ej8i/cardano_vs_eos/&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;project-concerns&quot;&gt;Project concerns&lt;/h1&gt;
+
+&lt;h2 id=&quot;smart-contracts-are-not-ready&quot;&gt;Smart contracts are not ready&lt;/h2&gt;
+
+&lt;p&gt;Cardano’s smart contract virtual machine, the IELE virtual machine, is currently under development. According to Cardano’s &lt;a href=&quot;https://cardanoroadmap.com/&quot;&gt;roadmap&lt;/a&gt;, it is 33% complete.&lt;/p&gt;
+
+&lt;p&gt;Cardano’s smart contract language, Plutus, is also currently under development. The specification of Plutus is complete but the implementation, Plutus core, is not. According to the roadmap, it is 12% complete.&lt;/p&gt;
+
+&lt;p&gt;With the control layer still in the early stages of development, Cardano is currently a UTXO blockchain using a proof of stake consensus algorithm. In order for it to compete against existing decentralized smart contract blockchains like Ethereum and QTUM, Cardano needs to get out its control model ASAP in order to get its network effect going.&lt;/p&gt;
+
+&lt;h2 id=&quot;ouroboros-is-prone-to-centralization&quot;&gt;Ouroboros is prone to centralization&lt;/h2&gt;
+
+&lt;p&gt;As mentioned above, an account can only participate in staking if it has at least 1% of the total supply of ADA. At the current market cap of $13 billion, one needs to have $130 million worth of ADA to participate in staking. If you assume Cardano will be successful, this number will be significantly higher. Who will be able to afford $130 million worth of ADA? Sure there will be staking pools but even staking pools encourage the centralization of wealth. Those participating in the pools will most likely have to pay fees to the pool owner.&lt;/p&gt;
+
+&lt;p&gt;This minimum balance requirement also means that at most 100 accounts can participate in staking and because of the power law, it will be much less than 100 accounts that will be staking. There will most certainly be a few entities with exponentially large balances of ADA and the minimum balance requirement will only serve to consolidate their power and control.&lt;/p&gt;
+
+&lt;h2 id=&quot;cardano-vs-qtum&quot;&gt;Cardano vs QTUM&lt;/h2&gt;
+
+&lt;p&gt;QTUM is similar to Cardano in many ways. QTUM is a layered, proof of stake, smart contracts capable, UTXO blockchain. In this respect, Cardano has its work cut out for it since QTUM is further ahead in development. QTUM’s control layer, the Ethereum Virtual Machine, is working, deployed, and being used. Currently, Cardano doesn’t have a control layer and it doesn’t look like it will have one any time soon.&lt;/p&gt;
+
+&lt;p&gt;QTUM’s network of dApps is growing at a healthy pace and its team is already working on improving its smart contract virtual machine and building a second-layer scaling solution in the form of the Lightning network.&lt;/p&gt;
+
+&lt;p&gt;QTUM will be a tough competitor to Cardano.&lt;/p&gt;
+
+&lt;h2 id=&quot;cardano-vs-ethereum&quot;&gt;Cardano vs Ethereum&lt;/h2&gt;
+
+&lt;p&gt;Cardano’s blockchain foundations is arguably stronger than Ethereum’s. A layered blockchain design is, in my opinion, way better than baking the control layer with the settlement layer like Ethereum does. Cardano’s proof of stake is also better than Ethereum’s proof of work.&lt;/p&gt;
+
+&lt;p&gt;That said, Ethereum is a smart contract behemoth and it has a tremendous network effect behind it. Thousands if not tens of thousands of companies are building on Ethereum and it has a global network of protocol and dApp developers.&lt;/p&gt;
+
+&lt;p&gt;Not only are some amazing dApps building on Ethereum, like 0x and MakerDai, Ethereum also has some pretty big upcoming protocol upgrades including Casper (Proof of Stake), sharding, and Plasma sidechains.&lt;/p&gt;
+
+&lt;p&gt;If QTUM is a tough competitor, Ethereum is Goliath. Can Cardano be David?&lt;/p&gt;
+
+&lt;h2 id=&quot;cardano-vs-eos&quot;&gt;Cardano vs EOS&lt;/h2&gt;
+
+&lt;p&gt;This topic is extremely complex. There is a long history between Dan Larimer and Charles Hoskinson. In fact, before Ethereum, Hoskinson actually worked with Larimer on Bitshares but also left on bad terms.&lt;/p&gt;
+
+&lt;p&gt;Check out this &lt;a href=&quot;https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros&quot;&gt;post by Larimer on the flaws of Cardano&lt;/a&gt;. Also check out &lt;a href=&quot;https://hoskinsoncharles.blogspot.com/2018/01/the-price-of-craftsman-and-zen-of.html&quot;&gt;Hoskinson’s rebuttal&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;Cardano is a fundamentally strong cryptocurrency. Ouroboros is a very cool proof of stake algorithm. Its layered blockchain design is sound. Cardano’s security, modularity, and upgradeability will be a big boon for Cardano when it tries to attract enterprise customers.&lt;/p&gt;
+
+&lt;p&gt;However, Cardano has some fierce competitors and academic rigour and peer research might not be enough to win against years of main net stability and gigantic network effects. That said, Cardano is not going anywhere in the medium term and it does have a good chance at becoming a top tier smart contracts platform.&lt;/p&gt;
+
+&lt;p&gt;“It’s not a race, it’s a marathon” - Charles Hoskinson&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Jan 2018 20:52:53 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/</guid>
+        
+        
+      </item>
     
       <item>
         <title>A Deep Dive Into Theta</title>
@@ -249,7 +430,7 @@ Dad: $17? What do you need $132 for?&lt;/p&gt;
 
 &lt;p&gt;Buiding a decentralized stable coin is by no means a simple feat. Check out how the team accomplished this by reading &lt;a href=&quot;https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90&quot;&gt;this&lt;/a&gt; and browsing their &lt;a href=&quot;https://makerdao.com/&quot;&gt;website&lt;/a&gt;. It’s fascinating.&lt;/p&gt;
 
-&lt;h2 id=&quot;x&quot;&gt;0x&lt;/h2&gt;
+&lt;h2 id=&quot;0x&quot;&gt;0x&lt;/h2&gt;
 
 &lt;p&gt;0x is a protocol built on Ethereum. I believe it is one of the biggest scaling solutions for Ethereum right now. Here’s why.&lt;/p&gt;
 
@@ -386,7 +567,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;NEO is a smart contracts blockchain started by Onchain, a Shanghai-based blockchain R&amp;amp;D company led by Da Hongfei and Erik Zhang.&lt;/li&gt;
@@ -591,7 +772,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Started in 2014. The main net was launched in 2017 and it’s fully functional.&lt;/li&gt;
@@ -753,7 +934,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
       </item>
     
       <item>
-        <title>This Is Why Ripple&#39;s Price Is Surging</title>
+        <title>This Is Why Ripple's Price Is Surging</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/zAVEor4.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’ve been following cryptocurrency markets recently, you’d notice that one cryptocurrency, Ripple, has been on fire. If I was a snarky a**hole, I’d have told you that the reason Ripple is flying is because more people are buying than selling. But I won’t, because you’re here to learn and not to read snarky replies.&lt;/p&gt;
@@ -1004,7 +1185,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-ripplenet&quot;&gt;What is RippleNet?&lt;/h1&gt;
 
-&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
+&lt;h2 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/dlenHgZ.jpg&quot; /&gt;&lt;/p&gt;
 
@@ -1223,104 +1404,6 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         <pubDate>Thu, 21 Dec 2017 00:55:38 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/cryptokitties-the-aftermath/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/cryptokitties-the-aftermath/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I Looked Into NEO&#39;s Code Base - What I Found Should Worry Any NEO Investor</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2KVHtc9.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The presence of these hardcoded values in the code base means that the entire NEO network relies on the existence of the 7 servers that the NEO team runs and if any of these servers were to shut down, the network shuts down.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Before I begin, I’d like to remind the reader about what makes cryptocurrencies fundamentally valuable. With so much euphoria and new blood in the market, it can often be incredibly easy to lose sight of the fundamentals.&lt;/p&gt;
-
-&lt;p&gt;When the 2008 financial crisis occurred, Western central banks began something known as Quantitative Easing (QE) to dig Western economies out of the recession. What was QE? It was fundamentally the mass printing and distribution of fiat money. This extra money was quickly channeled into investment assets such as stocks and real estate. It was the only way to prevent inflation from gobbling up your net worth. The heavy influx of QE money explains how the equity markets rebounded so quickly after the crash and why the equity markets today are arguably highly overvalued.&lt;/p&gt;
-
-&lt;p&gt;Although QE brought us out of the recession, it also highlighted the fundamental problem of treating fiat money as a store of value. Fiat money was controlled by central banks and these banks could reduce its value on a whim. Imagine putting 40 hours a week into a job, earning x dollars, placing the money into a savings account, and having it devalued when the banks decides to print more money. How shitty of a feeling is that?&lt;/p&gt;
-
-&lt;h1 id=&quot;enter-bitcoin&quot;&gt;Enter Bitcoin&lt;/h1&gt;
-
-&lt;p&gt;In 2009, barely a year after the market crash, Satoshi released the whitepaper, &lt;em&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/em&gt;. This paper introduced the world to one of the most revolutionary economic paradigms since the advent of money. Bitcoin was a way to &lt;strong&gt;store and transfer value over the Internet quickly and securely without needing a middleman and without having to trust a central authority&lt;/strong&gt;. The supply was fixed and the entire ledger was transparent. Bitcoin could not be controlled or taken away by any one entity. It was controlled by democratic consensus and as long as the Internet existed, Bitcoin existed.&lt;/p&gt;
-
-&lt;p&gt;This was crazy! Bitcoin was everything fiat money was not. For once, the people had complete control of the monetary system in which they were a part of.&lt;/p&gt;
-
-&lt;p&gt;Bitcoin achieved all this through a powerful distributed consensus algorithm that upholds majority rule without making any assumptions on who the participants in the system are. This algorithm ensures decentralized control since it allows anyone to be a miner and for miners to enter and leave the system as they please. Majority rule ensures trustless security since participants don’t need to trust any one specific miner. They only need to trust that the majority of miners will do the right thing.&lt;/p&gt;
-
-&lt;p&gt;Bitcoin’s transparency, decentralized control, and trustless security is what makes it so attractive and powerful.&lt;/p&gt;
-
-&lt;h1 id=&quot;et-tu-neo&quot;&gt;Et tu, NEO?&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/zwwCbN9.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bitcoin set the standards with which all future cryptocurrencies were evaluated on. After all, if the cryptocurrency relied on a central authority, it was no better than fiat money lying in a database run by a bank.&lt;/p&gt;
-
-&lt;p&gt;This was why I was so disappointed to find out that NEO was so incredibly centralized. Investing in NEO was akin to investing in a number in Da Hongfei’s personal database. I tried to get the word out by writing a couple blog posts but NEO’s investors insisted that I was just “spreading FUD” and that NEO was worth as much as or even more than Ethereum!&lt;/p&gt;
-
-&lt;p&gt;NEO currently has 7 validation nodes across the entire network. All of them are controlled by the team.&lt;/p&gt;
-
-&lt;p&gt;To this, the NEO investor would rebute with, “so what? they promised to decentralize by Christmas”. The only problem is, the “decentralization” being referred to here only involves giving the City of Zion (CoZ) a few of these nodes. CoZ is an entity that is closely tied to NEO’s team.&lt;/p&gt;
-
-&lt;p&gt;Decentralization is a core value proposition of cryptocurrencies. In a decentralized network, there should never be a single entity that controls the network. If NEO’s team is the only entity that can run validation nodes, they have full control and NEO is no longer a cryptocurrency. It is simply an unregulated and unsecured bank operated by a few Shanghai businessmen.&lt;/p&gt;
-
-&lt;h2 id=&quot;neo-is-not-ready-for-any-kind-of-decentralization&quot;&gt;NEO is not ready for any kind of decentralization&lt;/h2&gt;
-
-&lt;p&gt;NEO’s consensus algorithm is called the Delegated Byzantine Fault Tolerance algorithm, or dBFT. dBFT requires the number of nodes in the system to be fixed and known globally. Additionally, every validation node needs to know about the location of every other validation node. &lt;strong&gt;If any node goes offline, consensus cannot occur and the blockchain will effectively shut down.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;NEO’s team argues that a decentralized model can still be built around this system by allowing the community to vote in the validation nodes. If a validation node went offline, the blockchain would stop but the community could just vote in a new validation node.&lt;/p&gt;
-
-&lt;p&gt;However, NEO’s code base is far from being ready to run this model. I poked around NEO’s code base and discovered that the total number of validation nodes, 7, and the addresses of each validation node, were hardcoded into the code base. Additionally, the official NEO wallet also relied on these hardcoded values.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/hhV3KeB.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The presence of these hardcoded values in the code base means that the entire NEO network relies on the existence of the 7 servers that the NEO team runs and if any of these servers were to shut down, the network shuts down.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This is insane.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/frFVam0.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Remember the October incident when NEO’s blockchain shut down for several hours? Now I know exactly why. One of more of the consensus nodes run by the NEO team broke down and consensus could not be achieved. The NEO team had too manually go in and reboot that machine to keep the lights running in this fake cryptocurrency pyramid scheme they’ve set up.&lt;/p&gt;
-
-&lt;p&gt;NEO is not a cryptocurrency, NEO is a centralized database with no capability of decentralizing any time soon. NEO is also a 3 year old project with a $4 billion marketcap. What the fuck is going on?&lt;/p&gt;
-
-&lt;p&gt;This also explains why the NEO team is so reluctant to open up the validation servers to the public. They can’t! They’re only able to give a few to the CoZ and make sure that the CoZ never, ever shut down any of the validation nodes they’re running.&lt;/p&gt;
-
-&lt;p&gt;In addition, NEO giving the CoZ a few validation nodes to run is not decentralization. it’s just a formal agreement between two entities and is analogous to Netflix running their servers on Amazon! Decentralization by Christmas? It’s just a show.&lt;/p&gt;
-
-&lt;p&gt;The CoZ practically confirms my findings in their &lt;a href=&quot;https://medium.com/proof-of-working/decentralization-from-coopetition-b10d7ce3b9d&quot;&gt;latest blog post&lt;/a&gt; on decentralization. In the blog post, they state:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;All nominees for consensus nodes will go through a rigorous identification process before being voted in on MainNet. This process includes providing identification that can hold the owners of the consensus node host legally liable. Each node requires exactly two managing legal entities (individuals or institutions) that will be responsible for their maintenance and patching. There will also be a requirement to provide contact availability to ensure that time-critical events can be handled if they arise.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Parties that demonstrate they can maintain consensus nodes with outstanding uptime and performance will be voted in as initial MainNet consensus nodes after identification process is complete.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;To be honest, it was already a huge red sign when an individual can be held “legally liable” if they were to run a consensus node. Now it makes complete sense. If the individual can’t keep the node running, NEO’s blockchain stops and it’ll severely hurt the project.&lt;/p&gt;
-
-&lt;h2 id=&quot;people-without-technical-backgrounds-continue-to-promote-neo&quot;&gt;People without technical backgrounds continue to promote NEO&lt;/h2&gt;
-
-&lt;p&gt;You will notice that many YouTubers and Reddit users continue to shill NEO. They don’t understand the technology behind it and continue to pump out poorly researched videos and comments proclaiming that NEO is a top-of-the-line cryptocurrency.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/2bSS1B0.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The reality is, NEO is far from it. I’ve had my suspicions for a long time about NEO’s problems but never truely understood the nuances. Luckily I have a software engineering background and was able to scrounge up some time to look into NEO’s code base to understand how the whole thing works. What I found should worry any NEO investor.&lt;/p&gt;
-
-&lt;p&gt;NEO is a 3 year old project. The degree of centralization that permeates the project is utterly unacceptable. Its code base is nowhere close to being ready for decentralization. It is not a cryptocurrency and is far from being worth a $4 billion market cap.&lt;/p&gt;
-
-&lt;p&gt;Checkout my other blog posts on this subject:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://storeofvalue.github.io/posts/major-neo-redflags/&quot;&gt;https://storeofvalue.github.io/posts/major-neo-redflags/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/&quot;&gt;https://storeofvalue.github.io/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 17 Dec 2017 19:57:16 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/how-centralized-is-neo/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/how-centralized-is-neo/</guid>
         
         
       </item>

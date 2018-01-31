@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Deep Dive Into Cardano</title>
+  <meta name="description" content="Cardano is a relatively new smart contracts blockchain that was designed and built by a global team of leading academics and engineers. There is a strong foc...">
+
+  <meta property="og:url" content="https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="A Deep Dive Into Cardano" />
+  <meta property="og:description" content="Cardano is a relatively new smart contracts blockchain that was designed and built by a global team of leading academics and engineers. There is a strong foc..." />
+  <meta property="og:image" content="https://i.imgur.com/SMeXznA.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SovCryptoBlog" />
+  <meta name="twitter:title" content="A Deep Dive Into Cardano" />
+  <meta name="twitter:description" content="Cardano is a relatively new smart contracts blockchain that was designed and built by a global team of leading academics and engineers. There is a strong foc..." />
+  <meta name="twitter:image" content="https://i.imgur.com/SMeXznA.jpg" />
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="canonical" href="https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+  <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102388374-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">
+      <div class="-title">Store of Value</div>
+      <div class="-subtitle">A cryptocurrency blog</div>
+    </a>
+    <div class="-right-parent">
+      <div class="-twitter-follow-parent">
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="desktop-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span>
+          </div>
+        </a>
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="mobile-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us</span>
+          </div>
+        </a>
+      </div>
+      <div class="desktop-only -logos-parent">
+        <img src="/bitcoin-logo.png" />
+        <img src="/eth-logo.png" />
+        <img src="/litecoin-logo.png" />
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style="position: relative; font-size: 0; text-align: center">
+  <div id="article-side-bar-parent" style="text-align: left; display: inline-block; width: 320px; margin-right: 20px; vertical-align: top">
+    <div id="article-side-bar" style="z-index: 1; width: 320px">
+      <div class="-back-button-parent">
+        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Articles</a>
+      </div>
+      
+      <div style="height: 100px; margin-bottom: 12px; background-image: url('https://i.imgur.com/SMeXznA.jpg'); background-size: cover; background-position: 50% 50%"></div>
+      
+      <div style="padding: 0 10px; font-weight: bold; font-size: 16px; color: #555; margin-bottom: 3px">NOW READING</div>
+      <div style="padding: 0 10px; font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+        A Deep Dive Into Cardano
+      </div>
+      <div>
+        <div style="margin-top: 12px; border: solid #555 1px; font-size: 22px; padding: 10px">
+          Buy Cryptocurrencies On Binance
+          <div style="font-size: 18px; margin-top: 3px; word-wrap: break-word">
+            One of the most popular crypto exchanges in the world. Binance has a world-class trading system with super low fees. Buy Bitcoin, Ether, Ripple, QTUM, and more on Binance. <a style="font-size: 22px; display: block; margin-top: 5px" href="https://www.binance.com/?ref=10039939">Sign up for <span style="font-weight:bold">Binance</span> here.</a>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 12px; width: 320px; height: 400px; text-align: center">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article Sidebar -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:250px"
+             data-ad-client="ca-pub-0144173183236578"
+             data-ad-slot="8062654601"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+  <article style="text-align: left; width: 800px; max-width: 100%; display: inline-block;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">A Deep Dive Into Cardano</h1>
+      <p class="post-meta"><time datetime="2018-01-29T20:52:53-08:00" itemprop="datePublished">Jan 29, 2018</time></p>
+      <ul class="-share-bar">
+        <li>
+          <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+            <i class="fa fa-twitter"></i> Tweet 
+          </a>
+        </li>
+        <li>
+          <a class="-facebook" target="_blank" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+            <i class="fa fa-facebook"></i> Share
+          </a>
+        </li>
+        <li>
+          <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+            <i class="fa fa-google-plus"></i> Google
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p><img class="-header -center" style="width: 100%" src="https://i.imgur.com/SMeXznA.jpg" /></p>
+
+<p>Cardano is a proof of stake, smart contracts blockchain. Its native cryptocurrency is called ADA and the smallest unit of ADA (1/1,000,000 ADA) is called a Lovelace. This is in tribute to the first recognized computer programmer, Ada Lovelace.</p>
+
+<p>Cardano prides itself in the rigorous academic process used to develop various aspects of the blockchain. Its website claims that Cardano is “the first blockchain project to be developed from a scientific philosophy, and the only one to be designed and built by a global team of leading academics and engineers”.</p>
+
+<p>I like to say that blockchain is the new religion and the consensus algorithm is its God. It is clear that Cardano has dedicated significant academic resources in developing its consensus algorithm, Ouroboros. Ouroboros is a provably secure proof of stake algorithm developed by a team of IOHK scientists led by Prof. Aggelos Kiayias. The algorithm is backed by a peer reviewed <a href="https://iohk.io/research/papers/#9BKRHCSI">paper</a>. According to Charles Hoskinson, the founder of Cardano, Ouroboros’s paper was rewritten 8 times!</p>
+
+<p>The extent to which the academic process has influenced Cardano’s development currently does not extend beyond Ouroboros. The team has published a set of other papers, one for a scalable and decentralized randomness algorithm, one for an efficient and decentralized poker protocol, and one for secure sidechains. Besides the randomness algorithm, which is used in Ouroboros to select stake winners, Cardano has not incorporated the ideas of the other papers, yet.</p>
+
+<p>Cardano is built as a layered blockchain. The Cardano Settlement Layer (SL) is where account balances and transactions are managed. It uses the UTXO model and is supposed to be the most secure part of the blockchain. The SL is kept apart from the computational layer where smart contracts are executed. This layered architecture gives the system the flexibility to be more easily maintained and allow for upgrades by way of soft forks. In Ethereum, the settlement layer and the computational layer are intertwined.</p>
+
+<p>Cardano’s properties of academic rigour and provable safety are unique in the cryptocurrency space and a huge selling point for the platform for enterprise customers. Companies looking to deploy blockchain technology want a guarantee of safety and Cardano is the only cryptocurrency with a consensus algorithm backed by a peer reviewed paper with provable safety.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="cardanos-history">Cardano’s history</h1>
+
+<p>Cardano’s ICO took place in 4 stages between September 2015 - January 2017 with heavy Know Your Customer (KYC) requirements. It was marketed as an “investment to retire on” to primarily Japanese investors; in fact, 95% of the buyers were of Japanese origin, primarily in the 35-55 age bracket. 2.56% of buyers were Korean, and 2.39% were Chinese. The ICO oversaw a total sale of approximately 26,000,000,000 of the 45,000,000,000 maximum supply of ADA tokens. At the conclusion of the ICO a total of approximately $63 million USD was raised; this puts the price at an average of $0.00242 per ADA, and the market capitalization immediately after the ICO at approximately $109 million USD. (<a href="cardanohub.org">source</a>)</p>
+
+<p>While 26,000,000,000 ADA was sold in the ICO, an additional 5,185,414,108 ADA were distributed to IOHK, Emurgo, and the Cardano Foundation.</p>
+
+<p>A total of 31,112,484,646 ADA was made available at Cardano’s launch.</p>
+
+<h1 id="current-state-of-cardano">Current state of Cardano</h1>
+
+<p>Cardano lays out three eras in its timeline: the Testnet Era, Bootstrap Era, and Reward Era. The Testnet Era is pretty self-explanatory, Cardano is deployed on a test net.</p>
+
+<p>The Bootstrap Era is when Cardano SL is deployed on the main net BUT it is centralized in order to maintain security. Only a fixed, predefined set of users have control over the system. The assumption is that security is poor in this era since people are slow to redeem their ADA coins. For the first few months, stakeholders who jointly possess the majority of the ADA stake are mostly not online yet. The blockchain can be easily attacked if only a small amount of ADA is staked. As consolation to the community, Ouroboros will not provide any block rewards.</p>
+
+<p>Cardano is currently in the Bootstrap Era.</p>
+
+<p>The Reward Era is when the network is in a completely decentralized and trustless mode. According to Cardano’s website, “the system will receive regular software updates moving forward, and a massive amount of new features will be released” in this era. These features would include upgrades to Ouroboros, Cardano’s consensus algorithm, an implementation of Cardano’s control layer, and sidechains.</p>
+
+<h1 id="iohk-and-the-cardano-foundation">IOHK and the Cardano Foundation</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/auw5cpJ.jpg" /></p>
+
+<p>IOHK, or Input Output Hong Kong, is the engineering company implementing Cardano and the Cardano Foundation is the promotor, educator, and standard body for the blockchain and its apps. In October, Hoskinson stated that IOHK had nearly 100 employees and contractors, three research engineers, and operate in nearly ten countries.</p>
+
+<p>Charles Hoskinson is the founder of IOHK and subsequently Cardano and the Cardano Foundation. Hoskinson has a long history as a blockchain entrepreneur. He was initially the CEO of Ethereum before being fired. Reasons of the firing are complicated. Ethereum at the time was 6 months old with a $15 million market cap.</p>
+
+<p>Hoskinson then founded IOHK and IOHK subsequently led the development of Ethereum Classic. Ethereum Classic came to be when Ethereum hard forked after the major DAO hack. A small portion of the community was against this idea and maintained the original chain, which is now known as Ethereum Classic. For IOHK to lead the development of Ethereum Classic suggests that Hoskinson might have some bad blood with members of the Ethereum Foundation, likely from earlier disagreements that resulted in his ousting.</p>
+
+<p>While IOHK continues to lead Ethereum Classic’s development, its primary focus is now on Cardano. Hoskinson aspires for Cardano to be Ethereum’s successor and he plans to do so by building a blockchain that was designed for scale, security, and upgradeability from day one.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="ouroboros">Ouroboros</h1>
+
+<p>Ouroboros is Cardano’s proof of stake consensus algorithm. Proof of stake was chosen over proof of work since it’s more efficient and it’s way more expensive to perform a 51% attack.</p>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/eBykRrr.jpg" /></p>
+
+<p>The name Ouroboros comes from the name of an ancient symbol depicting a serpent or dragon eating its own tail. The symbol originated in ancient Egyptian iconography. The name is fitting for this algorithm, since Ouroboros operates in epochs.</p>
+
+<p>Each Ouroboros epoch contains a fixed number of slots. Each slot represents a new block. The slot leader is an account staking ADA that is responsible for creating the block. Epochs last for 5 days (<a href="https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros">source</a>). Slot leaders for an epoch are chosen during the previous epoch. An account’s chance of being chosen is directly tied to the amount of ADA it’s staking.</p>
+
+<p>An account can only participate in staking if it has at least 1% of the total supply of ADA. For the accounts that don’t meet that criteria, staking pools will exist so everyone is compensated for owning ADA. This high minimum staking requirement gives rise to concerns of centralization. I outline the concerns below.</p>
+
+<p>Ouroboros will initially provide both newly minted ADA and transaction fees as block rewards. When the total supply of ADA reaches 45,000,000,000 block rewards will consist only of transaction fees.</p>
+
+<p>According to IOHK/Cardano Foundation, Ouroboros is the first provably secure proof of stake algorithm. The team behind Cardano has mathematically proven that the algorithm is safe from all the known proof of stake attack methods including grinding attacks, nothing-at-stake attacks, and long range attacks. This safety and security should be a very powerful enterprise selling point for Cardano.</p>
+
+<p>Read more about Ouroboros <a href="https://cardanodocs.com/cardano/proof-of-stake/">here</a>.</p>
+
+<h2 id="ouroboros-praos">Ouroboros Praos</h2>
+
+<p>Ouroboros Praos is an initiative to upgrade Ouroboros. Praos is semi-synchronous, doesn’t require a heavy MPC protocol for randomness and encourages the adoption of a quantum resistant signature scheme for input endorsers and slot leaders. Praos allows for shorter block times.</p>
+
+<p>Read about Praos <a href="https://iohk.io/research/papers/#XJ6MHFXX">here</a>.</p>
+
+<h2 id="ouroboros-hydra">Ouroboros Hydra</h2>
+
+<p>Ouroboros Hydra is another upgrade to Ouroboros that introduces sharding. Sharding allows multiple Ouroboros epochs to run at the same time which significantly increases Cardano’s throughput. One of the hardest things to figure out for sharding is inter-shard communication.</p>
+
+<p>We are still a ways away from the Hydra upgrade. Expect a paper from Cardano’s team on Hydra before any serious development efforts begin.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="sidechains">Sidechains</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/Okl88yP.jpg" /></p>
+
+<p>Sidechains are blockchains running in parallel and independently from the main chain. Sidechains and the main chain should be able to securely transfer assets back and forth. If any problems arise in the sidechain, the main chain can confiscate the sidechain’s assets.</p>
+
+<p>Sidechains significantly extend the main chain’s capabilities. Because they are separate from the main chain, they can be more centralized and faster and perform more specialized functions. By pegging themselves to the main chain, side chains can take advantage of the main chain’s security without having to adhere to the main chain’s inefficiencies.</p>
+
+<p>The main problem with sidechains today is their security. There are several attacks where mainchains can be compromised through side chains. The Cardanos team has changed this by introducing a provably secure sidechain technology that fixes all known avenues of attack, opening the way for secure sidechains. They call it Non-interactive Proofs of Proof of Work (NIPoPoW). Altough the Cardano’s team is far from implementing NIPoPoW sidechains on Cardano, the technology is a significant step forward.</p>
+
+<h1 id="blockchain-performance">Blockchain performance</h1>
+
+<p>Cardano’s average transaction throughput is 10-15 transactions per second. This is comparable to Ethereum. Charles Hoskinson has claimed that Ouroboros can perform at more than 200 transactions per second in a lab unsharded. <a href="https://www.reddit.com/r/cardano/comments/77ej8i/cardano_vs_eos/">source</a></p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="project-concerns">Project concerns</h1>
+
+<h2 id="smart-contracts-are-not-ready">Smart contracts are not ready</h2>
+
+<p>Cardano’s smart contract virtual machine, the IELE virtual machine, is currently under development. According to Cardano’s <a href="https://cardanoroadmap.com/">roadmap</a>, it is 33% complete.</p>
+
+<p>Cardano’s smart contract language, Plutus, is also currently under development. The specification of Plutus is complete but the implementation, Plutus core, is not. According to the roadmap, it is 12% complete.</p>
+
+<p>With the control layer still in the early stages of development, Cardano is currently a UTXO blockchain using a proof of stake consensus algorithm. In order for it to compete against existing decentralized smart contract blockchains like Ethereum and QTUM, Cardano needs to get out its control model ASAP in order to get its network effect going.</p>
+
+<h2 id="ouroboros-is-prone-to-centralization">Ouroboros is prone to centralization</h2>
+
+<p>As mentioned above, an account can only participate in staking if it has at least 1% of the total supply of ADA. At the current market cap of $13 billion, one needs to have $130 million worth of ADA to participate in staking. If you assume Cardano will be successful, this number will be significantly higher. Who will be able to afford $130 million worth of ADA? Sure there will be staking pools but even staking pools encourage the centralization of wealth. Those participating in the pools will most likely have to pay fees to the pool owner.</p>
+
+<p>This minimum balance requirement also means that at most 100 accounts can participate in staking and because of the power law, it will be much less than 100 accounts that will be staking. There will most certainly be a few entities with exponentially large balances of ADA and the minimum balance requirement will only serve to consolidate their power and control.</p>
+
+<h2 id="cardano-vs-qtum">Cardano vs QTUM</h2>
+
+<p>QTUM is similar to Cardano in many ways. QTUM is a layered, proof of stake, smart contracts capable, UTXO blockchain. In this respect, Cardano has its work cut out for it since QTUM is further ahead in development. QTUM’s control layer, the Ethereum Virtual Machine, is working, deployed, and being used. Currently, Cardano doesn’t have a control layer and it doesn’t look like it will have one any time soon.</p>
+
+<p>QTUM’s network of dApps is growing at a healthy pace and its team is already working on improving its smart contract virtual machine and building a second-layer scaling solution in the form of the Lightning network.</p>
+
+<p>QTUM will be a tough competitor to Cardano.</p>
+
+<h2 id="cardano-vs-ethereum">Cardano vs Ethereum</h2>
+
+<p>Cardano’s blockchain foundations is arguably stronger than Ethereum’s. A layered blockchain design is, in my opinion, way better than baking the control layer with the settlement layer like Ethereum does. Cardano’s proof of stake is also better than Ethereum’s proof of work.</p>
+
+<p>That said, Ethereum is a smart contract behemoth and it has a tremendous network effect behind it. Thousands if not tens of thousands of companies are building on Ethereum and it has a global network of protocol and dApp developers.</p>
+
+<p>Not only are some amazing dApps building on Ethereum, like 0x and MakerDai, Ethereum also has some pretty big upcoming protocol upgrades including Casper (Proof of Stake), sharding, and Plasma sidechains.</p>
+
+<p>If QTUM is a tough competitor, Ethereum is Goliath. Can Cardano be David?</p>
+
+<h2 id="cardano-vs-eos">Cardano vs EOS</h2>
+
+<p>This topic is extremely complex. There is a long history between Dan Larimer and Charles Hoskinson. In fact, before Ethereum, Hoskinson actually worked with Larimer on Bitshares but also left on bad terms.</p>
+
+<p>Check out this <a href="https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros">post by Larimer on the flaws of Cardano</a>. Also check out <a href="https://hoskinsoncharles.blogspot.com/2018/01/the-price-of-craftsman-and-zen-of.html">Hoskinson’s rebuttal</a>.</p>
+
+<h1 id="summary">Summary</h1>
+
+<p>Cardano is a fundamentally strong cryptocurrency. Ouroboros is a very cool proof of stake algorithm. Its layered blockchain design is sound. Cardano’s security, modularity, and upgradeability will be a big boon for Cardano when it tries to attract enterprise customers.</p>
+
+<p>However, Cardano has some fierce competitors and academic rigour and peer research might not be enough to win against years of main net stability and gigantic network effects. That said, Cardano is not going anywhere in the medium term and it does have a good chance at becoming a top tier smart contracts platform.</p>
+
+<p>“It’s not a race, it’s a marathon” - Charles Hoskinson</p>
+
+    </div>
+
+    <ul class="-share-bar">
+      <li>
+        <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+          <i class="fa fa-twitter"></i> Tweet
+        </a>
+      </li>
+      <li>
+        <a class="-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+          <i class="fa fa-facebook"></i> Share
+        </a>
+      </li>
+      <li>
+        <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+          <i class="fa fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/">
+          <i class="fa fa-google-plus"></i> Google
+        </a>
+      </li>
+    </ul>
+    <div class="-ad">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- StoreOfValue Article Bottom -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-0144173183236578"
+           data-ad-slot="7692425485"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <div>
+      <div style="margin-top: 24px; border: solid #555 1px; font-size: 26px; padding: 10px">
+        Tip Jar 🍀
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Ether:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">0xa33Ef019ff0bdE98f951585AA57c1Af7c898fE5c</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">QTUM:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">QZckfa6Cfu8tsjvt1FHBFzcTh8cefYdH6T</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Stellar:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">GC4CDHSXYPSOOJNMBDNVWPACT6UDYDQHPJIOCW4GYTG6ZRTJH2475D3Q</span>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+
+<script type="text/javascript">
+  var $article_side_bar = $('#article-side-bar');
+  var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
+  var original_article_side_bar_top_offset = $article_side_bar.offset().top;
+  var margin_from_top = 12;
+  var $article = $('article');
+  var $window = $(window);
+  var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+  if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+    $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+    $article_back_button_parent.show();
+  }
+  $window.scroll(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $window.resize(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $('article').find('a').attr('target', '_blank');
+</script>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store of Value</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>A cryptocurrency blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+</p>
+        <p>
+          <span style="font-weight: bold">Contact me:</span> storeofvalueblog@gmail.com
+        </p>
+        <p>
+          <span style="font-weight: bold">Pageviews per article:</span> 10494
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
