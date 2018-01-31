@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Jan 2018 03:36:17 -0800</pubDate>
-    <lastBuildDate>Wed, 31 Jan 2018 03:36:17 -0800</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Wed, 31 Jan 2018 05:02:39 -0800</pubDate>
+    <lastBuildDate>Wed, 31 Jan 2018 05:02:39 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>A Deep Dive Into Cardano</title>
@@ -63,7 +63,7 @@
 
 &lt;p&gt;Hoskinson then founded IOHK and IOHK subsequently led the development of Ethereum Classic. Ethereum Classic came to be when Ethereum hard forked after the major DAO hack. A small portion of the community was against this idea and maintained the original chain, which is now known as Ethereum Classic. For IOHK to lead the development of Ethereum Classic suggests that Hoskinson might have some bad blood with members of the Ethereum Foundation, likely from earlier disagreements that resulted in his ousting.&lt;/p&gt;
 
-&lt;p&gt;While IOHK continues to lead Ethereum Classic’s development, its primary focus is now on Cardano. Hoskinson aspires for Cardano to be Ethereum’s successor and he plans to do so by building a blockchain that was designed for scale, security, and upgradeability from day one.&lt;/p&gt;
+&lt;p&gt;While IOHK continues to lead Ethereum Classic’s development, its primary focus is now on Cardano. Hoskinson aspires for Cardano to be a compelling alternative to Ethereum and he plans to do so by building a blockchain that was designed for scale, security, and upgradeability from day one.&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -430,7 +430,7 @@ Dad: $17? What do you need $132 for?&lt;/p&gt;
 
 &lt;p&gt;Buiding a decentralized stable coin is by no means a simple feat. Check out how the team accomplished this by reading &lt;a href=&quot;https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90&quot;&gt;this&lt;/a&gt; and browsing their &lt;a href=&quot;https://makerdao.com/&quot;&gt;website&lt;/a&gt;. It’s fascinating.&lt;/p&gt;
 
-&lt;h2 id=&quot;0x&quot;&gt;0x&lt;/h2&gt;
+&lt;h2 id=&quot;x&quot;&gt;0x&lt;/h2&gt;
 
 &lt;p&gt;0x is a protocol built on Ethereum. I believe it is one of the biggest scaling solutions for Ethereum right now. Here’s why.&lt;/p&gt;
 
@@ -567,7 +567,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;NEO is a smart contracts blockchain started by Onchain, a Shanghai-based blockchain R&amp;amp;D company led by Da Hongfei and Erik Zhang.&lt;/li&gt;
@@ -772,7 +772,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Started in 2014. The main net was launched in 2017 and it’s fully functional.&lt;/li&gt;
@@ -934,7 +934,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
       </item>
     
       <item>
-        <title>This Is Why Ripple's Price Is Surging</title>
+        <title>This Is Why Ripple&#39;s Price Is Surging</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/zAVEor4.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’ve been following cryptocurrency markets recently, you’d notice that one cryptocurrency, Ripple, has been on fire. If I was a snarky a**hole, I’d have told you that the reason Ripple is flying is because more people are buying than selling. But I won’t, because you’re here to learn and not to read snarky replies.&lt;/p&gt;
@@ -1185,7 +1185,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-ripplenet&quot;&gt;What is RippleNet?&lt;/h1&gt;
 
-&lt;h2 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
+&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/dlenHgZ.jpg&quot; /&gt;&lt;/p&gt;
 
