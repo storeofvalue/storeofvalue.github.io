@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Jan 2018 05:28:00 -0800</pubDate>
-    <lastBuildDate>Wed, 31 Jan 2018 05:28:00 -0800</lastBuildDate>
+    <pubDate>Wed, 31 Jan 2018 05:36:55 -0800</pubDate>
+    <lastBuildDate>Wed, 31 Jan 2018 05:36:55 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -152,24 +152,6 @@
 
 &lt;p&gt;This minimum balance requirement also means that at most 100 accounts can participate in staking and because of the power law, it will be much less than 100 accounts that will be staking. There will most certainly be a few entities with exponentially large balances of ADA and the minimum balance requirement will only serve to consolidate their power and control.&lt;/p&gt;
 
-&lt;h2 id=&quot;cardano-vs-qtum&quot;&gt;Cardano vs QTUM&lt;/h2&gt;
-
-&lt;p&gt;QTUM is similar to Cardano in many ways. QTUM is a layered, proof of stake, smart contracts capable, UTXO blockchain. In this respect, Cardano has its work cut out for it since QTUM is further ahead in development. QTUM’s control layer, the Ethereum Virtual Machine, is working, deployed, and being used. Currently, Cardano doesn’t have a control layer and it doesn’t look like it will have one any time soon.&lt;/p&gt;
-
-&lt;p&gt;QTUM’s network of dApps is growing at a healthy pace and its team is already working on improving its smart contract virtual machine and building a second-layer scaling solution in the form of the Lightning network.&lt;/p&gt;
-
-&lt;p&gt;QTUM will be a tough competitor to Cardano.&lt;/p&gt;
-
-&lt;h2 id=&quot;cardano-vs-ethereum&quot;&gt;Cardano vs Ethereum&lt;/h2&gt;
-
-&lt;p&gt;Cardano’s blockchain foundations is arguably stronger than Ethereum’s. A layered blockchain design is, in my opinion, way better than baking the control layer with the settlement layer like Ethereum does. Cardano’s proof of stake is also better than Ethereum’s proof of work.&lt;/p&gt;
-
-&lt;p&gt;That said, Ethereum is a smart contract behemoth and it has a tremendous network effect behind it. Thousands if not tens of thousands of companies are building on Ethereum and it has a global network of protocol and dApp developers.&lt;/p&gt;
-
-&lt;p&gt;Not only are some amazing dApps building on Ethereum, like 0x and MakerDai, Ethereum also has some pretty big upcoming protocol upgrades including Casper (Proof of Stake), sharding, and Plasma sidechains.&lt;/p&gt;
-
-&lt;p&gt;If QTUM is a tough competitor, Ethereum is Goliath. Can Cardano be David?&lt;/p&gt;
-
 &lt;h2 id=&quot;cardano-vs-eos&quot;&gt;Cardano vs EOS&lt;/h2&gt;
 
 &lt;p&gt;This topic is extremely complex. There is a long history between Dan Larimer and Charles Hoskinson. In fact, before Ethereum, Hoskinson actually worked with Larimer on Bitshares but also left on bad terms.&lt;/p&gt;
@@ -180,7 +162,7 @@
 
 &lt;p&gt;Cardano is a fundamentally strong cryptocurrency. Ouroboros is a very cool proof of stake algorithm. Its layered blockchain design is sound. Cardano’s security, modularity, and upgradeability will be a big boon for Cardano when it tries to attract enterprise customers.&lt;/p&gt;
 
-&lt;p&gt;However, Cardano has some fierce competitors and academic rigour and peer research might not be enough to win against years of main net stability and gigantic network effects. That said, Cardano is not going anywhere in the medium term and it does have a good chance at becoming a top tier smart contracts platform.&lt;/p&gt;
+&lt;p&gt;However, Cardano has some fierce competitors and academic rigour and peer research might not be enough to win against years of main net stability and gigantic network effects. That said, Cardano is not going anywhere in the medium term and it does have a very good chance at becoming a top tier smart contracts platform.&lt;/p&gt;
 
 &lt;p&gt;“It’s not a race, it’s a marathon” - Charles Hoskinson&lt;/p&gt;
 </description>
