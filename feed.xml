@@ -6,20 +6,9 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Feb 2018 02:36:08 -0800</pubDate>
-    <lastBuildDate>Sat, 03 Feb 2018 02:36:08 -0800</lastBuildDate>
+    <pubDate>Sat, 03 Feb 2018 03:21:10 -0800</pubDate>
+    <lastBuildDate>Sat, 03 Feb 2018 03:21:10 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
-    
-      <item>
-        <title>Remember Ethereum&#39;s Fundamentals</title>
-        <description>
-</description>
-        <pubDate>Fri, 02 Feb 2018 01:59:26 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/remember-ethereums-fundamentals/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/remember-ethereums-fundamentals/</guid>
-        
-        
-      </item>
     
       <item>
         <title>A Deep Dive Into Cardano</title>
@@ -1320,6 +1309,83 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         <pubDate>Sat, 23 Dec 2017 21:04:16 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CryptoKitties - The Aftermath</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/fIdMxYr.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CryptoKitties was a craze that sweeped the cryptocurrency world a few weeks ago. For those that don’t know what it is, here’s a quick primer: CryptoKitties is a popular new Ethereum-based decentralized application where users can buy, trade, and breed virtual cats on the blockchain. Check out the dApp here: &lt;a href=&quot;https://www.cryptokitties.co&quot;&gt;cryptoKitties.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A cryptokitty is represented as a string on the blockchain which the cryptokitty website turns into an image of a cat. Parts of the string determines what “cattributes” the cryptokitty has. Cattributes range from minor ones like eyebrow position to major ones like having the body of a chicken. Breeding cryptokitties is similar to breeding cats in real life, the offspring has a mix of cattributes from its parents but there’s no guarantee which cattributes will be there. Certain cattributes are more coveted, and thus expensive, than others.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;massive-success-in-the-start&quot;&gt;Massive success, in the start&lt;/h1&gt;
+
+&lt;p&gt;A dApp (decentralized application) that combines cats, the blockchain, and unregulated market fit for rampant speculation? How can CryptoKitties not succeed? For the first couple weeks after its launch, the cryptocurrency community went wild. It was so popular mainstream media caught on as well, with publishers like Quartz, Motherboard, Techcrunch, and CBS publishing articles about it.&lt;/p&gt;
+
+&lt;p&gt;People went wild for trading and breeding cryptokitties. Cryptokitties with rare cattributes were snatched off the market and either bred in hopes of getting more cryptokitties with rare cattributes or sold when the price rose. And the price did rise, spectularly. From an average daily price of 0.02 ether per cryptokitty, average daily price peaked at 0.40 ether per cryptokitty. The most expensive cryptokitty went for 247 ether on December 2nd, which was $111,150 at the time!&lt;/p&gt;
+
+&lt;p&gt;The CryptoKitties was so popular it began severely clogging up the Ethereum network. Ethereum’s average transaction throughput is around 15 transactions/second (technically it’s dynamic as miners can vote to increase or decrease the block size). Interacting with the CryptoKitties dApp requires sending Ethereum transactions and so many people were playing, Ethereum’s network couldn’t keep up. Daily average pending transactions rose from 1,500 transactions to 11,000 transactions. CryptoKitties at one point accounted for 25% of Ethereum traffic.&lt;/p&gt;
+
+&lt;p&gt;As of December 12th, barely two weeks after CryptoKitties launched, it had more than 150,000 users, processed over $15 million USD in transactions, and there were 260,000 cats in existence.&lt;/p&gt;
+
+&lt;h1 id=&quot;kitty-23&quot;&gt;Kitty #23&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/prK6xgV.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the best examples of the irrational exuberance surrounding CryptoKitties is Kitty #23, which was flipped for more than 210 ether (about $94,500 at the time) over 4 days. It was first sold for just 10 ether, before being sold for almost 70 ether (60 ether profit for its second owner!), and it was finally sold for 133.9 ether. It’s current owner has a sale open for the cryptokitty at 100 ether.&lt;/p&gt;
+
+&lt;p&gt;133.9 ether was worth around $60,000 at the time. And for what? A string on the blockchain that was turned into a cat picture on the Internet.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;was-it-just-a-fad&quot;&gt;Was it just a fad?&lt;/h1&gt;
+
+&lt;p&gt;CryptoKitties fell from prominence as fast as it rose. Take a look at these charts below (found on &lt;a href=&quot;http://www.kittyexplorer.com/stats/&quot;&gt;www.kittyexplorer.com/stats&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;From a peak of 4833 transactions per day on December 4th, CryptoKitties processed just 201 transactions on December 21st.&lt;/p&gt;
+
+&lt;p&gt;From a peak average daily price of 0.4 ether per cryptokitty on December 4th, the average price on December 21st was just 0.04 ether.&lt;/p&gt;
+
+&lt;p&gt;Looking at those price curves, I’m almost tempted to say CryptoKitties resembles the Tulip craze, except that instead of taking place over 5 years, it took place over 2 weeks. But this is not fair. While other Ethereum dApps are full of promises, CryptoKitties is one of the first dApps that saw tremendous usage. Sure there was a short term mania egged on by the allures of making money, but the bubble popping doesn’t mean CryptoKitties doesn’t have a future.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/4TEti3g.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although CryptoKitties will probably not see the same popularity it did in its first couple weeks, I’m confident it will continue to maintain and grow a devout following, especially with so many new people getting involved in cryptocurrencies. It is, after all, the first dApp that introduced cats to the blockchain.&lt;/p&gt;
+
+&lt;h1 id=&quot;wikileaks&quot;&gt;Wikileaks?!&lt;/h1&gt;
+
+&lt;p&gt;It’s interesting to note that WikiLeaks recently got into CryptoKitties by buying their own Gen 0 cryptokitties, named Mr. WikiLeaks and Mrs. WikiLeaks. They’re planning to sell the offspring of Mr. and Mrs. WikiLeaks to raise money. They’ve so far gifted a cryptokitty to Donald Trump and one to Hillary Clinton. Some of Mr. and Mrs. WikiLeaks cryptokitties that are on sale include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NSA Spying Kitty&lt;/li&gt;
+  &lt;li&gt;Iraq War Kitty&lt;/li&gt;
+  &lt;li&gt;CIA Vault7 Kitty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check it out here: &lt;a href=&quot;https://wikileaks.shop/pages/cryptokitties&quot;&gt;https://wikileaks.shop/pages/cryptokitties&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Dec 2017 00:55:38 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/cryptokitties-the-aftermath/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/cryptokitties-the-aftermath/</guid>
         
         
       </item>
