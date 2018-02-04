@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Feb 2018 03:21:10 -0800</pubDate>
-    <lastBuildDate>Sat, 03 Feb 2018 03:21:10 -0800</lastBuildDate>
+    <pubDate>Sat, 03 Feb 2018 16:48:02 -0800</pubDate>
+    <lastBuildDate>Sat, 03 Feb 2018 16:48:02 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -84,7 +84,7 @@
 
 &lt;p&gt;Each Ouroboros epoch contains a fixed number of slots. Each slot represents a new block. The slot leader is an account staking ADA that is responsible for creating the block. Epochs last for 5 days (&lt;a href=&quot;https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros&quot;&gt;source&lt;/a&gt;). Slot leaders for an epoch are chosen during the previous epoch. An account’s chance of being chosen is directly tied to the amount of ADA it’s staking.&lt;/p&gt;
 
-&lt;p&gt;An account can only participate in staking if it has at least 1% of the total supply of ADA. For the accounts that don’t meet that criteria, staking pools will exist so everyone is compensated for owning ADA. This high minimum staking requirement gives rise to concerns of centralization. I outline the concerns below.&lt;/p&gt;
+&lt;p&gt;An account can only participate in staking if it has at least 1% of the total supply of ADA (&lt;a href=&quot;https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros&quot;&gt;source&lt;/a&gt;). For the accounts that don’t meet that criteria, staking pools will exist so everyone is compensated for owning ADA. This high minimum staking requirement gives rise to concerns of centralization. I outline the concerns below.&lt;/p&gt;
 
 &lt;p&gt;Ouroboros will initially provide both newly minted ADA and transaction fees as block rewards. When the total supply of ADA reaches 45,000,000,000 block rewards will consist only of transaction fees.&lt;/p&gt;
 
@@ -859,7 +859,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;limited-applications---no-smart-contracts&quot;&gt;Limited applications - no smart contracts&lt;/h2&gt;
 
-&lt;p&gt;Smart contracts are a very powerful extension to cryptocurrencies, one that I don’t think many people have even begun to appreciate. I have a strong feeling that any future winning cryptocurrencies must support smart contracts. However, I doubts on whether RaiBlocks can support smart contracts given that it’s system is so radically different.&lt;/p&gt;
+&lt;p&gt;Smart contracts are an undervalued yet very powerful extension to cryptocurrencies. I have a strong feeling that the any successful cryptocurrency in the long term must support smart contracts. However, I have reservations on whether RaiBlocks will ever be able to support smart contracts given that its system is so radically different.&lt;/p&gt;
 
 &lt;h1 id=&quot;bottomline---am-i-bullish-on-raiblocks&quot;&gt;Bottomline - am I bullish on RaiBlocks?&lt;/h1&gt;
 
