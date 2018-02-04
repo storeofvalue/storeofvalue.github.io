@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Feb 2018 16:48:02 -0800</pubDate>
-    <lastBuildDate>Sat, 03 Feb 2018 16:48:02 -0800</lastBuildDate>
+    <pubDate>Sat, 03 Feb 2018 20:41:45 -0800</pubDate>
+    <lastBuildDate>Sat, 03 Feb 2018 20:41:45 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -731,19 +731,19 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
     
       <item>
         <title>A Deep Dive Into Nano/RaiBlocks</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/1gUGSaZ.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/2i9SqoV.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;RaiBlocks won the community vote on which cryptocurrency I should review next: &lt;a href=&quot;http://www.strawpoll.me/14761169&quot;&gt;http://www.strawpoll.me/14761169&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Disclaimer: I don’t own any RaiBlocks, haven’t owned RaiBlocks in the past, and don’t plan to own any RaiBlocks in the future.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;As Bitcoin’s price rose over 2017, so did its transaction fees. Bitcoin Core developers are any against block-size increase and are instead promising the Lightning network as a solution. However, the Lightning network is still in beta on the main net and there are open questions on its usability and adoption rate. This has left the Bitcoin network in a crippled state for several months on end.&lt;/p&gt;
+&lt;p&gt;RaiBlocks is a cryptocurrency that supports feeless, near-instant transactions, with tremendous scalability. It does so by veering from the traditional single-threaded blockchain data structure to a directed acyclic graph (DAG) data structure. RaiBlocks uses a unique DAG that the team calls a block-lattice.&lt;/p&gt;
 
-&lt;p&gt;This Bitcoin fee fiasco has generated significant interest in other cryptocurrencies with low fees and fast transaction times. RaiBlocks with its claim to near instant and free transactions with unlimited throughput capacity its this mold well. Starting in December, Bitcoin’s market cap dominance dropped from 60% to 33%, while more performant altcoins like RaiBlocks saw tremendous price increases. RaiBlocks was one of the biggest winners with price skyrocketing from $0.20 in December to almost $35 at its peak. It’s currently stabilizing at around $22.&lt;/p&gt;
+&lt;p&gt;As Bitcoin’s price rose over 2017, so did its transaction fees. The developers of Bitcoin’s insistence on keeping Bitcoin’s maximum block size at 1mb has caused tremendous congestion in its network. This congestion brought many altcoins with low fees and fast transaction times into the limelight. RaiBlocks, which boasts feeless and near instant transactions, was one of them. From a price of $0.20 in December to a peak price of $35 in early January, RaiBlocks’s price boomed as Bitcoin’s price stalled. At the time of writing, RaiBlocks’s price has stabilized at around $22.&lt;/p&gt;
 
-&lt;p&gt;Raiblock’s claim on its incredible speed and scalability has raised many people’s eyebrows since the best property of cryptocurrencies, decentralization, has always meant shitty scalability. Coupled with an almost miraculous rise in price, many people have started to question RaiBlocks’s legitimacy.&lt;/p&gt;
+&lt;p&gt;RaiBlocks’s claim to fame is its feeless transactions and tremendous scalability. This sounds too good to be true and has had many people raising their eyebrows. The two fundamental properties of cryptocurrencies are decentralization and consistency and it’s generally accepted that it’s incredibly hard, maybe even impossible, to create a cryptocurrency that satisfies all three criteria of the “DCS triangle”: decentralization, consistency, and scalability.&lt;/p&gt;
 
-&lt;p&gt;Let’s dive into RaiBlocks to see what it is, how it works, and whether it’s actually decentralized.&lt;/p&gt;
+&lt;p&gt;So is RaiBlocks legitimate? Is it everything that it claims to be or is it vaporware? Let’s dive into the technology to see how it works.&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
@@ -757,12 +757,12 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Started in 2014. The main net was launched in 2017 and it’s fully functional.&lt;/li&gt;
-  &lt;li&gt;Fixed, maximum supply of 133,248,289 RaiBlocks. All RaiBlocks has been released.&lt;/li&gt;
-  &lt;li&gt;0 transaction fee, unlimited throughput capacity, &amp;gt; 5 second confirmation time.&lt;/li&gt;
-  &lt;li&gt;Uses a block-lattice data structure instead of the blockchain.&lt;/li&gt;
-  &lt;li&gt;Consensus is maintained through a voting mechanism. Validator nodes vote on a world state they believe is true and the number of votes they have consists of the number of RaiBlocks the node owns and the number of RaiBlocks delegated to the node by other accounts.&lt;/li&gt;
-  &lt;li&gt;The RaiBlocks team didn’t conduct an ICO and instead distributed RaiBlocks for free through a web  faucet. 7,000,000 RaiBlocks were retained as developer funds.&lt;/li&gt;
+  &lt;li&gt;RaiBlocks was started in 2014 as a side project by Colin LeMahieu. The project took three years to complete and a fully functional main net was launched in 2017.&lt;/li&gt;
+  &lt;li&gt;RaiBlocks has a fixed, maximum supply of 133,248,289 XRB. All XRB was created when the main net was launched.&lt;/li&gt;
+  &lt;li&gt;All transactions are free and they are confirmed within 5 seconds. RaiBlocks has an extremely high network throughput capacity and is only limited by computational speed and data transfer delays.&lt;/li&gt;
+  &lt;li&gt;RaiBlocks uses a DAG-based, block-lattice data structure instead of the traditional single-threaded blockchain.&lt;/li&gt;
+  &lt;li&gt;Consensus is maintained through a voting mechanism. Validator nodes vote on a world state that they believe is true. The number of votes each node has is the addition of the number of XRB owned plus the number of XRB delegated to the node by other accounts.&lt;/li&gt;
+  &lt;li&gt;The RaiBlocks team didn’t conduct an ICO and instead distributed RaiBlocks for free through a web faucet. 7,000,000 XRB was retained as a development fund.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/azcmAlx.jpg&quot; /&gt;&lt;/p&gt;
