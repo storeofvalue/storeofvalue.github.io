@@ -2,13 +2,123 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Feb 2018 04:23:55 -0800</pubDate>
-    <lastBuildDate>Sat, 17 Feb 2018 04:23:55 -0800</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Sat, 17 Feb 2018 15:03:06 -0800</pubDate>
+    <lastBuildDate>Sat, 17 Feb 2018 15:03:06 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Crypto Scam Spotlight: Ethertanks</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-header -center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/ocZdwip.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Found on a post&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The massive success of CryptoKitties inspired many dApp developers to build games on Ethereum. A few developers, unfortunately, have decided to take a different path and build CryptoKitties-like games that were actually scams. Ethertanks was one of these games.&lt;/p&gt;
+
+&lt;p&gt;Just as users can buy virtual cats on CryptoKitties, users can buy virtual tanks in EtherTanks. However, unlike CryptoKitties, Ethertanks doesn’t have any unique gameplay mechanics. In CryptoKitties, users could breed new, unique cats that had a combination of phenotypes from its parents. In Ethertanks, users simply bought tanks. There was nothing else they could do with the tanks accept earn money from users that bought in after them. The game was a clear Ponzi scheme. The devs did promise that users will eventually be able to trade and battle their tanks but they never delivered.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;the-ponzi-scheme&quot;&gt;The Ponzi scheme&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A Ponzi scheme is defined as “a fraudulent investment operation where the operator generates returns for older investors through revenue paid by new investors, rather than from legitimate business activities or profit of financial trading.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ethertanks’s economics system was a clear Ponzi scheme. Every type of tank had a base cost and this increased whenever a new tank of the type is bought. The cost of the new tank consists of the tank’s base cost and a small payout to every existing owner of a tank with the same type. As such, every time a user buys a tank, s/he is essentially paying fees to everyone else that bought in before him/her.&lt;/p&gt;
+
+&lt;p&gt;If a user wanted to make money from the scheme, they needed to get in early such that there would be enough suckers who’d buy in afterwards such that their returns could cover their initial investment and even exceed it.&lt;/p&gt;
+
+&lt;p&gt;There was a huge incentive for people to buy in as fast as possible and then shill the heck out of the “game” so that they can exit with meaningful profits. All the while, the devs were also making a huge amount of money as they took a cut out of each transaction and they were probably also the first users to buy into the scheme.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-pyramid-scheme&quot;&gt;The Pyramid scheme&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A Pyramid scheme is defined as “a form of investment (illegal in the US and elsewhere) in which each paying participant recruits two further participants, with returns being given to early participants using money contributed by later ones”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Ponzi structure of Ethertanks resulted in a legion of shills (many from 4chan) that brigaded social networks like Reddit and Twitter to promote Ethertanks as the next CryptoKitties game.&lt;/p&gt;
+
+&lt;p&gt;Here is a post on 4chan’s infamous /biz/ forum calling its users to promote the Ponzi on the largest cryptocurrency subreddit, /r/cryptocurrency.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/ZG6sUtl.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The brigading was particularly intense on Reddit with users creating and upvoting posts advertising Ethertanks.&lt;/p&gt;
+
+&lt;p&gt;Many users justified Ethertanks’s Ponzi structure by saying that the devs had promised a marketplace so any users who bought in could always flip their tanks in the marketplace, just like CryptoKitties. Of course, this was only a promise and many users would learn, to their dismay, that the devs would never deliver on the promise.&lt;/p&gt;
+
+&lt;p&gt;To have a feel of the scale of Ethertanks brigading, check out the frontpage of /r/ethtrader soon after the game was released:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/RqCMJhK.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is one of the &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/7n6sdg/ethertank_new_ethereum_dapp_buying_tanks_and/&quot;&gt;highest upvoted posts&lt;/a&gt; on Ethertanks. Notice how the poster emphasized how much money they were able to make…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/VYThV7v.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When users asked about the game’s obvious Ponzi scheme structure, the poster immediately countered by saying that there will eventually be a marketplace.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/T7nTZGO.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are some of the other comments in the post. Honestly, it makes me absolutely sick reading them:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“I am having a hard time believing this is real…yet here we are. Now I’ve made back ~15% of my initial investment (~$300) in the past 25 minutes.”&lt;/li&gt;
+  &lt;li&gt;“This received a lot of FUD today, but the community is great, devs have been responsive and supportive. HT-1 is the play.”&lt;/li&gt;
+  &lt;li&gt;“I think this is good way to make some extra eth since market is moving slowly recently”&lt;/li&gt;
+  &lt;li&gt;“Bought the newest tank and got the investment back in like 30 minutes. Nice :)”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Even The Merkle, a popular cryptocurrency news and editorial website, published an &lt;a href=&quot;https://themerkle.com/what-is-ethertanks/&quot;&gt;article&lt;/a&gt; promoting Ethertanks.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;false-promises&quot;&gt;False promises&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/GFT6WGK.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The devs promised that users would be able to trade and battle their tanks. The marketplace was supposed to launch on January 7th while battle mode was supposed to launch a few weeks afterwards.&lt;/p&gt;
+
+&lt;p&gt;Not surprisingly, the devs never delivered.&lt;/p&gt;
+
+&lt;p&gt;The website, &lt;a href=&quot;https://www.ethertanks.com&quot;&gt;ethertanks.com&lt;/a&gt;, is currently down.&lt;/p&gt;
+
+&lt;h1 id=&quot;aftermath&quot;&gt;Aftermath&lt;/h1&gt;
+
+&lt;p&gt;As with all Ponzi schemes, most people who bought in lost money. The devs made a huge amount of money, the earliest adopters a little less but still a significant amount, and the latecomers lost most of what they put in.&lt;/p&gt;
+
+&lt;p&gt;Here are some posts from the game’s subreddit, &lt;a href=&quot;https://www.reddit.com/r/ethtanks/&quot;&gt;/r/ethtanks&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/1aYlB5W.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/N8fs1Hp.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The one good thing that came out of this game is an important lesson for everyone involved, as well as outsiders. Never let your greed, your desire to make a quick buck, override your common sense. Understand that social media can easily be manipulated and you should not let Reddit and Twitter posts do the decision making for you. If it’s too good to be true and it looks like a scam, it probably is.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Feb 2018 23:12:47 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/crypto-scam-spotlight-ethertanks/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/crypto-scam-spotlight-ethertanks/</guid>
+        
+        
+      </item>
     
       <item>
         <title>A Deep Dive Into Cardano</title>
@@ -412,7 +522,7 @@ Dad: $17? What do you need $132 for?&lt;/p&gt;
 
 &lt;p&gt;Buiding a decentralized stable coin is by no means a simple feat. Check out how the team accomplished this by reading &lt;a href=&quot;https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90&quot;&gt;this&lt;/a&gt; and browsing their &lt;a href=&quot;https://makerdao.com/&quot;&gt;website&lt;/a&gt;. It’s fascinating.&lt;/p&gt;
 
-&lt;h2 id=&quot;0x&quot;&gt;0x&lt;/h2&gt;
+&lt;h2 id=&quot;x&quot;&gt;0x&lt;/h2&gt;
 
 &lt;p&gt;0x is a protocol built on Ethereum. I believe it is one of the biggest scaling solutions for Ethereum right now. Here’s why.&lt;/p&gt;
 
@@ -549,7 +659,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;NEO is a smart contracts blockchain started by Onchain, a Shanghai-based blockchain R&amp;amp;D company led by Da Hongfei and Erik Zhang.&lt;/li&gt;
@@ -754,7 +864,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;RaiBlocks was started in 2014 as a side project by Colin LeMahieu. The project took three years to complete and a fully functional main net was launched in 2017.&lt;/li&gt;
@@ -914,7 +1024,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
       </item>
     
       <item>
-        <title>This Is Why Ripple's Price Is Surging</title>
+        <title>This Is Why Ripple&#39;s Price Is Surging</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/zAVEor4.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’ve been following cryptocurrency markets recently, you’d notice that one cryptocurrency, Ripple, has been on fire. If I was a snarky a**hole, I’d have told you that the reason Ripple is flying is because more people are buying than selling. But I won’t, because you’re here to learn and not to read snarky replies.&lt;/p&gt;
@@ -1165,7 +1275,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-ripplenet&quot;&gt;What is RippleNet?&lt;/h1&gt;
 
-&lt;h2 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
+&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
 
 &lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/dlenHgZ.jpg&quot; /&gt;&lt;/p&gt;
 
@@ -1307,83 +1417,6 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         <pubDate>Sat, 23 Dec 2017 21:04:16 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>CryptoKitties - The Aftermath</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/fIdMxYr.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;CryptoKitties was a craze that sweeped the cryptocurrency world a few weeks ago. For those that don’t know what it is, here’s a quick primer: CryptoKitties is a popular new Ethereum-based decentralized application where users can buy, trade, and breed virtual cats on the blockchain. Check out the dApp here: &lt;a href=&quot;https://www.cryptokitties.co&quot;&gt;cryptoKitties.co&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A cryptokitty is represented as a string on the blockchain which the cryptokitty website turns into an image of a cat. Parts of the string determines what “cattributes” the cryptokitty has. Cattributes range from minor ones like eyebrow position to major ones like having the body of a chicken. Breeding cryptokitties is similar to breeding cats in real life, the offspring has a mix of cattributes from its parents but there’s no guarantee which cattributes will be there. Certain cattributes are more coveted, and thus expensive, than others.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;massive-success-in-the-start&quot;&gt;Massive success, in the start&lt;/h1&gt;
-
-&lt;p&gt;A dApp (decentralized application) that combines cats, the blockchain, and unregulated market fit for rampant speculation? How can CryptoKitties not succeed? For the first couple weeks after its launch, the cryptocurrency community went wild. It was so popular mainstream media caught on as well, with publishers like Quartz, Motherboard, Techcrunch, and CBS publishing articles about it.&lt;/p&gt;
-
-&lt;p&gt;People went wild for trading and breeding cryptokitties. Cryptokitties with rare cattributes were snatched off the market and either bred in hopes of getting more cryptokitties with rare cattributes or sold when the price rose. And the price did rise, spectularly. From an average daily price of 0.02 ether per cryptokitty, average daily price peaked at 0.40 ether per cryptokitty. The most expensive cryptokitty went for 247 ether on December 2nd, which was $111,150 at the time!&lt;/p&gt;
-
-&lt;p&gt;The CryptoKitties was so popular it began severely clogging up the Ethereum network. Ethereum’s average transaction throughput is around 15 transactions/second (technically it’s dynamic as miners can vote to increase or decrease the block size). Interacting with the CryptoKitties dApp requires sending Ethereum transactions and so many people were playing, Ethereum’s network couldn’t keep up. Daily average pending transactions rose from 1,500 transactions to 11,000 transactions. CryptoKitties at one point accounted for 25% of Ethereum traffic.&lt;/p&gt;
-
-&lt;p&gt;As of December 12th, barely two weeks after CryptoKitties launched, it had more than 150,000 users, processed over $15 million USD in transactions, and there were 260,000 cats in existence.&lt;/p&gt;
-
-&lt;h1 id=&quot;kitty-23&quot;&gt;Kitty #23&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/prK6xgV.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the best examples of the irrational exuberance surrounding CryptoKitties is Kitty #23, which was flipped for more than 210 ether (about $94,500 at the time) over 4 days. It was first sold for just 10 ether, before being sold for almost 70 ether (60 ether profit for its second owner!), and it was finally sold for 133.9 ether. It’s current owner has a sale open for the cryptokitty at 100 ether.&lt;/p&gt;
-
-&lt;p&gt;133.9 ether was worth around $60,000 at the time. And for what? A string on the blockchain that was turned into a cat picture on the Internet.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;was-it-just-a-fad&quot;&gt;Was it just a fad?&lt;/h1&gt;
-
-&lt;p&gt;CryptoKitties fell from prominence as fast as it rose. Take a look at these charts below (found on &lt;a href=&quot;http://www.kittyexplorer.com/stats/&quot;&gt;www.kittyexplorer.com/stats&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;From a peak of 4833 transactions per day on December 4th, CryptoKitties processed just 201 transactions on December 21st.&lt;/p&gt;
-
-&lt;p&gt;From a peak average daily price of 0.4 ether per cryptokitty on December 4th, the average price on December 21st was just 0.04 ether.&lt;/p&gt;
-
-&lt;p&gt;Looking at those price curves, I’m almost tempted to say CryptoKitties resembles the Tulip craze, except that instead of taking place over 5 years, it took place over 2 weeks. But this is not fair. While other Ethereum dApps are full of promises, CryptoKitties is one of the first dApps that saw tremendous usage. Sure there was a short term mania egged on by the allures of making money, but the bubble popping doesn’t mean CryptoKitties doesn’t have a future.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://imgur.com/4TEti3g.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Although CryptoKitties will probably not see the same popularity it did in its first couple weeks, I’m confident it will continue to maintain and grow a devout following, especially with so many new people getting involved in cryptocurrencies. It is, after all, the first dApp that introduced cats to the blockchain.&lt;/p&gt;
-
-&lt;h1 id=&quot;wikileaks&quot;&gt;Wikileaks?!&lt;/h1&gt;
-
-&lt;p&gt;It’s interesting to note that WikiLeaks recently got into CryptoKitties by buying their own Gen 0 cryptokitties, named Mr. WikiLeaks and Mrs. WikiLeaks. They’re planning to sell the offspring of Mr. and Mrs. WikiLeaks to raise money. They’ve so far gifted a cryptokitty to Donald Trump and one to Hillary Clinton. Some of Mr. and Mrs. WikiLeaks cryptokitties that are on sale include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;NSA Spying Kitty&lt;/li&gt;
-  &lt;li&gt;Iraq War Kitty&lt;/li&gt;
-  &lt;li&gt;CIA Vault7 Kitty&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Check it out here: &lt;a href=&quot;https://wikileaks.shop/pages/cryptokitties&quot;&gt;https://wikileaks.shop/pages/cryptokitties&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Dec 2017 00:55:38 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/cryptokitties-the-aftermath/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/cryptokitties-the-aftermath/</guid>
         
         
       </item>
