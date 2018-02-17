@@ -87,16 +87,24 @@
       
       <div style="height: 100px; margin-bottom: 12px; background-image: url('https://imgur.com/2KVHtc9.jpg'); background-size: cover; background-position: 50% 50%"></div>
       
-      <div style="padding: 0 10px; font-weight: bold; font-size: 16px; color: #555; margin-bottom: 3px">NOW READING</div>
-      <div style="padding: 0 10px; font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
-        I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor
+      <div style="padding: 0 10px; margin-bottom: 24px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">NOW READING</div>
+        <div style="font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+          I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor
+        </div>
       </div>
-      <div>
-        <div style="margin-top: 12px; border: solid #555 1px; font-size: 22px; padding: 10px">
-          Buy Cryptocurrencies On Binance
-          <div style="font-size: 18px; margin-top: 3px; word-wrap: break-word">
-            One of the most popular crypto exchanges in the world. Binance has a world-class trading system with super low fees. Buy Bitcoin, Ether, Ripple, QTUM, and more on Binance. <a style="font-size: 22px; display: block; margin-top: 5px" href="https://www.binance.com/?ref=10039939">Sign up for <span style="font-weight:bold">Binance</span> here.</a>
-          </div>
+      <div style="padding: 0 10px; margin-bottom: 12px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
+        <div class="-more-articles-parent">
+          <div>
+	  	  <a href="/posts/bitcoin-cash-how-it-came-to-be/">Timeline Of The Creation Of Bitcoin Cash</a>
+	  	</div><div>
+	  	  <a href="/posts/smart-contracts-are-great/">Smart Contracts Are The Future</a>
+	  	</div><div>
+	  	  <a href="/posts/zap-what-is-it-and-should-you-invest/">Zap: What Is It And Should You Invest?</a>
+	  	</div><div>
+	  	  <a href="/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/">Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</a>
+	  	</div>
         </div>
       </div>
       <div style="margin-top: 12px; width: 320px; height: 400px; text-align: center">
@@ -179,15 +187,13 @@
 
 <h2 id="neo-is-not-ready-for-any-kind-of-decentralization">NEO is not ready for any kind of decentralization</h2>
 
-<p>NEO’s consensus algorithm is called the Delegated Byzantine Fault Tolerance algorithm, or dBFT. dBFT requires the number of nodes in the system to be fixed and known globally. Additionally, every validation node needs to know about the location of every other validation node. <strong>If any node goes offline, consensus cannot occur and the blockchain will effectively shut down.</strong></p>
+<p>NEO’s consensus algorithm is called the Delegated Byzantine Fault Tolerance algorithm, or dBFT. dBFT requires the number of validation nodes in the system to be fixed and known globally. In addition, every validation node needs to know the location of every other validation node. <strong>If more than one third of the nodes go offline, consensus cannot occur and the blockchain will effectively shut down. NEO currently has 7 validation nodes, which means that no more than 3 of the 7 nodes can go offline at any time.</strong></p>
 
-<p>NEO’s team argues that a decentralized model can still be built around this system by allowing the community to vote in the validation nodes. If a validation node went offline, the blockchain would stop but the community could just vote in a new validation node.</p>
-
-<p>However, NEO’s code base is far from being ready to run this model. I poked around NEO’s code base and discovered that the total number of validation nodes, 7, and the addresses of each validation node, were hardcoded into the code base. Additionally, the official NEO wallet also relied on these hardcoded values.</p>
+<p>NEO’s team argues that a decentralized model can still be built around this system by allowing the community to vote for users to run validation nodes. However, NEO’s code base is far from being ready to run this model. I poked around and discovered that NEO’s developers hardcoded the addresses of each validation node into the code base. Additionally, the official wallet also relied on these hard coded values. Each of these addresses points to a server controlled by NEO.</p>
 
 <p><img class="-center" style="width: 700px" src="https://imgur.com/hhV3KeB.jpg" /></p>
 
-<p><strong>The presence of these hardcoded values in the code base means that the entire NEO network relies on the existence of the 7 servers that the NEO team runs and if any of these servers were to shut down, the network shuts down.</strong></p>
+<p><strong>The presence of these hardcoded values means that NEO’s entire network relies on the existence of 7 servers fully controlled by NEO’s team. NEO’s blockchain is essentially a proprietary database that the team can modify or shut down at anytime.</strong></p>
 
 <p>This is insane.</p>
 
@@ -282,7 +288,6 @@
     </div>
   </article>
 </div>
-
 <script type="text/javascript">
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');

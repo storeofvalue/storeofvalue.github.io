@@ -293,6 +293,9 @@ pre {
 .post-link {
   display: block;
   font-size: 24px; }
+  .post-link:hover {
+    text-decoration: none;
+    color: #5494e7; }
 
 .post-thumbnail {
   width: 60px;
@@ -311,6 +314,7 @@ pre {
   letter-spacing: 0.5px;
   line-height: 52px;
   margin-top: 0px !important;
+  margin-bottom: 12px !important;
   font-weight: bold; }
   @media screen and (max-width: 1200px) {
     .post-title {
@@ -503,6 +507,12 @@ pre {
     color: #777;
     margin-bottom: 12px;
     line-height: 20px; }
+  .site-header .site-title:hover {
+    text-decoration: none; }
+    .site-header .site-title:hover .-title {
+      color: #888; }
+    .site-header .site-title:hover .-subtitle {
+      color: #888; }
 .site-header .-right-parent {
   display: inline-block;
   float: right; }
@@ -685,6 +695,14 @@ pre {
     #article-side-bar-parent .-back-button-parent a:hover {
       text-decoration: none;
       color: #555; }
+#article-side-bar-parent .-more-articles-parent > div {
+  margin-bottom: 20px; }
+  #article-side-bar-parent .-more-articles-parent > div a {
+    font-size: 15px;
+    color: #606366; }
+    #article-side-bar-parent .-more-articles-parent > div a:hover {
+      color: #aaa;
+      text-decoration: none; }
 
 @media screen and (max-width: 1200px) {
   #article-side-bar-parent {
