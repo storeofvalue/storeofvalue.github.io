@@ -6,9 +6,20 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Feb 2018 17:31:53 -0800</pubDate>
-    <lastBuildDate>Sat, 17 Feb 2018 17:31:53 -0800</lastBuildDate>
+    <pubDate>Sat, 17 Feb 2018 18:22:16 -0800</pubDate>
+    <lastBuildDate>Sat, 17 Feb 2018 18:22:16 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>A Deep Dive Into EOS</title>
+        <description>
+</description>
+        <pubDate>Sat, 17 Feb 2018 17:36:22 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/a-deep-dive-into-eos/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-deep-dive-into-eos/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Crypto Scam Spotlight: Ethertanks</title>
@@ -95,7 +106,7 @@
 
 &lt;p&gt;Not surprisingly, the devs never delivered.&lt;/p&gt;
 
-&lt;p&gt;The website, &lt;a href=&quot;https://www.ethertanks.com&quot;&gt;ethertanks.com&lt;/a&gt;, is currently down.&lt;/p&gt;
+&lt;p&gt;However, the devs did pull a final trick to try to get more people to buy in. After missing their January 7th deadline, they created a new dApp called EtherArmy where users can not only buy tanks, but ships and planes as well. EtherArmy was the exact same thing as EtherTanks except for a few new reskinned useless blockchain assets.&lt;/p&gt;
 
 &lt;h1 id=&quot;aftermath&quot;&gt;Aftermath&lt;/h1&gt;
 
@@ -1244,175 +1255,6 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         <pubDate>Wed, 27 Dec 2017 23:36:10 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What Is Ripple And Should You Invest?</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/arrVrRp.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In this article, I’ll refer to RippleNet as the distributed payments network with which XRP is its native currency. I’ll refer to Ripple as the company developing and marketing RippleNet. Keep in mind that most people refer to all three as simply Ripple. However, in the interest of keeping this article sane and not confusing, I found the nuanced terminology necessary.&lt;/p&gt;
-
-&lt;p&gt;XRP has been on fire lately. From $0.20 USD per XRP in early December, its price has skyrocketed within a month to $1.13 at the time of writing. To be fair, this increase was driven mostly by a rumour of an impending Coinbase/GDAX listing instead of any significant improvements to its fundamentals.&lt;/p&gt;
-
-&lt;p&gt;XRP is one of the largest cryptocurrencies out there. It’s been consistently a top 5 cryptocurrency by market cap since April of this year. Besides its most recent bull run and a bull run back in May, XRP’s price has been surprisingly stable with respect to other cryptocurrencies. This is incredibly impressive when you realize that Ripple doesn’t invest significant resources into marketing XRP to retail investors. Instead, the company’s marketing efforts are focused almost solely on enterprise customers like banks and other corporations. This is one of the reasons why I believe XRP has the strongest fundamentals out of any other cryptocurrencies out there.&lt;/p&gt;
-
-&lt;p&gt;I have to admit that I’ve mostly ignored XRP due to its price stability but its recent price action has caught the attention of many investors, me included. I realized that I actually know very little about it so I spent the last few days researching XRP. Here’s a summary of what I learned.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;what-is-ripplenet&quot;&gt;What is RippleNet?&lt;/h1&gt;
-
-&lt;h2 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/dlenHgZ.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Like Bitcoin, RippleNet is a partially decentralized and distributed ledger.&lt;/li&gt;
-  &lt;li&gt;RippleNet, in its current state, is not decentralized. Although the network has potential for a higher degree of decentralization, Ripple’s use of a default and recommended “Unique Node List” that contains a series of Ripple-operated validators makes the network centralized. Ripple has laid out a decentralization plan where they’d like to remove the default Unique Node List altogether and encourage the community to build their own lists.&lt;/li&gt;
-  &lt;li&gt;There are at most 100 billion XRPs in existence.&lt;/li&gt;
-  &lt;li&gt;XRP is a deflationary currency. No new XRPs will ever be created and the fee paid for each transaction is actually burned.&lt;/li&gt;
-  &lt;li&gt;All XRPs were created in the network’s inception and originally owned by Ripple. The company has since distributed a significant percentage of XRPs to investors, exchanges, and other institutions. The remaining XRPs have been locked away in a Ripple escrow. A billion XRPs are released by the escrow every month.&lt;/li&gt;
-  &lt;li&gt;There is no mining equivalent in RippleNet; you can run a Ripple validator node but validating transactions will not reward you with XRP.&lt;/li&gt;
-  &lt;li&gt;Validators can vote on the network’s base transaction fee.&lt;/li&gt;
-  &lt;li&gt;RippleNet has incredibly low fees. The current base transaction fee is 0.00001 XRP. The actual transaction fee increases based on the load on the network.&lt;/li&gt;
-  &lt;li&gt;RippleNet has a 4 second transaction confirmation time, which is incredibly fast compared to Ethereum’s 2 minute confirmation time and Bitcoin’s 10 minute confirmation time&lt;/li&gt;
-  &lt;li&gt;RippleNet can consistently handle 1,500 transactions per second, with an upper limit of 50,000 transactions per second. This is comparable to VISA. Ethereum can consistently handle about 15 transactions per second, with an unbounded upper limit (the caveat is that it takes significant time for Ethereum’s network to adjust its maximum transaction throughput). Bitcoin can only handle up to 7 transactions per second.&lt;/li&gt;
-  &lt;li&gt;Anyone can issue new assets onto RippleNet. For example, a bank could issue a token representing a real-world currency like USD or EUR. Companies can issue tokens on RippleNet to run ICOs.&lt;/li&gt;
-  &lt;li&gt;RippleNet has a built-in decentralized exchange for all the custom assets on the network.&lt;/li&gt;
-  &lt;li&gt;Ripple has many banking partnerships but it’s a common misconception that banks are actually using RippleNet or XRP. In fact, most banks today are building instant payment infrastructure on a Ripple product called xCurrent that has no relationship to RippleNet or XRP.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;whats-the-point-of-xrp&quot;&gt;What’s the point of XRP?&lt;/h2&gt;
-
-&lt;p&gt;XRP serves as the native currency of RippleNet as well as an anti-spam mechanism. RippleNet accounts need to have a minimum of 20 XRP in order to submit transactions to the network. This is known as the account’s “reserve” and is one way the network protects itself from spam. Another spam protection mechanism is the set fee each transaction needs to pay in order to be accepted by the network.&lt;/p&gt;
-
-&lt;p&gt;XRP also plays a crucial role in one of the main use cases that RippleNet is advertised for by Ripple. Specifically, RippleNet is great at introducing forex liquidity for banks which will make low-value but high demand cross-border payments like remittances economical for banks, even from low volume currency corridors.&lt;/p&gt;
-
-&lt;p&gt;Many banks avoid supporting a wide range of currency corridors for remittance payments. This is primarily because the current global payments insfrastructure is slow, error prone, and costly. These payments need to occur across different banking systems operating in different timezones often with a low level of coordination. Banks also don’t want to store capital in multiple foreign nostro accounts, denoted in foreign currencies, in order to service low-value remittance payments. This is especially true for low volume currency corridors like the Afghan dollar-New Zealand dollar corrider.&lt;/p&gt;
-
-&lt;p&gt;Ripple believes that RippleNet solves this problem through the XRP currency and RippleNet’s fast, secure, and transparent payments infrastructure. In the RippleNet-supported global payments infrastructure, instead of banks maintaining nostro accounts or the use of expensive and slow correspondent banks for currency corridor payments, banks could just maintain a pool of XRP and make markets directly between its domestic currency and XRP. To issue a currency corridor payment, a bank simply needs to sends its XRP through RippleNet to the foreign bank which will be able to convert the XRP back to its own domestic currency.&lt;/p&gt;
-
-&lt;p&gt;This significantly reduces the number of intemediaries involved which speeds up the transaction, lowers fees, and reduces the chance of errors.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h2 id=&quot;ripplenets-consensus-protocol&quot;&gt;RippleNet’s consensus protocol&lt;/h2&gt;
-
-&lt;p&gt;The RippleNet’s ledger consists of a series of mini ledgers, each containing a set of transactions. The mini ledgers are created by and voted on by RippleNet’s validator nodes.&lt;/p&gt;
-
-&lt;p&gt;The consensus process for mini ledger occurs over multiple rounds. Each round, the validator nodes broadcast their version of a mini ledger to their peers and the votes are tallied. The process ends when a super majority of the participating validator nodes (more than 80%) agree on a mini ledger. The new mini ledger is then added to the overall ledger.&lt;/p&gt;
-
-&lt;p&gt;RippleNet’s consensus protocol differs from the traditional cryptocurrency mining in two primary ways. First, RippleNet doesn’t have a built-in monetary incentive for people to run Ripple validator nodes whereas successfully mined Bitcoin and Ethereum blocks reward the miner with Bitcoin/ether. Second, consensus in RippleNet is achieved through a voting process whereas consensus in Bitcoin and Ethereum is achieved through competition and mathematics.&lt;/p&gt;
-
-&lt;p&gt;Because there is no incentive to run validator nodes, and consensus is achieved through a voting process, the network is more vulnerable to attacks than a traditional proof of work or proof of stake system. As such, it requires a higher degree of centralization than the traditional systems in order to ensure security. The benefits of this consensus protocol is that it can be significantly faster than traditional systems and there is no risk of forks.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-ripple&quot;&gt;Why Ripple?&lt;/h1&gt;
-
-&lt;h2 id=&quot;powerhouse-list-of-investors&quot;&gt;Powerhouse list of investors&lt;/h2&gt;
-
-&lt;p&gt;Ripple has a powerhouse list of investors. Investors in the company include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CME Ventures&lt;/li&gt;
-  &lt;li&gt;Standard Chartered Bank&lt;/li&gt;
-  &lt;li&gt;Andreesen Horowitz&lt;/li&gt;
-  &lt;li&gt;Santander InnoVentures&lt;/li&gt;
-  &lt;li&gt;Accenture&lt;/li&gt;
-  &lt;li&gt;Avant Global&lt;/li&gt;
-  &lt;li&gt;And many more: &lt;a href=&quot;https://www.crunchbase.com/organization/ripple-labs/investors/investors_list&quot;&gt;www.crunchbase.com/organization/ripple-labs/investors/investors_list&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ripple-is-a-mature-and-sizeable-company&quot;&gt;Ripple is a mature and sizeable company&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/5YRBxoU.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For other cryptocurrencies, I would often look at their GitHub repo and their cofounders’/developers’ backgrounds to make sure they’re legitimate, professional, and still working on the project.&lt;/p&gt;
-
-&lt;p&gt;Ripple, on the other hand, is a mature company currently with around 200 employees. The company is headquartered in San Francisco with offices in New York, London, Sydney, India, Singapore and Luxembourg. RippleNet also has a long history, being first released in 2012. As such, there is no doubt of the project’s legitimacy, professionalism, and whether people are still working on it or not.&lt;/p&gt;
-
-&lt;h2 id=&quot;extensive-banking-and-corporate-partnerships&quot;&gt;Extensive banking and corporate partnerships&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/tYAZKK2.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ripple focuses its marketing to enterprise customers such as banks and corporations. To say they’ve been successful at it is an understatement. Ripple has one of the most extensive portfolio of banking and corporate partnerships of all other cryptocurrency projects. There are simply too many for me to list but here are some very notable partnerships.&lt;/p&gt;
-
-&lt;p&gt;It is, however, important to keep in mind that most of these banks are not working with RippleNet nor XRP. They’re using Ripple’s xCurrent product which is a secure messaging protocol that’s very useful for coordinating interbank payments but does not touch RippleNet nor XRP.&lt;/p&gt;
-
-&lt;p&gt;SBI Holdings is a Japanese financial services company with a 10% stake in Ripple. Both companies have formed a joint venture named SBI Ripple Asia which is currently leading a consortium of Japanese banks in testing a pilot project where interbank payments are processed on Ripple’s RC Cloud product (RC Cloud is built on xCurrent). This pilot project was deemed successful and the consortium of banks have now partnered with two major South Korean banks in using RC Cloud for cross-border payments in another pilot project that will take place throughout December. If successful, the project is planned to go live on January 31st, 2018. &lt;a href=&quot;http://www.sbigroup.co.jp/news/2017/1206_10906.html&quot;&gt;Source&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Global Payments Steering Group (GPSG) was formed in 2016 to “oversee the creation and maintenance of Ripple payment transaction rules, formalized standards for activity using Ripple, and other actions to support the implementation of Ripple payment capabilities”. Members of the group include: Bank of America Merrill Lynch, Santander, UniCredit, Standard Chartered, Westpac Banking Corporation, Royal Bank of Canada, CIBC, and the Bank of Tokyo-Mitsubishi UFJ. According to this &lt;a href=&quot;https://coinjournal.net/banks-unite-around-ripple-launch-new-cross-border-wiring-service/&quot;&gt;CoinJournal article&lt;/a&gt;, the group plans to launch a cross-border wiring service, most likely also built using RC Cloud.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 3 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;3806401153&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;ripplenets-longevity&quot;&gt;RippleNet’s longevity&lt;/h1&gt;
-
-&lt;p&gt;An interesting property of Ripple is that, currently, there will ever be at most 100 billion XRPs ever in existence. In addition, the XRP paid as a fee for a transaction is burned so the more the network is utilized, the faster XRPs are burned. This means that XRP is a super deflationary currency which puts into question RippleNet’s longevity.&lt;/p&gt;
-
-&lt;p&gt;In this state, RippleNet has a finite lifespan as the XRPs will eventually run out, even if you factor in decimal points. Computers can only handle so many decimal points.&lt;/p&gt;
-
-&lt;p&gt;Additionally, this immense deflationary pressure makes XRP conducive to hording and banks might eschew XRP if they find it increasingly expensive to use. Also, why would a bank use its XRP pool for interbank payments if its more profitable to just hold on to them?&lt;/p&gt;
-
-&lt;h1 id=&quot;is-ripple-centralized&quot;&gt;Is Ripple centralized?&lt;/h1&gt;
-
-&lt;p&gt;There are concerns that RippleNet is centralized. First of all, XRP is a pre-mined cryptocurrency where the entire supply was originally owned by Ripple before the company doled out some to investors, exchanges, and other institutions. Ripple still holds on to 50 billion XRP locked in a RippleNet escrow that releases 1 billion XRP every month for Ripple to spend. What would you do with $1 billion every month for the next 50 months? Sounds like a great lottery prize.&lt;/p&gt;
-
-&lt;p&gt;There have also been concerns of centralization with Ripple’s validator nodes. The concerns are partially valid. Ripple validators use what’s known as the Unique Node List (UNL) to find trusted validator nodes. Every participant in the network can have their own UNL but Ripple provides a default and recommended UNL. This Ripple UNL used to contain only Ripple-operated validator nodes but Ripple is currently executing a decentralization plan where they intend to slowly replace Ripple-operated validator nodes in this list with third party nodes.&lt;/p&gt;
-
-&lt;p&gt;The network is currently centralized in that most validator nodes use Ripple’s default UNL and Ripple has full control of what nodes can be on the list. However, it’s important to keep in mind that network participants always have the option to use their own UNLs. At the moment, RippleNet is quite centralized, with Ripple as the single point of failure. But the network has potential to be much more decentralized and Ripple has signalled that it wants to steer the network towards more decentralization.&lt;/p&gt;
-
-&lt;p&gt;You can read about Ripple’s decentralization strategy here: &lt;a href=&quot;https://ripple.com/dev-blog/decentralization-strategy-update/&quot;&gt;https://ripple.com/dev-blog/decentralization-strategy-update&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can read about how Ripple validators and UNLs work here: &lt;a href=&quot;https://ripple.com/technical-faq-xrp-ledger/&quot;&gt;https://ripple.com/technical-faq-xrp-ledger/&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 4 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;2933037642&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;stellar-vs-ripple&quot;&gt;Stellar vs Ripple&lt;/h1&gt;
-
-&lt;p&gt;Stellar is a close competitor to RippleNet. Both networks share the same cofounder, Jed McCaleb. McCaleb had a fallout with the other executives at Ripple and decided to build his own network by forking RippleNet’s code base. He named the project Stellar.&lt;/p&gt;
-
-&lt;p&gt;Stellar and RippleNet have diverged significantly. Although both networks still share fundamental capabilities and performance characteristics, there are several key differences. These differences include different consensus algorithms (Stellar decided to develop its own) and the fact that XLM is an inflationary currency, with the maximum supply increasing by 1% every year, while XRP is deflationary, with a fixed maximum supply.&lt;/p&gt;
-
-&lt;p&gt;There are also important differences between the mission and strategies of Ripple and the Stellar foundation, the organizations behind RippleNet and Stellar respectively. Ripple is focused on enterprise adoption and is spending most of its efforts in building B2B products on top of RippleNet in order to attract banks and other corporations. Stellar is focused on the open source community and is spending most of its efforts in building a thriving open source developer community through building impressive developer documentation, holding developer meetups, and encouraging companies to hold ICOs on its platform. This is why Ripple has so many more banking partnerships compared to the Stellar Foundation whereas Stellar is a lot more developer friendly and there are many “smaller players” using the network.&lt;/p&gt;
-
-&lt;p&gt;If you’ve been following Stellar though, you’d know that IBM has been making headway using the Stellar network in its own new interbank payments system. The system is currently in the pilot phase being used by a banking network in Oceania that includes 12 currency corridors. Although this is substantial for Stellar, it still pales in comparison to what Ripple brings to the table as far as banking partnerships are concerned.&lt;/p&gt;
-
-&lt;p&gt;I speculate that IBM, which generates significant revenue from its banking products, feels threatened by Ripple and is using its more open-source-friendly cousin, Stellar, to build a competing product.&lt;/p&gt;
-
-&lt;p&gt;Here’s a &lt;a href=&quot;http://storeofvalueblog.com/posts/stellar-lumens-what-is-it-and-should-you-invest/&quot;&gt;link to my review of Stellar&lt;/a&gt; if you want to learn more about it.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 23 Dec 2017 21:04:16 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-ripple-and-should-you-invest/</guid>
         
         
       </item>
