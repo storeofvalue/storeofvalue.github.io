@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Feb 2018 10:39:56 -0800</pubDate>
-    <lastBuildDate>Sat, 24 Feb 2018 10:39:56 -0800</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Sat, 24 Feb 2018 15:13:03 -0800</pubDate>
+    <lastBuildDate>Sat, 24 Feb 2018 15:13:03 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>A Deep Dive Into EOS</title>
@@ -109,7 +109,7 @@
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h2 id=&quot;eos-transactions-are-free&quot;&gt;EOS transactions are free&lt;/h2&gt;
+&lt;h2 id=&quot;eoss-transactions-are-free&quot;&gt;EOS’s transactions are free&lt;/h2&gt;
 
 &lt;p&gt;Transactions in EOS are free. Block producers are compensated partly by an annual 5% inflation rate.&lt;/p&gt;
 
@@ -129,12 +129,10 @@
 
 &lt;h2 id=&quot;and-much-more&quot;&gt;And much more…&lt;/h2&gt;
 
-&lt;p&gt;EOS is an incredibly complex blockchain and it has many features that make dApp development as easy as possible. These include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;a built-in permission management system&lt;/li&gt;
-  &lt;li&gt;an account recovery system&lt;/li&gt;
-  &lt;li&gt;ability for full nodes to partially evaluate blockchain state&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;EOS is an incredibly complex blockchain and it has many features that make dApp development as easy as possible. These include:
+* a built-in permission management system
+* an account recovery system
+* ability for full nodes to partially evaluate blockchain state&lt;/p&gt;
 
 &lt;p&gt;To learn more about EOS’s technology, I highly recommend reading its &lt;a href=&quot;https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md&quot;&gt;technical whitepaper&lt;/a&gt;.&lt;/p&gt;
 
@@ -716,7 +714,7 @@ Dad: $17? What do you need $132 for?&lt;/p&gt;
 
 &lt;p&gt;Buiding a decentralized stable coin is by no means a simple feat. Check out how the team accomplished this by reading &lt;a href=&quot;https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90&quot;&gt;this&lt;/a&gt; and browsing their &lt;a href=&quot;https://makerdao.com/&quot;&gt;website&lt;/a&gt;. It’s fascinating.&lt;/p&gt;
 
-&lt;h2 id=&quot;0x&quot;&gt;0x&lt;/h2&gt;
+&lt;h2 id=&quot;x&quot;&gt;0x&lt;/h2&gt;
 
 &lt;p&gt;0x is a protocol built on Ethereum. I believe it is one of the biggest scaling solutions for Ethereum right now. Here’s why.&lt;/p&gt;
 
@@ -853,7 +851,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;NEO is a smart contracts blockchain started by Onchain, a Shanghai-based blockchain R&amp;amp;D company led by Da Hongfei and Erik Zhang.&lt;/li&gt;
@@ -1058,7 +1056,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;RaiBlocks was started in 2014 as a side project by Colin LeMahieu. The project took three years to complete and a fully functional main net was launched in 2017.&lt;/li&gt;
@@ -1218,7 +1216,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
       </item>
     
       <item>
-        <title>This Is Why Ripple's Price Is Surging</title>
+        <title>This Is Why Ripple&#39;s Price Is Surging</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/zAVEor4.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’ve been following cryptocurrency markets recently, you’d notice that one cryptocurrency, Ripple, has been on fire. If I was a snarky a**hole, I’d have told you that the reason Ripple is flying is because more people are buying than selling. But I won’t, because you’re here to learn and not to read snarky replies.&lt;/p&gt;

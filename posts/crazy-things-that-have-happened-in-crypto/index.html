@@ -32,13 +32,14 @@
   <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
   
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-102388374-1', 'auto');
-    ga('send', 'pageview');
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102388374-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-102388374-1');
+    </script>
   </script>
   
 </head>
@@ -97,13 +98,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-	  	  <a href="/posts/major-neo-redflags/">Investor Warning: Major NEO Red Flags</a>
+	  	  <a href="/posts/cryptocurrency-hacks-so-far-august-24th/">List Of High Profile Cryptocurrency Hacks So Far (August 24th 2017)</a>
 	  	</div><div>
-	  	  <a href="/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/">What Is The Ethereum Enterprise Alliance?</a>
+	  	  <a href="/posts/whats-antshares-neo-and-why-you-should-be-watching-it/">What's Antshares/NEO And Why Should You Be Watching It?</a>
 	  	</div><div>
-	  	  <a href="/posts/cancelling-segwit2x-defeat-for-bitcoin/">Why Cancelling SegWit2x Could Be (Really) Bad For Bitcoin</a>
+	  	  <a href="/posts/crypto-scam-spotlight-ethertanks/">Crypto Scam Spotlight: Ethertanks</a>
 	  	</div><div>
-	  	  <a href="/posts/technical-analysis-and-cryptocurrencies/">Technical Analysis And Cryptocurrencies - Why You Should Be Wary</a>
+	  	  <a href="/posts/what-is-ripple-and-should-you-invest/">What Is Ripple And Should You Invest?</a>
 	  	</div>
         </div>
       </div>
@@ -316,6 +317,7 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
   var margin_from_top = 12;
   var $article = $('article');
   var $window = $(window);
+  var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');
   var is_position_fixed = $article_side_bar.css('position') == 'fixed';
   if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
     $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
@@ -340,6 +342,13 @@ Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
       $article_side_bar.css({'position': 'static', 'top': '0px'});
       $article_back_button_parent.hide();
     }
+  });
+  $more_articles_parent.find('a').click(function () {
+    gtag('event', 'new-ui-mode', {
+      'event_category': 'more-articles-sidebar-click',
+      'event_action': 'click',
+      'event_label': $(this).html()
+    });
   });
   $('article').find('a').attr('target', '_blank');
 </script>

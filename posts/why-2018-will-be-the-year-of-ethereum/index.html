@@ -32,13 +32,14 @@
   <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
   
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-102388374-1', 'auto');
-    ga('send', 'pageview');
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102388374-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-102388374-1');
+    </script>
   </script>
   
 </head>
@@ -97,13 +98,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-	  	  <a href="/posts/crazy-things-that-have-happened-in-crypto/">Crazy Things That Have Happened With Cryptocurrencies</a>
+	  	  <a href="/posts/smart-contracts-are-great/">Smart Contracts Are The Future</a>
 	  	</div><div>
-	  	  <a href="/posts/stellar-lumens-what-is-it-and-should-you-invest/">A Deep Dive Into Stellar Lumens</a>
+	  	  <a href="/posts/technical-analysis-and-cryptocurrencies/">Technical Analysis And Cryptocurrencies - Why You Should Be Wary</a>
 	  	</div><div>
-	  	  <a href="/posts/a-definitive-guide-to-neo/">A Definitive Guide To NEO (2nd Edition)</a>
+	  	  <a href="/posts/segwit2x-could-be-the-biggest-bear-trap/">Why Bitcoin's Segwit2x Could Be The Biggest Bear Trap This Year</a>
 	  	</div><div>
-	  	  <a href="/posts/is-china-banning-cryptocurrency-exchanges-everything-we-know-so-far/">Is China Banning Cryptocurrency Exchanges? - Everything We Know So Far</a>
+	  	  <a href="/posts/major-neo-redflags/">Investor Warning: Major NEO Red Flags</a>
 	  	</div>
         </div>
       </div>
@@ -238,7 +239,7 @@ Dad: $17? What do you need $132 for?</p>
 
 <p>Buiding a decentralized stable coin is by no means a simple feat. Check out how the team accomplished this by reading <a href="https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90">this</a> and browsing their <a href="https://makerdao.com/">website</a>. It’s fascinating.</p>
 
-<h2 id="0x">0x</h2>
+<h2 id="x">0x</h2>
 
 <p>0x is a protocol built on Ethereum. I believe it is one of the biggest scaling solutions for Ethereum right now. Here’s why.</p>
 
@@ -402,6 +403,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>.</p>
   var margin_from_top = 12;
   var $article = $('article');
   var $window = $(window);
+  var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');
   var is_position_fixed = $article_side_bar.css('position') == 'fixed';
   if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
     $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
@@ -426,6 +428,13 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>.</p>
       $article_side_bar.css({'position': 'static', 'top': '0px'});
       $article_back_button_parent.hide();
     }
+  });
+  $more_articles_parent.find('a').click(function () {
+    gtag('event', 'new-ui-mode', {
+      'event_category': 'more-articles-sidebar-click',
+      'event_action': 'click',
+      'event_label': $(this).html()
+    });
   });
   $('article').find('a').attr('target', '_blank');
 </script>

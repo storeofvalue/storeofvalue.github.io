@@ -35,13 +35,14 @@
   <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
   
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-102388374-1', 'auto');
-    ga('send', 'pageview');
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102388374-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-102388374-1');
+    </script>
   </script>
   
 </head>
@@ -100,13 +101,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-	  	  <a href="/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">Case Study: Building A P2P VPN Network Over The Ethereum Blockchain</a>
+	  	  <a href="/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/">Bitcoin vs Bitcoin Cash: Everything You Need To Know</a>
 	  	</div><div>
-	  	  <a href="/posts/phishing-attacks-are-everywhere-in-cryptoworld/">Cryptocurrency Phishing Attacks - How One Investor Was Scammed Out Of $100,000</a>
+	  	  <a href="/posts/why-is-eth-crashing/">Why Is ETH Crashing?</a>
 	  	</div><div>
-	  	  <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
+	  	  <a href="/posts/whats-antshares-neo-and-why-you-should-be-watching-it/">What's Antshares/NEO And Why Should You Be Watching It?</a>
 	  	</div><div>
-	  	  <a href="/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/">Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</a>
+	  	  <a href="/posts/a-definitive-guide-to-neo/">A Definitive Guide To NEO (2nd Edition)</a>
 	  	</div>
         </div>
       </div>
@@ -158,7 +159,7 @@
 
 <p>As demand for Bitcoin increased, the rate of transactions increased as well and this was where Bitcoin began to show signs of growing pain. The network had an abysmal maximum transaction throughput (less than 10 transactions per second!). With so many new users, transactions began to take an inordinate amount of time to get confirmed. Some users reportedly had to wait hours on end. At the same time, transaction fees went through the roof. It was clear that this scaling issue needed to be fixed, and fixed soon.</p>
 
-<h1 id="2015---scaling-debate-starts">2015 - Scaling debate starts</h1>
+<h1 id="scaling-debate-starts">2015 - Scaling debate starts</h1>
 
 <p>Going through web archives, Google search, and <em>(shudder)</em> Reddit search, the debate around Bitcoin’s scaling problem seemed to have picked up around 2015. Like today, there were two main sides in the debate.</p>
 
@@ -341,6 +342,7 @@
   var margin_from_top = 12;
   var $article = $('article');
   var $window = $(window);
+  var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');
   var is_position_fixed = $article_side_bar.css('position') == 'fixed';
   if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
     $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
@@ -365,6 +367,13 @@
       $article_side_bar.css({'position': 'static', 'top': '0px'});
       $article_back_button_parent.hide();
     }
+  });
+  $more_articles_parent.find('a').click(function () {
+    gtag('event', 'new-ui-mode', {
+      'event_category': 'more-articles-sidebar-click',
+      'event_action': 'click',
+      'event_label': $(this).html()
+    });
   });
   $('article').find('a').attr('target', '_blank');
 </script>

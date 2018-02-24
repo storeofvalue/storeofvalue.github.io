@@ -32,13 +32,14 @@
   <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
   
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-102388374-1', 'auto');
-    ga('send', 'pageview');
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102388374-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-102388374-1');
+    </script>
   </script>
   
 </head>
@@ -97,13 +98,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-	  	  <a href="/posts/major-neo-redflags/">Investor Warning: Major NEO Red Flags</a>
+	  	  <a href="/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">Case Study: Building A P2P VPN Network Over The Ethereum Blockchain</a>
 	  	</div><div>
-	  	  <a href="/posts/iota-what-is-it-and-should-you-invest/">What Is IOTA And Should You Invest?</a>
+	  	  <a href="/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/">NEO Responded To My Article - And It Confirmed My Worst Fears</a>
 	  	</div><div>
-	  	  <a href="/posts/is-china-banning-cryptocurrency-exchanges-everything-we-know-so-far/">Is China Banning Cryptocurrency Exchanges? - Everything We Know So Far</a>
+	  	  <a href="/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/">What Is The Ethereum Enterprise Alliance?</a>
 	  	</div><div>
-	  	  <a href="/posts/a-deep-dive-into-eos/">A Deep Dive Into EOS</a>
+	  	  <a href="/posts/a-deep-dive-into-raiblocks/">A Deep Dive Into Nano/RaiBlocks</a>
 	  	</div>
         </div>
       </div>
@@ -347,6 +348,7 @@ I’m excited to be part of the next evolution of the streaming space, helping T
   var margin_from_top = 12;
   var $article = $('article');
   var $window = $(window);
+  var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');
   var is_position_fixed = $article_side_bar.css('position') == 'fixed';
   if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
     $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
@@ -371,6 +373,13 @@ I’m excited to be part of the next evolution of the streaming space, helping T
       $article_side_bar.css({'position': 'static', 'top': '0px'});
       $article_back_button_parent.hide();
     }
+  });
+  $more_articles_parent.find('a').click(function () {
+    gtag('event', 'new-ui-mode', {
+      'event_category': 'more-articles-sidebar-click',
+      'event_action': 'click',
+      'event_label': $(this).html()
+    });
   });
   $('article').find('a').attr('target', '_blank');
 </script>
