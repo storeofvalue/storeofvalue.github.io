@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Deep Dive Into EOS</title>
+  <meta name="description" content="What is EOS? How does EOS work? Should I invest in EOS? This article aims to answer all these questions and more about EOS.">
+
+  <meta property="og:url" content="https://storeofvalue.github.io/posts/a-deep-dive-into-eos/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="A Deep Dive Into EOS" />
+  <meta property="og:description" content="What is EOS? How does EOS work? Should I invest in EOS? This article aims to answer all these questions and more about EOS." />
+  <meta property="og:image" content="https://i.imgur.com/t0u6yns.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SovCryptoBlog" />
+  <meta name="twitter:title" content="A Deep Dive Into EOS" />
+  <meta name="twitter:description" content="What is EOS? How does EOS work? Should I invest in EOS? This article aims to answer all these questions and more about EOS." />
+  <meta name="twitter:image" content="https://i.imgur.com/t0u6yns.jpg" />
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="canonical" href="https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+  <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102388374-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">
+      <div class="-title">Store of Value</div>
+      <div class="-subtitle">A cryptocurrency blog</div>
+    </a>
+    <div class="-right-parent">
+      <div class="-twitter-follow-parent">
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="desktop-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span>
+          </div>
+        </a>
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="mobile-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us</span>
+          </div>
+        </a>
+      </div>
+      <div class="desktop-only -logos-parent">
+        <img src="/bitcoin-logo.png" />
+        <img src="/eth-logo.png" />
+        <img src="/litecoin-logo.png" />
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style="position: relative; font-size: 0; text-align: center">
+  <div id="article-side-bar-parent" style="text-align: left; display: inline-block; width: 320px; margin-right: 20px; vertical-align: top">
+    <div id="article-side-bar" style="z-index: 1; width: 320px">
+      <div class="-back-button-parent">
+        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Articles</a>
+      </div>
+      
+      <div style="height: 100px; margin-bottom: 12px; background-image: url('https://i.imgur.com/t0u6yns.jpg'); background-size: cover; background-position: 50% 50%"></div>
+      
+      <div style="padding: 0 10px; margin-bottom: 24px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">NOW READING</div>
+        <div style="font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+          A Deep Dive Into EOS
+        </div>
+      </div>
+      <div style="padding: 0 10px; margin-bottom: 12px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
+        <div class="-more-articles-parent">
+          <div>
+	  	  <a href="/posts/crypto-scam-spotlight-ethertanks/">Crypto Scam Spotlight: Ethertanks</a>
+	  	</div><div>
+	  	  <a href="/posts/technical-analysis-and-cryptocurrencies/">Technical Analysis And Cryptocurrencies - Why You Should Be Wary</a>
+	  	</div><div>
+	  	  <a href="/posts/whats-antshares-neo-and-why-you-should-be-watching-it/">What's Antshares/NEO And Why Should You Be Watching It?</a>
+	  	</div><div>
+	  	  <a href="/posts/a-deep-dive-into-cardano/">A Deep Dive Into Cardano</a>
+	  	</div>
+        </div>
+      </div>
+      <div style="margin-top: 12px; width: 320px; height: 400px; text-align: center">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article Sidebar -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:250px"
+             data-ad-client="ca-pub-0144173183236578"
+             data-ad-slot="8062654601"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+  <article style="text-align: left; width: 800px; max-width: 100%; display: inline-block;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">A Deep Dive Into EOS</h1>
+      <p class="post-meta"><time datetime="2018-02-17T17:36:22-08:00" itemprop="datePublished">Feb 17, 2018</time></p>
+      <ul class="-share-bar">
+        <li>
+          <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+            <i class="fa fa-twitter"></i> Tweet 
+          </a>
+        </li>
+        <li>
+          <a class="-facebook" target="_blank" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+            <i class="fa fa-facebook"></i> Share
+          </a>
+        </li>
+        <li>
+          <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+            <i class="fa fa-google-plus"></i> Google
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p><img class="-header -center" style="width: 100%" src="https://i.imgur.com/t0u6yns.jpg" /></p>
+
+<h1 id="what-is-eos">What is EOS?</h1>
+
+<p>EOS is a smart contracts platform founded and designed by cryptocurrency genius and serial entrepreneur, Dan Larimer. EOS promises to be a next generation smart contracts platform that uses a novel blockchain architecture designed to enable vertical and horizontal scaling that supports many decentralized applications in parallel.</p>
+
+<p>EOS focuses on performance and useability. Its use of a delegated Proof of Stake consensus algorithm and a messaging-centric design allows it to have incredibly fast block times. Its unique token economics enables free transactions.</p>
+
+<p>Currently, using Ethereum’s decentralized applications (dApps) can be quite cumbersome. A user needs to pay fees and transactions take a while to confirm. In high usage conditions, Ethereum becomes increasingly painful to use as fees rise and transaction confirmation times increase. EOS aims to solve all these issues in order to create a business-ready blockchain that doesn’t feel like a blockchain.</p>
+
+<p>These are grandiose goals but it’s important to keep in mind that EOS is still an early stage project. The main net hasn’t been released yet and EOS has yet to prove whether it will work as well as advertised in production. There are also concerns with centralization.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="eoss-design-principles">EOS’s design principles</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/8sBXh3r.jpg" /></p>
+
+<p>EOS very nicely lays out 6 requirements for blockchain applications in its whitepaper:</p>
+
+<ul>
+  <li><strong>Supports millions of users</strong>: can’t build a successful blockchain with large network effects if it can only support a small network of users</li>
+  <li><strong>Free usage</strong>: users should not have to pay transaction fees to use the network. It’s a bad experience doing so.</li>
+  <li><strong>Easy upgrades and bug recovery</strong>: applications should be super easy to upgrade. Software bugs are inevitable so it should be easy for developers to recover from them.</li>
+  <li><strong>Sequential performance</strong>: basically, a blockchain needs to have super high transaction throughput.</li>
+  <li><strong>Parallel performance</strong>: a blockchain should be able to parallelize the execution of dApps, since many dApps often work in their own siloes and don’t really care about any other dApps.</li>
+</ul>
+
+<h1 id="who-is-dan-larimer">Who is Dan Larimer?</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/DJUPPl4.jpg" /></p>
+
+<p>Dan Larimer has been involved with cryptocurrencies for quite a long time. He registered his BitcoinTalk account, <a href="https://bitcointalk.org/index.php?action=profile;u=611">bytemaster</a>, in 2010 and has been very vocal about blockchain designs on the forum.</p>
+
+<p>Larimer is a blockchain genius and serial entrepreneur. He’s the founder of two  blockchain projects, Bitshares and Steem. Both of which have hundreds of millions of dollars in market cap. Bitshares is a blockchain that supports decentralized exchange of custom assets and stablecoins. Steem is a social network blockchain.</p>
+
+<p>Larimer has mentioned that his ultimate plan is to build a high performance generalized smart contract platform. He is highly critical of Ethereum and intends for EOS to drastically improve on Ethereum’s shortcomings. It’s clear that EOS incorporates many of his learnings from building Bitshares and Steem.</p>
+
+<p>I highly recommend watching Larimer’s debate on blockchain scaling with Vitalik Buterin <a href="https://www.youtube.com/watch?v=ZQUvcmzenoc">here</a>.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 2 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="7020600859" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="how-does-eos-work">How does EOS work?</h1>
+
+<p>EOS’s vision is to achieve widespread blockchain adoption. It plans to get there by building a general purpose, high performance, highly useable, and self-governing smart contracts blockchain.</p>
+
+<p>To do so, EOS needs to have high-scale, support parallelized dApp execution, free transactions, and a self-governing system.</p>
+
+<h2 id="consensus-algorithm-and-inflation">Consensus algorithm and inflation</h2>
+
+<p>EOS uses a consensus algorithm developed by Dan Larimer. The algorithm closely resembles delegated Proof of Stake (dPoS) algorithms so I’ll refer to it as dPoS in this article.</p>
+
+<p>DPoS is incredibly fast. In EOS, blocks are produced in rounds. In each round, 21 block producers are chosen and the producers take turns to produce a block every 3 seconds.</p>
+
+<p>Users vote for block producers; the top 20 accounts with the most votes are guaranteed to be block producers. The 21st block producer is randomly chosen, with the chance being chosen proportional to the number of votes the account has.</p>
+
+<p>EOS has 5% annual inflation and the community will be able to vote on who receives the inflation. Although the exact distribution of the inflation is still unknown, it’s very likely that the block producers will receive a good portion of the inflation.</p>
+
+<h2 id="how-does-eos-scale-to-millions-of-transactions-per-second">How does EOS scale to millions of transactions per second?</h2>
+
+<p>EOS is able to achieve its high scalability and throughput as a result of its dPoS consensus algorithm and a novel blockchain architecture.</p>
+
+<p>DPoS is a blazingly fast consensus algorithm but the catch is, it’s quite centralized and block producers need to run super high performance computers in order to meet EOS’s blockchain demands.</p>
+
+<p>EOS’s novel blockchain architecture augments its dPoS algorithm to enable EOS to scale to millions of transactions per second. The architecture is messaged-based and supports parallelized dApp execution. You can read more about its architecture <a href="http://iang.org/papers/EOS_An_Introduction.pdf">here</a>.</p>
+
+<h2 id="dapp-parallelization">dApp parallelization</h2>
+
+<p>As mentioned above, EOS is capable of parallelized dApp execution.</p>
+
+<p>Essentially, EOS blocks are split into different threads with each thread assigned a group of dApps and other EOS accounts by the block producer. Two dApps can be safely assigned into different threads if there are no transactions referencing both dApps at once.</p>
+
+<p>This is made possible by the fact that a dApp’s state only depends on the messages it receives, and EOS has a constraint that messages generated in one block cycle can only be delivered in the next cycle.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 3 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="3806401153" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h2 id="free-transactions">Free transactions</h2>
+
+<p>Transactions in EOS are free. Block producers are compensated partly by an annual 5% inflation rate.</p>
+
+<p>Blockchains with free transactions are vulnerable to spam. EOS combats this by using a completely different resource model. Holding EOS tokens gives an account a set amount of transaction, computation, and storage bandwidth to use. The more EOS tokens a user holds, relative to other users in the system, the more blockchain resources available to the user.</p>
+
+<p>This limit is elastic. In low blockchain usage conditions, each EOS token provides more bandwidth. As overall blockchain usage increases, bandwidth allocation shrinks.</p>
+
+<p>It’s important to note that this bandwidth restriction is enforced by EOS block producers in almost a subjective fashion. Since a block is produced by a single block producer, the producer can reject transactions if the producer believes that the transaction is wasteful.</p>
+
+<h2 id="governance">Governance</h2>
+
+<p>Users holding EOS tokens have a say in the governance of EOS. Users get to vote for block producers and how EOS’s 5% annual inflation is allocated. Each EOS token represents one vote. The top 20 accounts (by votes) are guaranteed to be block producers while the 21st block producer is randomly chosen (chance proportional to the amount of votes an account has).</p>
+
+<p>Being a block producer gives you tremendous power. Producers can collectively choose to freeze EOS accounts, change a smart contract’s code, and propose protocol changes. In addition, the block producers will likely have a significant portion of EOS tokens and thus have a huge influence over EOS’s governance decisions.</p>
+
+<p>EOS also introduces the concept of a blockchain constitution. In order to use the blockchain, users will need to sign the constitution by adding a hash of the constitution into the transaction’s signature. The constitution defines user obligations which cannot be entirely enforced by code. The constitution can be changed through proposals made by the block producers.</p>
+
+<h2 id="and-much-more">And much more…</h2>
+
+<p>EOS is an incredibly complex blockchain and it has many features that make dApp development as easy as possible. These include:</p>
+<ul>
+  <li>a built-in permission management system</li>
+  <li>an account recovery system</li>
+  <li>ability for full nodes to partially evaluate blockchain state</li>
+</ul>
+
+<p>To learn more about EOS’s technology, I highly recommend reading its <a href="https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md">technical whitepaper</a>.</p>
+
+<h1 id="eos-is-designed-for-businesses">EOS is designed for businesses</h1>
+
+<p>Larimer has stated that if EOS is successful, it’d be a blockchain where businesses would run their high performance dApps. These applications could include decentralized exchanges, social networks, and games.</p>
+
+<p>Because EOS scales so well, it’d be able to support all these applications without being bogged down like Ethereum. EOS’s rich feature set also makes it very convenient for businesses to build dApps. On the flip side, dApps on EOS should be very easy and intuitive to use because of its high transaction throughput, fast confirmation times, and free transactions.</p>
+
+<h1 id="eoss-ecosystem-is-gaining-momentum">EOS’s ecosystem is gaining momentum</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/nNteLxP.jpg" /></p>
+
+<p>The company behind EOS, block.one, has a very strong executive team. The team includes Brendan Blumer, a serial entrepreneur who has built businesses like okay.com in Hong Kong and 1Group in India, Richard Jung, a former CEO of Bithumb who has also held an executive position in Alibaba, and of course, the blockchain genius himself, Dan Larimer.</p>
+
+<p>Mike Novogratz, a renowned billionaire ex-hedge fund manager who was an incredibly early investor in Ethereum, has invested in EOS through his venture capital firm, Galaxy Digital. Galaxy Digital and block.one announced in January that they have formed a $325 million fund to invest in EOS’s ecosystem.</p>
+
+<p>Block.one also announced in January that it has formed another EOS ecosystem fund with TomorrowBC, a blockchain investment arm of Eric Schmidt’s venture firm, TomorrowVentures.</p>
+
+<p>In addition to these investment funds, block.one announced in September last year that it will be channeling $1 billion of its token sale proceeds to investing in its ecosystem.</p>
+
+<p>Companies that have announced they will build on EOS include Everipedia, a blockchain-based fork of Wikipedia, and EOSfinx, an EOS-based decentralized exchange operated by Bitfinex.</p>
+
+<p>With so much capital for block.one to deploy, look to seeing more and more companies build dApps on EOS.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 4 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="2933037642" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="project-concerns">Project concerns</h1>
+
+<h2 id="centralized-cartel-with-the-power-to-modify-contracts-and-censor-accounts">Centralized cartel, with the power to modify contracts and censor accounts</h2>
+
+<p>There are huge centralization concerns with EOS. Block producers have tremendous power and the blockchain has weak mechanisms to replace any. If you’re a block producer, you’d likely have a disproportionately large amount of EOS tokens which will basically ensure that you remain as a block producer.</p>
+
+<p>Being a block producer likely entitles you to a large portion of inflation income. You’ll also have the ability to modify contracts and censor accounts. This is a scary amount of power to give to a select few.</p>
+
+<p>It’s also really hard for a user to become a block producer. Besides the paramount task of getting enough votes to be in the top 20 accounts, a user would need to operate high performance computers with large storage capacities (I would not be surprised if this reaches the scale of data centers) in order to support blockchain operations. How else will EOS be able to support so many high performance dApps on its platform?</p>
+
+<p>In the end, I’m quite certain that EOS will become a highly centralized system with the top 20 block producers forming a rigid cartel. Is this worth the ease of development and large performance gains? I don’t think so.</p>
+
+<h2 id="jack-of-all-trades-master-of-none">Jack of all trades, master of none</h2>
+
+<p>EOS is essentially trying to be a blockchain-based AWS. I don’t think this will work out. Blockchains are not designed to be ultra high scale cloud computing platforms. The essence of blockchains is trustless security and tremendous liquidity.</p>
+
+<p>If companies want a high scale cloud computing platform, they’d simply use AWS. AWS is cheap and provides SLAs that a blockchain will never be able to provide. Block producers have varying capabilities because they operate completely different computational and storage hardware. The producers are also able to control which transactions get processed and which don’t without any recourse.</p>
+
+<p>Blockchain platforms like Ethereum and Bitcoin, which although have pitiful performance, provides a level of trustless security and liquidity that AWS will never be able to provide. These core properties are what sets these blockchain platforms apart from any other technology.</p>
+
+<blockquote>
+  <p>Because EOS tries to do both things at once, it will likely devolve into a centralized system that will never be great at any.</p>
+</blockquote>
+
+<p>Because EOS tries to do both things at once, it will likely devolve into a centralized system that will never be great at any. Companies who want performance will use AWS and companies who want trustless security and liquidity will use Ethereum. Besides, Ethereum has some very powerful scaling technologies in its roadmap that do not sacrifice decentralization.</p>
+
+<h1 id="summary">Summary</h1>
+
+<p>EOS tries to fix the scaling problems of existing blockchains in order to create a blockchain that will be ready for widespread adoption. However, its ease of use, performance, and scalability comes with a very expensive tradeoff: centralization.</p>
+
+<p>It’s almost inevitable that EOS will become a highly centralized system with the top 20 block producers forming an unchanging cartel holding the vast majority of power. I really hope this doesn’t happen but I don’t see any way it doesn’t.</p>
+
+<p>I predict that EOS will be a jack of all trades but a master of none. It will not be the Ethereum killer many claim it will be. Having said this, I do believe the technology has a lot of potential and will watch it closely to see whether my prediction comes true.</p>
+
+    </div>
+
+    <ul class="-share-bar">
+      <li>
+        <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+          <i class="fa fa-twitter"></i> Tweet
+        </a>
+      </li>
+      <li>
+        <a class="-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+          <i class="fa fa-facebook"></i> Share
+        </a>
+      </li>
+      <li>
+        <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+          <i class="fa fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-eos/">
+          <i class="fa fa-google-plus"></i> Google
+        </a>
+      </li>
+    </ul>
+    <div class="-ad">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- StoreOfValue Article Bottom -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-0144173183236578"
+           data-ad-slot="7692425485"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <div>
+      <div style="margin-top: 24px; border: solid #555 1px; font-size: 26px; padding: 10px">
+        Tip Jar 🍀
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Ether:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">0xa33Ef019ff0bdE98f951585AA57c1Af7c898fE5c</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">QTUM:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">QZckfa6Cfu8tsjvt1FHBFzcTh8cefYdH6T</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Stellar:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">GC4CDHSXYPSOOJNMBDNVWPACT6UDYDQHPJIOCW4GYTG6ZRTJH2475D3Q</span>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+<script type="text/javascript">
+  var $article_side_bar = $('#article-side-bar');
+  var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
+  var original_article_side_bar_top_offset = $article_side_bar.offset().top;
+  var margin_from_top = 12;
+  var $article = $('article');
+  var $window = $(window);
+  var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+  if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+    $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+    $article_back_button_parent.show();
+  }
+  $window.scroll(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $window.resize(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $('article').find('a').attr('target', '_blank');
+</script>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store of Value</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>A cryptocurrency blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>In July 2010, one bitcoin was worth $0.08 USD. Today, one bitcoin is worth $2500 USD. Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher and a crypto day-trader, I hope to keep you up-to-date with the technology and help identify market opportunities. In this way, I hope that you too, can benefit from crypto.
+</p>
+        <p>
+          <span style="font-weight: bold">Contact me:</span> storeofvalueblog@gmail.com
+        </p>
+        <p>
+          <span style="font-weight: bold">Pageviews per article:</span> 10494
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>

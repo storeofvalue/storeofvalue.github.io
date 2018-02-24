@@ -97,13 +97,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-	  	  <a href="/posts/phishing-attacks-are-everywhere-in-cryptoworld/">Cryptocurrency Phishing Attacks - How One Investor Was Scammed Out Of $100,000</a>
+	  	  <a href="/posts/crypto-scam-spotlight-ethertanks/">Crypto Scam Spotlight: Ethertanks</a>
 	  	</div><div>
-	  	  <a href="/posts/timeline-of-the-chaincoin-scam/">Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
+	  	  <a href="/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/">This User Made 462 Ether ($210,000) in 3 Days Trading CryptoKitties</a>
 	  	</div><div>
-	  	  <a href="/posts/a-deep-dive-into-raiblocks/">A Deep Dive Into Nano/RaiBlocks</a>
+	  	  <a href="/posts/this-is-why-ripples-price-is-surging/">This Is Why Ripple's Price Is Surging</a>
 	  	</div><div>
-	  	  <a href="/posts/bitcoin-cash-how-it-came-to-be/">Timeline Of The Creation Of Bitcoin Cash</a>
+	  	  <a href="/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">Case Study: Building A P2P VPN Network Over The Ethereum Blockchain</a>
 	  	</div>
         </div>
       </div>
@@ -169,18 +169,22 @@
 
 <p>Zap’s ecosystem consists of oracles, subscribers (smart contracts consuming data), and the ZapMarket smart contract that connects and manages payments between the two parties.</p>
 
-<p>An oracle is comprised of:
-* a realtime datafeed
-* an Ethereum address registered with the ZapMarket smart contract
-* an IPFS keypair public key with the ZapMarket contract
-* a data encryption public key registered with the ZapMarket contract
-* a quantity of ZAP bonded to the ZapMarket contract</p>
+<p>An oracle is comprised of:</p>
+<ul>
+  <li>a realtime datafeed</li>
+  <li>an Ethereum address registered with the ZapMarket smart contract</li>
+  <li>an IPFS keypair public key with the ZapMarket contract</li>
+  <li>a data encryption public key registered with the ZapMarket contract</li>
+  <li>a quantity of ZAP bonded to the ZapMarket contract</li>
+</ul>
 
-<p>A subscriber is a smart contract that needs data. It’s comprised of:
-* an Ethereum address registered with the ZapMarket smart contract
-* an IPFS public key registered with the ZapMarket smart contract
-* a data encryption public key registered with ZapMarket smart contract
-* a quantity of ZAP bonded under an existing oracle in the ZapMarket smart contract</p>
+<p>A subscriber is a smart contract that needs data. It’s comprised of:</p>
+<ul>
+  <li>an Ethereum address registered with the ZapMarket smart contract</li>
+  <li>an IPFS public key registered with the ZapMarket smart contract</li>
+  <li>a data encryption public key registered with ZapMarket smart contract</li>
+  <li>a quantity of ZAP bonded under an existing oracle in the ZapMarket smart contract</li>
+</ul>
 
 <p>When a subscriber requires information from a oracle, it “bonds” ZAP tokens to the oracle through the ZapMarket smart contract. In return, the subscriber gets DOTS which it can use to pay for queries for that oracle. When the subscriber makes a query with a DOT, the ZapMarket smart contract facilitates the exchange of IPFS public keys between the two parties. The two parties then establish a private IPFS pubsub room where the oracle can push data to the subscriber.</p>
 
