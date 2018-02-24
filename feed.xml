@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Feb 2018 07:15:40 -0800</pubDate>
-    <lastBuildDate>Sat, 24 Feb 2018 07:15:40 -0800</lastBuildDate>
+    <pubDate>Sat, 24 Feb 2018 10:39:56 -0800</pubDate>
+    <lastBuildDate>Sat, 24 Feb 2018 10:39:56 -0800</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -119,7 +119,7 @@
 
 &lt;p&gt;It’s important to note that this bandwidth restriction is enforced by EOS block producers in almost a subjective fashion. Since a block is produced by a single block producer, the producer can reject transactions if the producer believes that the transaction is wasteful.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-does-eoss-self-gzovernance-system-work&quot;&gt;How does EOS’s self-gzovernance system work?&lt;/h2&gt;
+&lt;h2 id=&quot;how-does-eoss-self-governance-system-work&quot;&gt;How does EOS’s self-governance system work?&lt;/h2&gt;
 
 &lt;p&gt;Users holding EOS tokens have a say in the governance of EOS. Users get to vote for block producers and how EOS’s 5% annual inflation is allocated. Each EOS token represents one vote. The top 20 accounts (by votes) are guaranteed to be block producers while the 21st block producer is randomly chosen (chance proportional to the amount of votes an account has).&lt;/p&gt;
 
