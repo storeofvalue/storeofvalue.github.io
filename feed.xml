@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Feb 2018 06:39:59 -0800</pubDate>
-    <lastBuildDate>Sat, 24 Feb 2018 06:39:59 -0800</lastBuildDate>
+    <pubDate>Sat, 24 Feb 2018 06:52:05 -0800</pubDate>
+    <lastBuildDate>Sat, 24 Feb 2018 06:52:05 -0800</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -74,7 +74,7 @@
 
 &lt;p&gt;To do so, EOS needs to have high-scale, support parallelized dApp execution, free transactions, and a self-governing system.&lt;/p&gt;
 
-&lt;h2 id=&quot;consensus-algorithm-and-inflation&quot;&gt;Consensus algorithm and inflation&lt;/h2&gt;
+&lt;h2 id=&quot;dpos-consensus-algorithm-and-a-5-annual-inflation&quot;&gt;DPoS consensus algorithm and a 5% annual inflation&lt;/h2&gt;
 
 &lt;p&gt;EOS uses a consensus algorithm developed by Dan Larimer. The algorithm closely resembles delegated Proof of Stake (dPoS) algorithms so I’ll refer to it as dPoS in this article.&lt;/p&gt;
 
@@ -92,7 +92,7 @@
 
 &lt;p&gt;EOS’s novel blockchain architecture augments its dPoS algorithm to enable EOS to scale to millions of transactions per second. The architecture is messaged-based and supports parallelized dApp execution. You can read more about its architecture &lt;a href=&quot;http://iang.org/papers/EOS_An_Introduction.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;dapp-parallelization&quot;&gt;dApp parallelization&lt;/h2&gt;
+&lt;h2 id=&quot;eos-supports-dapp-parallelization&quot;&gt;EOS supports dApp parallelization&lt;/h2&gt;
 
 &lt;p&gt;As mentioned above, EOS is capable of parallelized dApp execution.&lt;/p&gt;
 
@@ -109,7 +109,7 @@
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h2 id=&quot;free-transactions&quot;&gt;Free transactions&lt;/h2&gt;
+&lt;h2 id=&quot;eos-transactions-are-free&quot;&gt;EOS transactions are free&lt;/h2&gt;
 
 &lt;p&gt;Transactions in EOS are free. Block producers are compensated partly by an annual 5% inflation rate.&lt;/p&gt;
 
@@ -119,7 +119,7 @@
 
 &lt;p&gt;It’s important to note that this bandwidth restriction is enforced by EOS block producers in almost a subjective fashion. Since a block is produced by a single block producer, the producer can reject transactions if the producer believes that the transaction is wasteful.&lt;/p&gt;
 
-&lt;h2 id=&quot;governance&quot;&gt;Governance&lt;/h2&gt;
+&lt;h2 id=&quot;how-does-eoss-self-gzovernance-system-work&quot;&gt;How does EOS’s self-gzovernance system work?&lt;/h2&gt;
 
 &lt;p&gt;Users holding EOS tokens have a say in the governance of EOS. Users get to vote for block producers and how EOS’s 5% annual inflation is allocated. Each EOS token represents one vote. The top 20 accounts (by votes) are guaranteed to be block producers while the 21st block producer is randomly chosen (chance proportional to the amount of votes an account has).&lt;/p&gt;
 
