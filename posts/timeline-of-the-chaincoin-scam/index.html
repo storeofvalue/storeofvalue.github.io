@@ -96,13 +96,11 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/crazy-things-that-have-happened-in-crypto/">Crazy Things That Have Happened With Cryptocurrencies</a>
+          <a href="/posts/whats-antshares-neo-and-why-you-should-be-watching-it/">What's Antshares/NEO And Why Should You Be Watching It?</a>
         </div><div>
-          <a href="/posts/rumour-mill-is-amazon-accepting-bitcoin/">Rumour Mill: Is Amazon Going To Accept Bitcoin?</a>
+          <a href="/posts/phishing-attacks-are-everywhere-in-cryptoworld/">Cryptocurrency Phishing Attacks - How One Investor Was Scammed Out Of $100,000</a>
         </div><div>
-          <a href="/posts/cryptocurrency-hacks-so-far-august-24th/">List Of High Profile Cryptocurrency Hacks So Far (August 24th 2017)</a>
-        </div><div>
-          <a href="/posts/segwit2x-could-be-the-biggest-bear-trap/">Why Bitcoin's Segwit2x Could Be The Biggest Bear Trap This Year</a>
+          <a href="/posts/a-deep-dive-into-theta/">A Deep Dive Into Theta</a>
         </div>
         </div>
       </div>
@@ -309,7 +307,7 @@
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
   var original_article_side_bar_top_offset = $article_side_bar.offset().top;
-  var margin_from_top = 12;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
   var $article = $('article');
   var $window = $(window);
   var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');

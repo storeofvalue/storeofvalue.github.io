@@ -96,13 +96,11 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/bitcoin-cash-how-it-came-to-be/">Timeline Of The Creation Of Bitcoin Cash</a>
+          <a href="/posts/cancelling-segwit2x-defeat-for-bitcoin/">Why Cancelling SegWit2x Could Be (Really) Bad For Bitcoin</a>
         </div><div>
-          <a href="/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/">This User Made 462 Ether ($210,000) in 3 Days Trading CryptoKitties</a>
+          <a href="/posts/crazy-things-that-have-happened-in-crypto/">Crazy Things That Have Happened With Cryptocurrencies</a>
         </div><div>
-          <a href="/posts/whats-antshares-neo-and-why-you-should-be-watching-it/">What's Antshares/NEO And Why Should You Be Watching It?</a>
-        </div><div>
-          <a href="/posts/waves-what-is-it-and-should-you-invest/">WAVES: What Is It And Should You Invest?</a>
+          <a href="/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/">NEO Responded To My Article - And It Confirmed My Worst Fears</a>
         </div>
         </div>
       </div>
@@ -236,7 +234,7 @@
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
   var original_article_side_bar_top_offset = $article_side_bar.offset().top;
-  var margin_from_top = 12;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
   var $article = $('article');
   var $window = $(window);
   var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');

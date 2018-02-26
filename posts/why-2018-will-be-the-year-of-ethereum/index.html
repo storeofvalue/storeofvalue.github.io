@@ -96,13 +96,11 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/how-centralized-is-neo/">I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor</a>
+          <a href="/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/">This User Made 462 Ether ($210,000) in 3 Days Trading CryptoKitties</a>
         </div><div>
-          <a href="/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/">NEO vs QTUM: An Objective Comparison</a>
+          <a href="/posts/iota-what-is-it-and-should-you-invest/">What Is IOTA And Should You Invest?</a>
         </div><div>
-          <a href="/posts/definitive-bull-case-for-ethereum/">The Definitive Bull Case For Ethereum</a>
-        </div><div>
-          <a href="/posts/rumour-mill-is-amazon-accepting-bitcoin/">Rumour Mill: Is Amazon Going To Accept Bitcoin?</a>
+          <a href="/posts/timeline-of-the-chaincoin-scam/">Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
         </div>
         </div>
       </div>
@@ -398,7 +396,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>.</p>
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
   var original_article_side_bar_top_offset = $article_side_bar.offset().top;
-  var margin_from_top = 12;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
   var $article = $('article');
   var $window = $(window);
   var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');

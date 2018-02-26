@@ -98,11 +98,9 @@
           <div>
           <a href="/posts/is-chaincoin-a-pump-and-dump-scheme/">Is ChainCoin A Pump And Dump Scheme?</a>
         </div><div>
-          <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
+          <a href="/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/">Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</a>
         </div><div>
-          <a href="/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">Case Study: Building A P2P VPN Network Over The Ethereum Blockchain</a>
-        </div><div>
-          <a href="/posts/whats-antshares-neo-and-why-you-should-be-watching-it/">What's Antshares/NEO And Why Should You Be Watching It?</a>
+          <a href="/posts/how-centralized-is-neo/">I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor</a>
         </div>
         </div>
       </div>
@@ -375,7 +373,7 @@
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
   var original_article_side_bar_top_offset = $article_side_bar.offset().top;
-  var margin_from_top = 12;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
   var $article = $('article');
   var $window = $(window);
   var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');

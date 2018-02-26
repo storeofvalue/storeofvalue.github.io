@@ -99,13 +99,11 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/what-is-qtum-without-the-bullshit/">QTUM Beginner's FAQ (Without The Bullshit)</a>
-        </div><div>
-          <a href="/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/">What Is The Ethereum Enterprise Alliance?</a>
-        </div><div>
-          <a href="/posts/omisego-what-is-it-and-should-you-invest/">OmiseGo (OMG): What Is It And Should You Invest?</a>
-        </div><div>
           <a href="/posts/how-centralized-is-neo/">I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor</a>
+        </div><div>
+          <a href="/posts/is-chaincoin-a-pump-and-dump-scheme/">Is ChainCoin A Pump And Dump Scheme?</a>
+        </div><div>
+          <a href="/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/">Bitcoin vs Bitcoin Cash: Everything You Need To Know</a>
         </div>
         </div>
       </div>
@@ -337,7 +335,7 @@
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
   var original_article_side_bar_top_offset = $article_side_bar.offset().top;
-  var margin_from_top = 12;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
   var $article = $('article');
   var $window = $(window);
   var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');

@@ -96,13 +96,11 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/iota-what-is-it-and-should-you-invest/">What Is IOTA And Should You Invest?</a>
+          <a href="/posts/phishing-attacks-are-everywhere-in-cryptoworld/">Cryptocurrency Phishing Attacks - How One Investor Was Scammed Out Of $100,000</a>
         </div><div>
-          <a href="/posts/smart-contracts-are-great/">Smart Contracts Are The Future</a>
+          <a href="/posts/definitive-bull-case-for-ethereum/">The Definitive Bull Case For Ethereum</a>
         </div><div>
-          <a href="/posts/stellar-lumens-what-is-it-and-should-you-invest/">A Deep Dive Into Stellar Lumens</a>
-        </div><div>
-          <a href="/posts/rumour-mill-is-amazon-accepting-bitcoin/">Rumour Mill: Is Amazon Going To Accept Bitcoin?</a>
+          <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
         </div>
         </div>
       </div>
@@ -343,7 +341,7 @@ I’m excited to be part of the next evolution of the streaming space, helping T
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
   var original_article_side_bar_top_offset = $article_side_bar.offset().top;
-  var margin_from_top = 12;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
   var $article = $('article');
   var $window = $(window);
   var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');

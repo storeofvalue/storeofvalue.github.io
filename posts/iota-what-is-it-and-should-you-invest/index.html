@@ -96,13 +96,11 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/why-2018-will-be-the-year-of-ethereum/">Why 2018 Will Be The Year Of Ethereum And QTUM</a>
+          <a href="/posts/definitive-bull-case-for-ethereum/">The Definitive Bull Case For Ethereum</a>
         </div><div>
-          <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
+          <a href="/posts/what-is-ripple-and-should-you-invest/">What Is Ripple And Should You Invest?</a>
         </div><div>
-          <a href="/posts/cryptokitties-the-aftermath/">CryptoKitties - The Aftermath</a>
-        </div><div>
-          <a href="/posts/a-deep-dive-into-eos/">A Deep Dive Into EOS</a>
+          <a href="/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/">NEO vs QTUM: An Objective Comparison</a>
         </div>
         </div>
       </div>
@@ -371,7 +369,7 @@
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
   var original_article_side_bar_top_offset = $article_side_bar.offset().top;
-  var margin_from_top = 12;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
   var $article = $('article');
   var $window = $(window);
   var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');

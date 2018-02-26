@@ -96,13 +96,11 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/timeline-of-the-chaincoin-scam/">Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
+          <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
         </div><div>
-          <a href="/posts/why-is-eth-crashing/">Why Is ETH Crashing?</a>
+          <a href="/posts/why-2018-will-be-the-year-of-ethereum/">Why 2018 Will Be The Year Of Ethereum And QTUM</a>
         </div><div>
-          <a href="/posts/omisego-what-is-it-and-should-you-invest/">OmiseGo (OMG): What Is It And Should You Invest?</a>
-        </div><div>
-          <a href="/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/">What Is The Ethereum Enterprise Alliance?</a>
+          <a href="/posts/is-china-banning-cryptocurrency-exchanges-everything-we-know-so-far/">Is China Banning Cryptocurrency Exchanges? - Everything We Know So Far</a>
         </div>
         </div>
       </div>
@@ -305,7 +303,7 @@
   var $article_side_bar = $('#article-side-bar');
   var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
   var original_article_side_bar_top_offset = $article_side_bar.offset().top;
-  var margin_from_top = 12;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
   var $article = $('article');
   var $window = $(window);
   var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');

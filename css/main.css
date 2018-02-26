@@ -495,58 +495,69 @@ pre {
   margin-bottom: 24px;
   color: #333; }
 
-.site-header .site-title {
-  letter-spacing: normal;
-  line-height: normal; }
-  .site-header .site-title .-title {
-    margin-top: 8px;
-    margin-bottom: 3px;
-    line-height: 33px; }
-  .site-header .site-title .-subtitle {
-    font-size: 16px;
-    color: #777;
-    margin-bottom: 12px;
-    line-height: 20px; }
-  .site-header .site-title:hover {
-    text-decoration: none; }
-    .site-header .site-title:hover .-title {
-      color: #888; }
-    .site-header .site-title:hover .-subtitle {
-      color: #888; }
-.site-header .-right-parent {
-  display: inline-block;
-  float: right; }
-  .site-header .-right-parent .-twitter-follow-parent {
-    box-sizing: border-box;
-    height: 76px;
+.site-header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 5px #888888; }
+  .site-header .site-title {
+    letter-spacing: normal;
+    line-height: normal; }
+    .site-header .site-title .-title {
+      margin-top: 8px;
+      margin-bottom: 3px;
+      line-height: 33px; }
+    .site-header .site-title .-subtitle {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 12px;
+      line-height: 20px; }
+    .site-header .site-title:hover {
+      text-decoration: none; }
+      .site-header .site-title:hover .-title {
+        color: #888; }
+      .site-header .site-title:hover .-subtitle {
+        color: #888; }
+  .site-header .-right-parent {
     display: inline-block;
-    font-size: 0;
-    padding-top: 19.5px; }
-    .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button {
-      color: white;
-      background-color: #0eaad6;
-      padding: 5px 10px;
-      height: 37px;
-      line-height: 27px;
-      box-sizing: border-box; }
-      .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button i, .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button span {
-        font-size: 18px; }
-      .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button i {
-        margin-right: 5px; }
-      .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button:hover {
-        background-color: #51cff3; }
-    .site-header .-right-parent .-twitter-follow-parent a:hover, .site-header .-right-parent .-twitter-follow-parent a:focus, .site-header .-right-parent .-twitter-follow-parent a:active {
-      text-decoration: none !important; }
-  .site-header .-right-parent .-logos-parent {
-    margin-left: 12px;
-    display: inline-block;
-    height: 76px;
-    vertical-align: top;
-    font-size: 0; }
-    .site-header .-right-parent .-logos-parent img {
-      height: 40px;
-      margin-top: 18px;
-      margin-left: 5px; }
+    float: right; }
+    .site-header .-right-parent .-twitter-follow-parent {
+      box-sizing: border-box;
+      height: 76px;
+      display: inline-block;
+      font-size: 0;
+      padding-top: 19.5px; }
+      .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button {
+        color: white;
+        background-color: #0eaad6;
+        padding: 5px 10px;
+        height: 37px;
+        line-height: 27px;
+        box-sizing: border-box; }
+        .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button i, .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button span {
+          font-size: 18px; }
+        .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button i {
+          margin-right: 5px; }
+        .site-header .-right-parent .-twitter-follow-parent a .-twitter-follow-button:hover {
+          background-color: #51cff3; }
+      .site-header .-right-parent .-twitter-follow-parent a:hover, .site-header .-right-parent .-twitter-follow-parent a:focus, .site-header .-right-parent .-twitter-follow-parent a:active {
+        text-decoration: none !important; }
+    .site-header .-right-parent .-logos-parent {
+      margin-left: 12px;
+      display: inline-block;
+      height: 76px;
+      vertical-align: top;
+      font-size: 0; }
+      .site-header .-right-parent .-logos-parent img {
+        height: 40px;
+        margin-top: 18px;
+        margin-left: 5px; }
+
+body {
+  padding-top: 82px; }
 
 .banner {
   background-image: url("https://i.imgur.com/P21NAOq.jpg");
