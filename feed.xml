@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Feb 2018 19:38:37 -0800</pubDate>
-    <lastBuildDate>Sun, 25 Feb 2018 19:38:37 -0800</lastBuildDate>
+    <pubDate>Sun, 25 Feb 2018 19:39:41 -0800</pubDate>
+    <lastBuildDate>Sun, 25 Feb 2018 19:39:41 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -155,8 +155,6 @@
 &lt;h1 id=&quot;people-have-problems-building-neo-smart-contracts&quot;&gt;People have problems building NEO smart contracts&lt;/h1&gt;
 
 &lt;p&gt;It’s becoming increasingly evident that smart contract developers are encountering many problems developing on NEO. Several have even accused the system of being poorly coded. To make matters worse, NEO’s team has imposed a tremendous financial barrier to deploying smart contracts. The fee to deploy a smart contract is 500 GAS, which is more than $15,000 at the current price of GAS. These problems explain why there are so few smart contracts on NEO, and why the rate of growth of NEO smart contracts is so anemic.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/HhkYhMm.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
