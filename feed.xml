@@ -6,9 +6,191 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Feb 2018 15:18:07 -0800</pubDate>
-    <lastBuildDate>Sat, 24 Feb 2018 15:18:07 -0800</lastBuildDate>
+    <pubDate>Sun, 25 Feb 2018 16:25:08 -0800</pubDate>
+    <lastBuildDate>Sun, 25 Feb 2018 16:25:08 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>NEO Is A Multi-Billion Dollar Disaster</title>
+        <description>&lt;p&gt;Many of my readers know that I have been highly critical of NEO. This has brought me the ire of NEO’s community. However, I’m not going to stop warning the larger cryptocurrency community of questionable projects because this is how we grow together and this is how a legitimate industry is built.&lt;/p&gt;
+
+&lt;p&gt;As I continue to research NEO and follow its community, I continue to find more and more red flags surrounding this multi-billion dollar project. In a previous post, I talked about how NEO was &lt;a href=&quot;http://storeofvalueblog.com/posts/major-neo-redflags/&quot;&gt;incredibly centralized&lt;/a&gt;, that the network had an alarmingly small number of smart contracts, and that there was no Eastern interest even though a rumour kept getting propagated that NEO is compliant with the Chinese government and has its support.&lt;/p&gt;
+
+&lt;p&gt;Now, as more and more ICOs start to be conducted on NEO, I’m seeing a serious divergence between the platform’s advertised performance and its actual performance. Da Hongfei, NEO’s cofounder, has claimed that NEO is able to support 1000 transactions per second. However, if you follow the community closely, you’ll realise that this claim is quite dubious. Whenever an ICO is run on NEO, you will see complaint after complaint of the network being down or wallets not working. This is not characteristic of a blockchain capable of 1000 transactions per second.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/OkikZmH.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s also been increasingly evident that NEO’s smart contract infrastructure has issues as well. Many developers that have tried to build on NEO have encountered heaps of problems with the system. To make matters worse, NEO forces developers to pay tens of thousands of dollars simply to deploy a smart contract.&lt;/p&gt;
+
+&lt;p&gt;In this article, I’ve compiled a series of social media comments from NEO’s community lamenting its problems. Don’t take my word on how problematic NEO is, here’s what its own investors are saying about NEO.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;single-icos-are-bringing-neos-network-to-a-halt&quot;&gt;Single ICOs are bringing NEO’s network to a halt&lt;/h1&gt;
+
+&lt;p&gt;NEO has experienced major outages during ICOs. It’s interesting to note that NEO has so far hosted at most one concurrent ICO on its platform and still, its network is not able to handle the load. For a centralized platform that is supposedly capable of running 1000 transactions/second, not being able to handle load from a single ICO is very very surprising.&lt;/p&gt;
+
+&lt;p&gt;Here are a few ICOs that have caused significant network outages on NEO recently.&lt;/p&gt;
+
+&lt;h2 id=&quot;trinity-network-credit&quot;&gt;Trinity Network Credit&lt;/h2&gt;
+
+&lt;p&gt;During Trinity’s ICO, NEO’s network went down for almost half an hour. The popular NEON wallet by the City of Zion also stopped working and users were not able to send transactions, claim gas, or sync their balance. It also seems like the ICO was organized very poorly by the admins, with the website going down and the Telegram group filled with trolls and scammers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Blocks 1816382 and 1816382 were produced during the Trinity ICO. Notice how it took 25 minutes for NEO’s network to create block 1816382. It then took another 12 minutes to create block 1816383. The network resumed normal operation after block 1816383 with new blocks being created every 30 seconds or so. This is indisputable evidence that the blockchain went down during the ICO.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/4972eQC.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7qdjpo/40_minutes_of_trinity_ico/&quot;&gt;https://www.reddit.com/r/NEO/comments/7qdjpo/40_minutes_of_trinity_ico/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Here’s further confirmation that the network went down. Users are also discussing a NEON wallet outage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/KMM8wMN.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7qdjpo/40_minutes_of_trinity_ico/dsoh8ug/&quot;&gt;https://www.reddit.com/r/NEO/comments/7qdjpo/40_minutes_of_trinity_ico/dsoh8ug/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Here’s evidence that the ICO was managed poorly. The admins were apparently also exhibiting very questionable behaviour calling people to send NEO even after the cap was reached.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/ifK2ArX.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7qd4a9/trinity_ico_mega_successful_scaling_is_coming_to/dsp5ji3/&quot;&gt;https://www.reddit.com/r/NEO/comments/7qd4a9/trinity_ico_mega_successful_scaling_is_coming_to/dsp5ji3/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/nzikb6E.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7qd4a9/trinity_ico_mega_successful_scaling_is_coming_to/dsohecs/&quot;&gt;https://www.reddit.com/r/NEO/comments/7qd4a9/trinity_ico_mega_successful_scaling_is_coming_to/dsohecs/&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;thekey&quot;&gt;TheKEY&lt;/h2&gt;
+
+&lt;p&gt;Like Trinity, TheKEY’s ICO went poorly. Again, NEO’s network sputtered and the ICO itself was terribly organized. Here’s a very good article on the fiasco: &lt;a href=&quot;https://71republic.com/2018/01/15/thekey-rip-the-story-behind-the-worst-ico-of-2018/&quot;&gt;THEKEY.RIP: The Story Behind The Worst ICO of 2018&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Here’s an excerpt from the article linked above.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/zIaJkIg.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/nqCDUWd.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/CryptoCurrency/comments/7qiz8w/the_key_vip_worst_ico_of_2018_so_far/&quot;&gt;https://www.reddit.com/r/CryptoCurrency/comments/7qiz8w/the_key_vip_worst_ico_of_2018_so_far/&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 3 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;3806401153&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;bridge-protocol&quot;&gt;Bridge Protocol&lt;/h2&gt;
+
+&lt;p&gt;The Bridge Protocol’s ICO is the latest ICO disaster on NEO. Again, the blockchain and wallets went down during the ICO.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/Ef7xFPO.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dunstm1/&quot;&gt;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dunstm1/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/RqLhV6B.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dunm00g/&quot;&gt;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dunm00g/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/3z2rOfN.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dupxev0/&quot;&gt;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dupxev0/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/sC6bQYg.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/duoy8ke/&quot;&gt;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/duoy8ke/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 400px; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/0ap27DM.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A Bridge Protocol admin blames the problem on NEO’s blockchain.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/PCgdaQA.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7zfnmh/neon_014_not_working/dunzlyx/&quot;&gt;https://www.reddit.com/r/NEO/comments/7zfnmh/neon_014_not_working/dunzlyx/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;NEO admits that there are ongoing problems with nodes on the network. This prompts some investors to question NEO’s advertised capability of being able to support 1000 transactions per second.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/jRq4SJQ.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dunw78b/&quot;&gt;https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dunw78b/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I found this post by a member of NEO’s team incredibly interesting. It seems like NEO cannot afford to maintain scalable infrastructure to support the blockchain. Even worse, it seems like they can’t even muster up the funds to hire protocol developers. I have not seen a single cryptocurrency team ask its community to help pay for protocol developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/iFCbbBx.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7zx7ur/public_call_for_projects_launching_in_neo/&quot;&gt;https://www.reddit.com/r/NEO/comments/7zx7ur/public_call_for_projects_launching_in_neo/&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 4 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;2933037642&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;people-have-problems-building-neo-smart-contracts&quot;&gt;People have problems building NEO smart contracts&lt;/h1&gt;
+
+&lt;p&gt;It’s becoming increasingly evident that smart contract developers are encountering many problems developing on NEO. Several have even accused the system of being poorly coded. To make matters worse, NEO’s team has imposed a tremendous financial barrier to deploying smart contracts. The fee to deploy a smart contract is 500 GAS, which is more than $15,000 at the current price of GAS. These problems explain why there are so few smart contracts on NEO, and why the rate of growth of NEO smart contracts is so anemic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/HhkYhMm.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The head developer of a popular Ethereum dApp, Etheremon, recalls his experience developing on NEO.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/iFCbbBx.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/BATProject/comments/74vbd7/good_job_major_issues_are_clear_preview_version/do2781g/&quot;&gt;https://www.reddit.com/r/BATProject/comments/74vbd7/good_job_major_issues_are_clear_preview_version/do2781g/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Here is a post on NEO’s subreddit calling for smart contract developers to keep trying and not be &lt;strong&gt;demoralized&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/eTgn0nt.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7yvzxa/a_message_to_all_new_neo_smart_contract_developers/&quot;&gt;https://www.reddit.com/r/NEO/comments/7yvzxa/a_message_to_all_new_neo_smart_contract_developers/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The NEO community’s initiative to setup a NEO Stackexchange community was recently denied on the grounds of a lack of interest.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/9wCbtsy.jpg&quot; /&gt;
+&lt;a href=&quot;https://www.reddit.com/r/NEO/comments/7yvzxa/a_message_to_all_new_neo_smart_contract_developers/dulcivl/&quot;&gt;https://www.reddit.com/r/NEO/comments/7yvzxa/a_message_to_all_new_neo_smart_contract_developers/dulcivl/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;I was one of the earliest cryptocurrency analysts to raise red flags on NEO. Now that usage of the platform has increased with more attention on the project, its problems are becoming more and more evident. The number of unexplained network outages is rising and more and more smart contract developers are being turned away from developing on NEO.&lt;/p&gt;
+
+&lt;p&gt;Guys, be careful out there. Please invest wisely.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Feb 2018 13:01:23 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/neos-secret-scaling-issues/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/neos-secret-scaling-issues/</guid>
+        
+        
+      </item>
     
       <item>
         <title>A Deep Dive Into EOS</title>
@@ -1274,172 +1456,6 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         <pubDate>Fri, 29 Dec 2017 13:52:06 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/this-is-why-ripples-price-is-surging/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/this-is-why-ripples-price-is-surging/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>This User Made 462 Ether ($210,000) in 3 Days Trading CryptoKitties</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/WhmB4m8.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In my &lt;a href=&quot;http://storeofvalueblog.com/posts/cryptokitties-the-aftermath/&quot;&gt;“CryptoKitties - The Aftermath” article&lt;/a&gt;, I wrote about how Kitty #23 was flipped for more than 210 ether (about $94,500 at the time) over 4 days. Turns out, the guy who did one of those tremendously profitable trades read my article and reached out to me with an even wilder story. In 3 days, he made 462 ether trading CryptoKitties. 462 ether was worth $210,000 at the time and $323,400 today. We did an informal interview over email. Here is his CryptoKitties story.&lt;/p&gt;
-
-&lt;p&gt;In our email conversation, this user went by the moniker Dapper Kittie. Dapper Kittie has been involved with Bitcoin since 2012. CoinMarketCap’s Bitcoin chart doesn’t even go back that far. He made his first purchase of Bitcoin through Coinbase in early 2013 for about $20 each. He was an early enough customer of Coinbase that when he reached out to customer support, the founder, Brian Armstrong replied. Coinbase had yet to hire their first employee, Olaf Carlson-Wee.&lt;/p&gt;
-
-&lt;p&gt;With his early entrance into the cryptocurrency scene and a knack for trading, Dapper Kittie was quite well off even before his success with CryptoKitties. He currently works from home as a cryptocurrency trader.&lt;/p&gt;
-
-&lt;p&gt;Dapper Kittie discovered CryptoKitties when he saw a post on social media about the 246 ether sale of Genesis Founder Cat #1. This peaked his interest with the dApp but he was still hesitant to pull the trigger; he thought it was just a wash sale to generate hype. Nevertheless, he kept a close eye on the CryptoKitties market since he believed there could be some value in these virtual cats.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;primary-market-buying-the-newly-released-founder-cats&quot;&gt;Primary Market: Buying the newly released Founder Cats&lt;/h1&gt;
-
-&lt;p&gt;Sure enough, he noticed that the rare “Founder Cats” were slowly being bought up. Founder cats were incredibly rare cats created by the CryptoKitties team to fund the development of the dApp. The team created 100 of these rare cats. They were initially valued as such: 250 ether for founder cat #1, 50 ether for founder cats #2-10, and 10 ether for founder cats #11-100. These values slowly decreased over time until settling at a price floor.&lt;/p&gt;
-
-&lt;p&gt;Dapper Kittie started noticing that several of these founder cats were being bought and resold for huge profits. For example, founder cat #88 was bought for 10 ether and resold for 78 ether! 8 is a lucky number in China. This resale got Dapper Kittie to commit and he decided to buy founder cat #42 (because of The Hitchhiker’s Guide to the Galaxy) for 10 ether and founder cat #7 (lucky 7?) for 50 ether.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/TEmP7Dc.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Upon commiting 60 ether, he was content with his two founder cats when he noticed two accounts that swooped in to buy up all the remaining low number founder cats. This caused him to purchase founder cats #45 and #47 before every other founder cat was bought up. All in all, he invested 80 ether into the founder cats.&lt;/p&gt;
-
-&lt;p&gt;One of the accounts that was buying founder cats en masse went by the name &lt;a href=&quot;https://www.cryptokitties.co/profile/0x88ba6d5a7abe727d73b0f4c7965775b959646f7e&quot;&gt;“US Treasury”&lt;/a&gt;. Dapper Kittie first noticed that US Treasury relisted several 10 ether founder cats at 30 ether and they were quickly sold! Dapper Kittie did the same with two of his 10 ether founder cats and both of them were quickly sold. A nice tripling in investment, not bad.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, the founder cats were getting more and more expensive. Cat #2 was resold for 150 ether but this was cheap at the time given that many single digit founder cats started selling for 300+ ether. Dapper Kittie decided to up his own prices and sold cat #42 at 75 ether (65 ether profit) and cat #7 at a whopping 190 ether (140 ether profit).&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;secondary-market-buying-relisted-founder-cats&quot;&gt;Secondary Market: Buying relisted Founder Cats&lt;/h1&gt;
-
-&lt;p&gt;Having sold all of his original founder cats at a tremendous profit, Dapper Kittie decided to dabble in the secondary founder cat market. He started buying cheap founder cats being relisted by other traders.&lt;/p&gt;
-
-&lt;p&gt;At this point, he had made enough from selling his original founder cats that he was just playing with profits. One of the cats that he bought during this time was founder cat #23. He bought it at 70 ether and resold it 24 hours later for 133.9 ether.&lt;/p&gt;
-
-&lt;p&gt;After flipping a few more secondary market cats, Dapper Kittie was ready to call it quits when a big opportunity jumped in front of him. Someone who evidently wasn’t paying close attention to the market decided to sell two founder cats for only 50 ether each, a far cry from the average market price of ~150 ether.&lt;/p&gt;
-
-&lt;p&gt;Not surprisingly, he jumped at the opportunity and amped up the gas he was willing to pay for his transactions to buy the two cats (the fee was peanuts compared to the amount of ether he was sending). The Ethereum network was quite congested at this point from the CryptoKitties mania and Dapper Kittie could only hope that no one was able to front run him.&lt;/p&gt;
-
-&lt;p&gt;Luckily, he was able to nab both of the cheap founder cats for 50 ether each and resell them for 125 ether and 126 ether a couple hours later. These two cats were both sold to the US treasury account mentioned earlier but has since not been bought by anyone else. The two cats are still being listed for 100 ether each right now.&lt;/p&gt;
-
-&lt;h1 id=&quot;getting-out-before-the-bubble-pops&quot;&gt;Getting out before the bubble pops&lt;/h1&gt;
-
-&lt;p&gt;At this point, with most of his cats sold, Dapper Kittie was ready to call it quits. His last cat was sold for 95 ether (25 ether profit). A few days later, the CryptoKitties bubble popped and prices for the cats nosedived.&lt;/p&gt;
-
-&lt;p&gt;Dapper Kittie was apt enough to identify the mania and left early with tremendous profits. In the end, he made 462 ether over the span of 3 days trading CryptoKitties. This was worth about $210,000 at the time. Definitely not bad for 3 days of trading.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;CAT&lt;/th&gt;
-      &lt;th&gt;BOUGHT (eth)&lt;/th&gt;
-      &lt;th&gt;SOLD (eth)&lt;/th&gt;
-      &lt;th&gt;PROFIT (-fees)&lt;/th&gt;
-      &lt;th&gt;BOUGHT&lt;/th&gt;
-      &lt;th&gt;SOLD&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;49.21&lt;/td&gt;
-      &lt;td&gt;190.05&lt;/td&gt;
-      &lt;td&gt;133.71&lt;/td&gt;
-      &lt;td&gt;12/3 21:28&lt;/td&gt;
-      &lt;td&gt;12/4 19:45&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;42&lt;/td&gt;
-      &lt;td&gt;9.86&lt;/td&gt;
-      &lt;td&gt;75.08&lt;/td&gt;
-      &lt;td&gt;62.41&lt;/td&gt;
-      &lt;td&gt;12/3 9:21&lt;/td&gt;
-      &lt;td&gt;12/4 8:19&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;23&lt;/td&gt;
-      &lt;td&gt;69.14&lt;/td&gt;
-      &lt;td&gt;133.88&lt;/td&gt;
-      &lt;td&gt;59.71&lt;/td&gt;
-      &lt;td&gt;12/4 8:38&lt;/td&gt;
-      &lt;td&gt;12/5 7:07&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;45&lt;/td&gt;
-      &lt;td&gt;9.84&lt;/td&gt;
-      &lt;td&gt;35.06&lt;/td&gt;
-      &lt;td&gt;23.90&lt;/td&gt;
-      &lt;td&gt;12/3 19:39&lt;/td&gt;
-      &lt;td&gt;12/4 7:24&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;47&lt;/td&gt;
-      &lt;td&gt;9.84&lt;/td&gt;
-      &lt;td&gt;30.17&lt;/td&gt;
-      &lt;td&gt;19.19&lt;/td&gt;
-      &lt;td&gt;12/3 19:47&lt;/td&gt;
-      &lt;td&gt;12/4 6:27&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;27&lt;/td&gt;
-      &lt;td&gt;70.46&lt;/td&gt;
-      &lt;td&gt;95.33&lt;/td&gt;
-      &lt;td&gt;21.29&lt;/td&gt;
-      &lt;td&gt;12/4 8:46&lt;/td&gt;
-      &lt;td&gt;12/7 13:27&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;52&lt;/td&gt;
-      &lt;td&gt;50.15&lt;/td&gt;
-      &lt;td&gt;125.73&lt;/td&gt;
-      &lt;td&gt;70.87&lt;/td&gt;
-      &lt;td&gt;12/6 5:15&lt;/td&gt;
-      &lt;td&gt;12/6 6:01&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;93&lt;/td&gt;
-      &lt;td&gt;50.32&lt;/td&gt;
-      &lt;td&gt;126.03&lt;/td&gt;
-      &lt;td&gt;70.98&lt;/td&gt;
-      &lt;td&gt;12/6 5:30&lt;/td&gt;
-      &lt;td&gt;12/6 7:26&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Total&lt;/td&gt;
-      &lt;td&gt;318.84&lt;/td&gt;
-      &lt;td&gt;811.33&lt;/td&gt;
-      &lt;td&gt;462.06&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Asked what he planned to do with all this extra capital, he said that he wants to give back to charity by donating to animal rescue and welfare groups.&lt;/p&gt;
-
-&lt;p&gt;This is his CryptoKitties address: &lt;a href=&quot;https://etherscan.io/txs?a=0xa3e6fea802c91140b832127aea816ce78b0be0de&amp;amp;p=1&quot;&gt;https://etherscan.io/txs?a=0xa3e6fea802c91140b832127aea816ce78b0be0de&amp;amp;p=1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;What. A. Legend.&lt;/p&gt;
-
-&lt;p&gt;I’d like to thank Dapper Kittie for reaching out to me and doing the informal interview with me. His story is fascinating and definitely something to be remembered in cryptocurrency history.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/0q8W6jV.jpg&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 27 Dec 2017 23:36:10 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/</guid>
         
         
       </item>
