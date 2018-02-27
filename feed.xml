@@ -6,12 +6,12 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Feb 2018 21:03:04 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Feb 2018 21:03:04 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Feb 2018 21:04:40 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Feb 2018 21:04:40 -0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Someone Bought Reddit Bots to Censor My Article On NEO, but It&#39;s Not Working</title>
+        <title>Someone Bought Reddit Bots to Censor My Article On NEO, But It&#39;s Not Working</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; src=&quot;https://i.imgur.com/QKNPTk8.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I recently wrote a critical article on NEO that presented, among other things, mounting evidence that despite an advertised capability to support 1000 transactions/second, NEO actually has some serious scaling issues. The network has been mysteriously blacking out even with only one concurrent ICO occurring on the platform. For a blockchain that is supposed to be able to process 1000 transactions/second, it’s very surprising to learn that at times, it can’t even handle the load of one ICO.&lt;/p&gt;
@@ -39,7 +39,11 @@
     
       <item>
         <title>NEO Is A Multi-Billion Dollar Disaster</title>
-        <description>&lt;p&gt;Many of my readers know that I have been highly critical of NEO. This has brought me the ire of NEO’s community. However, I’m not going to stop warning the larger cryptocurrency community of questionable projects because this is how we grow together and this is how a legitimate industry is built.&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Also see the follow-on article: &lt;a href=&quot;/posts/neo-bought-reddit-bots-to-censor-me-but-its-not-working/&quot;&gt;Someone Bought Reddit Bots to Censor My Article On NEO, But It’s Not Working&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Many of my readers know that I have been highly critical of NEO. This has brought me the ire of NEO’s community. However, I’m not going to stop warning the larger cryptocurrency community of questionable projects because this is how we grow together and this is how a legitimate industry is built.&lt;/p&gt;
 
 &lt;p&gt;As I continue to research NEO and follow its community, I continue to find more and more red flags surrounding this multi-billion dollar project. In a previous post, I talked about how NEO was &lt;a href=&quot;http://storeofvalueblog.com/posts/major-neo-redflags/&quot;&gt;incredibly centralized&lt;/a&gt;, that the network had an alarmingly small number of smart contracts, and that there was no Eastern interest even though a rumour kept getting propagated that NEO is compliant with the Chinese government and has its support.&lt;/p&gt;
 
