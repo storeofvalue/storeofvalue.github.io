@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/cryptocurrency-hacks-so-far-august-24th/">List Of High Profile Cryptocurrency Hacks So Far (August 24th 2017)</a>
+          <a href="/posts/why-2018-will-be-the-year-of-ethereum/">Why 2018 Will Be The Year Of Ethereum And QTUM</a>
         </div><div>
-          <a href="/posts/why-is-eth-crashing/">Why Is ETH Crashing?</a>
+          <a href="/posts/big-banks-are-rallying-behind-cryptocurrencies/">Big Banks Are Rallying Behind Cryptocurrencies</a>
         </div><div>
-          <a href="/posts/phishing-attacks-are-everywhere-in-cryptoworld/">Cryptocurrency Phishing Attacks - How One Investor Was Scammed Out Of $100,000</a>
+          <a href="/posts/bitcoin-cash-how-it-came-to-be/">Timeline Of The Creation Of Bitcoin Cash</a>
         </div><div>
-          <a href="/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/">Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</a>
+          <a href="/posts/crazy-things-that-have-happened-in-crypto/">Crazy Things That Have Happened With Cryptocurrencies</a>
         </div>
         </div>
       </div>
@@ -351,9 +351,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

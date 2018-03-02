@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/cryptokitties-the-aftermath/">CryptoKitties - The Aftermath</a>
-        </div><div>
           <a href="/posts/omisego-what-is-it-and-should-you-invest/">OmiseGo (OMG): What Is It And Should You Invest?</a>
         </div><div>
-          <a href="/posts/what-is-ripple-and-should-you-invest/">What Is Ripple And Should You Invest?</a>
+          <a href="/posts/crazy-things-that-have-happened-in-crypto/">Crazy Things That Have Happened With Cryptocurrencies</a>
         </div><div>
-          <a href="/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/">This User Made 462 Ether ($210,000) in 3 Days Trading CryptoKitties</a>
+          <a href="/posts/a-deep-dive-into-eos/">A Deep Dive Into EOS</a>
+        </div><div>
+          <a href="/posts/timeline-of-the-chaincoin-scam/">Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
         </div>
         </div>
       </div>
@@ -337,9 +337,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

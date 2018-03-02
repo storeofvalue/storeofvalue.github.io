@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/phishing-attacks-are-everywhere-in-cryptoworld/">Cryptocurrency Phishing Attacks - How One Investor Was Scammed Out Of $100,000</a>
+          <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
         </div><div>
-          <a href="/posts/definitive-bull-case-for-ethereum/">The Definitive Bull Case For Ethereum</a>
+          <a href="/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/">Bitcoin vs Bitcoin Cash: Everything You Need To Know</a>
         </div><div>
-          <a href="/posts/what-is-qtum-without-the-bullshit/">QTUM Beginner's FAQ (Without The Bullshit)</a>
+          <a href="/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/">NEO Responded To My Article - And It Confirmed My Worst Fears</a>
         </div><div>
-          <a href="/posts/why-is-eth-crashing/">Why Is ETH Crashing?</a>
+          <a href="/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/">NEO vs QTUM: An Objective Comparison</a>
         </div>
         </div>
       </div>
@@ -339,9 +339,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

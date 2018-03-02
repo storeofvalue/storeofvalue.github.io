@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/bitcoin-vs-bitcoin-cash-everything-you-need-to-know/">Bitcoin vs Bitcoin Cash: Everything You Need To Know</a>
+          <a href="/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/">Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</a>
         </div><div>
-          <a href="/posts/what-is-qtum-without-the-bullshit/">QTUM Beginner's FAQ (Without The Bullshit)</a>
+          <a href="/posts/a-deep-dive-into-cardano/">A Deep Dive Into Cardano</a>
         </div><div>
           <a href="/posts/timeline-of-the-chaincoin-scam/">Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
         </div><div>
-          <a href="/posts/this-is-why-ripples-price-is-surging/">This Is Why Ripple's Price Is Surging</a>
+          <a href="/posts/segwit2x-could-be-the-biggest-bear-trap/">Why Bitcoin's Segwit2x Could Be The Biggest Bear Trap This Year</a>
         </div>
         </div>
       </div>
@@ -335,9 +335,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

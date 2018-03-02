@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/">Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</a>
+          <a href="/posts/what-is-qtum-without-the-bullshit/">QTUM Beginner's FAQ (Without The Bullshit)</a>
         </div><div>
-          <a href="/posts/omisego-what-is-it-and-should-you-invest/">OmiseGo (OMG): What Is It And Should You Invest?</a>
+          <a href="/posts/cryptokitties-the-aftermath/">CryptoKitties - The Aftermath</a>
         </div><div>
-          <a href="/posts/smart-contracts-are-great/">Smart Contracts Are The Future</a>
+          <a href="/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/">What Is The Ethereum Enterprise Alliance?</a>
         </div><div>
-          <a href="/posts/why-is-eth-crashing/">Why Is ETH Crashing?</a>
+          <a href="/posts/cryptocurrency-hacks-so-far-august-24th/">List Of High Profile Cryptocurrency Hacks So Far (August 24th 2017)</a>
         </div>
         </div>
       </div>
@@ -326,9 +326,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/what-is-qtum-without-the-bullshit/">QTUM Beginner's FAQ (Without The Bullshit)</a>
+          <a href="/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/">What Is The Ethereum Enterprise Alliance?</a>
         </div><div>
-          <a href="/posts/a-deep-dive-into-theta/">A Deep Dive Into Theta</a>
+          <a href="/posts/a-definitive-guide-to-neo/">A Definitive Guide To NEO (2nd Edition)</a>
         </div><div>
           <a href="/posts/iota-what-is-it-and-should-you-invest/">What Is IOTA And Should You Invest?</a>
         </div><div>
-          <a href="/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/">NEO vs QTUM: An Objective Comparison</a>
+          <a href="/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/">This User Made 462 Ether ($210,000) in 3 Days Trading CryptoKitties</a>
         </div>
         </div>
       </div>
@@ -368,9 +368,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

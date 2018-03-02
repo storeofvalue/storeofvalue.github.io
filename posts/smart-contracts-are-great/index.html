@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/cryptocurrency-hacks-so-far-august-24th/">List Of High Profile Cryptocurrency Hacks So Far (August 24th 2017)</a>
+          <a href="/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/">NEO vs QTUM: An Objective Comparison</a>
         </div><div>
-          <a href="/posts/omisego-what-is-it-and-should-you-invest/">OmiseGo (OMG): What Is It And Should You Invest?</a>
+          <a href="/posts/what-is-ripple-and-should-you-invest/">What Is Ripple And Should You Invest?</a>
         </div><div>
-          <a href="/posts/why-2018-will-be-the-year-of-ethereum/">Why 2018 Will Be The Year Of Ethereum And QTUM</a>
+          <a href="/posts/is-china-banning-cryptocurrency-exchanges-everything-we-know-so-far/">Is China Banning Cryptocurrency Exchanges? - Everything We Know So Far</a>
         </div><div>
-          <a href="/posts/this-is-why-ripples-price-is-surging/">This Is Why Ripple's Price Is Surging</a>
+          <a href="/posts/timeline-of-the-chaincoin-scam/">Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
         </div>
         </div>
       </div>
@@ -321,9 +321,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

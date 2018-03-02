@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
+          <a href="/posts/how-centralized-is-neo/">I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor</a>
+        </div><div>
           <a href="/posts/smart-contracts-are-great/">Smart Contracts Are The Future</a>
         </div><div>
           <a href="/posts/a-deep-dive-into-theta/">A Deep Dive Into Theta</a>
         </div><div>
-          <a href="/posts/why-is-eth-crashing/">Why Is ETH Crashing?</a>
-        </div><div>
-          <a href="/posts/is-chaincoin-a-pump-and-dump-scheme/">Is ChainCoin A Pump And Dump Scheme?</a>
+          <a href="/posts/definitive-bull-case-for-ethereum/">The Definitive Bull Case For Ethereum</a>
         </div>
         </div>
       </div>
@@ -301,9 +301,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

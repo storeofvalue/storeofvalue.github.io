@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/neos-secret-scaling-issues/">NEO Is A Multi-Billion Dollar Disaster</a>
+          <a href="/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/">NEO vs QTUM: An Objective Comparison</a>
         </div><div>
-          <a href="/posts/crazy-things-that-have-happened-in-crypto/">Crazy Things That Have Happened With Cryptocurrencies</a>
+          <a href="/posts/smart-contracts-are-great/">Smart Contracts Are The Future</a>
         </div><div>
-          <a href="/posts/a-deep-dive-into-cardano/">A Deep Dive Into Cardano</a>
+          <a href="/posts/this-user-made-462-ether-in-3-days-playing-cryptokitties/">This User Made 462 Ether ($210,000) in 3 Days Trading CryptoKitties</a>
         </div><div>
-          <a href="/posts/a-deep-dive-into-theta/">A Deep Dive Into Theta</a>
+          <a href="/posts/cryptokitties-the-aftermath/">CryptoKitties - The Aftermath</a>
         </div>
         </div>
       </div>
@@ -398,9 +398,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

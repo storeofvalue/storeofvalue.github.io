@@ -96,11 +96,11 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/">Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</a>
+          <a href="/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/">NEO vs QTUM: An Objective Comparison</a>
         </div><div>
-          <a href="/posts/a-deep-dive-into-theta/">A Deep Dive Into Theta</a>
+          <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
         </div><div>
-          <a href="/posts/a-deep-dive-into-eos/">A Deep Dive Into EOS</a>
+          <a href="/posts/bitcoin-cash-how-it-came-to-be/">Timeline Of The Creation Of Bitcoin Cash</a>
         </div><div>
           <a href="/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">Case Study: Building A P2P VPN Network Over The Ethereum Blockchain</a>
         </div>
@@ -405,9 +405,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

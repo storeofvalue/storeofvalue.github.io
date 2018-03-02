@@ -99,13 +99,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/whats-antshares-neo-and-why-you-should-be-watching-it/">What's Antshares/NEO And Why Should You Be Watching It?</a>
+          <a href="/posts/neos-secret-scaling-issues/">NEO Is A Multi-Billion Dollar Disaster</a>
         </div><div>
-          <a href="/posts/what-is-qtum-without-the-bullshit/">QTUM Beginner's FAQ (Without The Bullshit)</a>
+          <a href="/posts/why-is-eth-crashing/">Why Is ETH Crashing?</a>
         </div><div>
-          <a href="/posts/a-deep-dive-into-raiblocks/">A Deep Dive Into Nano/RaiBlocks</a>
+          <a href="/posts/ethereum-fundamentals-what-is-the-ethereum-enterprise-alliance/">What Is The Ethereum Enterprise Alliance?</a>
         </div><div>
-          <a href="/posts/is-china-banning-cryptocurrency-exchanges-everything-we-know-so-far/">Is China Banning Cryptocurrency Exchanges? - Everything We Know So Far</a>
+          <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
         </div>
         </div>
       </div>
@@ -367,9 +367,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });

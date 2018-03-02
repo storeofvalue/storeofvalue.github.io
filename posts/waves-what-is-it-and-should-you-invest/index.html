@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
+          <a href="/posts/a-deep-dive-into-eos/">A Deep Dive Into EOS</a>
+        </div><div>
+          <a href="/posts/neo-responded-to-my-article-and-it-confirms-my-worst-fears/">NEO Responded To My Article - And It Confirmed My Worst Fears</a>
+        </div><div>
           <a href="/posts/omisego-what-is-it-and-should-you-invest/">OmiseGo (OMG): What Is It And Should You Invest?</a>
         </div><div>
-          <a href="/posts/stellar-lumens-what-is-it-and-should-you-invest/">A Deep Dive Into Stellar Lumens</a>
-        </div><div>
-          <a href="/posts/cryptocurrency-hacks-so-far-august-24th/">List Of High Profile Cryptocurrency Hacks So Far (August 24th 2017)</a>
-        </div><div>
-          <a href="/posts/neo-vs-qtum-which-is-the-real-chinese-ethereum/">NEO vs QTUM: An Objective Comparison</a>
+          <a href="/posts/cryptokitties-the-aftermath/">CryptoKitties - The Aftermath</a>
         </div>
         </div>
       </div>
@@ -423,9 +423,8 @@
     }
   });
   $more_articles_parent.find('a').click(function () {
-    gtag('event', 'new-ui-mode', {
+    gtag('event', 'click', {
       'event_category': 'more-articles-sidebar-click',
-      'event_action': 'click',
       'event_label': $(this).html()
     });
   });
