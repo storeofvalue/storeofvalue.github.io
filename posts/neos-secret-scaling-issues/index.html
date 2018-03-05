@@ -96,13 +96,13 @@
         <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">MORE ARTICLES</div>
         <div class="-more-articles-parent">
           <div>
-          <a href="/posts/how-centralized-is-neo/">I Looked Into NEO's Code Base - What I Found Should Worry Any NEO Investor</a>
-        </div><div>
-          <a href="/posts/whats-antshares-neo-and-why-you-should-be-watching-it/">What's Antshares/NEO And Why Should You Be Watching It?</a>
+          <a href="/posts/case-study-building-a-p2p-vpn-network-over-the-ethereum-blockchain/">Case Study: Building A P2P VPN Network Over The Ethereum Blockchain</a>
         </div><div>
           <a href="/posts/stellar-lumens-what-is-it-and-should-you-invest/">A Deep Dive Into Stellar Lumens</a>
         </div><div>
-          <a href="/posts/omisego-what-is-it-and-should-you-invest/">OmiseGo (OMG): What Is It And Should You Invest?</a>
+          <a href="/posts/cryptocurrency-hacks-so-far-august-24th/">List Of High Profile Cryptocurrency Hacks So Far (August 24th 2017)</a>
+        </div><div>
+          <a href="/posts/is-qtum-the-dark-horse/">Is Qtum Overlooked And Undervalued? - A Detailed Analysis</a>
         </div>
         </div>
       </div>
@@ -178,6 +178,12 @@
 <p>NEO has experienced major outages during ICOs. It’s interesting to note that NEO has so far hosted at most one concurrent ICO on its platform and still, its network is not able to handle the load. For a centralized platform that is supposedly capable of running 1000 transactions/second, not being able to handle load from a single ICO is very very surprising.</p>
 
 <p>Here are a few ICOs that have caused significant network outages on NEO recently.</p>
+
+<h2 id="red-pulse">Red Pulse</h2>
+
+<p>The Red Pulse ICO took place in October last year and it was NEO’s first ever ICO. This was the first time NEO was put through the strains of hosting an ICO and the blockchain faltered. NEO’s block times are typically around 30 seconds yet block 1,445,026 took almost 4 minutes to generate. The outage was brief enough that very few people took it seriously but this was still an outage nonetheless.</p>
+
+<p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/7KsauSs.jpg" /></p>
 
 <h2 id="trinity-network-credit">Trinity Network Credit</h2>
 
@@ -276,12 +282,22 @@
 <p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/jRq4SJQ.jpg" />
 <a href="https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dunw78b/">https://www.reddit.com/r/NEO/comments/7zecxd/daily_discussion_february_23rd_2018/dunw78b/</a></p>
 
-<hr />
+<h1 id="neo-experiences-an-outage-even-without-an-ongoing-ico">NEO experiences an outage even without an ongoing ICO</h1>
 
-<p>I found this post by a member of NEO’s team incredibly interesting. It seems like NEO cannot afford to maintain scalable infrastructure to support the blockchain. Even worse, it seems like they can’t even muster up the funds to hire protocol developers. I have not seen a single cryptocurrency team ask its community to help pay for protocol developers.</p>
+<p>Two days ago, NEO’s blockchain went down for more than two hours. There was no ongoing ICO when this happened. Many people went on Reddit to inquire and complain about the downtime.</p>
 
-<p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/iFCbbBx.jpg" />
-<a href="https://www.reddit.com/r/NEO/comments/7zx7ur/public_call_for_projects_launching_in_neo/">https://www.reddit.com/r/NEO/comments/7zx7ur/public_call_for_projects_launching_in_neo/</a></p>
+<p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/OyxlxeA.jpg" /></p>
+
+<p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/Katg4hc.jpg" />
+<a href="https://www.reddit.com/r/NEO/comments/81el6n/we_appear_to_be_stuck/">https://www.reddit.com/r/NEO/comments/81el6n/we_appear_to_be_stuck/</a></p>
+
+<p>It turns out, a single consensus node out of the seven operated by the team went down because of an unexpected edge case. As such, manual intervention was required to restart the blockchain. At the surface level, this might appear to be an easily fixeable bug but it’s actually much worse. The most basic problem for a fault tolerant consensus system to address is the recovery process when a single node goes down. NEO’s main net has been out for more than a year now and it should be incredibly surprising that its consensus algorithm is still vulnerable to single node downtimes.</p>
+
+<p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/WftZfg8.jpg" /></p>
+
+<p>Here’s an <a href="https://twitter.com/ercwl/status/970294228122263552">in-depth discussion</a> on the problem by Eric Wall, a cryptocurrency developer and writer for Bitcoin.com.</p>
+
+<p>Eric’s tweets went viral and they were acknowledged by many prominent cryptocurrency leaders like <a href="https://twitter.com/SatoshiLite/status/970372628220293120">Charlie Lee</a>, <a href="https://twitter.com/el33th4xor/status/970331623236435968">Emin Gün Sirer</a>, <a href="https://twitter.com/jaredctate/status/970402671382401024">Jared Tate</a>, <a href="https://twitter.com/TheRealXinxi/status/970370497551646720">Xinxi Wang</a>, and <a href="https://twitter.com/VladZamfir/status/970340842253750272">Vlad Zamfir</a>. They all agreed that NEO has a serious problem.</p>
 
 <div class="-ad">
         <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -317,11 +333,18 @@
 <p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/9wCbtsy.jpg" />
 <a href="https://www.reddit.com/r/NEO/comments/7yvzxa/a_message_to_all_new_neo_smart_contract_developers/dulcivl/">https://www.reddit.com/r/NEO/comments/7yvzxa/a_message_to_all_new_neo_smart_contract_developers/dulcivl/</a></p>
 
+<hr />
+
+<p>This Reddit user who claims to have experience developing NEO smart contracts calls NEO’s smart contract system “almost unusable right now”. In addition, NEO seems to have very primitive support for multi-language development even though it was a property that was widely advertised for NEO’s smart contract 2.0 system released last year.</p>
+
+<p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/v70xyS5.jpg" />
+<a href="https://www.reddit.com/r/CryptoCurrency/comments/81w1x4/weekly_skeptics_discussion_march_4_2018/dv6dox1/">https://www.reddit.com/r/CryptoCurrency/comments/81w1x4/weekly_skeptics_discussion_march_4_2018/dv6dox1/</a></p>
+
 <h1 id="summary">Summary</h1>
 
-<p>I was one of the earliest cryptocurrency analysts to raise red flags on NEO. Now that usage of the platform has increased with more attention on the project, its problems are becoming more and more evident. The number of unexplained network outages is rising and more and more smart contract developers are being turned away from developing on NEO.</p>
+<p>I was one of the earliest cryptocurrency analysts to raise red flags on NEO. However, because the project was less popular with lower usage then, the problems I raised were theoretical and not tangible. Over the past few months, NEO’s popularity has skyrocketed and so has its platform usage. This has made the platform’s inherent problems increasingly evident. Users experience these problems through a rising number of network outages. Many developers are also eschewing the system for greener pastures as they encounter issues with a poorly coded smart contract system.</p>
 
-<p>Guys, be careful out there. Please invest wisely.</p>
+<p>I do not want to tell anyone how to invest their money. However, I do want to educate investors on the strengths and weaknesses of the different platforms out there. Cryptocurrency investors tend to treat the projects they have invested in as sports teams and often turn a blind eye to the project’s problems. NEO’s investors are no exception. Don’t fall into this trap, stayed informed.</p>
 
 <blockquote>
   <p>Also see the follow-on article: <a href="/posts/neo-bought-reddit-bots-to-censor-me-but-its-not-working/">Someone Bought Reddit Bots to Censor My Article On NEO, But It’s Not Working</a></p>
