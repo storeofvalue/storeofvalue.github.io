@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Deep Dive Into VeChain</title>
+  <meta name="description" content="What is VeChain? How does VeChain work? Should I invest in VeChain? This article aims to answer all these questions about VeChain, an up-and-coming Chinese b...">
+
+  <meta property="og:url" content="https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="A Deep Dive Into VeChain" />
+  <meta property="og:description" content="What is VeChain? How does VeChain work? Should I invest in VeChain? This article aims to answer all these questions about VeChain, an up-and-coming Chinese b..." />
+  <meta property="og:image" content="https://i.imgur.com/vkt66gS.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SovCryptoBlog" />
+  <meta name="twitter:title" content="A Deep Dive Into VeChain" />
+  <meta name="twitter:description" content="What is VeChain? How does VeChain work? Should I invest in VeChain? This article aims to answer all these questions about VeChain, an up-and-coming Chinese b..." />
+  <meta name="twitter:image" content="https://i.imgur.com/vkt66gS.jpg" />
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="canonical" href="https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+  <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102388374-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-102388374-1');
+    </script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">
+      <div class="-title">Store of Value</div>
+      <div class="-subtitle">A cryptocurrency blog</div>
+    </a>
+    <div class="-right-parent">
+      <div class="-twitter-follow-parent">
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="desktop-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span>
+          </div>
+        </a>
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="mobile-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us</span>
+          </div>
+        </a>
+      </div>
+      <div class="desktop-only -logos-parent">
+        <img src="/bitcoin-logo.png" />
+        <img src="/eth-logo.png" />
+        <img src="/litecoin-logo.png" />
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style="position: relative; font-size: 0; text-align: center">
+  <div id="article-side-bar-parent" style="text-align: left; display: inline-block; width: 320px; margin-right: 20px; vertical-align: top">
+    <div id="article-side-bar" style="z-index: 1; width: 320px">
+      <div class="-back-button-parent">
+        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Articles</a>
+      </div>
+      
+      <div style="height: 100px; margin-bottom: 12px; background-image: url('https://i.imgur.com/vkt66gS.jpg'); background-size: cover; background-position: 50% 50%"></div>
+      
+      <div style="padding: 0 10px; margin-bottom: 16px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">NOW READING</div>
+        <div style="font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+          A Deep Dive Into VeChain
+        </div>
+      </div>
+      <div style="padding: 0 10px; margin-bottom: 12px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 5px">MORE ARTICLES</div>
+        <div class="-more-articles-parent">
+          <div>
+          <a href="/posts/a-definitive-guide-to-neo/">A Definitive Guide To NEO (2nd Edition)</a>
+        </div><div>
+          <a href="/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/">Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</a>
+        </div><div>
+          <a href="/posts/segwit2x-could-be-the-biggest-bear-trap/">Why Bitcoin's Segwit2x Could Be The Biggest Bear Trap This Year</a>
+        </div>
+        </div>
+      </div>
+      <div class="-tee-spring-parent">
+        <a href="https://teespring.com/crypto-buy-high-sell-low#pid=227&cid=2665&sid=front">
+          <img src="https://i.imgur.com/JKuiehk.jpg"/>
+          <button>ONLY ATH HODLERS ALLOWED. <span class="-buy">BUY NOW</span></button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <article style="text-align: left; width: 800px; max-width: 100%; display: inline-block;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">A Deep Dive Into VeChain</h1>
+      <p class="post-meta"><time datetime="2018-03-04T01:44:35-08:00" itemprop="datePublished">Mar 4, 2018</time></p>
+      <ul class="-share-bar">
+        <li>
+          <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+            <i class="fa fa-twitter"></i> Tweet 
+          </a>
+        </li>
+        <li>
+          <a class="-facebook" target="_blank" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+            <i class="fa fa-facebook"></i> Share
+          </a>
+        </li>
+        <li>
+          <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+            <i class="fa fa-google-plus"></i> Google
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p><img class="-center -header" src="https://i.imgur.com/vkt66gS.jpg" style="width: 100%" /></p>
+
+<h1 id="what-is-vechain">What is VeChain?</h1>
+
+<p>VeChain is an up-and-coming Chinese blockchain that currently exists as an ERC20 smart contract on Ethereum. VeChain will be a partially centralized blockchain that uses a “proof-of-authority” system whereby the VeChain Foundation gets to choose who the blockchain’s 101 block producers will be. VeChain will support smart contracts through the Ethereum Virtual Machine (EVM). It will also have a unique dual asset economic system with VET and Thor Power. VET is used to generate Thor Power and Thor Power acts as a stablecoin that pays for blockchain operations.</p>
+
+<p>Perhaps the most standout property of the project is its extensive enterprise partnerships. VeChain has positioned itself as a blockchain-based supply chain management solution, backing up this stance with a powerful partnership with DNV GL. DNV GL is a global quality assurance and risk management company that has so far provided VeChain with access to customers in the Italian wine industry as well as the Chinese tobacco industry. Other VeChain partnerships include BMW, Healthcare Co. Ltd, Kuehne &amp; Nagel, and many more.</p>
+
+<h1 id="how-does-vechain-work">How does VeChain work?</h1>
+
+<p><img class="-center" src="https://i.imgur.com/DbolQS5.jpg" style="width: 100%" /></p>
+
+<p>VeChain is a proof-of-authority blockchain. The VeChain Foundation vets block producers and gives them the authority to produce blocks. As you can imagine, this is a very centralized system. Even if there are 101 different block producers in the system, they are all beholden to the whims of the Foundation. This introduces all sorts of questions since the Foundation will essentially have full control of the blockchain. I’ll elaborate on this further in the Project Concerns section below.</p>
+
+<p>As expected, increased blockchain centralization results in increased performance. VeChain has claimed that its blockchain is able to handle up to 10,000 transactions per second. This is an exceptional transaction throughput when compared to Bitcoin and Ethereum, which are both under 50 transactions per second.</p>
+
+<p>Other benefits of VeChain’s substantial centralization include more stable blockchain governance and a lower risk of forks. With one centralized entity controlling the blockchain’s development direction, disputes within the community are quickly resolved. In addition, given that the Foundation controls who the block producers are, there is virtually no risk of hard forks.</p>
+
+<h2 id="vechains-cryptoeconomics---thor-power">VeChain’s cryptoeconomics - Thor Power</h2>
+
+<p>VeChain aims to stabilize costs of using its blockchain. To do so, the team has introduced a unique economic system in the form of Thor Power. Thor Power is a separate asset on the VeChain blockchain that has a dynamic supply with the intention of keeping prices stable. Thor Power is needed to pay for all blockchain operations including transaction fees and smart contract execution fees. Presumably, the Thor Power paid for blockchain operations is burned. To acquire Thor Power, users will either need to own VET to generate Thor Power or buy it on the open market.</p>
+
+<p>As mentioned before, Thor Power’s supply is dynamic. Although it’s currently not clear how the balancing system will work, VeChain’s plan is to adjust the rate of Thor Power generation whenever there’s an imbalance between supply and demand. One can think of Thor Power as VeChain’s native stablecoin, which is analogous to Steem’s Steem-Backed Dollar.</p>
+
+<p>Every VET will have a base amount of Thor Power generation. Wallets with a certain amount of VET can qualify for different tiers of VeChain economic nodes. Economic nodes generate Thor Power at a higher rate, with higher tiers generating more Thor Power. Current economic node tiers include the VeThor X Node (6k VET), Strength Node (10k VET), Strength X Node (16k VET), Thunder Node (50k VET), Thunder X Node (56k VET), Mjolnir Node (150k VET), and Mjolnir X Node (156k VET).</p>
+
+<p>VeChain block producers will operate what’s known as Thrudheim Masternodes. Thrudheim Masternodes are classified as Authority Nodes and will have the highest rate of Thor Power generation.</p>
+
+<p>It’s important to note that the price of Thor Power is currently unknown and this could determine how profitable it is holding VET to generate and sell Thor Power.</p>
+
+<h2 id="smart-contracts">Smart contracts</h2>
+
+<p>VeChain plans to introduce smart contracts to its blockchain using the EVM. This is great since existing Ethereum smart contracts will be easily portable to VeChain’s blockchain. It’d be interesting to see how VeChain adapts its Thor Power system to the EVM’s gas system.</p>
+
+<h2 id="supply-chain-management">Supply chain management</h2>
+
+<p>Supply chain management is the flagship application for VeChain.</p>
+
+<p>In order to bootstrap VeChain’s supply chain management capabilities, VeChain will be manufacturing its own RFID and NFC chips that will be attached to products to track their passage through the supply chain. VeChain will manufacture several different types of chips suited for different products and supply chains. Some chips will have microsensors in order to detect environmental conditions like temperature and humidity whereas others will be simpler.</p>
+
+<p>RFID and NFC chips will be attached to products in order to securely track them on the blockchain. Each chip will have a private and public key pair. The blockchain will store the public key as well as a hash of any data associated with the product. This data could include environmental data, as mentioned before, or data around the passage of the product through the supply chain.</p>
+
+<p>While the blockchain will only store a hash of a product’s data, the actual data will be stored in CHAOS, a decentralized data encryption and storage solution developed by VeChain.</p>
+
+<p>VeChain plans to introduce applications to allow anyone with a product and its associated RFID/NFC chip to fetch the product’s data. For example, a consumer could scan a hand bag’s RFID/NFC chip in order to see its passage through the supply chain and verify that the product was properly handled before they purchased it.</p>
+
+<h2 id="many-open-technical-questions">Many open technical questions</h2>
+
+<p>One big concern I have with VeChain is the fact that there are still many open technical questions for the project. The team has provided very few technical details into how its blockchain will work and since the project is entirely closed source, it’s impossible for anyone to find out. Open questions include how the blockchain will defend against adverse conditions (e.g. when a block producer unexpectedly goes offline or when a block producer is malicious), as well as general questions around the blockchain’s architecture (e.g. how is the EVM adapted to run on VeChain’s blockchain?).</p>
+
+<h1 id="the-team-behind-vechain">The team behind VeChain</h1>
+
+<p>The VeChain project is an offshoot of the Shanghai-based Blockchain-as-a-Service (BaaS) company called BitSE. VeChain’s cofounder and CEO, Sunny Lu, used to be BitSE’s COO. VeChain has been in the works for more than two years now and it is a portfolio company of PricewaterhouseCoppers (PwC) China’s incubation program.</p>
+
+<p>Sunny Lu is a charistmatic CEO who has given a series of talks around VeChain. He used to hold executive positions in Louis Vuitton China. Other members of VeChain’s executive team are also quite impressive as well but I won’t iterate through them.</p>
+
+<p>VeChain also has a really strong advisory board. The board consists of Bo Shen, a well known blockchain investor who’s the managing partner and founder of FENBUSHI Capital, Jim Breyer, an American billionaire venture capitalist who’s been super bullish on VeChain, Ning Nan, the CEO of BitOcean, and a few others.</p>
+
+<h1 id="vechains-enterprise-partnerships">VeChain’s enterprise partnerships</h1>
+
+<p><img class="-center" src="https://i.imgur.com/p3qXAaJ.jpg" style="width: 100%" />
+<span style="font-style: italic">Sunny Lu with Luca Crisciotti, CEO of DNV GL</span></p>
+
+<p>As I’ve mentioned above, VeChain is a blockchain project with one of the most extensive enterprise partnerships out there. However, it’s important to note that the details surrounding many of these partnerships are vague and it’s unclear how these partnerships will benefit the long term value of VET.</p>
+
+<p>Here are some key partnerships:</p>
+
+<ul>
+  <li>PwC China - VeChain is a portfolio company of PwC China’s incubation program.</li>
+  <li>DNV GL - a global quality assurance and risk management company. The company has extensive ties with VeChain and has so far connected VeChain with the Italian wine industry and the Chinese tobacco industry.</li>
+  <li>Italian wine industry - My Story is an off-the-shelf blockchain based digital assurance solution for the food and beverage industry developed by DNV GL and VeChain. The first customers of My Story are Italian wine producers, Michele Chiarlo, Ricci Curbastro, Ruffino and Torrevento. These wine producers will feature the My Story label on their wine bottles, which will contain VeChain hardware tags, <a href="https://medium.com/@vechainofficial/my-story-the-first-ever-3rd-party-initiated-developed-and-managed-dapp-on-vechainthor-61deb8839e0d">by the end of the year</a>.</li>
+  <li>National Research Consulting Center (NRCC) - DNV GL has connected VeChain to China’s NRCC. VeChain will work directly with NRCC to develop blockchain solutions for the State Tobacco Monopoly Administration and the China National Tobacco Corporation. <a href="https://medium.com/@vechainofficial/vechain-blockchain-solutions-to-enter-chinas-tobacco-industry-in-force-c92b3729878f">Source.</a></li>
+  <li>Gui’an New Area - Gui’an New Area is a new economic-development zone in China that was recently granted the same government administrative level as the Pudong New Area, of which Shanghai is a part of. As such, expect China to pour significant resources to develop the Gui’an New Area in the near future. A few months ago, VeChain announced that the company was mandated to be the blockchain technology partner of the government of Gui’an. <a href="https://cdn.vechain.com/vechain_national_government_partnership_guian_release.pdf">Source.</a></li>
+  <li>BMW - BMW is the most recent enterprise partnership announced by VeChain. Details around the partnership are scarce even though it’s probably related to supply chain management.</li>
+  <li>And many more…</li>
+</ul>
+
+<h1 id="project-concerns">Project concerns</h1>
+
+<h2 id="heavy-centralization">Heavy centralization</h2>
+
+<p>As mentioned above, VeChain is going to be a highly centralized blockchain. It’s just as centralized, if not more so, than EOS. With EOS, the community votes for block producers with each EOS token entitling a user to one vote. VeChain’s proof-of-authority system, on the other hand, gives the VeChain Foundation the power to pick and choose block producers. Even if the network is secured by 101 different block producers, everyone of them is beholden to the Foundation.</p>
+
+<p>This high degree of centralization is a double-edged sword. The great thing about it is that VeChain’s blockchain can have super high performance with stable governance and no risk of hard forks. This is very attractive to enterprise customers, who, of all things, value stability and predictability.</p>
+
+<p>On the flip side, decentralization is what started the entire cryptocurrency movement and is arguably the core value proposition of the technology. Centralization carries with it the risk of censorship, the risk of systemic failure (from a single point of failure), and the risk of an abuse of power and trust.</p>
+
+<p>One only needs to remember how broken the existing financial and monetary system is to understand why so many people are attracted to the decentralized nature of cryptocurrencies.</p>
+
+<h2 id="many-technical-details-of-the-project-are-unknown">Many technical details of the project are unknown</h2>
+
+<p>VeChain has provided very little technical details about its blockchain. This combined with the fact that the project is entirely closed source, has resulted in investors being completely left in the dark on the technical state of VeChain. There are many open technical questions with the project such as how offline block producers will be handled, how the system will defend against malicious block producers, how the supply of Thor Power will be controlled, how are blockchain fees determined, etc. It’s quite concerning to me that there are still so many open technical questions for a project at this stage.</p>
+
+<h2 id="unproven-token-economics-unknown-price-of-thor-power">Unproven token economics, unknown price of Thor Power</h2>
+
+<p>VeChain’s Thor Power economic system is unproven. The whole idea of Thor Power is that it’s a stable asset on VeChain in order to stabilize costs to use the blockchain. Creating a stablecoin is not an easy task and the jury is still out on whether the Thor Power system will work.</p>
+
+<p>In addition, many people are buying VET with the hopes of generating Thor Power for passive income. However, without understanding where Thor Power’s price will settle, we cannot accurately predict how profitable it’d be to hold VET. It’s possible that only users with Thunder Nodes and above will make a decent income while everyone else will earn a pittance. This is especially true if almost everyone that’s buying VET right now plans to earn and SELL Thor Power, and no one is buying to earn and USE Thor Power.</p>
+
+<p>Obviously, in the long run if VeChain’s blockchain is heavily used, Thor Power generation can be exceedingly profitable.</p>
+
+<h2 id="vechain-is-not-open-source">VeChain is not open source</h2>
+
+<p>Another concern with VeChain is the fact that the project is closed source and there is low visibility into its development progress. This presents a few problems.</p>
+
+<p>First, it’s incredibly hard for investors to gauge whether the project’s on track to meet key release dates. Investors can only take the word of the team at face value to understand how the project is doing. Second, a closed source project is more likely to contain critical bugs since the public cannot audit the code. Finally, it’s highly unusual for cryptocurrency projects to not be open source. Almost every project has stayed true to the open and decentralized spirit of cryptocurrencies and maintained complete transparency with their development progress.</p>
+
+<h2 id="blatant-reddit-manipulation">Blatant Reddit manipulation</h2>
+
+<p><img class="-center" src="https://i.imgur.com/3EGbq7q.jpg" style="width: 600px; border: solid grey 1px" /></p>
+
+<p>Finally, VeChain has been banned in the past by the largest cryptocurrency subreddit, /r/cryptocurrency, for blatant upvote brigading. For weeks and even months on end, one would see highly upvoted VeChain posts on /r/cryptocurrency until one day it was announced that all mentions of the project were banned from the subreddit for a month. The mods of /r/cryptocurrency later released proof that VeChain’s Telegram mods were actively encouraging users to upvote VeChain-related posts and comments on /r/cryptocurrency.</p>
+
+<p><img class="-center" src="https://i.imgur.com/2Sznes3.jpg" style="width: 600px; border: solid grey 1px" /></p>
+
+<p>What I found most concerning about this debacle is the fact that a project targetting enterprise customers, especially one with so many high profile partnerships already, shouldn’t need to market so heavily to retail investors. Yet here we are with certain factions of the project’s leadership encouraging unhealthy short term hype and speculation.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>VeChain is one of the most promising blockchain projects out there. It has an extensive list of enterprise partnerships that you rarely see with any other cryptocurrency project, especially one that’s still so early in development. With large investors like PwC China, FENBUSHI Capital, and Jim Breyers as well as a top tier partnership with DNV GL, VeChain appears to be on track to be the de facto supply chain cryptocurrency.</p>
+
+<p>However, as great as VeChain’s ecosystem might look right now, it’s still very much experimental technology that might or might not see traction with enterprise customers. Until VeChain has proven that it works and it works well in production environments, there will continue to be significant risks in investing in the project. That said, it is still a high quality project compared to many many other cryptocurrency projects out there.</p>
+
+    </div>
+
+    <ul class="-share-bar">
+      <li>
+        <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+          <i class="fa fa-twitter"></i> Tweet
+        </a>
+      </li>
+      <li>
+        <a class="-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+          <i class="fa fa-facebook"></i> Share
+        </a>
+      </li>
+      <li>
+        <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+          <i class="fa fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/">
+          <i class="fa fa-google-plus"></i> Google
+        </a>
+      </li>
+    </ul>
+    <div class="-ad">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- StoreOfValue Article Bottom -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-0144173183236578"
+           data-ad-slot="7692425485"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+<!--     <div>
+      <div style="margin-top: 24px; border: solid #555 1px; font-size: 26px; padding: 10px">
+        Tip Jar 🍀
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Ether:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">0xa33Ef019ff0bdE98f951585AA57c1Af7c898fE5c</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">QTUM:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">QZckfa6Cfu8tsjvt1FHBFzcTh8cefYdH6T</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Stellar:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">GC4CDHSXYPSOOJNMBDNVWPACT6UDYDQHPJIOCW4GYTG6ZRTJH2475D3Q</span>
+        </div>
+      </div>
+    </div> -->
+  </article>
+</div>
+<script type="text/javascript">
+  var $article_side_bar = $('#article-side-bar');
+  var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
+  var original_article_side_bar_top_offset = $article_side_bar.offset().top;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
+  var $article = $('article');
+  var $window = $(window);
+  var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');
+  var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+  if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+    $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+    $article_back_button_parent.show();
+  }
+  $window.scroll(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $window.resize(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $more_articles_parent.find('a').click(function () {
+    gtag('event', 'click', {
+      'event_category': 'more-articles-sidebar-click',
+      'event_label': $(this).html()
+    });
+  });
+  $('article').find('a').attr('target', '_blank');
+</script>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store of Value</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>A cryptocurrency blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>In July 2010, one bitcoin was worth $0.08 USD. How much is it worth today? Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher, day-trader, and programmer, I aim to provide in-depth fundamental analyses on cryptocurrencies and help you identify market opportunities. Stay informed. Invest wisely.
+</p>
+        <p>
+          <span style="font-weight: bold">Contact me:</span> storeofvalueblog@gmail.com
+        </p>
+        <p>
+          <span style="font-weight: bold">Pageviews per article:</span> 10494
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>

@@ -2,16 +2,148 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Store of Value</title>
-    <description>In July 2010, one bitcoin was worth $0.08 USD. How much is it worth today? Bitcoin&#39;s meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher, day-trader, and programmer, I aim to provide in-depth fundamental analyses on cryptocurrencies and help you identify market opportunities. Stay informed. Invest wisely.
+    <description>In July 2010, one bitcoin was worth $0.08 USD. How much is it worth today? Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher, day-trader, and programmer, I aim to provide in-depth fundamental analyses on cryptocurrencies and help you identify market opportunities. Stay informed. Invest wisely.
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Mar 2018 23:00:28 -0800</pubDate>
-    <lastBuildDate>Fri, 09 Mar 2018 23:00:28 -0800</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <pubDate>Sat, 10 Mar 2018 20:49:21 -0800</pubDate>
+    <lastBuildDate>Sat, 10 Mar 2018 20:49:21 -0800</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
       <item>
-        <title>Someone Bought Reddit Bots to Censor My Article On NEO, But It&#39;s Not Working</title>
+        <title>A Deep Dive Into VeChain</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; src=&quot;https://i.imgur.com/vkt66gS.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-vechain&quot;&gt;What is VeChain?&lt;/h1&gt;
+
+&lt;p&gt;VeChain is an up-and-coming Chinese blockchain that currently exists as an ERC20 smart contract on Ethereum. VeChain will be a partially centralized blockchain that uses a “proof-of-authority” system whereby the VeChain Foundation gets to choose who the blockchain’s 101 block producers will be. VeChain will support smart contracts through the Ethereum Virtual Machine (EVM). It will also have a unique dual asset economic system with VET and Thor Power. VET is used to generate Thor Power and Thor Power acts as a stablecoin that pays for blockchain operations.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most standout property of the project is its extensive enterprise partnerships. VeChain has positioned itself as a blockchain-based supply chain management solution, backing up this stance with a powerful partnership with DNV GL. DNV GL is a global quality assurance and risk management company that has so far provided VeChain with access to customers in the Italian wine industry as well as the Chinese tobacco industry. Other VeChain partnerships include BMW, Healthcare Co. Ltd, Kuehne &amp;amp; Nagel, and many more.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-does-vechain-work&quot;&gt;How does VeChain work?&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; src=&quot;https://i.imgur.com/DbolQS5.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VeChain is a proof-of-authority blockchain. The VeChain Foundation vets block producers and gives them the authority to produce blocks. As you can imagine, this is a very centralized system. Even if there are 101 different block producers in the system, they are all beholden to the whims of the Foundation. This introduces all sorts of questions since the Foundation will essentially have full control of the blockchain. I’ll elaborate on this further in the Project Concerns section below.&lt;/p&gt;
+
+&lt;p&gt;As expected, increased blockchain centralization results in increased performance. VeChain has claimed that its blockchain is able to handle up to 10,000 transactions per second. This is an exceptional transaction throughput when compared to Bitcoin and Ethereum, which are both under 50 transactions per second.&lt;/p&gt;
+
+&lt;p&gt;Other benefits of VeChain’s substantial centralization include more stable blockchain governance and a lower risk of forks. With one centralized entity controlling the blockchain’s development direction, disputes within the community are quickly resolved. In addition, given that the Foundation controls who the block producers are, there is virtually no risk of hard forks.&lt;/p&gt;
+
+&lt;h2 id=&quot;vechains-cryptoeconomics---thor-power&quot;&gt;VeChain’s cryptoeconomics - Thor Power&lt;/h2&gt;
+
+&lt;p&gt;VeChain aims to stabilize costs of using its blockchain. To do so, the team has introduced a unique economic system in the form of Thor Power. Thor Power is a separate asset on the VeChain blockchain that has a dynamic supply with the intention of keeping prices stable. Thor Power is needed to pay for all blockchain operations including transaction fees and smart contract execution fees. Presumably, the Thor Power paid for blockchain operations is burned. To acquire Thor Power, users will either need to own VET to generate Thor Power or buy it on the open market.&lt;/p&gt;
+
+&lt;p&gt;As mentioned before, Thor Power’s supply is dynamic. Although it’s currently not clear how the balancing system will work, VeChain’s plan is to adjust the rate of Thor Power generation whenever there’s an imbalance between supply and demand. One can think of Thor Power as VeChain’s native stablecoin, which is analogous to Steem’s Steem-Backed Dollar.&lt;/p&gt;
+
+&lt;p&gt;Every VET will have a base amount of Thor Power generation. Wallets with a certain amount of VET can qualify for different tiers of VeChain economic nodes. Economic nodes generate Thor Power at a higher rate, with higher tiers generating more Thor Power. Current economic node tiers include the VeThor X Node (6k VET), Strength Node (10k VET), Strength X Node (16k VET), Thunder Node (50k VET), Thunder X Node (56k VET), Mjolnir Node (150k VET), and Mjolnir X Node (156k VET).&lt;/p&gt;
+
+&lt;p&gt;VeChain block producers will operate what’s known as Thrudheim Masternodes. Thrudheim Masternodes are classified as Authority Nodes and will have the highest rate of Thor Power generation.&lt;/p&gt;
+
+&lt;p&gt;It’s important to note that the price of Thor Power is currently unknown and this could determine how profitable it is holding VET to generate and sell Thor Power.&lt;/p&gt;
+
+&lt;h2 id=&quot;smart-contracts&quot;&gt;Smart contracts&lt;/h2&gt;
+
+&lt;p&gt;VeChain plans to introduce smart contracts to its blockchain using the EVM. This is great since existing Ethereum smart contracts will be easily portable to VeChain’s blockchain. It’d be interesting to see how VeChain adapts its Thor Power system to the EVM’s gas system.&lt;/p&gt;
+
+&lt;h2 id=&quot;supply-chain-management&quot;&gt;Supply chain management&lt;/h2&gt;
+
+&lt;p&gt;Supply chain management is the flagship application for VeChain.&lt;/p&gt;
+
+&lt;p&gt;In order to bootstrap VeChain’s supply chain management capabilities, VeChain will be manufacturing its own RFID and NFC chips that will be attached to products to track their passage through the supply chain. VeChain will manufacture several different types of chips suited for different products and supply chains. Some chips will have microsensors in order to detect environmental conditions like temperature and humidity whereas others will be simpler.&lt;/p&gt;
+
+&lt;p&gt;RFID and NFC chips will be attached to products in order to securely track them on the blockchain. Each chip will have a private and public key pair. The blockchain will store the public key as well as a hash of any data associated with the product. This data could include environmental data, as mentioned before, or data around the passage of the product through the supply chain.&lt;/p&gt;
+
+&lt;p&gt;While the blockchain will only store a hash of a product’s data, the actual data will be stored in CHAOS, a decentralized data encryption and storage solution developed by VeChain.&lt;/p&gt;
+
+&lt;p&gt;VeChain plans to introduce applications to allow anyone with a product and its associated RFID/NFC chip to fetch the product’s data. For example, a consumer could scan a hand bag’s RFID/NFC chip in order to see its passage through the supply chain and verify that the product was properly handled before they purchased it.&lt;/p&gt;
+
+&lt;h2 id=&quot;many-open-technical-questions&quot;&gt;Many open technical questions&lt;/h2&gt;
+
+&lt;p&gt;One big concern I have with VeChain is the fact that there are still many open technical questions for the project. The team has provided very few technical details into how its blockchain will work and since the project is entirely closed source, it’s impossible for anyone to find out. Open questions include how the blockchain will defend against adverse conditions (e.g. when a block producer unexpectedly goes offline or when a block producer is malicious), as well as general questions around the blockchain’s architecture (e.g. how is the EVM adapted to run on VeChain’s blockchain?).&lt;/p&gt;
+
+&lt;h1 id=&quot;the-team-behind-vechain&quot;&gt;The team behind VeChain&lt;/h1&gt;
+
+&lt;p&gt;The VeChain project is an offshoot of the Shanghai-based Blockchain-as-a-Service (BaaS) company called BitSE. VeChain’s cofounder and CEO, Sunny Lu, used to be BitSE’s COO. VeChain has been in the works for more than two years now and it is a portfolio company of PricewaterhouseCoppers (PwC) China’s incubation program.&lt;/p&gt;
+
+&lt;p&gt;Sunny Lu is a charistmatic CEO who has given a series of talks around VeChain. He used to hold executive positions in Louis Vuitton China. Other members of VeChain’s executive team are also quite impressive as well but I won’t iterate through them.&lt;/p&gt;
+
+&lt;p&gt;VeChain also has a really strong advisory board. The board consists of Bo Shen, a well known blockchain investor who’s the managing partner and founder of FENBUSHI Capital, Jim Breyer, an American billionaire venture capitalist who’s been super bullish on VeChain, Ning Nan, the CEO of BitOcean, and a few others.&lt;/p&gt;
+
+&lt;h1 id=&quot;vechains-enterprise-partnerships&quot;&gt;VeChain’s enterprise partnerships&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; src=&quot;https://i.imgur.com/p3qXAaJ.jpg&quot; style=&quot;width: 100%&quot; /&gt;
+&lt;span style=&quot;font-style: italic&quot;&gt;Sunny Lu with Luca Crisciotti, CEO of DNV GL&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;As I’ve mentioned above, VeChain is a blockchain project with one of the most extensive enterprise partnerships out there. However, it’s important to note that the details surrounding many of these partnerships are vague and it’s unclear how these partnerships will benefit the long term value of VET.&lt;/p&gt;
+
+&lt;p&gt;Here are some key partnerships:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PwC China - VeChain is a portfolio company of PwC China’s incubation program.&lt;/li&gt;
+  &lt;li&gt;DNV GL - a global quality assurance and risk management company. The company has extensive ties with VeChain and has so far connected VeChain with the Italian wine industry and the Chinese tobacco industry.&lt;/li&gt;
+  &lt;li&gt;Italian wine industry - My Story is an off-the-shelf blockchain based digital assurance solution for the food and beverage industry developed by DNV GL and VeChain. The first customers of My Story are Italian wine producers, Michele Chiarlo, Ricci Curbastro, Ruffino and Torrevento. These wine producers will feature the My Story label on their wine bottles, which will contain VeChain hardware tags, &lt;a href=&quot;https://medium.com/@vechainofficial/my-story-the-first-ever-3rd-party-initiated-developed-and-managed-dapp-on-vechainthor-61deb8839e0d&quot;&gt;by the end of the year&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;National Research Consulting Center (NRCC) - DNV GL has connected VeChain to China’s NRCC. VeChain will work directly with NRCC to develop blockchain solutions for the State Tobacco Monopoly Administration and the China National Tobacco Corporation. &lt;a href=&quot;https://medium.com/@vechainofficial/vechain-blockchain-solutions-to-enter-chinas-tobacco-industry-in-force-c92b3729878f&quot;&gt;Source.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Gui’an New Area - Gui’an New Area is a new economic-development zone in China that was recently granted the same government administrative level as the Pudong New Area, of which Shanghai is a part of. As such, expect China to pour significant resources to develop the Gui’an New Area in the near future. A few months ago, VeChain announced that the company was mandated to be the blockchain technology partner of the government of Gui’an. &lt;a href=&quot;https://cdn.vechain.com/vechain_national_government_partnership_guian_release.pdf&quot;&gt;Source.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;BMW - BMW is the most recent enterprise partnership announced by VeChain. Details around the partnership are scarce even though it’s probably related to supply chain management.&lt;/li&gt;
+  &lt;li&gt;And many more…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;project-concerns&quot;&gt;Project concerns&lt;/h1&gt;
+
+&lt;h2 id=&quot;heavy-centralization&quot;&gt;Heavy centralization&lt;/h2&gt;
+
+&lt;p&gt;As mentioned above, VeChain is going to be a highly centralized blockchain. It’s just as centralized, if not more so, than EOS. With EOS, the community votes for block producers with each EOS token entitling a user to one vote. VeChain’s proof-of-authority system, on the other hand, gives the VeChain Foundation the power to pick and choose block producers. Even if the network is secured by 101 different block producers, everyone of them is beholden to the Foundation.&lt;/p&gt;
+
+&lt;p&gt;This high degree of centralization is a double-edged sword. The great thing about it is that VeChain’s blockchain can have super high performance with stable governance and no risk of hard forks. This is very attractive to enterprise customers, who, of all things, value stability and predictability.&lt;/p&gt;
+
+&lt;p&gt;On the flip side, decentralization is what started the entire cryptocurrency movement and is arguably the core value proposition of the technology. Centralization carries with it the risk of censorship, the risk of systemic failure (from a single point of failure), and the risk of an abuse of power and trust.&lt;/p&gt;
+
+&lt;p&gt;One only needs to remember how broken the existing financial and monetary system is to understand why so many people are attracted to the decentralized nature of cryptocurrencies.&lt;/p&gt;
+
+&lt;h2 id=&quot;many-technical-details-of-the-project-are-unknown&quot;&gt;Many technical details of the project are unknown&lt;/h2&gt;
+
+&lt;p&gt;VeChain has provided very little technical details about its blockchain. This combined with the fact that the project is entirely closed source, has resulted in investors being completely left in the dark on the technical state of VeChain. There are many open technical questions with the project such as how offline block producers will be handled, how the system will defend against malicious block producers, how the supply of Thor Power will be controlled, how are blockchain fees determined, etc. It’s quite concerning to me that there are still so many open technical questions for a project at this stage.&lt;/p&gt;
+
+&lt;h2 id=&quot;unproven-token-economics-unknown-price-of-thor-power&quot;&gt;Unproven token economics, unknown price of Thor Power&lt;/h2&gt;
+
+&lt;p&gt;VeChain’s Thor Power economic system is unproven. The whole idea of Thor Power is that it’s a stable asset on VeChain in order to stabilize costs to use the blockchain. Creating a stablecoin is not an easy task and the jury is still out on whether the Thor Power system will work.&lt;/p&gt;
+
+&lt;p&gt;In addition, many people are buying VET with the hopes of generating Thor Power for passive income. However, without understanding where Thor Power’s price will settle, we cannot accurately predict how profitable it’d be to hold VET. It’s possible that only users with Thunder Nodes and above will make a decent income while everyone else will earn a pittance. This is especially true if almost everyone that’s buying VET right now plans to earn and SELL Thor Power, and no one is buying to earn and USE Thor Power.&lt;/p&gt;
+
+&lt;p&gt;Obviously, in the long run if VeChain’s blockchain is heavily used, Thor Power generation can be exceedingly profitable.&lt;/p&gt;
+
+&lt;h2 id=&quot;vechain-is-not-open-source&quot;&gt;VeChain is not open source&lt;/h2&gt;
+
+&lt;p&gt;Another concern with VeChain is the fact that the project is closed source and there is low visibility into its development progress. This presents a few problems.&lt;/p&gt;
+
+&lt;p&gt;First, it’s incredibly hard for investors to gauge whether the project’s on track to meet key release dates. Investors can only take the word of the team at face value to understand how the project is doing. Second, a closed source project is more likely to contain critical bugs since the public cannot audit the code. Finally, it’s highly unusual for cryptocurrency projects to not be open source. Almost every project has stayed true to the open and decentralized spirit of cryptocurrencies and maintained complete transparency with their development progress.&lt;/p&gt;
+
+&lt;h2 id=&quot;blatant-reddit-manipulation&quot;&gt;Blatant Reddit manipulation&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; src=&quot;https://i.imgur.com/3EGbq7q.jpg&quot; style=&quot;width: 600px; border: solid grey 1px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, VeChain has been banned in the past by the largest cryptocurrency subreddit, /r/cryptocurrency, for blatant upvote brigading. For weeks and even months on end, one would see highly upvoted VeChain posts on /r/cryptocurrency until one day it was announced that all mentions of the project were banned from the subreddit for a month. The mods of /r/cryptocurrency later released proof that VeChain’s Telegram mods were actively encouraging users to upvote VeChain-related posts and comments on /r/cryptocurrency.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; src=&quot;https://i.imgur.com/2Sznes3.jpg&quot; style=&quot;width: 600px; border: solid grey 1px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What I found most concerning about this debacle is the fact that a project targetting enterprise customers, especially one with so many high profile partnerships already, shouldn’t need to market so heavily to retail investors. Yet here we are with certain factions of the project’s leadership encouraging unhealthy short term hype and speculation.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;VeChain is one of the most promising blockchain projects out there. It has an extensive list of enterprise partnerships that you rarely see with any other cryptocurrency project, especially one that’s still so early in development. With large investors like PwC China, FENBUSHI Capital, and Jim Breyers as well as a top tier partnership with DNV GL, VeChain appears to be on track to be the de facto supply chain cryptocurrency.&lt;/p&gt;
+
+&lt;p&gt;However, as great as VeChain’s ecosystem might look right now, it’s still very much experimental technology that might or might not see traction with enterprise customers. Until VeChain has proven that it works and it works well in production environments, there will continue to be significant risks in investing in the project. That said, it is still a high quality project compared to many many other cryptocurrency projects out there.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Mar 2018 01:44:35 -0800</pubDate>
+        <link>https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-deep-dive-into-vechain/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Someone Bought Reddit Bots to Censor My Article On NEO, But It's Not Working</title>
         <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; src=&quot;https://i.imgur.com/QKNPTk8.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I recently wrote a critical article on NEO that presented, among other things, mounting evidence that despite an advertised capability to support 1000 transactions/second, NEO actually has some serious scaling issues. The network has been mysteriously blacking out even with only one concurrent ICO occurring on the platform. For a blockchain that is supposed to be able to process 1000 transactions/second, it’s very surprising to learn that at times, it can’t even handle the load of one ICO.&lt;/p&gt;
@@ -367,10 +499,12 @@
 
 &lt;h2 id=&quot;and-much-more&quot;&gt;And much more…&lt;/h2&gt;
 
-&lt;p&gt;EOS is an incredibly complex blockchain and it has many features that make dApp development as easy as possible. These include:
-* a built-in permission management system
-* an account recovery system
-* ability for full nodes to partially evaluate blockchain state&lt;/p&gt;
+&lt;p&gt;EOS is an incredibly complex blockchain and it has many features that make dApp development as easy as possible. These include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a built-in permission management system&lt;/li&gt;
+  &lt;li&gt;an account recovery system&lt;/li&gt;
+  &lt;li&gt;ability for full nodes to partially evaluate blockchain state&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;To learn more about EOS’s technology, I highly recommend reading its &lt;a href=&quot;https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md&quot;&gt;technical whitepaper&lt;/a&gt;.&lt;/p&gt;
 
@@ -952,7 +1086,7 @@ Dad: $17? What do you need $132 for?&lt;/p&gt;
 
 &lt;p&gt;Buiding a decentralized stable coin is by no means a simple feat. Check out how the team accomplished this by reading &lt;a href=&quot;https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90&quot;&gt;this&lt;/a&gt; and browsing their &lt;a href=&quot;https://makerdao.com/&quot;&gt;website&lt;/a&gt;. It’s fascinating.&lt;/p&gt;
 
-&lt;h2 id=&quot;x&quot;&gt;0x&lt;/h2&gt;
+&lt;h2 id=&quot;0x&quot;&gt;0x&lt;/h2&gt;
 
 &lt;p&gt;0x is a protocol built on Ethereum. I believe it is one of the biggest scaling solutions for Ethereum right now. Here’s why.&lt;/p&gt;
 
@@ -1089,7 +1223,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;NEO is a smart contracts blockchain started by Onchain, a Shanghai-based blockchain R&amp;amp;D company led by Da Hongfei and Erik Zhang.&lt;/li&gt;
@@ -1294,7 +1428,7 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h1 id=&quot;feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
+&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Nano was started in 2014 as a side project by Colin LeMahieu. The project took three years to complete and a fully functional main net was launched in 2017.&lt;/li&gt;
@@ -1408,47 +1542,6 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         <pubDate>Fri, 12 Jan 2018 01:40:35 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/a-deep-dive-into-raiblocks/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-deep-dive-into-raiblocks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Investor Warning: Certain Cryptocurrency Exchanges Are Breaking US Federal Securities Laws</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 700px&quot; src=&quot;https://i.imgur.com/Axga15N.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;TLDR: Certain cryptocurrencies are easily considered securities under United States federal securities laws. These cryptocurrencies are actively traded in several cryptocurrency exchanges operating in the United States. The SEC has made it abundantly clear that they are placing cryptocurrencies under tighter scrutiny and will have stricter enforcement of securities laws in 2018. Investors of securities-like cryptocurrencies should beware that exchanges will very likely delist these cryptocurrencies in 2018.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The United States recently passed a tax law that exempted cryptocurrency-to-cryptocurrency trading as like-kind exchanges. This means that trading Bitcoin for Ethereum or Ethereum for OmiseGo will now be considered a taxable event. It is clear that the United States government is starting to place more scrutiny on cryptocurrency exchanges, especially cryptocurrency-to-cryptocurrency exchanges, and there will be more stringent regulations in 2018.&lt;/p&gt;
-
-&lt;p&gt;With this said, one of the most obvious regulatory pain points of existing crypto-to-crypto exchanges operating in the United States is the listing of cryptocurrencies that are easily considered securities. The Securities Exchange Act of 1934 established the Securities and Exchange Commision (SEC) as well as a law that states that any exchanges trading securities needs to be licensed by the SEC. A key requirement for acquiring a license is the strict adherence to very stringent security trading rules.&lt;/p&gt;
-
-&lt;p&gt;Existing crypto-to-crypto exchanges operating in the United States, such as Bittrex, Kraken, and Poloniex, most certainly do not have SEC licenses to trade securities, yet are listing a few cryptocurrencies that are considered securities under United States federal securities law.&lt;/p&gt;
-
-&lt;p&gt;Before we continue, the reader might be wondering: what constitutes a security under United States federal securities law anyways? For this, we use what’s commonly known as the Howey Test. Back in July 2017, the SEC released a report that defined the DAO token as a security. The report also gave guidance for other cryptocurrencies stating that if they cannot pass the Howey Test then they will be considered securities. According to the test, in order for a cryptocurrency to be considered a security, all three elements listed below must be met:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An investment of money&lt;/li&gt;
-  &lt;li&gt;in a common enterprise&lt;/li&gt;
-  &lt;li&gt;with an expectation of profits predominantly from the efforts of others.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;GDAX has helpfully published a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QxOV2dgxO3C_TyVE0-41ZwLlzPmB-EE1NNshJGuedCU&quot;&gt;Howey Test spreadsheet&lt;/a&gt; that makes it very easy to apply the test on a cryptocurrency.&lt;/p&gt;
-
-&lt;p&gt;With this said, let’s go through some popular cryptocurrencies that passes the Howey Test and is considered a security (note: almost every cryptocurrency meets element 1, an investment of money. The grey areas lie in elements 2 and 3):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Iconomi (ICN)&lt;/strong&gt;: Iconomi lays out in their whitepaper that ICN holders: own the Iconomi platform, are entitled to dividends, and have voting rights. This means that ICN meets both “Common Enterprise” and “Expectation of Profit” criterion. ICN is listed on Kraken and Binance.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;NEO (NEO)&lt;/strong&gt;: NEO meets the “Common Enterprise” criteria because of Gas. Gas is paid to all NEO holders, with the amount of payment proportional to the amount of NEO held, regardless of any action on the part of the NEO holder. As such, Gas is earned as a dividend from holding NEO. According to NEO’s whitepaper, “NEO token holders are the network owners and managers, managing the network through voting in the network”. This means that NEO most certainly meets the “Expection of Profit” criteria. Adding on to this, manual action is required outside of the network in order for the holder to get the benefit of the token. This is because the NEO team, and not the network, is solely responsible for policing its network of validators and if a validator misbehaves, the NEO team is responsible for suing the validator owner and revoking validator status. NEO is listed on Bittrex, Poloniex, and Binance.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Aragon (ANT)&lt;/strong&gt;: ANT tokens are very similar to DAO tokens which were specifically called out by the SEC to be a security. ANT gives holders governance and voting power for the distribution of assets with the purpose of profit making. As such, it meets both the “Common Enterprise” and “Expectation of Profit” criterion. ANT is listed on Bittrex.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Etheroll (DICE)&lt;/strong&gt;: DICE meets both the “Common Enterprise” and “Expectation of Profit” criterion since DICE holders earn ether based off of the profits the network makes from its gambling enterprise.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;TenX (PAY)&lt;/strong&gt;: TenX used to meet both the “Common Enterprise” and “Expectation of Profit” criterion since PAY holders were entitled to a portion of the fees paid by TenX credit card users. However, TenX has decided to distance themselves from being considered a security by &lt;a href=&quot;https://blog.tenx.tech/tenx-pay-token-structure-update-4f19be727870&quot;&gt;restructuring the PAY token&lt;/a&gt;. Details on the restructuring are unclear but the PAY token should be safe for exchanges to list post-restructuring. PAY is listed on Bittrex.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you are invested in a cryptocurrency that passes the Howey Test, be mindful of the fact that the SEC is very likely going to crackdown on securities-like cryptocurrencies in 2018 and will force their delisting from cryptocurrency exchanges operating in the United States.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 31 Dec 2017 07:10:46 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/investor-warning-cryptocurrency-exchanges-are-breaking-us-law/</guid>
         
         
       </item>
