@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Mar 2018 10:08:19 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Mar 2018 10:08:19 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Mar 2018 22:57:57 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Mar 2018 22:57:57 -0700</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -67,9 +67,9 @@
 
 &lt;p&gt;VeChain plans to introduce applications to allow anyone with a product and its associated RFID/NFC chip to fetch the product’s data. For example, a consumer could scan a hand bag’s RFID/NFC chip in order to see its passage through the supply chain and verify that the product was properly handled before they purchased it.&lt;/p&gt;
 
-&lt;h2 id=&quot;many-open-technical-questions&quot;&gt;Many open technical questions&lt;/h2&gt;
+&lt;h2 id=&quot;vechain-has-many-open-technical-questions&quot;&gt;VeChain has many open technical questions&lt;/h2&gt;
 
-&lt;p&gt;One big concern I have with VeChain is the fact that there are still many open technical questions for the project. The team has provided very few technical details into how its blockchain will work and since the project is entirely closed source, it’s impossible for anyone to find out. Open questions include how the blockchain will defend against adverse conditions (e.g. when a block producer unexpectedly goes offline or when a block producer is malicious), as well as general questions around the blockchain’s architecture (e.g. how is the EVM adapted to run on VeChain’s blockchain?).&lt;/p&gt;
+&lt;p&gt;One big concern I have with VeChain is the fact that there are still many open technical questions for the project. The team has provided very few technical details into how its blockchain will work and since the project is entirely closed source, it’s impossible for anyone to find out. There are open questions around how the blockchain will defend against adverse conditions (e.g. when a block producer unexpectedly goes offline or when a block producer is malicious), as well as questions around how the blockchain’s architecture will look like (e.g. how is the EVM adapted to run on VeChain’s blockchain?).&lt;/p&gt;
 
 &lt;div class=&quot;-ad&quot;&gt;
         &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
