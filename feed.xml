@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Mar 2018 18:09:24 -0700</pubDate>
-    <lastBuildDate>Sat, 17 Mar 2018 18:09:24 -0700</lastBuildDate>
+    <pubDate>Sat, 17 Mar 2018 18:15:54 -0700</pubDate>
+    <lastBuildDate>Sat, 17 Mar 2018 18:15:54 -0700</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -88,8 +88,8 @@
 &lt;p&gt;I am incredibly excited that the Lightning network has finally been deployed on the mainnet. However, the reality is that the network is far from being a viable decentralized payment network. There are a multitude of unanswered questions, some small and some large, that plague the network. The largest of all, in my opinion, is the liquidity routing problem. Without solving this problem, the Lightning network is doomed to become a centralized payment protocol.&lt;/p&gt;
 </description>
         <pubDate>Sat, 17 Mar 2018 00:33:42 -0700</pubDate>
-        <link>https://storeofvalue.github.io/posts/what-is-the-lightning-network/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-the-lightning-network/</guid>
+        <link>https://storeofvalue.github.io/posts/lightning-network-elephant-in-the-room/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/lightning-network-elephant-in-the-room/</guid>
         
         
       </item>
