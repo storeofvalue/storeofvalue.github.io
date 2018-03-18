@@ -6,9 +6,93 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Mar 2018 22:57:57 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Mar 2018 22:57:57 -0700</lastBuildDate>
+    <pubDate>Sat, 17 Mar 2018 18:09:24 -0700</pubDate>
+    <lastBuildDate>Sat, 17 Mar 2018 18:09:24 -0700</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>The Lightning Network's Elephant In The Room</title>
+        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; src=&quot;https://i.imgur.com/QavGn3X.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lightning Labs is a private company developing Bitcoin’s Lightning network. The company’s CEO, Elizabeth Stark, recently announced the release of the Lightning network on Bitcoin’s mainnet and a modest round of funding (by cryptocurrency standards) of $2.5 million from high profile Silicon Valley executives hailing from companies like Square (Jacqueline Reses and Jack Dorsey), Twitter (Jack Dorsey), RobinhoodApp (Vlad Tenev), and Paypal (David Sacks).&lt;/p&gt;
+
+&lt;p&gt;The release of the Lightning network beta on Bitcoin’s mainnet was met by much hype and fanfare. This was something promised to Bitcoin’s community for several years now and it’s finally becoming tangible. With the recent blockchain congestion that brought Bitcoin’s network to its knees with super high fees and long block times, as well as the creation of the Bitcoin Cash community that vehemently opposed Bitcoin’s refusal to increase block sizes to relieve congestion, the hint of an imminent release of a viable offchain scaling solution for Bitcoin was highly welcomed.&lt;/p&gt;
+
+&lt;p&gt;But is the Lightning network as great as many claim it is? The idea is very ambitious but the devil is in the details. There is a significant problem that the network has not solved. Without a solution, the Lightning network cannot become decentralized.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;what-exactly-is-the-lightning-network&quot;&gt;What exactly is the Lightning network?&lt;/h1&gt;
+
+&lt;p&gt;But first, what exactly is the Lightning network? It’s a second-layer technology on Bitcoin focused on scaling through state channels. Bitcoin’s community has been stubborn in keeping the 1mb maximum block size that was arbitrarily set by Satoshi Nakamoto in the early days of Bitcoin development. The community believed that raising the block size will reduce decentralization since full nodes will require more space which will be more expensive to setup and maintain. As such, any attempts at raising the block size will start a slippery slope to increasing centralization. As we all know, the archenemy to Bitcoin is centralization.&lt;/p&gt;
+
+&lt;p&gt;This arbitrary block size limit has proved to be insufficient for how popular Bitcoin has become today, with blocks filling to the max with transactions and the mempool clogging up with hundreds of thousands of pending transactions.&lt;/p&gt;
+
+&lt;p&gt;Instead of raising the maximum block size to accomodate more transactions, Bitcoin’s community has decided that the best way to scale Bitcoin is with offchain protocols like the Lightning network. Theoretically, the network allows for trustless, secure, and decentralized payments to be conducted over Bitcoin’s network without publishing a transaction in a block. As such, regardless of Bitcoin’s maximum block size, users will be able to quickly transact over Bitcoin without having to pay outrageous fees or wait an outrageously long time.&lt;/p&gt;
+
+&lt;p&gt;The Lightning network uses a relatively new blockchain technology known as state channels to support offchain transactions. Let’s say Alice, a user that wishes to participate in the network, needs to setup a “payment channel” with another user, Bob, on the Lightning network. To do so, Alice needs to publish a transaction in a block committing some of her bitcoins to the channel with Bob. Bob can also publish a transaction to commit his own bitcoins to the channel. It’s important to note that bitcoins committed to a channel cannot be spent on the blockchain until the channel is closed.&lt;/p&gt;
+
+&lt;p&gt;At this point, a channel is set up between Alice and Bob with a total of A + B bitcoins. Alice has A bitcoins in the channel and Bob has B bitcoins. X = A + B.&lt;/p&gt;
+
+&lt;p&gt;With the magic of cryptography, Alice and Bob can securely send each other Bitcoin over the channel an infinite amount of times without ever touching the blockchain.&lt;/p&gt;
+
+&lt;p&gt;What’s even more awesome is that if Bob has a seperate payment channel with Charlie, then Alice and Charlie can send bitcoins to each other through Bob without have to setup their own channel.&lt;/p&gt;
+
+&lt;p&gt;Taking this a little further, imagine the Lightning network had many users and many channels. Theoretically, a user can send funds to any other user on the network as long as there is a path of channels connecting them. This effectively creates a Internet of money over Bitcoin that could scale to an unlimited number of transactions per second.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;the-elephant-in-the-room&quot;&gt;The Elephant In The Room&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/nxdqaCn.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In order for the Lightning network to work, it needs to be able to route payments from one part of the network to another. Just like the Internet, a user theoretically only needs to maintain one connection (payment channel) to interact with the rest of the network. If a user had to constantly setup channels with other users, than there is no point in using the network at all as s/he might as well just issue onchain transactions.&lt;/p&gt;
+
+&lt;p&gt;The only problem is, there is no known solution for a decentralized routing algorithm over such a network. For example, if Alice was separated from Fiona by 5 connections, and Alice wanted to send a payment to Fiona, there is no easy way for the Lightning network to quickly finding a suitable path. In fact, the network really has no way of knowing if there even existed a viable path without having to try all possible paths! Even the Internet, a decades-old technology, has not solved this problem! Internet routing is done via centrally managed routing tables by ISPs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; src=&quot;https://i.imgur.com/PjpbW3q.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In fact, the Lightning network’s routing problem is even more complex than the Internet’s. To send a payment, not only does the network need to find a viable route, the connections in between need to have enough liquidity to support the payment. For example, if Alice wanted to send Fiona 1 bitcoin, and the network miraculously found a path from Alice to Bob to Charlie to David to Ellen to fiona, if any of the channels, Alice-Bob, Bob-Charlie, Charlie-David, David-Ellen, and Ellen-Fiona, didn’t have at least 1 bitcoin of liquidity, Alice cannot use this path to send 1 bitcoin to Fiona.&lt;/p&gt;
+
+&lt;p&gt;Put simply, this “liquidity routing” problem is a daunting problem to solve, and one that definitely warrants more discussion.&lt;/p&gt;
+
+&lt;p&gt;One might counter by saying that this might not be a problem at all if we kept network topology simple, e.g. having large, highly liquid nodes that everyone connected to so that participants in the network are no more than 2 degrees of separation from each other. Then you realize that this is a highly centralized solution that defeats the whole point of using Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;The Lightning network is currently released as a beta on the mainnet, but if developers cannot solve this “liquidity routing” problem, it might forever be stuck in beta.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 3 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;3806401153&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;the-lightning-network-needs-to-be-decentralized&quot;&gt;The Lightning network needs to be decentralized&lt;/h1&gt;
+
+&lt;p&gt;I am incredibly excited that the Lightning network has finally been deployed on the mainnet. However, the reality is that the network is far from being a viable decentralized payment network. There are a multitude of unanswered questions, some small and some large, that plague the network. The largest of all, in my opinion, is the liquidity routing problem. Without solving this problem, the Lightning network is doomed to become a centralized payment protocol.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 Mar 2018 00:33:42 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/what-is-the-lightning-network/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/what-is-the-lightning-network/</guid>
+        
+        
+      </item>
     
       <item>
         <title>A Deep Dive Into VeChain</title>
@@ -1435,149 +1519,6 @@ Is Qtum Overlooked And Undervalued? - A Detailed Analysis&lt;/a&gt;.&lt;/p&gt;
         <pubDate>Tue, 16 Jan 2018 00:56:27 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/a-definitive-guide-to-neo/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-definitive-guide-to-neo/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Deep Dive Into Nano/RaiBlocks</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/2i9SqoV.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Nano won the community vote on which cryptocurrency I should review next: &lt;a href=&quot;http://www.strawpoll.me/14761169&quot;&gt;http://www.strawpoll.me/14761169&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Disclaimer: I don’t own any Nano and haven’t owned Nano in the past. I might hold a position in Nano sometime in the future but am currently in wait-and-see mode.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Nano is a cryptocurrency that supports feeless, near-instant transactions, with tremendous scalability. It does so by veering from the traditional single-threaded blockchain data structure to a directed acyclic graph (DAG) data structure. Nano uses a unique DAG that the team calls a block-lattice.&lt;/p&gt;
-
-&lt;p&gt;As Bitcoin’s price rose over 2017, so did its transaction fees. The developers of Bitcoin’s insistence on keeping Bitcoin’s maximum block size at 1mb has caused tremendous congestion in its network. This congestion brought many altcoins with low fees and fast transaction times into the limelight. Nano, which boasts feeless and near instant transactions, was one of them. From a price of $0.20 in December to a peak price of $35 in early January, Nano’s price boomed as Bitcoin’s price stalled. At the time of writing, Nano’s price has stabilized at around $22.&lt;/p&gt;
-
-&lt;p&gt;Nano’s claim to fame is its feeless transactions and tremendous scalability. This sounds too good to be true and has had many people raising their eyebrows. The two fundamental properties of cryptocurrencies are decentralization and consistency and it’s generally accepted that it’s incredibly hard, maybe even impossible, to create a cryptocurrency that satisfies all three criteria of the “DCS triangle”: decentralization, consistency, and scalability.&lt;/p&gt;
-
-&lt;p&gt;So is Nano legitimate? Is it everything that it claims to be or is it vaporware? Let’s dive into the technology to see how it works.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;10000-feet-summary&quot;&gt;10,000 feet summary&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Nano was started in 2014 as a side project by Colin LeMahieu. The project took three years to complete and a fully functional main net was launched in 2017.&lt;/li&gt;
-  &lt;li&gt;Nano has a fixed, maximum supply of 133,248,289 XRB. All XRB was created when the main net was launched.&lt;/li&gt;
-  &lt;li&gt;All transactions are free and they are confirmed within 5 seconds. Nano has an extremely high network throughput capacity and is only limited by computational speed and data transfer delays.&lt;/li&gt;
-  &lt;li&gt;Nano uses a DAG-based, block-lattice data structure instead of the traditional single-threaded blockchain.&lt;/li&gt;
-  &lt;li&gt;Consensus is maintained through a voting mechanism. Validator nodes vote on a world state that they believe is true. The number of votes each node has is the addition of the number of XRB owned plus the number of XRB delegated to the node by other accounts.&lt;/li&gt;
-  &lt;li&gt;The Nano team didn’t conduct an ICO and instead distributed Nano for free through a web faucet. 7,000,000 XRB was retained as a development fund.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/azcmAlx.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;is-nano-a-scam&quot;&gt;Is Nano a scam?&lt;/h1&gt;
-
-&lt;p&gt;I’ve scoured through the whitepaper and looked over the team’s history and believe that Nano is everything it claims to be, but with a few caveats. There are many open questions around its consensus algorithm. It’s not well tested and to my understanding, lacks peer review. This increases the risk of critical flaws that could bring down the network. Although Nano does indeed support near instant and free transactions, the jury is still out on whether its consensus algorithm is correct and robust.&lt;/p&gt;
-
-&lt;p&gt;Besides open questions on the integrity of Nano’s consensus algorithm, it’s also important to understand that Nano will tend to be more centralized than cryptocurrencies using more traditional consensus algorithms like proof of work or proof of stake. Although it doesn’t require a huge financial investment to start running a validator node, it’s still very expensive to maintain it, mainly because the system doesn’t provide direct financial incentives to do so. As such, with all else being equal, the number of validators in the system will tend to be much fewer than systems such as Ethereum or Bitcoin.&lt;/p&gt;
-
-&lt;p&gt;With that said, I’m confident in saying that Nano is not a scam. Although it can be more centralized than Bitcoin or Ethereum, the technology works as advertised.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-does-nano-work&quot;&gt;How does Nano work?&lt;/h1&gt;
-
-&lt;p&gt;Nano uses a novel data structure known as a block-lattice. While traditional blockchain-based cryptocurrencies maintain a single, global blockchain, Nano maintains a blockchain for every Nano account. Each blockchain can only be updated by the its owner.&lt;/p&gt;
-
-&lt;p&gt;To send funds, the sender needs to issue a “send” transaction in its own blockchain and the receiver needs to issue a corresponding “receive” transaction to its blockchain. This is why Nano is so fast. Because the account is the only entity that can update its blockchain, each blockchain can be updated immediately and asynchronously. This results in really fast transactions. Once a blockchain update is made, the transaction is propagated across the network and as long as no validator discovers a conflict, the transaction is confirmed.&lt;/p&gt;
-
-&lt;p&gt;The Nano network consists of wallets and validator nodes. In order for a wallet to issue a transaction, it must send it to a validator node. The node validates the transaction and then broadcasts it to all other validator nodes that it’s connected to. Every subsequent validator node performs the same validate-and-relay process until the whole network has seen the transaction.&lt;/p&gt;
-
-&lt;p&gt;A validator node keeps track of the state of the entire network by storing every address’s blockchain. Conflicts or “forks” happen when a published transaction conflicts with a validator node’s internal state. To resolve the conflict, the node initiates a voting process by announcing the conflict to other nodes. The voting process occurs over a predefined period where each node votes on a state of the network it believes is correct. The number of votes a node has equals the amount of Nano it owns plus the Nano delegated to it from other accounts. When a state has more than 133,248,289/2 votes (133,248,289 is the total number of XRBs in existence), it’s automatically accepted as the real state of the network.&lt;/p&gt;
-
-&lt;p&gt;The Nano network provides no rewards for running a validator.&lt;/p&gt;
-
-&lt;p&gt;To mitigate spam, an account needs to perform an easy proof of work problem to add a transaction to its own blockchain. This is, of course, not a cure-all as transactions can still be created within a few seconds.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;team-and-history&quot;&gt;Team and history&lt;/h1&gt;
-
-&lt;p&gt;The key developer behind Nano is Colin LeMahieu. LeMahieu started developing Nano in 2014 and he released the network in 2017. Nano didn’t hold an ICO and instead, distributed the cryptocurrency through a web faucet. Users need only complete a captcha in order to receive Nano.&lt;/p&gt;
-
-&lt;p&gt;The team behind Nano is small and fairly unknown but with the cryptocurrency’s recent success, LeMahieu is in the process of building a larger team. Expect Nano to make big ecosystem plays in 2018.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/L3bJAEW.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;paypal-lead-engineer--nano&quot;&gt;PayPal lead engineer + Nano&lt;/h1&gt;
-
-&lt;p&gt;It’s interesting to note that a lead PayPal engineer built a Nano checkout app as a weekend hack project. Check it out &lt;a href=&quot;https://medium.com/@bluepnume/introducing-brainblocks-my-weekend-hack-project-to-build-a-simple-checkout-app-for-Nano-5f5770c06c14&quot;&gt;here&lt;/a&gt;. For a lead PayPal engineer to build something with Nano, even if it was just a weekend hack project, is quite significant for this nascent cryptocurrency.&lt;/p&gt;
-
-&lt;h1 id=&quot;nano-vs-iota&quot;&gt;Nano vs IOTA&lt;/h1&gt;
-
-&lt;p&gt;IOTA is another cryptocurrency that offers free and near instant transactions with high scalability. IOTA, like Nano, saw a tremendous increase in price over the past month. It’s not surprising that the two are frequently compared against each other. Here’s how the two cryptocurrencies differ.&lt;/p&gt;
-
-&lt;p&gt;As mentioned above, Nano uses a block-lattice structure where every account has its own blockchain. IOTA uses a global DAG data structure (called Tangle) where every node in the graph represents one whole transaction. In order to issue a new transaction, an account needs to validate two previous transactions by solving an easy proof of work problem. The new transaction would then “reference” or connect to the previous two transactions in the Tangle.&lt;/p&gt;
-
-&lt;p&gt;While IOTA transactions happen in a single phase (i.e. one transaction that represents both a send and a receive), Nano transactions happen in two phases: a sender needs to issue a “send” transaction in its blockchain and the receiver needs to issue a corresponding “receive” transaction.&lt;/p&gt;
-
-&lt;p&gt;Nano is more decentralized than IOTA (though both pale in comparison to Bitcoin and Ethereum). IOTA currently needs a centralized Coordinator to ensure network security and direct network progress. This is because IOTA’s network security is directly tied to the number of transactions occuring in the network. In low transaction conditions, network security drops significantly. In theory, the Coordinator will eventually become unnecessary as the network reaches a critical mass of adoption but IOTA is far from this reality. A scary consequence of the existence of a Coordinator is the fact that IOTA’s developers can freeze any user’s funds at a whim… and they have done so before (&lt;a href=&quot;https://blog.iota.org/official-iota-foundation-response-to-the-digital-currency-initiative-at-the-mit-media-lab-part-1-72434583a2&quot;&gt;source&lt;/a&gt;). The security of Nano’s network, on the other hand, does not depend on the volume of transactions in the system. As such, Nano doesn’t need a centralized entity as a security crutch.&lt;/p&gt;
-
-&lt;p&gt;But it’s not all that bad for IOTA. After all, it was one of the first movers for free and fast cryptocurrencies and it has an ecosystem advantage over Nano. IOTA has more users and the IOTA Foundation has more business connections. For example, the Foundation recently launched an IOTA Data Marketplace initiative with many large companies participating.&lt;/p&gt;
-
-&lt;p&gt;I am primarily concerned with how expensive it is to operate a Nano or IOTA validator node since both require high performance computers but the network provides no financial reward to do so. This discourages the operation of validator nodes and the less validator nodes in a network, the more centralized it is and thus the less secure it is.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 3 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;3806401153&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;project-concerns&quot;&gt;Project concerns&lt;/h1&gt;
-
-&lt;h2 id=&quot;concerns-with-the-consensus-algorithm&quot;&gt;Concerns with the consensus algorithm&lt;/h2&gt;
-
-&lt;p&gt;As mentioned above, there are many open questions around the consensus algorithm. Given that Nano is so young, it’s not well tested and lacks peer review. This introduces the risk of a serious flaw in the consensus algorithm. For example, what happens if there aren’t enough votes for a quorum in order to resolve a network conflict? Currently, validator nodes rely on the maximum supply number (133,248,289 XRB) in order to determine a quorum and it’s totally possible that a voting process could not have enough validator nodes participating.&lt;/p&gt;
-
-&lt;p&gt;Here’s another big question I have: in the event that parts of the Nano network get separated for a long period of time (perhaps due to network issues or other freak occurences), what happens when you rejoin the separated networks? Will the rejoined network be crippled from all the voting processes that would inevitably take place? Is there a mathematical guarantee that the new network will recover?&lt;/p&gt;
-
-&lt;p&gt;These are all very important questions and their answers will determine the robustness and, ultimately, the longevity of Nano.&lt;/p&gt;
-
-&lt;h2 id=&quot;spam-vulnerability&quot;&gt;Spam vulnerability&lt;/h2&gt;
-
-&lt;p&gt;Nano, being inherently feeless, is highly vulnerable to spam. I could run a script where multiple accounts will constantly send transactions between each other creating massive blockchains. Run long enough, it will make validators incredibly expensive to maintain.&lt;/p&gt;
-
-&lt;p&gt;It costs next to nothing to create spam in the system yet spam can be very costly. Unlike the traditional blockchain where storage and computational costs are predictable, Nano’s feeless transactions and scalability makes both of these costs highly unpredictable and there is no rule that prevents them from skyrocketing.&lt;/p&gt;
-
-&lt;p&gt;Expect these spam attacks to occur as Nano increases in popularity and we will have to see how the development team responds.&lt;/p&gt;
-
-&lt;h2 id=&quot;nano-doesnt-incentivize-decentralization&quot;&gt;Nano doesn’t incentivize decentralization&lt;/h2&gt;
-
-&lt;p&gt;Nano’s validator nodes are very expensive to operate run. The operation costs consist of high network throughput costs and modest processing and storage costs. Since there’s no reward for running a Nano validator node, validator node operators are prone to centralization.&lt;/p&gt;
-
-&lt;p&gt;Some people argue that this is not a problem since wealthy businesses relying on the Nano network are incentivized to run validator nodes to secure the network. Large investors might also be incentivized to run validator nodes in order to secure their investment. However, we have yet to see if this is true.&lt;/p&gt;
-
-&lt;h2 id=&quot;limited-applications---no-smart-contracts&quot;&gt;Limited applications - no smart contracts&lt;/h2&gt;
-
-&lt;p&gt;Smart contracts are an undervalued yet very powerful extension to cryptocurrencies. I have a strong feeling that the any cryptocurrency that wants to be successful in the long run must support smart contracts. However, I have reservations on whether Nano will ever be able to support smart contracts given that its system is so radically different.&lt;/p&gt;
-
-&lt;h1 id=&quot;bottomline---am-i-bullish-on-nano&quot;&gt;Bottomline - am I bullish on Nano?&lt;/h1&gt;
-
-&lt;p&gt;Nano works as described - near instant and feeless transactions with unlimited transaction throughput. It has a lot of potential to seriously challenge big names like IOTA and even Bitcoin. However, Nano is currently being held back by an unproven consensus algorithm, spam vulnerability, centralization concerns, and the lack of smart contracts. Nevertheless, the network in its current state works and it works well. Although there are still many open questions around the project, I am quite bullish for it.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 01:40:35 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/a-deep-dive-into-raiblocks/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-deep-dive-into-raiblocks/</guid>
         
         
       </item>

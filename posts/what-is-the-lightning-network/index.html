@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Lightning Network&#39;s Elephant In The Room</title>
+  <meta name="description" content="In July 2010, one bitcoin was worth $0.08 USD. How much is it worth today? Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher, day-trader, and programmer, I aim to provide in-depth fundamental analyses on cryptocurrencies and help you identify market opportunities. Stay informed. Invest wisely.
+">
+
+  <meta property="og:url" content="https://storeofvalue.github.io/posts/what-is-the-lightning-network/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="The Lightning Network&#39;s Elephant In The Room" />
+  <meta property="og:description" content="In July 2010, one bitcoin was worth $0.08 USD. How much is it worth today? Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher, day-trader, and programmer, I aim to provide in-depth fundamental analyses on cryptocurrencies and help you identify market opportunities. Stay informed. Invest wisely.
+" />
+  <meta property="og:image" content="https://i.imgur.com/QavGn3X.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SovCryptoBlog" />
+  <meta name="twitter:title" content="The Lightning Network&#39;s Elephant In The Room" />
+  <meta name="twitter:description" content="In July 2010, one bitcoin was worth $0.08 USD. How much is it worth today? Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher, day-trader, and programmer, I aim to provide in-depth fundamental analyses on cryptocurrencies and help you identify market opportunities. Stay informed. Invest wisely.
+" />
+  <meta name="twitter:image" content="https://i.imgur.com/QavGn3X.jpg" />
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="canonical" href="https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+  <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102388374-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-102388374-1');
+    </script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">
+      <div class="-title">Store of Value</div>
+      <div class="-subtitle">A cryptocurrency blog</div>
+    </a>
+    <div class="-right-parent">
+      <div class="-twitter-follow-parent">
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="desktop-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span>
+          </div>
+        </a>
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="mobile-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us</span>
+          </div>
+        </a>
+      </div>
+      <div class="desktop-only -logos-parent">
+        <img src="/bitcoin-logo.png" />
+        <img src="/eth-logo.png" />
+        <img src="/litecoin-logo.png" />
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style="position: relative; font-size: 0; text-align: center">
+  <div id="article-side-bar-parent" style="text-align: left; display: inline-block; width: 320px; margin-right: 20px; vertical-align: top">
+    <div id="article-side-bar" style="z-index: 1; width: 320px">
+      <div class="-back-button-parent">
+        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Articles</a>
+      </div>
+      
+      <div style="height: 100px; margin-bottom: 12px; background-image: url('https://i.imgur.com/QavGn3X.jpg'); background-size: cover; background-position: 50% 50%"></div>
+      
+      <div style="padding: 0 10px; margin-bottom: 16px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">NOW READING</div>
+        <div style="font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+          The Lightning Network's Elephant In The Room
+        </div>
+      </div>
+      <div style="padding: 0 10px; margin-bottom: 12px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 5px">MORE ARTICLES</div>
+        <div class="-more-articles-parent">
+          <div>
+          <a href="/posts/timeline-of-the-chaincoin-scam/">Timeline Of The ChainCoin Scam - Massive Cryptocurrency Pump And Dump Scheme</a>
+        </div><div>
+          <a href="/posts/what-is-ripple-and-should-you-invest/">What Is Ripple And Should You Invest?</a>
+        </div><div>
+          <a href="/posts/segwit2x-could-be-the-biggest-bear-trap/">Why Bitcoin's Segwit2x Could Be The Biggest Bear Trap This Year</a>
+        </div>
+        </div>
+      </div>
+      <div style="margin-top: 12px; width: 320px; height: 400px; text-align: center">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article Sidebar -->
+        <ins class="adsbygoogle"
+          style="display:inline-block;width:300px;height:250px"
+          data-ad-client="ca-pub-0144173183236578"
+          data-ad-slot="8062654601"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+  <article style="text-align: left; width: 800px; max-width: 100%; display: inline-block;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">The Lightning Network's Elephant In The Room</h1>
+      <p class="post-meta"><time datetime="2018-03-17T00:33:42-07:00" itemprop="datePublished">Mar 17, 2018</time></p>
+      <ul class="-share-bar">
+        <li>
+          <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+            <i class="fa fa-twitter"></i> Tweet 
+          </a>
+        </li>
+        <li>
+          <a class="-facebook" target="_blank" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+            <i class="fa fa-facebook"></i> Share
+          </a>
+        </li>
+        <li>
+          <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+            <i class="fa fa-google-plus"></i> Google
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p><img class="-center -header" src="https://i.imgur.com/QavGn3X.jpg" style="width: 100%" /></p>
+
+<p>Lightning Labs is a private company developing Bitcoin’s Lightning network. The company’s CEO, Elizabeth Stark, recently announced the release of the Lightning network on Bitcoin’s mainnet and a modest round of funding (by cryptocurrency standards) of $2.5 million from high profile Silicon Valley executives hailing from companies like Square (Jacqueline Reses and Jack Dorsey), Twitter (Jack Dorsey), RobinhoodApp (Vlad Tenev), and Paypal (David Sacks).</p>
+
+<p>The release of the Lightning network beta on Bitcoin’s mainnet was met by much hype and fanfare. This was something promised to Bitcoin’s community for several years now and it’s finally becoming tangible. With the recent blockchain congestion that brought Bitcoin’s network to its knees with super high fees and long block times, as well as the creation of the Bitcoin Cash community that vehemently opposed Bitcoin’s refusal to increase block sizes to relieve congestion, the hint of an imminent release of a viable offchain scaling solution for Bitcoin was highly welcomed.</p>
+
+<p>But is the Lightning network as great as many claim it is? The idea is very ambitious but the devil is in the details. There is a significant problem that the network has not solved. Without a solution, the Lightning network cannot become decentralized.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="what-exactly-is-the-lightning-network">What exactly is the Lightning network?</h1>
+
+<p>But first, what exactly is the Lightning network? It’s a second-layer technology on Bitcoin focused on scaling through state channels. Bitcoin’s community has been stubborn in keeping the 1mb maximum block size that was arbitrarily set by Satoshi Nakamoto in the early days of Bitcoin development. The community believed that raising the block size will reduce decentralization since full nodes will require more space which will be more expensive to setup and maintain. As such, any attempts at raising the block size will start a slippery slope to increasing centralization. As we all know, the archenemy to Bitcoin is centralization.</p>
+
+<p>This arbitrary block size limit has proved to be insufficient for how popular Bitcoin has become today, with blocks filling to the max with transactions and the mempool clogging up with hundreds of thousands of pending transactions.</p>
+
+<p>Instead of raising the maximum block size to accomodate more transactions, Bitcoin’s community has decided that the best way to scale Bitcoin is with offchain protocols like the Lightning network. Theoretically, the network allows for trustless, secure, and decentralized payments to be conducted over Bitcoin’s network without publishing a transaction in a block. As such, regardless of Bitcoin’s maximum block size, users will be able to quickly transact over Bitcoin without having to pay outrageous fees or wait an outrageously long time.</p>
+
+<p>The Lightning network uses a relatively new blockchain technology known as state channels to support offchain transactions. Let’s say Alice, a user that wishes to participate in the network, needs to setup a “payment channel” with another user, Bob, on the Lightning network. To do so, Alice needs to publish a transaction in a block committing some of her bitcoins to the channel with Bob. Bob can also publish a transaction to commit his own bitcoins to the channel. It’s important to note that bitcoins committed to a channel cannot be spent on the blockchain until the channel is closed.</p>
+
+<p>At this point, a channel is set up between Alice and Bob with a total of A + B bitcoins. Alice has A bitcoins in the channel and Bob has B bitcoins. X = A + B.</p>
+
+<p>With the magic of cryptography, Alice and Bob can securely send each other Bitcoin over the channel an infinite amount of times without ever touching the blockchain.</p>
+
+<p>What’s even more awesome is that if Bob has a seperate payment channel with Charlie, then Alice and Charlie can send bitcoins to each other through Bob without have to setup their own channel.</p>
+
+<p>Taking this a little further, imagine the Lightning network had many users and many channels. Theoretically, a user can send funds to any other user on the network as long as there is a path of channels connecting them. This effectively creates a Internet of money over Bitcoin that could scale to an unlimited number of transactions per second.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 2 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="7020600859" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="the-elephant-in-the-room">The Elephant In The Room</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/nxdqaCn.jpg" /></p>
+
+<p>In order for the Lightning network to work, it needs to be able to route payments from one part of the network to another. Just like the Internet, a user theoretically only needs to maintain one connection (payment channel) to interact with the rest of the network. If a user had to constantly setup channels with other users, than there is no point in using the network at all as s/he might as well just issue onchain transactions.</p>
+
+<p>The only problem is, there is no known solution for a decentralized routing algorithm over such a network. For example, if Alice was separated from Fiona by 5 connections, and Alice wanted to send a payment to Fiona, there is no easy way for the Lightning network to quickly finding a suitable path. In fact, the network really has no way of knowing if there even existed a viable path without having to try all possible paths! Even the Internet, a decades-old technology, has not solved this problem! Internet routing is done via centrally managed routing tables by ISPs.</p>
+
+<p><img class="-center" src="https://i.imgur.com/PjpbW3q.jpg" /></p>
+
+<p>In fact, the Lightning network’s routing problem is even more complex than the Internet’s. To send a payment, not only does the network need to find a viable route, the connections in between need to have enough liquidity to support the payment. For example, if Alice wanted to send Fiona 1 bitcoin, and the network miraculously found a path from Alice to Bob to Charlie to David to Ellen to fiona, if any of the channels, Alice-Bob, Bob-Charlie, Charlie-David, David-Ellen, and Ellen-Fiona, didn’t have at least 1 bitcoin of liquidity, Alice cannot use this path to send 1 bitcoin to Fiona.</p>
+
+<p>Put simply, this “liquidity routing” problem is a daunting problem to solve, and one that definitely warrants more discussion.</p>
+
+<p>One might counter by saying that this might not be a problem at all if we kept network topology simple, e.g. having large, highly liquid nodes that everyone connected to so that participants in the network are no more than 2 degrees of separation from each other. Then you realize that this is a highly centralized solution that defeats the whole point of using Bitcoin.</p>
+
+<p>The Lightning network is currently released as a beta on the mainnet, but if developers cannot solve this “liquidity routing” problem, it might forever be stuck in beta.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 3 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="3806401153" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="the-lightning-network-needs-to-be-decentralized">The Lightning network needs to be decentralized</h1>
+
+<p>I am incredibly excited that the Lightning network has finally been deployed on the mainnet. However, the reality is that the network is far from being a viable decentralized payment network. There are a multitude of unanswered questions, some small and some large, that plague the network. The largest of all, in my opinion, is the liquidity routing problem. Without solving this problem, the Lightning network is doomed to become a centralized payment protocol.</p>
+
+    </div>
+
+    <ul class="-share-bar">
+      <li>
+        <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+          <i class="fa fa-twitter"></i> Tweet
+        </a>
+      </li>
+      <li>
+        <a class="-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+          <i class="fa fa-facebook"></i> Share
+        </a>
+      </li>
+      <li>
+        <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+          <i class="fa fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/what-is-the-lightning-network/">
+          <i class="fa fa-google-plus"></i> Google
+        </a>
+      </li>
+    </ul>
+    <div style="font-size: 17px; margin: 18px 0; font-size: 15px"><a style="font-size: 19px" href="https://www.tokendaily.co">Check out TokenDaily.co</a> Token Daily is a place for token founders, developers, investors, and crypto nerds of all stripes to share and discover articles, product launches/updates, and deep dive Q&A’s with experts.</div>
+    <div class="-ad">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- StoreOfValue Article Bottom -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-0144173183236578"
+           data-ad-slot="7692425485"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+<!--     <div>
+      <div style="margin-top: 24px; border: solid #555 1px; font-size: 26px; padding: 10px">
+        Tip Jar 🍀
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Ether:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">0xa33Ef019ff0bdE98f951585AA57c1Af7c898fE5c</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">QTUM:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">QZckfa6Cfu8tsjvt1FHBFzcTh8cefYdH6T</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Stellar:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">GC4CDHSXYPSOOJNMBDNVWPACT6UDYDQHPJIOCW4GYTG6ZRTJH2475D3Q</span>
+        </div>
+      </div>
+    </div> -->
+  </article>
+</div>
+<script type="text/javascript">
+  var $article_side_bar = $('#article-side-bar');
+  var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
+  var original_article_side_bar_top_offset = $article_side_bar.offset().top;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
+  var $article = $('article');
+  var $window = $(window);
+  var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');
+  var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+  if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+    $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+    $article_back_button_parent.show();
+  }
+  $window.scroll(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $window.resize(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $more_articles_parent.find('a').click(function () {
+    gtag('event', 'click', {
+      'event_category': 'more-articles-sidebar-click',
+      'event_label': $(this).html()
+    });
+  });
+  $('article').find('a').attr('target', '_blank');
+</script>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store of Value</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>A cryptocurrency blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>In July 2010, one bitcoin was worth $0.08 USD. How much is it worth today? Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher, day-trader, and programmer, I aim to provide in-depth fundamental analyses on cryptocurrencies and help you identify market opportunities. Stay informed. Invest wisely.
+</p>
+        <p>
+          <span style="font-weight: bold">Contact me:</span> storeofvalueblog@gmail.com
+        </p>
+        <p>
+          <span style="font-weight: bold">Pageviews per article:</span> 10494
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
