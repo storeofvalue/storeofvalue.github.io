@@ -6,8 +6,8 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Apr 2018 02:51:05 -0700</pubDate>
-    <lastBuildDate>Fri, 06 Apr 2018 02:51:05 -0700</lastBuildDate>
+    <pubDate>Fri, 06 Apr 2018 03:02:02 -0700</pubDate>
+    <lastBuildDate>Fri, 06 Apr 2018 03:02:02 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -740,7 +740,7 @@
 
 &lt;p&gt;EOS is a blockchain founded and designed by cryptocurrency genius and serial entrepreneur, Dan Larimer. It promises to be a high performance smart contracts platform that uses a novel architecture to enable vertical and horizontal scaling (e.g. parallelized decentralized applications).&lt;/p&gt;
 
-&lt;p&gt;EOS focuses on usability and performance. Through the use of a delegated Proof of Stake consensus algorithm combined with a messaging-centric design, it is an incredibly fast blockchain. Its unique token economics enables free transactions.&lt;/p&gt;
+&lt;p&gt;EOS focuses on usability and performance. Through a delegated Proof of Stake consensus algorithm combined with a messaging-centric design, it is an incredibly fast blockchain. Its unique token economics enables free transactions.&lt;/p&gt;
 
 &lt;p&gt;Currently, using decentralized applications (dApps) on Ethereum can be quite cumbersome. A user needs to pay fees and transactions are far from instant. In high traffic conditions, these issues are amplified with fees and transaction confirmation times skyrocketing. EOS aims to solve these usability issues in order to create a business-ready blockchain that doesn’t feel like a blockchain.&lt;/p&gt;
 
@@ -806,7 +806,7 @@
 
 &lt;h2 id=&quot;eos-supports-dapp-parallelization&quot;&gt;EOS supports dApp parallelization&lt;/h2&gt;
 
-&lt;p&gt;As mentioned above, EOS is capable of parallelized dApp execution.&lt;/p&gt;
+&lt;p&gt;As mentioned above, EOS is capable of parallelized dApp execution. This is technically very impressive and allows EOS to be horizontally scalable, something Ethereum and Bitcoin is not.&lt;/p&gt;
 
 &lt;p&gt;Essentially, blocks are split into different threads with each thread assigned a group of accounts (which could include dApps) by the block producer. Two accounts can be safely assigned into different threads if there are no transactions referencing both accounts at once. This is made possible by the fact that the state of an EOS dApp only depends on the messages it receives, and the system has a constraint that messages generated in one block cycle can only be delivered in the next cycle.&lt;/p&gt;
 
@@ -819,7 +819,7 @@
         &lt;/script&gt;
       &lt;/div&gt;
 
-&lt;h2 id=&quot;eoss-transactions-are-free&quot;&gt;EOS’s transactions are free&lt;/h2&gt;
+&lt;h2 id=&quot;in-eos-transactions-are-free&quot;&gt;In EOS, transactions are free&lt;/h2&gt;
 
 &lt;p&gt;In EOS, transactions will be free. However, blockchains with free transactions raise two key concerns. First, they are vulnerable to spam. Second, how will block producers be motivated to keep producing if they cannot earn fees?&lt;/p&gt;
 
@@ -829,7 +829,7 @@
 
 &lt;p&gt;Besides spam vulnerability, free transactions raise another key concern. How are block producers motivated to keep producing? This is where the 5% annual inflation rate is key to sustaining the system. As mentioned above, it is very likely that a large portion of the inflation will go towards block producers.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-does-eoss-self-governance-system-work&quot;&gt;How does EOS’s self-governance system work?&lt;/h2&gt;
+&lt;h2 id=&quot;what-about-the-self-governance-system&quot;&gt;What about the self-governance system?&lt;/h2&gt;
 
 &lt;p&gt;EOS token holders will have a say in governance. Not only do they get to vote for block producers, they also get to vote on how inflation funds are allocated. Each EOS token represents one vote. As mentioned above, to be a block producer, you either need to be in the top 20 accounts by votes or be randomly chosen as the 21st block producer (with chance proportional to your total number of votes).&lt;/p&gt;
 
