@@ -6,13 +6,138 @@
 </description>
     <link>https://storeofvalue.github.io/</link>
     <atom:link href="https://storeofvalue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Apr 2018 23:50:22 -0700</pubDate>
-    <lastBuildDate>Fri, 13 Apr 2018 23:50:22 -0700</lastBuildDate>
+    <pubDate>Thu, 19 Apr 2018 01:36:30 -0700</pubDate>
+    <lastBuildDate>Thu, 19 Apr 2018 01:36:30 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
+        <title>A Deep Dive Into OmiseGO</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Originally featured on TokenDaily: &lt;a href=&quot;https://www.tokendaily.co/blog/a-deep-dive-into-omisego&quot;&gt;https://www.tokendaily.co/blog/a-deep-dive-into-omisego&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center -header&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/j9ZhTDy.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-omisego&quot;&gt;What is OmiseGO?&lt;/h1&gt;
+
+&lt;p&gt;OmiseGO will be a Proof of Stake blockchain specialized for the decentralized exchange of digital assets. These assets can be cryptocurrencies sourced directly from other blockchains (more about this below) or assets issued by OmiseGO users. The team plans to launch the main net by June of this year.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-problem-does-omisego-want-to-solve&quot;&gt;What problem does OmiseGO want to solve?&lt;/h2&gt;
+
+&lt;p&gt;The high level problem OmiseGO wants to tackle is the fundamental payment coordination problem between financial institutions. This is currently solved by rent-seeking centralized clearinghouses (e.g. CHIPS and SWIFT) that can be inefficient and expensive to use.&lt;/p&gt;
+
+&lt;p&gt;Tactically, OmiseGO wants to solve the payment coordination problem for the large number of small-to-mid sized payment processors all over the world. The team believes that large payment processors have large network effects that they want to keep exclusive while smaller payment processors are more open to inter-network payments (in order to amplify their smaller networks). These smaller payment processors are reticent to working with centralized clearinghouses due to high costs and painful administrative overhead. On the other hand, they will be more likely to open their networks and integrate OmiseGO due to cheaper and faster integrations with significantly lower operational costs.&lt;/p&gt;
+
+&lt;p&gt;Small-to-mid sized payment processors will be OmiseGO’s short-term customer. Once successfully integrated, they will help OmiseGO establish liquid and vibrant markets in its decentralized exchange (DEX) that the team can then leverage to expand to other higher value opportunities such as interbank settlements.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 1 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h2 id=&quot;where-is-omisego-at-today&quot;&gt;Where is OmiseGO at today?&lt;/h2&gt;
+
+&lt;p&gt;Currently, the project is still under development. The team had initially planned to release the mainnet in Q4 of 2017 but, as of today, has overshot that deadline by more than a quarter. The current estimated release date is June 2018. The team presented a roadmap in late 2017 with 5 phases: Fuseki and Sente, Honte, Aji, Tesuji, and Tengen. Because of a faster than expected development timeline for Plasma, the project should be around the Aji/Tesuji phase.&lt;/p&gt;
+
+&lt;p&gt;Check out the roadmap &lt;a href=&quot;https://blog.omisego.network/omisegO-roadmap-v-1-40bfca386e25&quot;&gt;here&lt;/a&gt; and follow the project’s latest updates in OmiseGO’s &lt;a href=&quot;https://blog.omisego.network/&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-a-world-where-omisego-is-successfully-deployed&quot;&gt;In a world where OmiseGO is successfully deployed…&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/D4az0RL.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One can imagine Venmo, a USD payment processor, integrating with OmiseGO. Users on Venmo will then be able to make intra-network payments (to other Venmo uses) or inter-network payments with other payment processors using OmiseGO. The beauty of OmiseGO’s DEX is that these inter-network payments can be across different fiat currencies, cryptocurrencies, and other tokenized assets. This is revolutionary - it breaks down monetary borders and introduces unprecedented liquidity. For example, assuming both Venmo and China’s Alipay are on OmiseGO, a user with Venmo (which uses USD) could visit to China and pay a user with Alipay (which uses RMB) through Venmo.&lt;/p&gt;
+
+&lt;p&gt;Another compelling application of OmiseGO is to serve as a single decentralized and highly liquid Lightning hub for Ethereum and Bitcoin-like blockchains. The specifics are complex and out of the scope of this article, but the idea is that if OmiseGO is itself sufficiently decentralized, then OmiseGO will solve the Lightning network’s key painpoint: centralization. Find out more about the Lightning network &lt;a href=&quot;https://www.coindesk.com/information/what-is-the-lightning-network/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-can-ewallets-like-venmo-integrate-with-omisego&quot;&gt;How can eWallets like Venmo integrate with OmiseGO?&lt;/h3&gt;
+
+&lt;p&gt;As mentioned above, the most immediate problem OmiseGO plans to solve is the payment coordination problem between small-to-mid sized payment processors. To make the onboarding process as easy as possible, OmiseGO plans to release a Software Development Kit (SDK) which can be easily integrated into payment apps and enable interaction with OmiseGO’s network.&lt;/p&gt;
+
+&lt;p&gt;OmiseGO will allow anyone to issue assets on its blockchain. It’s expected that payment processors will still hold their users’s funds for ease-of-use (i.e. maintain business as usual), but also have an added feature where users can transact outside of the payment processor’s network over OmiseGO.&lt;/p&gt;
+
+&lt;p&gt;There will inevitably be regulatory concerns if anyone can trade any asset with anyone else. As such, OmiseGO will allow asset issuers to add restrictions on who can transact with their asset, how much volume a user can transact with, and a user’s maximum balance for that asset.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 2 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;how-does-omisego-work&quot;&gt;How does OmiseGO work?&lt;/h1&gt;
+
+&lt;h2 id=&quot;protocol-and-token-economics&quot;&gt;Protocol and token economics&lt;/h2&gt;
+
+&lt;p&gt;OmiseGO is a proof-of-stake blockchain with a DEX built into its protocol. OMG owners can stake their tokens in order to earn fees and participate in validating the blockchain. OmiseGO’s fees don’t have to be paid exclusively with OMG - they can be paid with a large variety of whitelisted tokens. However, there is a minimum transaction fee in order to reduce spam. Finally, the total number of stakers is capped to increase efficiency. But don’t worry, there’ll be staking pools that allow users with smaller portfolios to stake and earn fees.&lt;/p&gt;
+
+&lt;p&gt;OmiseGO’s protocol is designed with blockchain interoperability in mind. Specifically, users on other blockchains can securely and directly deposit assets onto OmiseGO, with each side capable of independently verifying that the other is well-behaving. If not, there are appropriate exit mechanisms for the user (for example, with Plasma, as long the user detects malicious behaviour occurring on the sidechain in time, s/he is able to securely exit by withdrawing the funds they’ve deposited back to Ethereum). At the moment, OmiseGO will only allow interactivity with Ethereum (through Plasma) and with Bitcoin-like blockchains (e.g. Bitcoin, Litecoin, QTUM).&lt;/p&gt;
+
+&lt;h2 id=&quot;how-is-plasma-related-to-omisego&quot;&gt;How is Plasma related to OmiseGO?&lt;/h2&gt;
+
+&lt;p&gt;So how exactly can Ethereum users securely and directly deposit assets onto OmiseGO? They can do so through Ethereum’s Plasma technology. It’s important to keep in mind that although a functional version of Plasma has been released, it’s incomplete and Plasma is very much still a work-in-progress.&lt;/p&gt;
+
+&lt;p&gt;OmiseGO will effectively act as a Plasma sidechain that is managed by a Plasma smart contract on Ethereum. Through the smart contract, Ethereum users can deposit and withdraw ether to and from OmiseGO. If malicious activity occured on OmiseGO, users can safely exit with their funds as long as they do it in a timely manner.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-team-behind-omisego&quot;&gt;The team behind OmiseGO&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/10k7aj5.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;OmiseGO is the brainchild and product of Omise, a company based in Thailand that owns a mid-sized payment processor operating in Southeast Asia. Omise spun off a subsidiary company - OmiseGO - to build the OmiseGO blockchain.&lt;/p&gt;
+
+&lt;p&gt;Omise is a young company that has quickly grown to become one of the most successful startups in Thailand. The company raised a significant amount of money through seed round funding and, of course, through their $25 million dollar ICO in 2017. With this influx of capital, they were able to acquire Paysbuy,  a competing Thai payment processor, and have also landed several deals with large merchants to use their network. These merchants include McDonald’s Thailand and King Power, Thailand’s leading travel retail group.&lt;/p&gt;
+
+&lt;p&gt;Jun Hasegawa is the co-founder and CEO of Omise and OmiseGO. He’s a serial entrepreneur and was an early investor in Ethereum. Even before OmiseGO, Omise has actively contributed to the development of the Ethereum protocol under Jun’s leadership. With OmiseGO, Jun has dedicated significant resources to speed up the development of Ethereum’s Plasma technology and has worked closely with protocol architects Vitalik Buterin and Joseph Poon to do so.&lt;/p&gt;
+
+&lt;div class=&quot;-ad&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- StoreOfValue Article 3 --&gt;
+        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;3806401153&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
+        &lt;script&gt;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        &lt;/script&gt;
+      &lt;/div&gt;
+
+&lt;h1 id=&quot;concerns-with-omisego&quot;&gt;Concerns with OmiseGO&lt;/h1&gt;
+
+&lt;h2 id=&quot;omisego-is-highly-complex&quot;&gt;OmiseGO is highly complex&lt;/h2&gt;
+&lt;p&gt;OmiseGO isn’t a simple system by any means. There are plenty of difficult components that the team needs to get right in order for the system to work correctly. They include but aren’t limited to: the proof of stake consensus algorithm, the DEX implementation, Plasma, the eWallet SDK, and compliance features. This means that there are a large number of risk factors that can delay the project’s release. Even after shipping a functioning blockchain, the team still has the burden of convincing existing payment processors to use OmiseGO.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-decentralized-will-omisego-really-be&quot;&gt;How decentralized will OmiseGO really be?&lt;/h2&gt;
+&lt;p&gt;The details of OmiseGO’s proof of stake consensus algorithm and DEX implementation are still unknown. These two components are key to determining OmiseGO’s degree of decentralization. What is concerning is that the team has boasted before that OmiseGO will have a really high transaction throughput (&lt;a href=&quot;https://twitter.com/JUN_Omise/status/919595778632323074&quot;&gt;up to 1 million transactions per second&lt;/a&gt;). We all know that gains in transaction throughput for blockchains often come with a heavy cost to decentralization.&lt;/p&gt;
+
+&lt;h2 id=&quot;over-marketing&quot;&gt;Over-marketing&lt;/h2&gt;
+&lt;p&gt;There is no doubt that OmiseGO’s CEO, Jun Hasegawa, over-marketed OmiseGO at the get-go. With very questionable tweets (including winky face retweets and announcements of announcements), Jun encouraged rampant speculation. A great example of the initial over-marketing is the aggressive Q4 2017 target launch date for OmiseGO’s mainnet which, given the complexity of the project, clearly wasn’t going to be met.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%; border: solid grey 1px&quot; src=&quot;https://i.imgur.com/YePmaGf.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, on a positive note, Jun has since refrained from these questionable over-marketing practices and has been more professional when interacting with OmiseGO’s investor community.&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;OmiseGO is an ambitious project that aims to decentralize and significantly increase the efficiency and accessibility of our global payments infrastructure. To do so, the team has decided to create a high performance blockchain that focuses on the issuance and exchange of digital assets, while also enabling interoperability with incumbent blockchains like Ethereum and Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;This is not an easy feat and, as mentioned above, requires a lot of pieces to be in place for the project to be successful. The good news is that there is a very strong company (Omise) behind the project. Despite initially over-marketing the project, the team has grown to be more professional with their communications and, most importantly, have continued to push ahead with the development of OmiseGO. Expect OmiseGO to be one of the most exciting cryptocurrency product launches in 2018.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Apr 2018 01:57:38 -0700</pubDate>
+        <link>https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/</link>
+        <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>A Deep Dive Into Binance Coin</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-center -header&quot; src=&quot;https://i.imgur.com/udqykWh.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Originally featured on TokenDaily: &lt;a href=&quot;https://www.tokendaily.co/blog/a-deep-dive-into-binance-coin&quot;&gt;https://www.tokendaily.co/blog/a-deep-dive-into-binance-coin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img class=&quot;-center -header&quot; src=&quot;https://i.imgur.com/udqykWh.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-binance-coin&quot;&gt;What is Binance Coin?&lt;/h1&gt;
 
@@ -1011,169 +1136,6 @@
         <pubDate>Sat, 10 Feb 2018 23:12:47 -0800</pubDate>
         <link>https://storeofvalue.github.io/posts/crypto-scam-spotlight-ethertanks/</link>
         <guid isPermaLink="true">https://storeofvalue.github.io/posts/crypto-scam-spotlight-ethertanks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Deep Dive Into Cardano</title>
-        <description>&lt;p&gt;&lt;img class=&quot;-header -center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/SMeXznA.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cardano is a proof of stake, smart contracts blockchain. Its native cryptocurrency is called ADA and the smallest unit of ADA (1/1,000,000 ADA) is called a Lovelace. This is in tribute to the first recognized computer programmer, Ada Lovelace.&lt;/p&gt;
-
-&lt;p&gt;Cardano prides itself in the rigorous academic process used to develop various aspects of the blockchain. Its website claims that Cardano is “the first blockchain project to be developed from a scientific philosophy, and the only one to be designed and built by a global team of leading academics and engineers”.&lt;/p&gt;
-
-&lt;p&gt;I like to say that blockchain is the new religion and the consensus algorithm is its God. It is clear that Cardano has dedicated significant academic resources in developing its consensus algorithm, Ouroboros. Ouroboros is a provably secure proof of stake algorithm developed by a team of IOHK scientists led by Prof. Aggelos Kiayias. The algorithm is backed by a peer reviewed &lt;a href=&quot;https://iohk.io/research/papers/#9BKRHCSI&quot;&gt;paper&lt;/a&gt;. According to Charles Hoskinson, the founder of Cardano, Ouroboros’s paper was rewritten 8 times!&lt;/p&gt;
-
-&lt;p&gt;The extent to which the academic process has influenced Cardano’s development currently does not extend beyond Ouroboros. The team has published a set of other papers, one for a scalable and decentralized randomness algorithm, one for an efficient and decentralized poker protocol, and one for secure sidechains. Besides the randomness algorithm, which is used in Ouroboros to select stake winners, Cardano has not incorporated the ideas of the other papers, yet.&lt;/p&gt;
-
-&lt;p&gt;Cardano is built as a layered blockchain. The Cardano Settlement Layer (SL) is where account balances and transactions are managed. It uses the UTXO model and is supposed to be the most secure part of the blockchain. The SL is kept apart from the computational layer where smart contracts are executed. This layered architecture gives the system the flexibility to be more easily maintained and allow for upgrades by way of soft forks. In Ethereum, the settlement layer and the computational layer are intertwined.&lt;/p&gt;
-
-&lt;p&gt;Cardano’s properties of academic rigour and provable safety are unique in the cryptocurrency space and a huge selling point for the platform to enterprise customers. Companies looking to deploy blockchain technology want a guarantee of safety and Cardano is the only cryptocurrency with a consensus algorithm backed by a peer reviewed paper with provable safety.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 1 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;5229470054&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;cardanos-history&quot;&gt;Cardano’s history&lt;/h1&gt;
-
-&lt;p&gt;Cardano’s ICO took place in 4 stages between September 2015 - January 2017 with heavy Know Your Customer (KYC) requirements. It was marketed as an “investment to retire on” to primarily Japanese investors; in fact, 95% of the buyers were of Japanese origin, primarily in the 35-55 age bracket. 2.56% of buyers were Korean, and 2.39% were Chinese. The ICO oversaw a total sale of approximately 26,000,000,000 of the 45,000,000,000 maximum supply of ADA tokens. At the conclusion of the ICO a total of approximately $63 million USD was raised; this puts the price at an average of $0.00242 per ADA, and the market capitalization immediately after the ICO at approximately $109 million USD. (&lt;a href=&quot;cardanohub.org&quot;&gt;source&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;While 26,000,000,000 ADA was sold in the ICO, an additional 5,185,414,108 ADA were distributed to IOHK, Emurgo, and the Cardano Foundation.&lt;/p&gt;
-
-&lt;p&gt;A total of 31,112,484,646 ADA was made available at Cardano’s launch.&lt;/p&gt;
-
-&lt;h1 id=&quot;current-state-of-cardano&quot;&gt;Current state of Cardano&lt;/h1&gt;
-
-&lt;p&gt;Cardano lays out three eras in its timeline: the Testnet Era, Bootstrap Era, and Reward Era. The Testnet Era is pretty self-explanatory, Cardano is deployed on a test net.&lt;/p&gt;
-
-&lt;p&gt;The Bootstrap Era is when Cardano SL is deployed on the main net BUT it is centralized in order to maintain security. Only a fixed, predefined set of users have control over the system. The assumption is that security is poor in this era since people are slow to redeem their ADA coins. For the first few months, stakeholders who jointly possess the majority of the ADA stake are mostly not online yet. The blockchain can be easily attacked if only a small amount of ADA is staked. As consolation to the community, Ouroboros will not provide any block rewards.&lt;/p&gt;
-
-&lt;p&gt;Cardano is currently in the Bootstrap Era.&lt;/p&gt;
-
-&lt;p&gt;The Reward Era is when the network is in a completely decentralized and trustless mode. According to Cardano’s website, “the system will receive regular software updates moving forward, and a massive amount of new features will be released” in this era. These features would include upgrades to Ouroboros, Cardano’s consensus algorithm, an implementation of Cardano’s control layer, and sidechains.&lt;/p&gt;
-
-&lt;h1 id=&quot;iohk-and-the-cardano-foundation&quot;&gt;IOHK and the Cardano Foundation&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/auw5cpJ.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;IOHK, or Input Output Hong Kong, is the engineering company implementing Cardano and the Cardano Foundation is the promotor, educator, and standard body for the blockchain and its apps. In October, Hoskinson stated that IOHK had nearly 100 employees and contractors, three research engineers, and operate in nearly ten countries.&lt;/p&gt;
-
-&lt;p&gt;Charles Hoskinson is the founder of IOHK and subsequently Cardano and the Cardano Foundation. Hoskinson has a long history as a blockchain entrepreneur. He was initially the CEO of Ethereum before being fired. Reasons of the firing are complicated. Ethereum at the time was 6 months old with a $15 million market cap.&lt;/p&gt;
-
-&lt;p&gt;Hoskinson then founded IOHK and IOHK subsequently led the development of Ethereum Classic. Ethereum Classic came to be when Ethereum hard forked after the major DAO hack. A small portion of the community was against this idea and maintained the original chain, which is now known as Ethereum Classic. For IOHK to lead the development of Ethereum Classic suggests that Hoskinson might have some bad blood with members of the Ethereum Foundation, likely from earlier disagreements that resulted in his ousting.&lt;/p&gt;
-
-&lt;p&gt;While IOHK continues to lead Ethereum Classic’s development, its primary focus is now on Cardano. Hoskinson aspires for Cardano to be a compelling alternative to Ethereum and he plans to do so by building a blockchain that was designed for scale, security, and upgradeability from day one.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 2 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;7020600859&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;ouroboros&quot;&gt;Ouroboros&lt;/h1&gt;
-
-&lt;p&gt;Ouroboros is Cardano’s proof of stake consensus algorithm. Proof of stake was chosen over proof of work since it’s more efficient and it’s way more expensive to perform a 51% attack.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/eBykRrr.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The name Ouroboros comes from the name of an ancient symbol depicting a serpent or dragon eating its own tail. The symbol originated in ancient Egyptian iconography. The name is fitting for this algorithm, since Ouroboros operates in epochs.&lt;/p&gt;
-
-&lt;p&gt;Each Ouroboros epoch contains a fixed number of slots. Each slot represents a new block. The slot leader is an account staking ADA that is responsible for creating the block. Epochs last for 5 days (&lt;a href=&quot;https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros&quot;&gt;source&lt;/a&gt;). Slot leaders for an epoch are chosen during the previous epoch. An account’s chance of being chosen is directly tied to the amount of ADA it’s staking.&lt;/p&gt;
-
-&lt;p&gt;An account can only participate in staking if it has at least 1% of the total supply of ADA (&lt;a href=&quot;https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros&quot;&gt;source&lt;/a&gt;). For the accounts that don’t meet that criteria, staking pools will exist so everyone is compensated for owning ADA. This high minimum staking requirement gives rise to concerns of centralization. I outline the concerns below.&lt;/p&gt;
-
-&lt;p&gt;Ouroboros will initially provide both newly minted ADA and transaction fees as block rewards. When the total supply of ADA reaches 45,000,000,000 block rewards will consist only of transaction fees.&lt;/p&gt;
-
-&lt;p&gt;According to IOHK/Cardano Foundation, Ouroboros is the first provably secure proof of stake algorithm. The team behind Cardano has mathematically proven that the algorithm is safe from all the known proof of stake attack methods including grinding attacks, nothing-at-stake attacks, and long range attacks. This safety and security should be a very powerful enterprise selling point for Cardano.&lt;/p&gt;
-
-&lt;p&gt;Read more about Ouroboros &lt;a href=&quot;https://cardanodocs.com/cardano/proof-of-stake/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;ouroboros-praos&quot;&gt;Ouroboros Praos&lt;/h2&gt;
-
-&lt;p&gt;Ouroboros Praos is an initiative to upgrade Ouroboros. Praos is semi-synchronous, doesn’t require a heavy MPC protocol for randomness and encourages the adoption of a quantum resistant signature scheme for input endorsers and slot leaders. Praos allows for shorter block times.&lt;/p&gt;
-
-&lt;p&gt;Read about Praos &lt;a href=&quot;https://iohk.io/research/papers/#XJ6MHFXX&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;ouroboros-hydra&quot;&gt;Ouroboros Hydra&lt;/h2&gt;
-
-&lt;p&gt;Ouroboros Hydra is another upgrade to Ouroboros that introduces sharding. Sharding allows multiple Ouroboros epochs to run at the same time which significantly increases Cardano’s throughput. One of the hardest things to figure out for sharding is inter-shard communication.&lt;/p&gt;
-
-&lt;p&gt;We are still a ways away from the Hydra upgrade. Expect a paper from Cardano’s team on Hydra before any serious development efforts begin.&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 3 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;3806401153&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;sidechains&quot;&gt;Sidechains&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&quot;-center&quot; style=&quot;width: 100%&quot; src=&quot;https://i.imgur.com/Okl88yP.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sidechains are blockchains running in parallel and independently from the main chain. Sidechains and the main chain should be able to securely transfer assets back and forth. If any problems arise in the sidechain, the main chain can confiscate the sidechain’s assets.&lt;/p&gt;
-
-&lt;p&gt;Sidechains significantly extend the main chain’s capabilities. Because they are separate from the main chain, they can be more centralized and faster and perform more specialized functions. By pegging themselves to the main chain, side chains can take advantage of the main chain’s security without having to adhere to the main chain’s inefficiencies.&lt;/p&gt;
-
-&lt;p&gt;The main problem with sidechains today is their security. There are several attacks where mainchains can be compromised through side chains. The Cardanos team has changed this by introducing a provably secure sidechain technology that fixes all known avenues of attack, opening the way for secure sidechains. They call it Non-interactive Proofs of Proof of Work (NIPoPoW). Altough the Cardano’s team is far from implementing NIPoPoW sidechains on Cardano, the technology is a significant step forward.&lt;/p&gt;
-
-&lt;h1 id=&quot;blockchain-performance&quot;&gt;Blockchain performance&lt;/h1&gt;
-
-&lt;p&gt;Cardano’s average transaction throughput is 10-15 transactions per second. This is comparable to Ethereum. Charles Hoskinson has claimed that Ouroboros can perform at more than 200 transactions per second in a lab unsharded. (&lt;a href=&quot;https://www.reddit.com/r/cardano/comments/77ej8i/cardano_vs_eos/&quot;&gt;source&lt;/a&gt;)&lt;/p&gt;
-
-&lt;div class=&quot;-ad&quot;&gt;
-        &lt;script async=&quot;&quot; src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- StoreOfValue Article 4 --&gt;
-        &lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-0144173183236578&quot; data-ad-slot=&quot;2933037642&quot; data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-        &lt;script&gt;
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        &lt;/script&gt;
-      &lt;/div&gt;
-
-&lt;h1 id=&quot;project-concerns&quot;&gt;Project concerns&lt;/h1&gt;
-
-&lt;h2 id=&quot;smart-contracts-are-not-ready&quot;&gt;Smart contracts are not ready&lt;/h2&gt;
-
-&lt;p&gt;Cardano’s smart contract virtual machine, the IELE virtual machine, is currently under development. According to Cardano’s &lt;a href=&quot;https://cardanoroadmap.com/&quot;&gt;roadmap&lt;/a&gt;, it is 33% complete.&lt;/p&gt;
-
-&lt;p&gt;Cardano’s smart contract language, Plutus, is also currently under development. The specification of Plutus is complete but the implementation, Plutus core, is not. According to the roadmap, it is 12% complete.&lt;/p&gt;
-
-&lt;p&gt;With the control layer still in the early stages of development, Cardano is currently a UTXO blockchain using a proof of stake consensus algorithm. In order for it to compete against existing decentralized smart contract blockchains like Ethereum and QTUM, Cardano needs to get out its control model ASAP in order to get its network effect going.&lt;/p&gt;
-
-&lt;h2 id=&quot;ouroboros-is-prone-to-centralization&quot;&gt;Ouroboros is prone to centralization&lt;/h2&gt;
-
-&lt;p&gt;As mentioned above, an account can only participate in staking if it has at least 1% of the total supply of ADA. At the current market cap of $13 billion, one needs to have $130 million worth of ADA to participate in staking. If you assume Cardano will be successful, this number will be significantly higher. Who will be able to afford $130 million worth of ADA? Sure there will be staking pools but even staking pools encourage the centralization of wealth. Those participating in the pools will most likely have to pay fees to the pool owner.&lt;/p&gt;
-
-&lt;p&gt;This minimum balance requirement also means that at most 100 accounts can participate in staking and because of the power law, it will be much less than 100 accounts that will be staking. There will most certainly be a few entities with exponentially large balances of ADA and the minimum balance requirement will only serve to consolidate their power and control.&lt;/p&gt;
-
-&lt;h2 id=&quot;cardano-vs-eos&quot;&gt;Cardano vs EOS&lt;/h2&gt;
-
-&lt;p&gt;This topic is extremely complex. There is a long history between Dan Larimer and Charles Hoskinson. In fact, before Ethereum, Hoskinson actually worked with Larimer on Bitshares but also left on bad terms.&lt;/p&gt;
-
-&lt;p&gt;Check out this &lt;a href=&quot;https://steemit.com/cardamon/@dan/peer-review-of-cardano-s-ouroboros&quot;&gt;post by Larimer on the flaws of Cardano&lt;/a&gt;. Also check out &lt;a href=&quot;https://hoskinsoncharles.blogspot.com/2018/01/the-price-of-craftsman-and-zen-of.html&quot;&gt;Hoskinson’s rebuttal&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
-
-&lt;p&gt;Cardano is a fundamentally strong cryptocurrency. Ouroboros is a very cool proof of stake algorithm. Its layered blockchain design is sound. Cardano’s security, modularity, and upgradeability will be a big boon for Cardano when it tries to attract enterprise customers.&lt;/p&gt;
-
-&lt;p&gt;However, Cardano has some fierce competitors and academic rigour and peer research might not be enough to win against years of main net stability and gigantic network effects. That said, Cardano is not going anywhere in the medium term and it does have a very good chance at becoming a top tier smart contracts platform.&lt;/p&gt;
-
-&lt;p&gt;“It’s not a sprint, it’s a marathon” - Charles Hoskinson&lt;/p&gt;
-</description>
-        <pubDate>Mon, 29 Jan 2018 20:52:53 -0800</pubDate>
-        <link>https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/</link>
-        <guid isPermaLink="true">https://storeofvalue.github.io/posts/a-deep-dive-into-cardano/</guid>
         
         
       </item>

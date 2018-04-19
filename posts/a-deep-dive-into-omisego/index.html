@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Deep Dive Into OmiseGO</title>
+  <meta name="description" content="What is OMG? How does OMG work? This article aims to answer all these questions and more about OmiseGO, a blockchain specialized for decentralized exchange a...">
+
+  <meta property="og:url" content="https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="A Deep Dive Into OmiseGO" />
+  <meta property="og:description" content="What is OMG? How does OMG work? This article aims to answer all these questions and more about OmiseGO, a blockchain specialized for decentralized exchange a..." />
+  <meta property="og:image" content="https://i.imgur.com/j9ZhTDy.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SovCryptoBlog" />
+  <meta name="twitter:title" content="A Deep Dive Into OmiseGO" />
+  <meta name="twitter:description" content="What is OMG? How does OMG work? This article aims to answer all these questions and more about OmiseGO, a blockchain specialized for decentralized exchange a..." />
+  <meta name="twitter:image" content="https://i.imgur.com/j9ZhTDy.jpg" />
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="canonical" href="https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+  <link rel="alternate" type="application/rss+xml" title="Store of Value" href="https://storeofvalue.github.io/feed.xml">
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102388374-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-102388374-1');
+    </script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">
+      <div class="-title">Store of Value</div>
+      <div class="-subtitle">A cryptocurrency blog</div>
+    </a>
+    <div class="-right-parent">
+      <div class="-twitter-follow-parent">
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="desktop-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span>
+          </div>
+        </a>
+        <a href="https://twitter.com/SovCryptoBlog" target="_blank">
+          <div class="mobile-only -twitter-follow-button">
+            <i class="fa fa-twitter"></i> <span>Follow Us</span>
+          </div>
+        </a>
+      </div>
+      <div class="desktop-only -logos-parent">
+        <img src="/bitcoin-logo.png" />
+        <img src="/eth-logo.png" />
+        <img src="/litecoin-logo.png" />
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style="position: relative; font-size: 0; text-align: center">
+  <div id="article-side-bar-parent" style="text-align: left; display: inline-block; width: 320px; margin-right: 20px; vertical-align: top">
+    <div id="article-side-bar" style="z-index: 1; width: 320px">
+      <div class="-back-button-parent">
+        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Articles</a>
+      </div>
+      
+      <div style="height: 100px; margin-bottom: 12px; background-image: url('https://i.imgur.com/j9ZhTDy.jpg'); background-size: cover; background-position: 50% 50%"></div>
+      
+      <div style="padding: 0 10px; margin-bottom: 16px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 3px">NOW READING</div>
+        <div style="font-size: 25px; line-height: 30px; font-weight: bold; word-wrap: break-word">
+          A Deep Dive Into OmiseGO
+        </div>
+      </div>
+      <div style="padding: 0 10px; margin-bottom: 12px">
+        <div style="font-weight: bold; font-size: 16px; color: #bf1313; margin-bottom: 5px">MORE ARTICLES</div>
+        <div class="-more-articles-parent">
+          <div>
+          <a href="/posts/this-is-why-ripples-price-is-surging/">This Is Why Ripple's Price Is Surging</a>
+        </div><div>
+          <a href="/posts/why-2018-will-be-the-year-of-ethereum/">Why 2018 Will Be The Year Of Ethereum And QTUM</a>
+        </div><div>
+          <a href="/posts/major-neo-redflags/">Investor Warning: Major NEO Red Flags</a>
+        </div>
+        </div>
+      </div>
+      <div style="margin-top: 12px; width: 320px; height: 400px; text-align: center">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article Sidebar -->
+        <ins class="adsbygoogle"
+          style="display:inline-block;width:300px;height:250px"
+          data-ad-client="ca-pub-0144173183236578"
+          data-ad-slot="8062654601"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+  <article style="text-align: left; width: 800px; max-width: 100%; display: inline-block;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">A Deep Dive Into OmiseGO</h1>
+      <p class="post-meta"><time datetime="2018-04-10T01:57:38-07:00" itemprop="datePublished">Apr 10, 2018</time></p>
+      <ul class="-share-bar">
+        <li>
+          <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+            <i class="fa fa-twitter"></i> Tweet 
+          </a>
+        </li>
+        <li>
+          <a class="-facebook" target="_blank" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+            <i class="fa fa-facebook"></i> Share
+          </a>
+        </li>
+        <li>
+          <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+            <i class="fa fa-google-plus"></i> Google
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <blockquote>
+  <p>Originally featured on TokenDaily: <a href="https://www.tokendaily.co/blog/a-deep-dive-into-omisego">https://www.tokendaily.co/blog/a-deep-dive-into-omisego</a></p>
+</blockquote>
+
+<p><img class="-center -header" style="width: 100%" src="https://i.imgur.com/j9ZhTDy.jpg" /></p>
+
+<h1 id="what-is-omisego">What is OmiseGO?</h1>
+
+<p>OmiseGO will be a Proof of Stake blockchain specialized for the decentralized exchange of digital assets. These assets can be cryptocurrencies sourced directly from other blockchains (more about this below) or assets issued by OmiseGO users. The team plans to launch the main net by June of this year.</p>
+
+<h2 id="what-problem-does-omisego-want-to-solve">What problem does OmiseGO want to solve?</h2>
+
+<p>The high level problem OmiseGO wants to tackle is the fundamental payment coordination problem between financial institutions. This is currently solved by rent-seeking centralized clearinghouses (e.g. CHIPS and SWIFT) that can be inefficient and expensive to use.</p>
+
+<p>Tactically, OmiseGO wants to solve the payment coordination problem for the large number of small-to-mid sized payment processors all over the world. The team believes that large payment processors have large network effects that they want to keep exclusive while smaller payment processors are more open to inter-network payments (in order to amplify their smaller networks). These smaller payment processors are reticent to working with centralized clearinghouses due to high costs and painful administrative overhead. On the other hand, they will be more likely to open their networks and integrate OmiseGO due to cheaper and faster integrations with significantly lower operational costs.</p>
+
+<p>Small-to-mid sized payment processors will be OmiseGO’s short-term customer. Once successfully integrated, they will help OmiseGO establish liquid and vibrant markets in its decentralized exchange (DEX) that the team can then leverage to expand to other higher value opportunities such as interbank settlements.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="5229470054" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h2 id="where-is-omisego-at-today">Where is OmiseGO at today?</h2>
+
+<p>Currently, the project is still under development. The team had initially planned to release the mainnet in Q4 of 2017 but, as of today, has overshot that deadline by more than a quarter. The current estimated release date is June 2018. The team presented a roadmap in late 2017 with 5 phases: Fuseki and Sente, Honte, Aji, Tesuji, and Tengen. Because of a faster than expected development timeline for Plasma, the project should be around the Aji/Tesuji phase.</p>
+
+<p>Check out the roadmap <a href="https://blog.omisego.network/omisegO-roadmap-v-1-40bfca386e25">here</a> and follow the project’s latest updates in OmiseGO’s <a href="https://blog.omisego.network/">blog</a>.</p>
+
+<h2 id="in-a-world-where-omisego-is-successfully-deployed">In a world where OmiseGO is successfully deployed…</h2>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/D4az0RL.jpg" /></p>
+
+<p>One can imagine Venmo, a USD payment processor, integrating with OmiseGO. Users on Venmo will then be able to make intra-network payments (to other Venmo uses) or inter-network payments with other payment processors using OmiseGO. The beauty of OmiseGO’s DEX is that these inter-network payments can be across different fiat currencies, cryptocurrencies, and other tokenized assets. This is revolutionary - it breaks down monetary borders and introduces unprecedented liquidity. For example, assuming both Venmo and China’s Alipay are on OmiseGO, a user with Venmo (which uses USD) could visit to China and pay a user with Alipay (which uses RMB) through Venmo.</p>
+
+<p>Another compelling application of OmiseGO is to serve as a single decentralized and highly liquid Lightning hub for Ethereum and Bitcoin-like blockchains. The specifics are complex and out of the scope of this article, but the idea is that if OmiseGO is itself sufficiently decentralized, then OmiseGO will solve the Lightning network’s key painpoint: centralization. Find out more about the Lightning network <a href="https://www.coindesk.com/information/what-is-the-lightning-network/">here</a>.</p>
+
+<h3 id="how-can-ewallets-like-venmo-integrate-with-omisego">How can eWallets like Venmo integrate with OmiseGO?</h3>
+
+<p>As mentioned above, the most immediate problem OmiseGO plans to solve is the payment coordination problem between small-to-mid sized payment processors. To make the onboarding process as easy as possible, OmiseGO plans to release a Software Development Kit (SDK) which can be easily integrated into payment apps and enable interaction with OmiseGO’s network.</p>
+
+<p>OmiseGO will allow anyone to issue assets on its blockchain. It’s expected that payment processors will still hold their users’s funds for ease-of-use (i.e. maintain business as usual), but also have an added feature where users can transact outside of the payment processor’s network over OmiseGO.</p>
+
+<p>There will inevitably be regulatory concerns if anyone can trade any asset with anyone else. As such, OmiseGO will allow asset issuers to add restrictions on who can transact with their asset, how much volume a user can transact with, and a user’s maximum balance for that asset.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 2 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="7020600859" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="how-does-omisego-work">How does OmiseGO work?</h1>
+
+<h2 id="protocol-and-token-economics">Protocol and token economics</h2>
+
+<p>OmiseGO is a proof-of-stake blockchain with a DEX built into its protocol. OMG owners can stake their tokens in order to earn fees and participate in validating the blockchain. OmiseGO’s fees don’t have to be paid exclusively with OMG - they can be paid with a large variety of whitelisted tokens. However, there is a minimum transaction fee in order to reduce spam. Finally, the total number of stakers is capped to increase efficiency. But don’t worry, there’ll be staking pools that allow users with smaller portfolios to stake and earn fees.</p>
+
+<p>OmiseGO’s protocol is designed with blockchain interoperability in mind. Specifically, users on other blockchains can securely and directly deposit assets onto OmiseGO, with each side capable of independently verifying that the other is well-behaving. If not, there are appropriate exit mechanisms for the user (for example, with Plasma, as long the user detects malicious behaviour occurring on the sidechain in time, s/he is able to securely exit by withdrawing the funds they’ve deposited back to Ethereum). At the moment, OmiseGO will only allow interactivity with Ethereum (through Plasma) and with Bitcoin-like blockchains (e.g. Bitcoin, Litecoin, QTUM).</p>
+
+<h2 id="how-is-plasma-related-to-omisego">How is Plasma related to OmiseGO?</h2>
+
+<p>So how exactly can Ethereum users securely and directly deposit assets onto OmiseGO? They can do so through Ethereum’s Plasma technology. It’s important to keep in mind that although a functional version of Plasma has been released, it’s incomplete and Plasma is very much still a work-in-progress.</p>
+
+<p>OmiseGO will effectively act as a Plasma sidechain that is managed by a Plasma smart contract on Ethereum. Through the smart contract, Ethereum users can deposit and withdraw ether to and from OmiseGO. If malicious activity occured on OmiseGO, users can safely exit with their funds as long as they do it in a timely manner.</p>
+
+<h1 id="the-team-behind-omisego">The team behind OmiseGO</h1>
+
+<p><img class="-center" style="width: 100%" src="https://i.imgur.com/10k7aj5.jpg" /></p>
+
+<p>OmiseGO is the brainchild and product of Omise, a company based in Thailand that owns a mid-sized payment processor operating in Southeast Asia. Omise spun off a subsidiary company - OmiseGO - to build the OmiseGO blockchain.</p>
+
+<p>Omise is a young company that has quickly grown to become one of the most successful startups in Thailand. The company raised a significant amount of money through seed round funding and, of course, through their $25 million dollar ICO in 2017. With this influx of capital, they were able to acquire Paysbuy,  a competing Thai payment processor, and have also landed several deals with large merchants to use their network. These merchants include McDonald’s Thailand and King Power, Thailand’s leading travel retail group.</p>
+
+<p>Jun Hasegawa is the co-founder and CEO of Omise and OmiseGO. He’s a serial entrepreneur and was an early investor in Ethereum. Even before OmiseGO, Omise has actively contributed to the development of the Ethereum protocol under Jun’s leadership. With OmiseGO, Jun has dedicated significant resources to speed up the development of Ethereum’s Plasma technology and has worked closely with protocol architects Vitalik Buterin and Joseph Poon to do so.</p>
+
+<div class="-ad">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- StoreOfValue Article 3 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0144173183236578" data-ad-slot="3806401153" data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+<h1 id="concerns-with-omisego">Concerns with OmiseGO</h1>
+
+<h2 id="omisego-is-highly-complex">OmiseGO is highly complex</h2>
+<p>OmiseGO isn’t a simple system by any means. There are plenty of difficult components that the team needs to get right in order for the system to work correctly. They include but aren’t limited to: the proof of stake consensus algorithm, the DEX implementation, Plasma, the eWallet SDK, and compliance features. This means that there are a large number of risk factors that can delay the project’s release. Even after shipping a functioning blockchain, the team still has the burden of convincing existing payment processors to use OmiseGO.</p>
+
+<h2 id="how-decentralized-will-omisego-really-be">How decentralized will OmiseGO really be?</h2>
+<p>The details of OmiseGO’s proof of stake consensus algorithm and DEX implementation are still unknown. These two components are key to determining OmiseGO’s degree of decentralization. What is concerning is that the team has boasted before that OmiseGO will have a really high transaction throughput (<a href="https://twitter.com/JUN_Omise/status/919595778632323074">up to 1 million transactions per second</a>). We all know that gains in transaction throughput for blockchains often come with a heavy cost to decentralization.</p>
+
+<h2 id="over-marketing">Over-marketing</h2>
+<p>There is no doubt that OmiseGO’s CEO, Jun Hasegawa, over-marketed OmiseGO at the get-go. With very questionable tweets (including winky face retweets and announcements of announcements), Jun encouraged rampant speculation. A great example of the initial over-marketing is the aggressive Q4 2017 target launch date for OmiseGO’s mainnet which, given the complexity of the project, clearly wasn’t going to be met.</p>
+
+<p><img class="-center" style="width: 100%; border: solid grey 1px" src="https://i.imgur.com/YePmaGf.jpg" /></p>
+
+<p>However, on a positive note, Jun has since refrained from these questionable over-marketing practices and has been more professional when interacting with OmiseGO’s investor community.</p>
+
+<h1 id="summary">Summary</h1>
+
+<p>OmiseGO is an ambitious project that aims to decentralize and significantly increase the efficiency and accessibility of our global payments infrastructure. To do so, the team has decided to create a high performance blockchain that focuses on the issuance and exchange of digital assets, while also enabling interoperability with incumbent blockchains like Ethereum and Bitcoin.</p>
+
+<p>This is not an easy feat and, as mentioned above, requires a lot of pieces to be in place for the project to be successful. The good news is that there is a very strong company (Omise) behind the project. Despite initially over-marketing the project, the team has grown to be more professional with their communications and, most importantly, have continued to push ahead with the development of OmiseGO. Expect OmiseGO to be one of the most exciting cryptocurrency product launches in 2018.</p>
+
+    </div>
+
+    <ul class="-share-bar">
+      <li>
+        <a class="-twitter" target="_blank" href="https://twitter.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+          <i class="fa fa-twitter"></i> Tweet
+        </a>
+      </li>
+      <li>
+        <a class="-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+          <i class="fa fa-facebook"></i> Share
+        </a>
+      </li>
+      <li>
+        <a class="-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+          <i class="fa fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="-google-plus" target="_blank" href="https://plus.google.com/share?url=https://storeofvalue.github.io/posts/a-deep-dive-into-omisego/">
+          <i class="fa fa-google-plus"></i> Google
+        </a>
+      </li>
+    </ul>
+    <div style="font-size: 17px; margin: 18px 0; font-size: 15px"><a style="font-size: 19px" href="https://www.tokendaily.co">Check out TokenDaily.co</a> Token Daily is a place for token founders, developers, investors, and crypto nerds of all stripes to share and discover articles, product launches/updates, and deep dive Q&A’s with experts.</div>
+    <div class="-ad">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- StoreOfValue Article Bottom -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-0144173183236578"
+           data-ad-slot="7692425485"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+<!--     <div>
+      <div style="margin-top: 24px; border: solid #555 1px; font-size: 26px; padding: 10px">
+        Tip Jar 🍀
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Ether:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">0xa33Ef019ff0bdE98f951585AA57c1Af7c898fE5c</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">QTUM:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">QZckfa6Cfu8tsjvt1FHBFzcTh8cefYdH6T</span>
+        </div>
+        <div style="font-size: 18px; margin-top: 5px; word-wrap: break-word">
+          <span style="font-size: 16px">Stellar:</span><span style="font-family: Courier; margin-left: 5px; color: #6441A4">GC4CDHSXYPSOOJNMBDNVWPACT6UDYDQHPJIOCW4GYTG6ZRTJH2475D3Q</span>
+        </div>
+      </div>
+    </div> -->
+  </article>
+</div>
+<script type="text/javascript">
+  var $article_side_bar = $('#article-side-bar');
+  var $article_back_button_parent = $article_side_bar.find('.-back-button-parent');
+  var original_article_side_bar_top_offset = $article_side_bar.offset().top;
+  var margin_from_top = 12 + $('.site-header').outerHeight();
+  var $article = $('article');
+  var $window = $(window);
+  var $more_articles_parent = $article_side_bar.find('.-more-articles-parent');
+  var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+  if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+    $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+    $article_back_button_parent.show();
+  }
+  $window.scroll(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $window.resize(function () {
+    var is_position_fixed = $article_side_bar.css('position') == 'fixed';
+    if (!is_position_fixed && $window.scrollTop() > original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'fixed', 'top': margin_from_top + 'px'});
+      $article_back_button_parent.show();
+    } else if (is_position_fixed && $window.scrollTop() < original_article_side_bar_top_offset - margin_from_top) {
+      $article_side_bar.css({'position': 'static', 'top': '0px'});
+      $article_back_button_parent.hide();
+    }
+  });
+  $more_articles_parent.find('a').click(function () {
+    gtag('event', 'click', {
+      'event_category': 'more-articles-sidebar-click',
+      'event_label': $(this).html()
+    });
+  });
+  $('article').find('a').attr('target', '_blank');
+</script>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store of Value</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>A cryptocurrency blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>In July 2010, one bitcoin was worth $0.08 USD. How much is it worth today? Bitcoin's meteoric growth has pushed cryptocurrencies from an obscure niche to the mainstream, and created fortunes along the way. Store Of Value is a blog that will help you navigate the cryptocurrency world. As an avid crypto researcher, day-trader, and programmer, I aim to provide in-depth fundamental analyses on cryptocurrencies and help you identify market opportunities. Stay informed. Invest wisely.
+</p>
+        <p>
+          <span style="font-weight: bold">Contact me:</span> storeofvalueblog@gmail.com
+        </p>
+        <p>
+          <span style="font-weight: bold">Pageviews per article:</span> 10494
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
